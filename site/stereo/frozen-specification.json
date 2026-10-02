@@ -1,0 +1,83 @@
+{
+  "frozen_before_outcomes": true,
+  "seeds": [
+    810,
+    811
+  ],
+  "conditions": [
+    "nominal",
+    "shifted_start"
+  ],
+  "negative_conditions": [
+    "unmarked",
+    "left_occluded"
+  ],
+  "positive_trial_count": 4,
+  "calibration": {
+    "image_size": [
+      640,
+      480
+    ],
+    "baseline_m": 0.06,
+    "K": [
+      [
+        625.2213755265124,
+        0,
+        320.0
+      ],
+      [
+        0,
+        625.2213755265124,
+        240.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "left_center_world_m": [
+      0.19,
+      -0.02,
+      0.5
+    ],
+    "right_center_world_m": [
+      0.25,
+      -0.02,
+      0.5
+    ],
+    "world_to_camera_rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rectification": "Parallel identical ideal pinhole cameras: native render is rectified",
+    "marker_to_cube_center_world_m": [
+      0,
+      0,
+      -0.01515
+    ],
+    "scope": "Generic virtual pair, not calibrated physical hardware"
+  },
+  "scope": "Marked-cube calibrated virtual stereo plus scripted contact control; no new ACT model",
+  "source_sha256": "b10d25370f8a3902052432c28ee98f2ba4ec787dcfed6b8feeb409853a3673fd"
+}

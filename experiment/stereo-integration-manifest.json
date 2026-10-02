@@ -1,0 +1,795 @@
+{
+  "complete": true,
+  "files": [
+    {
+      "path": "scripts/render_so101_stereo.py",
+      "bytes": 8478,
+      "sha256": "5a68a33872fbc0d244769f1a7b584e8271b7bea7767e1473b7ffe8b00eb7b7ad"
+    },
+    {
+      "path": "scripts/so101_stereo_rgb.py",
+      "bytes": 13252,
+      "sha256": "b10d25370f8a3902052432c28ee98f2ba4ec787dcfed6b8feeb409853a3673fd"
+    },
+    {
+      "path": "scripts/verify_so101_stereo.py",
+      "bytes": 4911,
+      "sha256": "5f38bcf63aaf76726cf3e9ea67e0936ef029186ffe3ca5086758c6314366ef0f"
+    },
+    {
+      "path": "docs/stereo-method.md",
+      "bytes": 5946,
+      "sha256": "06be34200dd33b0b8941add6f69f2f515f83a807c8b990bbe5f0a0fb4a8367b4"
+    },
+    {
+      "path": "runs/so101-stereo-v1/execution.log",
+      "bytes": 1968,
+      "sha256": "a3102f708870ce6386ddb95f4f1c18840d3e223f9091a5ef97a60846cc3c6d1e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/frozen-specification.json",
+      "bytes": 1358,
+      "sha256": "240f70610bc82dd44d66c15bc6c167b617fb7d919127fcc31300c485e5dfd7ab"
+    },
+    {
+      "path": "runs/so101-stereo-v1/independent-verification.json",
+      "bytes": 2619,
+      "sha256": "64af8a851f8b1741b93dc85c6a4f60211003cd26a5e05cac16e33555e8cc9773"
+    },
+    {
+      "path": "runs/so101-stereo-v1/index.html",
+      "bytes": 5037,
+      "sha256": "588db30ce4d56030a1643de97b97f30232f046b90fc2ecc0f2f319dad69f0997"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation-render-final.log",
+      "bytes": 1544,
+      "sha256": "fd5c4730cc93509bedc76a39d483e8230bbf7fc3a7107da548a06c140d39bdb9"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation-render.log",
+      "bytes": 2738,
+      "sha256": "895776449185985ebad8a08a5a0fc1da6200fb7e52227bf598822ee4c4c69545"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation-verification.json",
+      "bytes": 453,
+      "sha256": "5f822ddb6f4032e0bf5811a435b9dc212a8d7a915905ffbfa9b426c8dbc37400"
+    },
+    {
+      "path": "runs/so101-stereo-v1/report.json",
+      "bytes": 39680,
+      "sha256": "74d76b1a2ad591faffdcde2298fe474ba695720fc6503c507eb4bd3d7ff9ecc8"
+    },
+    {
+      "path": "runs/so101-stereo-v1/verification.log",
+      "bytes": 2328,
+      "sha256": "a02ceb4566b846cc17ad556218a7d3415a1cc52428d65e96994dfe2d201f399c"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/cell.xml",
+      "bytes": 65128,
+      "sha256": "a4049445f4ae9f0c1fe31d6b014cdb53f8bad5a4129cddac2730ba553427d1b7"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-0-left.png",
+      "bytes": 300311,
+      "sha256": "27cded78ab87944dd49ad5caadf3ed34d4df9663ab0aeb6e3939edf1720d7026"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-0-right.png",
+      "bytes": 311014,
+      "sha256": "62702d6cef1fe9ffb007af7adda7afff198f3c7aab63a9e4fd47a46051991ad8"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-1-left.png",
+      "bytes": 299558,
+      "sha256": "2b92642f5b773ce8a79ab4dc8877613a77758a8e7ee61a9b2747be9a0cb66ff7"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-1-right.png",
+      "bytes": 310449,
+      "sha256": "7e6fd26bcb8cd8fe4a5564dcc0ff7ed712c6488d2e4198799ec1a2d135bf39a0"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-2-left.png",
+      "bytes": 299694,
+      "sha256": "a7c8ed09fb12a59c09cbbc8107244028b347d0a0fd8a508ec880753ca69ff9aa"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-2-right.png",
+      "bytes": 310161,
+      "sha256": "328ba7a7b83b13236e9b2d00f020030a15b70ff213bee3e9b2af132a8b01964a"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-3-left.png",
+      "bytes": 300562,
+      "sha256": "fe6fbf92faa541a2fa02ea2feb2f0275e3ecd5a08cd2dfe66bd69d5e7eadf305"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-3-right.png",
+      "bytes": 310672,
+      "sha256": "ea8a6c0db4064e8d11a98bec2c4cbd82e7622ec317a2dac9237060e00b954a43"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-4-left.png",
+      "bytes": 299537,
+      "sha256": "c88b2760f83c5b5488b0488feaa9c9fb054009dd0b9ce8ebf70f051122a9d001"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/probe-4-right.png",
+      "bytes": 310027,
+      "sha256": "9501e1e44fc91d9f0ddabd1a64f17216510ca4061c13b917954b55055f147cf6"
+    },
+    {
+      "path": "runs/so101-stereo-v1/calibration-checks/report.json",
+      "bytes": 7165,
+      "sha256": "ad34e93121ef8589308432aa3a59c549fe3817d4efbdeb38e1a972bb24405227"
+    },
+    {
+      "path": "runs/so101-stereo-v1/left_occluded/seed-810/cell-portable.xml",
+      "bytes": 64864,
+      "sha256": "0bc2331ead664bd6f52bef0001dc6ca0683ec78c725e0b47edc034fcc19b8d83"
+    },
+    {
+      "path": "runs/so101-stereo-v1/left_occluded/seed-810/cell.xml",
+      "bytes": 64885,
+      "sha256": "abd7d573e0399f8539891458a94a0b93ed35497dba96af66ecadfefaa0549903"
+    },
+    {
+      "path": "runs/so101-stereo-v1/left_occluded/seed-810/initial-left.png",
+      "bytes": 174958,
+      "sha256": "074961182a3b76c43f6f3a5b2eb4a9af177959ab520a10ac8bf24f587f189e4d"
+    },
+    {
+      "path": "runs/so101-stereo-v1/left_occluded/seed-810/initial-right.png",
+      "bytes": 310360,
+      "sha256": "a73a1d374716a6f9a6d0903eecf38eb1d891d35cbbb337bd0bdb432b01f6527b"
+    },
+    {
+      "path": "runs/so101-stereo-v1/left_occluded/seed-810/portable-scene.json",
+      "bytes": 334,
+      "sha256": "6fdc0bcb15ec1a03e3401493e3a419a87f84d78c5d387c50199e88b0a9953d2e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/left_occluded/seed-810/report.json",
+      "bytes": 2191,
+      "sha256": "61d71c65580da9a4406edafc83bd7c4d09684b0c2859ba9da984cd531f7c28bf"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-810/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-810/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-810/contacts.json",
+      "bytes": 76586,
+      "sha256": "194b4bfa4290bab02841479cab56cf92d3b5cb433284b90c1ac67303b1e78953"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-810/initial-left.png",
+      "bytes": 299629,
+      "sha256": "05c075a41d28e2518561c64e851633c81e32354bb6f821166e0076486812757b"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-810/initial-right.png",
+      "bytes": 310427,
+      "sha256": "f73a0dd80509def6b3945971c33d54938a9906d9b50bbf1f266d768949b4374d"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-810/measurements.json",
+      "bytes": 49476,
+      "sha256": "71ae195333391f5de50f0affb3912c3a1ef8ec99f1795bffc0c28d21ab19f5a6"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-810/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-810/report.json",
+      "bytes": 5557,
+      "sha256": "aeb2ba9116b052c435c9c7375c025e6118b43d667e2f24df5c1e6c7499f39904"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-810/trajectory.npz",
+      "bytes": 106165431,
+      "sha256": "407376123544b0fe090f33122cde473d91935ff22624603259d161ce06cb7d6e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-811/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-811/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-811/contacts.json",
+      "bytes": 76706,
+      "sha256": "93a950b43e874da104bd5679e3fab5bdf8005842b19b3b7f33e74adf05a02d00"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-811/initial-left.png",
+      "bytes": 299538,
+      "sha256": "43589bf380afdad269cc2be47275a75802bddbaafd9ff4d9dc2529c84d7b9e90"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-811/initial-right.png",
+      "bytes": 310435,
+      "sha256": "f9afa67b841a8fe9b546dbac3416a84455dcec00274e180e92d74a5e938115a2"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-811/measurements.json",
+      "bytes": 49665,
+      "sha256": "cd1ea8509fc6566a2bf42848a3492e1e963e50ccfef80bb9799b20f8a4bbaca5"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-811/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-811/report.json",
+      "bytes": 5585,
+      "sha256": "0b251c6c4410c86b1756cc418c475cb7cee6c462b77d5999a1a8cfb0080f99f6"
+    },
+    {
+      "path": "runs/so101-stereo-v1/nominal/seed-811/trajectory.npz",
+      "bytes": 105787000,
+      "sha256": "536c9633136ce9d127c949d8c5571fe9060952b9ba1588a23e9b213248b75e64"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation/shifted-seed-810/contact-sheet.png",
+      "bytes": 411616,
+      "sha256": "8c5298d9aaa2ba3bff96f902a84a245a6a80d3a98fedfa38ab5dbd58a933d15e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation/shifted-seed-810/frame-0000.png",
+      "bytes": 697418,
+      "sha256": "0f0d2093c30408680966b0e586c8219880c34bf5540d00d22001f6f729409e6e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation/shifted-seed-810/frame-0264.png",
+      "bytes": 721491,
+      "sha256": "032d6d6214678e9fb51b18734da545f526dc3da4bd936a2814a0863dd5ad4127"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation/shifted-seed-810/frame-0524.png",
+      "bytes": 750037,
+      "sha256": "146bdddd740e3f40a8b5bfa0d7e4db6740d257dfc29f7f6879a649662e95e293"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation/shifted-seed-810/overlay-record.json",
+      "bytes": 93175,
+      "sha256": "fe9bae43a503baffb317ed57181b4f9b18f220346adaa2f6f7e23a828d8805b6"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation/shifted-seed-810/poster.png",
+      "bytes": 721491,
+      "sha256": "032d6d6214678e9fb51b18734da545f526dc3da4bd936a2814a0863dd5ad4127"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation/shifted-seed-810/provenance.json",
+      "bytes": 1543,
+      "sha256": "9f6c3a85f7a39e1f0b1477d35ca59d8bc42131928b7317617f7c27f3b713e8b1"
+    },
+    {
+      "path": "runs/so101-stereo-v1/presentation/shifted-seed-810/stereo-replay.mp4",
+      "bytes": 4970460,
+      "sha256": "e4513f59feade83e0b7fc76fc4e24070153237969857f249604cc2c6ad8c9e29"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-810/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-810/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-810/contacts.json",
+      "bytes": 76505,
+      "sha256": "7961dacfbbc9f62b82273015054164e6e2a7e7c454ea953ffa24c173667ff38a"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-810/initial-left.png",
+      "bytes": 299709,
+      "sha256": "63a2b9957e831b3924062a26f41e854f90465ca88d52eb71ef12417a45d49e8d"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-810/initial-right.png",
+      "bytes": 310258,
+      "sha256": "3e170a8465e1a5b823cf26daaf4f89d72e8a33278b2a695154f7f2bee5ac2364"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-810/measurements.json",
+      "bytes": 48867,
+      "sha256": "900a8817f8a8cf0dec86ee6bfe0d947ef19eaa000ccca13f439520c3d9cc5cbd"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-810/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-810/report.json",
+      "bytes": 5579,
+      "sha256": "d3d806be614bfde7dbe187d06393da6359b30aeb83fa2e24e036b5de0e5685e8"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-810/trajectory.npz",
+      "bytes": 105566536,
+      "sha256": "cf01c71afd40e3471a6fbfd95fd22fdde9739cbb688bd056ea2b923486a3fbfb"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-811/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-811/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-811/contacts.json",
+      "bytes": 76766,
+      "sha256": "4d657d188529571477da7f68b2acd990cbd3d1c90384b6df9f70da6a9790212d"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-811/initial-left.png",
+      "bytes": 299858,
+      "sha256": "6c2d1d4b488a5006f665c6cfa387ce3c9f09fc5635395b8a770e6144e8e5f03c"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-811/initial-right.png",
+      "bytes": 310152,
+      "sha256": "33fe89e63e5e3dcb7d13a8281f05eaf582495baa403be27db2db8670f3da4076"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-811/measurements.json",
+      "bytes": 50098,
+      "sha256": "e65544fc86ff460eae0ff089cb1dc837e9ebdc4836c8b78ffe44a24965165070"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-811/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-811/report.json",
+      "bytes": 5563,
+      "sha256": "b36ebb4b7eac972e8bab594d4b37d671e0d0e1cf462e7d78a2d3fce424359719"
+    },
+    {
+      "path": "runs/so101-stereo-v1/shifted_start/seed-811/trajectory.npz",
+      "bytes": 105458016,
+      "sha256": "27a8c57239404d1062dd29caa43f8149edcd33be6bc3835380fbaca8ec8526f2"
+    },
+    {
+      "path": "runs/so101-stereo-v1/unmarked/seed-810/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "runs/so101-stereo-v1/unmarked/seed-810/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "runs/so101-stereo-v1/unmarked/seed-810/initial-left.png",
+      "bytes": 299463,
+      "sha256": "366ab19de6b12843c34902494b50b22aaf7a79ca4ef2aa7ad6a4c637443bd489"
+    },
+    {
+      "path": "runs/so101-stereo-v1/unmarked/seed-810/initial-right.png",
+      "bytes": 310265,
+      "sha256": "c57bbb903a0e5a6f26852aae8fac04e78208cfb2a68dd8f32816e2af62dc9892"
+    },
+    {
+      "path": "runs/so101-stereo-v1/unmarked/seed-810/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "runs/so101-stereo-v1/unmarked/seed-810/report.json",
+      "bytes": 2185,
+      "sha256": "b7ccb8d4d4bdeecf61d960d6c485b28689164392fdf1ed5a4c0fba5dfac8b94a"
+    },
+    {
+      "path": "site/stereo/frozen-specification.json",
+      "bytes": 1358,
+      "sha256": "240f70610bc82dd44d66c15bc6c167b617fb7d919127fcc31300c485e5dfd7ab"
+    },
+    {
+      "path": "site/stereo/independent-verification.json",
+      "bytes": 2619,
+      "sha256": "64af8a851f8b1741b93dc85c6a4f60211003cd26a5e05cac16e33555e8cc9773"
+    },
+    {
+      "path": "site/stereo/index.html",
+      "bytes": 5538,
+      "sha256": "d570330bbc5048ed38f5b8c768b56de730ab43ced902ab5ad6fd04e4e8f39852"
+    },
+    {
+      "path": "site/stereo/method.md",
+      "bytes": 5946,
+      "sha256": "06be34200dd33b0b8941add6f69f2f515f83a807c8b990bbe5f0a0fb4a8367b4"
+    },
+    {
+      "path": "site/stereo/presentation-verification.json",
+      "bytes": 453,
+      "sha256": "5f822ddb6f4032e0bf5811a435b9dc212a8d7a915905ffbfa9b426c8dbc37400"
+    },
+    {
+      "path": "site/stereo/report.json",
+      "bytes": 39680,
+      "sha256": "74d76b1a2ad591faffdcde2298fe474ba695720fc6503c507eb4bd3d7ff9ecc8"
+    },
+    {
+      "path": "site/stereo/calibration-checks/cell.xml",
+      "bytes": 65128,
+      "sha256": "a4049445f4ae9f0c1fe31d6b014cdb53f8bad5a4129cddac2730ba553427d1b7"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-0-left.png",
+      "bytes": 300311,
+      "sha256": "27cded78ab87944dd49ad5caadf3ed34d4df9663ab0aeb6e3939edf1720d7026"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-0-right.png",
+      "bytes": 311014,
+      "sha256": "62702d6cef1fe9ffb007af7adda7afff198f3c7aab63a9e4fd47a46051991ad8"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-1-left.png",
+      "bytes": 299558,
+      "sha256": "2b92642f5b773ce8a79ab4dc8877613a77758a8e7ee61a9b2747be9a0cb66ff7"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-1-right.png",
+      "bytes": 310449,
+      "sha256": "7e6fd26bcb8cd8fe4a5564dcc0ff7ed712c6488d2e4198799ec1a2d135bf39a0"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-2-left.png",
+      "bytes": 299694,
+      "sha256": "a7c8ed09fb12a59c09cbbc8107244028b347d0a0fd8a508ec880753ca69ff9aa"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-2-right.png",
+      "bytes": 310161,
+      "sha256": "328ba7a7b83b13236e9b2d00f020030a15b70ff213bee3e9b2af132a8b01964a"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-3-left.png",
+      "bytes": 300562,
+      "sha256": "fe6fbf92faa541a2fa02ea2feb2f0275e3ecd5a08cd2dfe66bd69d5e7eadf305"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-3-right.png",
+      "bytes": 310672,
+      "sha256": "ea8a6c0db4064e8d11a98bec2c4cbd82e7622ec317a2dac9237060e00b954a43"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-4-left.png",
+      "bytes": 299537,
+      "sha256": "c88b2760f83c5b5488b0488feaa9c9fb054009dd0b9ce8ebf70f051122a9d001"
+    },
+    {
+      "path": "site/stereo/calibration-checks/probe-4-right.png",
+      "bytes": 310027,
+      "sha256": "9501e1e44fc91d9f0ddabd1a64f17216510ca4061c13b917954b55055f147cf6"
+    },
+    {
+      "path": "site/stereo/calibration-checks/report.json",
+      "bytes": 7165,
+      "sha256": "ad34e93121ef8589308432aa3a59c549fe3817d4efbdeb38e1a972bb24405227"
+    },
+    {
+      "path": "site/stereo/code/render_so101_stereo.py",
+      "bytes": 8478,
+      "sha256": "5a68a33872fbc0d244769f1a7b584e8271b7bea7767e1473b7ffe8b00eb7b7ad"
+    },
+    {
+      "path": "site/stereo/code/so101_stereo_rgb.py",
+      "bytes": 13252,
+      "sha256": "b10d25370f8a3902052432c28ee98f2ba4ec787dcfed6b8feeb409853a3673fd"
+    },
+    {
+      "path": "site/stereo/code/verify_so101_stereo.py",
+      "bytes": 4911,
+      "sha256": "5f38bcf63aaf76726cf3e9ea67e0936ef029186ffe3ca5086758c6314366ef0f"
+    },
+    {
+      "path": "site/stereo/left_occluded/seed-810/cell-portable.xml",
+      "bytes": 64864,
+      "sha256": "0bc2331ead664bd6f52bef0001dc6ca0683ec78c725e0b47edc034fcc19b8d83"
+    },
+    {
+      "path": "site/stereo/left_occluded/seed-810/cell.xml",
+      "bytes": 64885,
+      "sha256": "abd7d573e0399f8539891458a94a0b93ed35497dba96af66ecadfefaa0549903"
+    },
+    {
+      "path": "site/stereo/left_occluded/seed-810/initial-left.png",
+      "bytes": 174958,
+      "sha256": "074961182a3b76c43f6f3a5b2eb4a9af177959ab520a10ac8bf24f587f189e4d"
+    },
+    {
+      "path": "site/stereo/left_occluded/seed-810/initial-right.png",
+      "bytes": 310360,
+      "sha256": "a73a1d374716a6f9a6d0903eecf38eb1d891d35cbbb337bd0bdb432b01f6527b"
+    },
+    {
+      "path": "site/stereo/left_occluded/seed-810/portable-scene.json",
+      "bytes": 334,
+      "sha256": "6fdc0bcb15ec1a03e3401493e3a419a87f84d78c5d387c50199e88b0a9953d2e"
+    },
+    {
+      "path": "site/stereo/left_occluded/seed-810/report.json",
+      "bytes": 2191,
+      "sha256": "61d71c65580da9a4406edafc83bd7c4d09684b0c2859ba9da984cd531f7c28bf"
+    },
+    {
+      "path": "site/stereo/nominal/seed-810/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "site/stereo/nominal/seed-810/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "site/stereo/nominal/seed-810/contacts.json",
+      "bytes": 76586,
+      "sha256": "194b4bfa4290bab02841479cab56cf92d3b5cb433284b90c1ac67303b1e78953"
+    },
+    {
+      "path": "site/stereo/nominal/seed-810/initial-left.png",
+      "bytes": 299629,
+      "sha256": "05c075a41d28e2518561c64e851633c81e32354bb6f821166e0076486812757b"
+    },
+    {
+      "path": "site/stereo/nominal/seed-810/initial-right.png",
+      "bytes": 310427,
+      "sha256": "f73a0dd80509def6b3945971c33d54938a9906d9b50bbf1f266d768949b4374d"
+    },
+    {
+      "path": "site/stereo/nominal/seed-810/measurements.json",
+      "bytes": 49476,
+      "sha256": "71ae195333391f5de50f0affb3912c3a1ef8ec99f1795bffc0c28d21ab19f5a6"
+    },
+    {
+      "path": "site/stereo/nominal/seed-810/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "site/stereo/nominal/seed-810/report.json",
+      "bytes": 5557,
+      "sha256": "aeb2ba9116b052c435c9c7375c025e6118b43d667e2f24df5c1e6c7499f39904"
+    },
+    {
+      "path": "site/stereo/nominal/seed-810/states-compact.npz",
+      "bytes": 223028,
+      "sha256": "f4bba02c7e3599dc43fe8c849fe435746fd9d02ad89cbb3c98818f24fe3d4aa0"
+    },
+    {
+      "path": "site/stereo/nominal/seed-811/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "site/stereo/nominal/seed-811/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "site/stereo/nominal/seed-811/contacts.json",
+      "bytes": 76706,
+      "sha256": "93a950b43e874da104bd5679e3fab5bdf8005842b19b3b7f33e74adf05a02d00"
+    },
+    {
+      "path": "site/stereo/nominal/seed-811/initial-left.png",
+      "bytes": 299538,
+      "sha256": "43589bf380afdad269cc2be47275a75802bddbaafd9ff4d9dc2529c84d7b9e90"
+    },
+    {
+      "path": "site/stereo/nominal/seed-811/initial-right.png",
+      "bytes": 310435,
+      "sha256": "f9afa67b841a8fe9b546dbac3416a84455dcec00274e180e92d74a5e938115a2"
+    },
+    {
+      "path": "site/stereo/nominal/seed-811/measurements.json",
+      "bytes": 49665,
+      "sha256": "cd1ea8509fc6566a2bf42848a3492e1e963e50ccfef80bb9799b20f8a4bbaca5"
+    },
+    {
+      "path": "site/stereo/nominal/seed-811/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "site/stereo/nominal/seed-811/report.json",
+      "bytes": 5585,
+      "sha256": "0b251c6c4410c86b1756cc418c475cb7cee6c462b77d5999a1a8cfb0080f99f6"
+    },
+    {
+      "path": "site/stereo/nominal/seed-811/states-compact.npz",
+      "bytes": 223332,
+      "sha256": "30d4782d921ff4d976a913b12ffd6dea46bb17ac402861884d7c5272b4f704d8"
+    },
+    {
+      "path": "site/stereo/presentation/shifted-seed-810/contact-sheet.png",
+      "bytes": 411616,
+      "sha256": "8c5298d9aaa2ba3bff96f902a84a245a6a80d3a98fedfa38ab5dbd58a933d15e"
+    },
+    {
+      "path": "site/stereo/presentation/shifted-seed-810/frame-0000.png",
+      "bytes": 697418,
+      "sha256": "0f0d2093c30408680966b0e586c8219880c34bf5540d00d22001f6f729409e6e"
+    },
+    {
+      "path": "site/stereo/presentation/shifted-seed-810/frame-0264.png",
+      "bytes": 721491,
+      "sha256": "032d6d6214678e9fb51b18734da545f526dc3da4bd936a2814a0863dd5ad4127"
+    },
+    {
+      "path": "site/stereo/presentation/shifted-seed-810/frame-0524.png",
+      "bytes": 750037,
+      "sha256": "146bdddd740e3f40a8b5bfa0d7e4db6740d257dfc29f7f6879a649662e95e293"
+    },
+    {
+      "path": "site/stereo/presentation/shifted-seed-810/overlay-record.json",
+      "bytes": 93175,
+      "sha256": "fe9bae43a503baffb317ed57181b4f9b18f220346adaa2f6f7e23a828d8805b6"
+    },
+    {
+      "path": "site/stereo/presentation/shifted-seed-810/poster.png",
+      "bytes": 721491,
+      "sha256": "032d6d6214678e9fb51b18734da545f526dc3da4bd936a2814a0863dd5ad4127"
+    },
+    {
+      "path": "site/stereo/presentation/shifted-seed-810/provenance.json",
+      "bytes": 1543,
+      "sha256": "9f6c3a85f7a39e1f0b1477d35ca59d8bc42131928b7317617f7c27f3b713e8b1"
+    },
+    {
+      "path": "site/stereo/presentation/shifted-seed-810/stereo-replay.mp4",
+      "bytes": 4970460,
+      "sha256": "e4513f59feade83e0b7fc76fc4e24070153237969857f249604cc2c6ad8c9e29"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-810/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-810/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-810/contacts.json",
+      "bytes": 76505,
+      "sha256": "7961dacfbbc9f62b82273015054164e6e2a7e7c454ea953ffa24c173667ff38a"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-810/initial-left.png",
+      "bytes": 299709,
+      "sha256": "63a2b9957e831b3924062a26f41e854f90465ca88d52eb71ef12417a45d49e8d"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-810/initial-right.png",
+      "bytes": 310258,
+      "sha256": "3e170a8465e1a5b823cf26daaf4f89d72e8a33278b2a695154f7f2bee5ac2364"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-810/measurements.json",
+      "bytes": 48867,
+      "sha256": "900a8817f8a8cf0dec86ee6bfe0d947ef19eaa000ccca13f439520c3d9cc5cbd"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-810/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-810/report.json",
+      "bytes": 5579,
+      "sha256": "d3d806be614bfde7dbe187d06393da6359b30aeb83fa2e24e036b5de0e5685e8"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-810/states-compact.npz",
+      "bytes": 222821,
+      "sha256": "966ab51710c501ed9eef6d8f56d6af09e0b3ea128331472cb02b624a75546b90"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-811/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-811/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-811/contacts.json",
+      "bytes": 76766,
+      "sha256": "4d657d188529571477da7f68b2acd990cbd3d1c90384b6df9f70da6a9790212d"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-811/initial-left.png",
+      "bytes": 299858,
+      "sha256": "6c2d1d4b488a5006f665c6cfa387ce3c9f09fc5635395b8a770e6144e8e5f03c"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-811/initial-right.png",
+      "bytes": 310152,
+      "sha256": "33fe89e63e5e3dcb7d13a8281f05eaf582495baa403be27db2db8670f3da4076"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-811/measurements.json",
+      "bytes": 50098,
+      "sha256": "e65544fc86ff460eae0ff089cb1dc837e9ebdc4836c8b78ffe44a24965165070"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-811/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-811/report.json",
+      "bytes": 5563,
+      "sha256": "b36ebb4b7eac972e8bab594d4b37d671e0d0e1cf462e7d78a2d3fce424359719"
+    },
+    {
+      "path": "site/stereo/shifted_start/seed-811/states-compact.npz",
+      "bytes": 222702,
+      "sha256": "c2ccdd451fa328f7424cd3f351311fadc846ec5adc7ac4493aed44d20da27ab9"
+    },
+    {
+      "path": "site/stereo/unmarked/seed-810/cell-portable.xml",
+      "bytes": 64732,
+      "sha256": "b49277b8b0730ca02fb8db1053bab7d30de13dcf038d04ddabdc6b63339faf36"
+    },
+    {
+      "path": "site/stereo/unmarked/seed-810/cell.xml",
+      "bytes": 64753,
+      "sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7"
+    },
+    {
+      "path": "site/stereo/unmarked/seed-810/initial-left.png",
+      "bytes": 299463,
+      "sha256": "366ab19de6b12843c34902494b50b22aaf7a79ca4ef2aa7ad6a4c637443bd489"
+    },
+    {
+      "path": "site/stereo/unmarked/seed-810/initial-right.png",
+      "bytes": 310265,
+      "sha256": "c57bbb903a0e5a6f26852aae8fac04e78208cfb2a68dd8f32816e2af62dc9892"
+    },
+    {
+      "path": "site/stereo/unmarked/seed-810/portable-scene.json",
+      "bytes": 334,
+      "sha256": "8dbbb377a738bd43f3205bf844b327938cff00c1b0cb4d46c65a7ff7fab9797e"
+    },
+    {
+      "path": "site/stereo/unmarked/seed-810/report.json",
+      "bytes": 2185,
+      "sha256": "b7ccb8d4d4bdeecf61d960d6c485b28689164392fdf1ed5a4c0fba5dfac8b94a"
+    }
+  ]
+}

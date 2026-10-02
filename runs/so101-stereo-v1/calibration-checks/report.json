@@ -1,0 +1,309 @@
+{
+  "calibration": {
+    "image_size": [
+      640,
+      480
+    ],
+    "baseline_m": 0.06,
+    "K": [
+      [
+        625.2213755265124,
+        0,
+        320.0
+      ],
+      [
+        0,
+        625.2213755265124,
+        240.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "left_center_world_m": [
+      0.19,
+      -0.02,
+      0.5
+    ],
+    "right_center_world_m": [
+      0.25,
+      -0.02,
+      0.5
+    ],
+    "world_to_camera_rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rectification": "Parallel identical ideal pinhole cameras: native render is rectified",
+    "marker_to_cube_center_world_m": [
+      0,
+      0,
+      -0.01515
+    ],
+    "scope": "Generic virtual pair, not calibrated physical hardware"
+  },
+  "positive_probes": [
+    {
+      "truth_cube_center_m": [
+        0.18,
+        -0.05,
+        0.015
+      ],
+      "measurement": {
+        "left": {
+          "valid": true,
+          "u": 306.62380952380954,
+          "v": 279.92857142857144,
+          "area": 105
+        },
+        "right": {
+          "valid": true,
+          "u": 226.7685185185185,
+          "v": 279.89814814814815,
+          "area": 108
+        },
+        "valid": true,
+        "disparity_px": 79.85529100529104,
+        "epipolar_error_px": 0.030423280423292454,
+        "reason": "RGB marker stereo triangulation",
+        "depth_m": 0.4697657733049297,
+        "marker_world_m": [
+          0.17994967749202428,
+          -0.04998926629849629,
+          0.03023422669507031
+        ],
+        "cube_center_world_m": [
+          0.17994967749202428,
+          -0.04998926629849629,
+          0.01508422669507031
+        ]
+      },
+      "error_m": 9.870006747415681e-05
+    },
+    {
+      "truth_cube_center_m": [
+        0.2,
+        -0.01,
+        0.015
+      ],
+      "measurement": {
+        "left": {
+          "valid": true,
+          "u": 333.27358490566036,
+          "v": 226.69811320754718,
+          "area": 106
+        },
+        "right": {
+          "valid": true,
+          "u": 253.57619047619048,
+          "v": 226.77619047619046,
+          "area": 105
+        },
+        "valid": true,
+        "disparity_px": 79.69739442946988,
+        "epipolar_error_px": 0.07807726864328401,
+        "reason": "RGB marker stereo triangulation",
+        "depth_m": 0.4706964738325168,
+        "marker_world_m": [
+          0.19999298785162203,
+          -0.010015095284048365,
+          0.029303526167483218
+        ],
+        "cube_center_world_m": [
+          0.19999298785162203,
+          -0.010015095284048365,
+          0.014153526167483218
+        ]
+      },
+      "error_m": 0.0008466374589876259
+    },
+    {
+      "truth_cube_center_m": [
+        0.23,
+        0.03,
+        0.015
+      ],
+      "measurement": {
+        "left": {
+          "valid": true,
+          "u": 373.15714285714284,
+          "v": 173.4904761904762,
+          "area": 105
+        },
+        "right": {
+          "valid": true,
+          "u": 293.4519230769231,
+          "v": 173.47115384615384,
+          "area": 104
+        },
+        "valid": true,
+        "disparity_px": 79.70521978021975,
+        "epipolar_error_px": 0.019322344322347362,
+        "reason": "RGB marker stereo triangulation",
+        "depth_m": 0.4706502614889009,
+        "marker_world_m": [
+          0.23001530364288744,
+          0.030073898671960923,
+          0.02934973851109912
+        ],
+        "cube_center_world_m": [
+          0.23001530364288744,
+          0.030073898671960923,
+          0.014199738511099121
+        ]
+      },
+      "error_m": 0.0008038119592423744
+    },
+    {
+      "truth_cube_center_m": [
+        0.25,
+        -0.08,
+        0.03
+      ],
+      "measurement": {
+        "left": {
+          "valid": true,
+          "u": 402.45652173913044,
+          "v": 322.4391304347826,
+          "area": 115
+        },
+        "right": {
+          "valid": true,
+          "u": 319.9594594594595,
+          "v": 322.35585585585585,
+          "area": 111
+        },
+        "valid": true,
+        "disparity_px": 82.49706227967096,
+        "epipolar_error_px": 0.08327457892676193,
+        "reason": "RGB marker stereo triangulation",
+        "depth_m": 0.4547226470249089,
+        "marker_world_m": [
+          0.24997051492058972,
+          -0.07992758350544833,
+          0.04527735297509111
+        ],
+        "cube_center_world_m": [
+          0.24997051492058972,
+          -0.07992758350544833,
+          0.03012735297509111
+        ]
+      },
+      "error_m": 0.0001494399506676177
+    },
+    {
+      "truth_cube_center_m": [
+        0.22,
+        0.05,
+        0.06
+      ],
+      "measurement": {
+        "left": {
+          "valid": true,
+          "u": 364.29527559055117,
+          "v": 136.99606299212599,
+          "area": 127
+        },
+        "right": {
+          "valid": true,
+          "u": 275.70472440944883,
+          "v": 137.00393700787401,
+          "area": 127
+        },
+        "valid": true,
+        "disparity_px": 88.59055118110234,
+        "epipolar_error_px": 0.007874015748029706,
+        "reason": "RGB marker stereo triangulation",
+        "depth_m": 0.42344563874429164,
+        "marker_world_m": [
+          0.22,
+          0.04975913252155366,
+          0.07655436125570836
+        ],
+        "cube_center_world_m": [
+          0.22,
+          0.04975913252155366,
+          0.06140436125570836
+        ]
+      },
+      "error_m": 0.0014248676004134115
+    }
+  ],
+  "negative_checks": {
+    "swapped_pair": {
+      "left": {
+        "valid": true,
+        "u": 275.70472440944883,
+        "v": 137.00393700787401,
+        "area": 127
+      },
+      "right": {
+        "valid": true,
+        "u": 364.29527559055117,
+        "v": 136.99606299212599,
+        "area": 127
+      },
+      "valid": false,
+      "disparity_px": -88.59055118110234,
+      "epipolar_error_px": 0.007874015748029706,
+      "reason": "invalid disparity or epipolar mismatch"
+    },
+    "vertical_correspondence_shift": {
+      "left": {
+        "valid": true,
+        "u": 364.29527559055117,
+        "v": 136.99606299212599,
+        "area": 127
+      },
+      "right": {
+        "valid": true,
+        "u": 275.70472440944883,
+        "v": 153.00393700787401,
+        "area": 127
+      },
+      "valid": false,
+      "disparity_px": 88.59055118110234,
+      "epipolar_error_px": 16.00787401574803,
+      "reason": "invalid disparity or epipolar mismatch"
+    },
+    "blank_pair": {
+      "left": {
+        "valid": false,
+        "reason": "missing or ambiguous colored marker",
+        "components": 0
+      },
+      "right": {
+        "valid": false,
+        "reason": "missing or ambiguous colored marker",
+        "components": 0
+      },
+      "valid": false,
+      "reason": "marker missing/ambiguous in one or both cameras"
+    }
+  },
+  "max_error_m": 0.0014248676004134115,
+  "max_epipolar_error_px": 0.08327457892676193,
+  "scope": "RGB-derived known colored marker; truth is used only in this independent diagnostic check"
+}

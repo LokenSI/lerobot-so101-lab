@@ -1,0 +1,6 @@
+{
+  "source_model_sha256": "abd7d573e0399f8539891458a94a0b93ed35497dba96af66ecadfefaa0549903",
+  "portable_model_sha256": "0bc2331ead664bd6f52bef0001dc6ca0683ec78c725e0b47edc034fcc19b8d83",
+  "only_change": "compiler meshdir points to repo bootstrap runtime",
+  "relative_meshdir": "../../../../runtime/flux-action-so101-sim/assets"
+}

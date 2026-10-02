@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-stereo-work/scripts/so101_stereo_rgb.py", line 135, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-stereo-work/scripts/so101_stereo_rgb.py", line 128, in main
+    specpath.write_text(json.dumps(spec,indent=2));baseline=load_baseline(args.base_repo.resolve());checks=calibration_checks(baseline,args.output);reports=[]
+                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-stereo-work/scripts/so101_stereo_rgb.py", line 85, in calibration_checks
+    l,r=capture(env);estimate=localize(l,r);Image.fromarray(l).save(folder/f'probe-{i}-left.png');Image.fromarray(r).save(folder/f'probe-{i}-right.png')
+                              ^^^^^^^^^^^^^
+  File "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-stereo-work/scripts/so101_stereo_rgb.py", line 45, in localize
+    left,right=find_marker(left_rgb),find_marker(right_rgb)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-stereo-work/scripts/so101_stereo_rgb.py", line 35, in find_marker
+    from scipy.ndimage import label
+ModuleNotFoundError: No module named 'scipy'
+Exception ignored in: <function Renderer.__del__ at 0x792a9c0c1c60>
+Traceback (most recent call last):
+  File "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-sim-env/lib/python3.12/site-packages/mujoco/rendering/classic/renderer.py", line 339, in __del__
+    self.close()
+  File "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-sim-env/lib/python3.12/site-packages/mujoco/rendering/classic/renderer.py", line 325, in close
+    self._gl_context.free()
+  File "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-sim-env/lib/python3.12/site-packages/mujoco/egl/__init__.py", line 133, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-sim-env/lib/python3.12/site-packages/OpenGL/platform/baseplatform.py", line 487, in __call__
+    return self(*args, **named)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-sim-env/lib/python3.12/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: <exception str() failed>
+Exception ignored in: <function GLContext.__del__ at 0x792a9c0c1580>
+Traceback (most recent call last):
+  File "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-sim-env/lib/python3.12/site-packages/mujoco/egl/__init__.py", line 138, in __del__
+    self.free()
+  File "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-sim-env/lib/python3.12/site-packages/mujoco/egl/__init__.py", line 133, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-sim-env/lib/python3.12/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: <exception str() failed>

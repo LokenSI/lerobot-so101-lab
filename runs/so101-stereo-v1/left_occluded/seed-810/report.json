@@ -1,0 +1,105 @@
+{
+  "condition": "left_occluded",
+  "seed": 810,
+  "control": "Scripted IK from one RGB-only stereo estimate at reset",
+  "learned_policy": false,
+  "calibration": {
+    "image_size": [
+      640,
+      480
+    ],
+    "baseline_m": 0.06,
+    "K": [
+      [
+        625.2213755265124,
+        0,
+        320.0
+      ],
+      [
+        0,
+        625.2213755265124,
+        240.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "left_center_world_m": [
+      0.19,
+      -0.02,
+      0.5
+    ],
+    "right_center_world_m": [
+      0.25,
+      -0.02,
+      0.5
+    ],
+    "world_to_camera_rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rectification": "Parallel identical ideal pinhole cameras: native render is rectified",
+    "marker_to_cube_center_world_m": [
+      0,
+      0,
+      -0.01515
+    ],
+    "scope": "Generic virtual pair, not calibrated physical hardware"
+  },
+  "initial_measurement": {
+    "left": {
+      "valid": false,
+      "reason": "missing or ambiguous colored marker",
+      "components": 0
+    },
+    "right": {
+      "valid": true,
+      "u": 249.5095238095238,
+      "v": 234.15714285714284,
+      "area": 105
+    },
+    "valid": false,
+    "reason": "marker missing/ambiguous in one or both cameras"
+  },
+  "diagnostic_initial_truth_m": [
+    0.19704810161695707,
+    -0.015670549825105143,
+    0.014995627991029872
+  ],
+  "diagnostic_initial_error_m": null,
+  "perception_inputs": "Two RGB arrays plus fixed calibration and known marker offset; no simulator pose/depth/object IDs",
+  "object_attachment": false,
+  "object_pose_writes_after_reset": false,
+  "model_sha256": "abd7d573e0399f8539891458a94a0b93ed35497dba96af66ecadfefaa0549903",
+  "renderer_runner_sha256": "b10d25370f8a3902052432c28ee98f2ba4ec787dcfed6b8feeb409853a3673fd",
+  "success": false,
+  "abstained": true,
+  "reason": "No grasp motion: invalid stereo observation",
+  "grader": {
+    "success": false,
+    "reason": "Perception abstention before motion"
+  },
+  "frames": 0
+}

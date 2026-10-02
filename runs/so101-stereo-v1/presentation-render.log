@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-stereo-work/scripts/render_so101_stereo.py", line 60, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-stereo-work/scripts/render_so101_stereo.py", line 59, in main
+    p=argparse.ArgumentParser();p.add_argument('--episode',type=Path,required=True);p.add_argument('--output',type=Path,required=True);p.add_argument('--base-repo',type=Path,default=ROOT);a=p.parse_args();print(json.dumps(render(a.episode.resolve(),a.output,a.base_repo.resolve()),indent=2))
+                                                                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-stereo-work/scripts/render_so101_stereo.py", line 57, in render
+    sheet.save(out/'contact-sheet.png');(out/'overlay-record.json').write_text(json.dumps(records));provenance={'source_episode':str(episode.relative_to(ROOT)),'trajectory_sha256':sha(episode/'trajectory.npz'),'source_report_sha256':sha(episode/'report.json'),'saved_model_sha256':sha(episode/'cell.xml'),'renderer_sha256':sha(__file__),'video_sha256':sha(video),'width':1440,'height':1080,'fps':10,'video_frames':len(ticks)+14,'control_hz':30,'camera_projection_check_error_px':projection_error,'rgb_capture_hz':10,'rendering':'Saved qpos/qvel replay; no dynamics integration. Mesh path resolved through explicit base-repo for portability','perception':'RGB colored marker only; no ground-truth pose, segmentation buffer or depth buffer input','scope':'New scripted stereo experiment; separate from previous ACT 2/5 and visual ACT 10/12','success':report['success'],'grader':report['grader']};(out/'provenance.json').write_text(json.dumps(provenance,indent=2));return provenance
+                                                                               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

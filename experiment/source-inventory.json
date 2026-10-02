@@ -119,9 +119,9 @@
     {
       "path": "scripts/lerobot_case_report.py",
       "original_sha256": "2840fd0d132690775e0756c083ca028930d2b5ec4d1c72a23009807c79e62a7d",
-      "staged_sha256": "0a020edccace5d68ed42f20ab79323a2f5b785ebcb4e5c50b698a3a4c0235ef5",
+      "staged_sha256": "3479b7b11dbcd93c4d7dc1ae32f6d5a21d833841364279b6707a6c546cc4fb58",
       "byte_identical": false,
-      "changes": "Public-only presentation prose removes unrelated project context; experiment runner/environment/grader copies remain byte-identical."
+      "changes": "Public-only presentation prose removes unrelated project context; experiment runner/environment/grader copies remain byte-identical. Social draft/export removed in preceding clean-history commit; this inventory now records that existing presentation version."
     }
   ],
   "omitted": "Mixed robotics_teaser_report.py and unrelated projects. No runtime, virtualenv, dataset, checkpoint, raw video, secret, host config or log is staged by this source packaging step.",
@@ -130,6 +130,21 @@
       "path": "scripts/bootstrap_runtime.py",
       "staged_sha256": "d698673256271d7e88deb392acc127e579bbfdd1ff581fd45dde2d76ed218ee2",
       "role": "Portable standard-library downloader and optional measured desktop environment installation"
+    },
+    {
+      "path": "scripts/so101_stereo_rgb.py",
+      "staged_sha256": "b10d25370f8a3902052432c28ee98f2ba4ec787dcfed6b8feeb409853a3673fd",
+      "role": "Separate frozen virtual stereo experiment; earlier ACT runner unchanged"
+    },
+    {
+      "path": "scripts/verify_so101_stereo.py",
+      "staged_sha256": "5f38bcf63aaf76726cf3e9ea67e0936ef029186ffe3ca5086758c6314366ef0f",
+      "role": "Separate frozen virtual stereo experiment; earlier ACT runner unchanged"
+    },
+    {
+      "path": "scripts/render_so101_stereo.py",
+      "staged_sha256": "5a68a33872fbc0d244769f1a7b584e8271b7bea7767e1473b7ffe8b00eb7b7ad",
+      "role": "Separate frozen virtual stereo experiment; earlier ACT runner unchanged"
     }
   ]
 }

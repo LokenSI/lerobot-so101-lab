@@ -1,0 +1,72 @@
+[
+  {
+    "condition": "nominal",
+    "seed": 810,
+    "independent_success": true,
+    "bilateral_contact_lift_over_90mm_world_z": true,
+    "fresh_contact_release_final_45_ticks": true,
+    "full_rotated_cube_containment": true,
+    "stable_rest": true,
+    "rest_orientation_spread_deg": 0.0,
+    "saved_truth_fresh_fk_error_m": 0.0,
+    "all_saved_rgb_measurements_reproduced_exactly": true,
+    "native_camera_rotation_difference": 0.0,
+    "actual_camera_baseline_m": 0.06,
+    "no_equality_attachments": true
+  },
+  {
+    "condition": "nominal",
+    "seed": 811,
+    "independent_success": true,
+    "bilateral_contact_lift_over_90mm_world_z": true,
+    "fresh_contact_release_final_45_ticks": true,
+    "full_rotated_cube_containment": true,
+    "stable_rest": true,
+    "rest_orientation_spread_deg": 4.182619578303746e-06,
+    "saved_truth_fresh_fk_error_m": 0.0,
+    "all_saved_rgb_measurements_reproduced_exactly": true,
+    "native_camera_rotation_difference": 0.0,
+    "actual_camera_baseline_m": 0.06,
+    "no_equality_attachments": true
+  },
+  {
+    "condition": "shifted_start",
+    "seed": 810,
+    "independent_success": true,
+    "bilateral_contact_lift_over_90mm_world_z": true,
+    "fresh_contact_release_final_45_ticks": true,
+    "full_rotated_cube_containment": true,
+    "stable_rest": true,
+    "rest_orientation_spread_deg": 5.122641877509564e-06,
+    "saved_truth_fresh_fk_error_m": 0.0,
+    "all_saved_rgb_measurements_reproduced_exactly": true,
+    "native_camera_rotation_difference": 0.0,
+    "actual_camera_baseline_m": 0.06,
+    "no_equality_attachments": true
+  },
+  {
+    "condition": "shifted_start",
+    "seed": 811,
+    "independent_success": true,
+    "bilateral_contact_lift_over_90mm_world_z": true,
+    "fresh_contact_release_final_45_ticks": true,
+    "full_rotated_cube_containment": true,
+    "stable_rest": true,
+    "rest_orientation_spread_deg": 0.0,
+    "saved_truth_fresh_fk_error_m": 0.0,
+    "all_saved_rgb_measurements_reproduced_exactly": true,
+    "native_camera_rotation_difference": 0.0,
+    "actual_camera_baseline_m": 0.06,
+    "no_equality_attachments": true
+  },
+  {
+    "condition": "unmarked",
+    "seed": 810,
+    "abstention_reproduced_from_rgb": true
+  },
+  {
+    "condition": "left_occluded",
+    "seed": 810,
+    "abstention_reproduced_from_rgb": true
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "video_frames": 190,
+  "fps": 10,
+  "width": 1440,
+  "height": 1080,
+  "duration_s": 19.0,
+  "camera_projection_check_error_px": 8.631674575031098e-05,
+  "all_source_and_media_hashes_match": true,
+  "overlay_times_and_targets_match_actual_saved_states": true,
+  "site_existing_internal_links": 17,
+  "site_external_links": 0,
+  "frozen_measured_runner_sha256": "b10d25370f8a3902052432c28ee98f2ba4ec787dcfed6b8feeb409853a3673fd"
+}

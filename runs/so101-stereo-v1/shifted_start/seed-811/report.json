@@ -1,0 +1,252 @@
+{
+  "condition": "shifted_start",
+  "seed": 811,
+  "control": "Scripted IK from one RGB-only stereo estimate at reset",
+  "learned_policy": false,
+  "calibration": {
+    "image_size": [
+      640,
+      480
+    ],
+    "baseline_m": 0.06,
+    "K": [
+      [
+        625.2213755265124,
+        0,
+        320.0
+      ],
+      [
+        0,
+        625.2213755265124,
+        240.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "left_center_world_m": [
+      0.19,
+      -0.02,
+      0.5
+    ],
+    "right_center_world_m": [
+      0.25,
+      -0.02,
+      0.5
+    ],
+    "world_to_camera_rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rectification": "Parallel identical ideal pinhole cameras: native render is rectified",
+    "marker_to_cube_center_world_m": [
+      0,
+      0,
+      -0.01515
+    ],
+    "scope": "Generic virtual pair, not calibrated physical hardware"
+  },
+  "initial_measurement": {
+    "left": {
+      "valid": true,
+      "u": 371.4326923076923,
+      "v": 189.07692307692307,
+      "area": 104
+    },
+    "right": {
+      "valid": true,
+      "u": 291.4809523809524,
+      "v": 189.05238095238096,
+      "area": 105
+    },
+    "valid": true,
+    "disparity_px": 79.95173992673995,
+    "epipolar_error_px": 0.024542124542108468,
+    "reason": "RGB marker stereo triangulation",
+    "depth_m": 0.4691990764174024,
+    "marker_world_m": [
+      0.22859780339101082,
+      0.018224569995865168,
+      0.030800923582597617
+    ],
+    "cube_center_world_m": [
+      0.22859780339101082,
+      0.018224569995865168,
+      0.015650923582597617
+    ]
+  },
+  "diagnostic_initial_truth_m": [
+    0.22863254037063013,
+    0.01823677668645684,
+    0.014995627991030257
+  ],
+  "diagnostic_initial_error_m": 0.000656329165416172,
+  "perception_inputs": "Two RGB arrays plus fixed calibration and known marker offset; no simulator pose/depth/object IDs",
+  "object_attachment": false,
+  "object_pose_writes_after_reset": false,
+  "model_sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7",
+  "renderer_runner_sha256": "b10d25370f8a3902052432c28ee98f2ba4ec787dcfed6b8feeb409853a3673fd",
+  "success": true,
+  "abstained": false,
+  "grader": {
+    "success": true,
+    "lifted": true,
+    "inside_tray_for_1_5_s": true,
+    "released_for_1_5_s": true,
+    "stable": true,
+    "settle_position_spread_m": 0.0,
+    "settle_orientation_spread_deg": 0.0,
+    "settle_max_linear_speed_m_s": 5.637575436299541e-16,
+    "max_object_height_m": 0.11817493434097656,
+    "final_object_xyz_m": [
+      0.24877085812314514,
+      -0.16688955428347646,
+      0.018995627991030255
+    ],
+    "grading_frames": 45
+  },
+  "frames": 525,
+  "simulation_seconds": 17.5,
+  "waypoints": [
+    {
+      "phase": "lift clear",
+      "target_tcp_m": [
+        0.22,
+        0.0,
+        0.1
+      ],
+      "position_error_m": 0.00010188559713279082,
+      "rotation_error": 0.006231306295570325,
+      "seconds": 2.0
+    },
+    {
+      "phase": "orient above measured cube",
+      "target_tcp_m": [
+        0.22859780339101082,
+        0.018224569995865168,
+        0.06
+      ],
+      "position_error_m": 1.5274050687491638e-13,
+      "rotation_error": 4.287678158352627e-12,
+      "seconds": 2.0
+    },
+    {
+      "phase": "approach measured cube",
+      "target_tcp_m": [
+        0.22859780339101082,
+        0.018224569995865168,
+        0.017
+      ],
+      "position_error_m": 2.531736054156349e-15,
+      "rotation_error": 7.691673360822462e-14,
+      "seconds": 2.0
+    },
+    {
+      "phase": "close grip",
+      "target_tcp_m": [
+        0.22859780339101082,
+        0.018224569995865168,
+        0.017
+      ],
+      "position_error_m": 9.539401966176753e-17,
+      "rotation_error": 1.1614721819940585e-15,
+      "seconds": 1.5
+    },
+    {
+      "phase": "lift cube",
+      "target_tcp_m": [
+        0.22859780339101082,
+        0.018224569995865168,
+        0.12
+      ],
+      "position_error_m": 0.0002360832827773423,
+      "rotation_error": 0.015210656912714988,
+      "seconds": 2.0
+    },
+    {
+      "phase": "transfer to known tray",
+      "target_tcp_m": [
+        0.24,
+        -0.16,
+        0.12
+      ],
+      "position_error_m": 0.00043686698253219585,
+      "rotation_error": 0.03870553730546409,
+      "seconds": 2.5
+    },
+    {
+      "phase": "lower cube",
+      "target_tcp_m": [
+        0.24,
+        -0.16,
+        0.06
+      ],
+      "position_error_m": 0.0004368669852064664,
+      "rotation_error": 0.0387055372983196,
+      "seconds": 1.5
+    },
+    {
+      "phase": "release",
+      "target_tcp_m": [
+        0.24,
+        -0.16,
+        0.06
+      ],
+      "position_error_m": 0.00043686698274763723,
+      "rotation_error": 0.03870553730488822,
+      "seconds": 1.0
+    },
+    {
+      "phase": "retreat",
+      "target_tcp_m": [
+        0.24,
+        -0.16,
+        0.15
+      ],
+      "position_error_m": 0.00043686698292149024,
+      "rotation_error": 0.03870553730442388,
+      "seconds": 1.5
+    },
+    {
+      "phase": "settle",
+      "target_tcp_m": [
+        0.24,
+        -0.16,
+        0.15
+      ],
+      "position_error_m": 0.0004368669827390786,
+      "rotation_error": 0.03870553730491098,
+      "seconds": 1.5
+    }
+  ],
+  "contact_frames": 522,
+  "capture_hz": 10,
+  "controller_uses_estimated_xy": true,
+  "grasp_z_m": 0.017,
+  "known_fixed_task_tray_xy_m": [
+    0.24,
+    -0.16
+  ]
+}

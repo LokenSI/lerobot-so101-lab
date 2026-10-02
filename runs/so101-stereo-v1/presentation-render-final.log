@@ -1,0 +1,36 @@
+{
+  "source_episode": "runs/so101-stereo-v1/shifted_start/seed-810",
+  "trajectory_sha256": "cf01c71afd40e3471a6fbfd95fd22fdde9739cbb688bd056ea2b923486a3fbfb",
+  "source_report_sha256": "d3d806be614bfde7dbe187d06393da6359b30aeb83fa2e24e036b5de0e5685e8",
+  "saved_model_sha256": "28e999ed2898db12b1e52a177c2df34186c544c94c981184f72ff8c92bceaaa7",
+  "renderer_sha256": "5a68a33872fbc0d244769f1a7b584e8271b7bea7767e1473b7ffe8b00eb7b7ad",
+  "video_sha256": "e4513f59feade83e0b7fc76fc4e24070153237969857f249604cc2c6ad8c9e29",
+  "width": 1440,
+  "height": 1080,
+  "fps": 10,
+  "video_frames": 190,
+  "control_hz": 30,
+  "camera_projection_check_error_px": 8.631674575031098e-05,
+  "rgb_capture_hz": 10,
+  "rendering": "Saved qpos/qvel replay; no dynamics integration. Mesh path resolved through explicit base-repo for portability",
+  "perception": "RGB colored marker only; no ground-truth pose, segmentation buffer or depth buffer input",
+  "scope": "New scripted stereo experiment; separate from previous ACT 2/5 and visual ACT 10/12",
+  "success": true,
+  "grader": {
+    "success": true,
+    "lifted": true,
+    "inside_tray_for_1_5_s": true,
+    "released_for_1_5_s": true,
+    "stable": true,
+    "settle_position_spread_m": 0.0,
+    "settle_orientation_spread_deg": 5.122641877509564e-06,
+    "settle_max_linear_speed_m_s": 3.5813375512749454e-16,
+    "max_object_height_m": 0.11820896123719897,
+    "final_object_xyz_m": [
+      0.25121239647183774,
+      -0.16652000412466286,
+      0.01899562799103024
+    ],
+    "grading_frames": 45
+  }
+}

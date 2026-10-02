@@ -6,6 +6,12 @@ The prior final assessment completed **2/5** starts. A later exploratory check c
 
 ACT receives two actual 96×96 RGB observations and six joint values. It predicts sixteen absolute joint targets and executes eight before replanning. Amber overlays show forward kinematics of predicted joint targets; cyan shows observed TCP motion. The overlays replay saved states and update every eight simulated control ticks, rather than presenting a hardware feed or a validated future trajectory.
 
+## Calibrated virtual stereo follow-up
+
+The [stereo viewer](https://lokensi.github.io/lerobot-so101-lab/stereo/) adds a generic 60 mm stereo RGB pair and marked-object localization. A frozen scripted contact baseline passed **4/4** nominal/shifted trials. Two separate perception negatives rejected localization and stopped before grasp motion. Five calibration probes had a maximum 1.425 mm 3D localization error.
+
+This uses an initial RGB-derived XY estimate, fixed grasp height and a known tray location. It is separate from the learned ACT results above. The video shows actual stereo images, fresh measurements, observed TCP and scripted targets. Read the [method](docs/stereo-method.md), [frozen results](runs/so101-stereo-v1/report.json), [independent audit](runs/so101-stereo-v1/independent-verification.json) and [retained setup failure](experiment/stereo-setup-failure/execution.log). Full saved RGB/state trajectories are included in this checkout through Git LFS; the earlier tagged release remains the original ACT bundle.
+
 ## Read the evidence
 
 - [Measured results and every grader outcome](experiment/measured-results.json)

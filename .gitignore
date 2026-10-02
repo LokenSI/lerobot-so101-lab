@@ -3,7 +3,8 @@ runtime/
 .venv/
 venv/
 # Original/reproduced experiment bundles live in release assets
-runs/
+runs/*
+!runs/so101-stereo-v1/
 datasets/
 downloads/
 # Python/editor/OS temporary files
