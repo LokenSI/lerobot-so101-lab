@@ -1,0 +1,33 @@
+{
+  "scope": "CPU tiny mocked policy, actual safetensors and actual adapted loader; no real pretrained weights or GPU",
+  "loader_sha256": "6743a14e1f5f91024289731df0e6cf33f4de4ddf496ee12ad87cba88e9d20c70",
+  "valid_merge_passed": true,
+  "merged_weight_head_max_error": 0.0,
+  "restoration": {
+    "projection_count": 6,
+    "trainable_tensors": 15,
+    "max_projection_bf16_rounding": 0.0009721219539642334,
+    "changed_config_fields": [
+      "action_normalization",
+      "state_normalization"
+    ]
+  },
+  "negative_controls": {
+    "missing_projection": {
+      "rejected": true,
+      "error": "ValueError: Adapter tensor keys differ: missing={'blocks.0.q_proj.B', 'blocks.0.q_proj.A'}, extra=set()"
+    },
+    "missing_head": {
+      "rejected": true,
+      "error": "ValueError: Adapter tensor keys differ: missing={'emb_in.action.weight'}, extra=set()"
+    },
+    "changed_sampler": {
+      "rejected": true,
+      "error": "ValueError: Unexpected policy contract changes: {'sampler'}"
+    },
+    "unexpected_head_key": {
+      "rejected": true,
+      "error": "ValueError: Adapter tensor keys differ: missing=set(), extra={'final_layer.unexpected.weight'}"
+    }
+  }
+}

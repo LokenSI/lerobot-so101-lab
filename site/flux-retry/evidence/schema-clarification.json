@@ -1,0 +1,6 @@
+{
+  "episode_model_sha256_means": "SHA256 of measured MuJoCo cell.xml; not neural weights",
+  "neural_weights_sha256": "0f57664573dde660590060d81b2a0b336fc674f06e0494de9307e52f43b6fd01",
+  "neural_weights_hash_source": "runtime.json.sha256.model.safetensors",
+  "original_measured_reports_modified": false
+}

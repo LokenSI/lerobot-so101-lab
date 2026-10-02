@@ -1,0 +1,27 @@
+{
+  "scope": "CPU-only AST/extracted-function proof, no physics/render/model loaded",
+  "runner_sha256": "573f74628de4b91355e223c20adc3220a5b952f323db09fad0b1278dc7aa9bdf",
+  "replay_sha256": "48feeaa1e4fbfde34cf08df33f397f10a4dd706c74b2417b5f394ee53fd4b3bf",
+  "all_native_render_calls_wrapped": true,
+  "render_call_lines": [
+    110,
+    171,
+    149
+  ],
+  "samples": [
+    {
+      "sample": 0,
+      "max_uint8_error": 0
+    },
+    {
+      "sample": 1,
+      "max_uint8_error": 0
+    },
+    {
+      "sample": 2,
+      "max_uint8_error": 0
+    }
+  ],
+  "camera_contract": "Native320x240 projection -> identical PIL uint8 BILINEAR256x256 -> official scene/wrist side-by-side canvas",
+  "native_camera_projection_re_rendered": false
+}

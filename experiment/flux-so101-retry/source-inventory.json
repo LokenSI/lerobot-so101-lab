@@ -1,0 +1,44 @@
+[
+  {
+    "original_path": "scripts/run_flux_so101_retry.py",
+    "archived_path": "experiment/flux-so101-retry/source-measured/run_flux_so101_retry.py",
+    "sha256": "3d289f6eb75319289070172cf244a23b7934c4e3d208c7861120a52a77f0f7cd",
+    "byte_identical": true,
+    "freeze_key": "runner_sha256"
+  },
+  {
+    "original_path": "runtime/flux-so101-work/local_runtime_fast.py",
+    "archived_path": "experiment/flux-so101-retry/source-measured/local_runtime_fast.py",
+    "sha256": "76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb",
+    "byte_identical": true,
+    "freeze_key": "runtime_helper_sha256"
+  },
+  {
+    "original_path": "scripts/so101_pick_place_baseline.py",
+    "archived_path": "experiment/flux-so101-retry/source-measured/so101_pick_place_baseline.py",
+    "sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+    "byte_identical": true,
+    "freeze_key": "baseline_sha256"
+  },
+  {
+    "original_path": "scripts/run_flux_so101_retry.py",
+    "portable_path": "scripts/run_flux_so101_retry.py",
+    "original_sha256": "3d289f6eb75319289070172cf244a23b7934c4e3d208c7861120a52a77f0f7cd",
+    "portable_sha256": "8705a4648a8b3c06300665e053c8931c0714b451fe2a5101357d37d9cfe14863",
+    "change": "Only runtime import search path relocated to tracked vendor/flux_retry_runtime"
+  },
+  {
+    "original_path": "scripts/run_flux_so101_adapted.py",
+    "portable_path": "scripts/run_flux_so101_adapted.py",
+    "original_sha256": "f77044dd088b84e3627d9e43e9385c3117ad42c471f27a9c2e890a685d5bd9de",
+    "portable_sha256": "09112002f603b7f42dfa677c66330779e2072a0f25003043d978e15830f207a6",
+    "change": "Only runtime import search path relocated to tracked vendor/flux_retry_runtime"
+  },
+  {
+    "original_path": "scripts/flux_adapted_inference.py",
+    "portable_path": "scripts/flux_adapted_inference.py",
+    "original_sha256": "23255dafd0d08817925b7a6eb78f42501303a1c324372dd9d1fc0eb64310007f",
+    "portable_sha256": "62affaa411c52e954729ac3c92ca110a492b54e9492b7ec0fe0cd9c41685ff4d",
+    "change": "Only runtime import search path relocated to tracked vendor/flux_retry_runtime"
+  }
+]

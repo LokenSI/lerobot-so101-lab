@@ -1,0 +1,61 @@
+{
+  "scope": "CPU toy algebra / mocked policy / RGB preprocessing only; no task-success evidence",
+  "model_inference_run_by_this_staging_step": false,
+  "training_result_included": false,
+  "files": [
+    {
+      "path": "adapted-loader-independent-cpu.json",
+      "sha256": "3fb64b8cec3e51946d9c85e3064b6e55d9224f5d312f5f9f2d51ae0a5e66466d",
+      "bytes": 1739
+    },
+    {
+      "path": "adapted-loader-independent-cpu-merged-v1.json",
+      "sha256": "93349b0e7052c053348acb0091b943af3d8be98a23241fa955b86ffd55dc5ad4",
+      "bytes": 1180
+    },
+    {
+      "path": "lora-independent-cpu.json",
+      "sha256": "5fc6b8e164335df3a89e19ddde09d96964acbeee9f95837e3d6a24f0fda9adf1",
+      "bytes": 1272
+    },
+    {
+      "path": "rgb-preprocessing-cpu-audit.json",
+      "sha256": "8cbf9af07d8b2453623403c743d02f973ca4f700e4a71e2fa0dc64ecffd63ea0",
+      "bytes": 762
+    },
+    {
+      "path": "current-residency-cpu-audit.json",
+      "sha256": "1f7d853231fccfe225f1cb9f2322b5e474a7e8026b41ec256a83b6697e6d782b",
+      "bytes": 1155
+    },
+    {
+      "path": "source-original/check_adapted_loader_cpu.py",
+      "sha256": "5cfa082accef620194bdf4a412a532ecb846d5221ff5187fff6260eb046350c2",
+      "bytes": 6238
+    },
+    {
+      "path": "source-original/check_adapted_loader_cpu_merged_v1.py",
+      "sha256": "3b1dce718f05db7b64cc1b50857752659e1f43ad6ba81e64d843b840343756ee",
+      "bytes": 4691
+    },
+    {
+      "path": "source-original/check_lora_independent_cpu.py",
+      "sha256": "c786b9e1f7fe8ad10988fe66d8e31c3298062e98346747d69010698e22d28c1f",
+      "bytes": 3828
+    },
+    {
+      "path": "source-original/check_rgb_preprocessing.py",
+      "sha256": "ab6ff573dd49dcf844bad664293433c4637c55ff3c3fc3c595086aa28a18d9fb",
+      "bytes": 2619
+    },
+    {
+      "path": "source-original/check_current_residency_cpu.py",
+      "sha256": "f6177dd57ba044a31ecea88b7469b1955a69f2b9b8b231916a170b017a884bbe",
+      "bytes": 3208
+    }
+  ],
+  "current_experimental_lora_source_sha256": "551436eca7106eb9d315bea6aecb311a8d3104bd12e2af402d9bf1e92369ac1a",
+  "reported_lora_source_matches_current_copy": false,
+  "proof_source_files_are_historical_root_layout": true,
+  "proof_sources_note": "Original checker lookup paths are preserved for provenance; tiny training-module checks use the archived experimental_lora helper, not a pretrained task execution."
+}

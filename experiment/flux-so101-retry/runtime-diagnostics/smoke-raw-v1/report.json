@@ -1,0 +1,1651 @@
+{
+  "status": "complete",
+  "phase": "finished",
+  "execution": "offline only",
+  "task_success_measured": false,
+  "prompt": "Grasp the red block and place it in the gray bin.",
+  "observation_sha256": "d633211cdc2115b13c22b47ef10cf85e13db6266f08b476ec77ba5b0d8aefe6d",
+  "offloaded_blocks": 41,
+  "resident_blocks": 12,
+  "allocated_bytes": 6408916992,
+  "loader": {
+    "model_revision": "2d6be04357eef9fb8c8468adbc69e9d0c7093bec",
+    "source_revision": "e2dd1d8dbc5977b54315d61f7548c63c043d6d4f",
+    "precision": "bfloat16 (original weights)",
+    "strategy": "staged text encoder, original BF16 transformer block offload",
+    "sampling_overrides": {},
+    "processor_overrides": {},
+    "resident_budget_bytes": 6442450944,
+    "sha256": {
+      "LICENSE.md": "100a3a5af8f1a2943dca0d127671bcaa93ad894a63330825219f1a0a44451f22",
+      "README.md": "2a0c9821d3ee2e18f3568d6c72b31af3d997a417da9a69f3002f84b8c32b36ec",
+      "config.json": "f10e9a66e1448e9b4d1a87508e538b30b8a4be0232493b7b39d90eae21a11186",
+      "dataset_statistics.json": "4e607d5fc1f9bbd457479244d80f70ca6c8fa4f09c9d1185fcc450b2a3e4b4ac",
+      "model.safetensors": "0f57664573dde660590060d81b2a0b336fc674f06e0494de9307e52f43b6fd01",
+      "policy_postprocessor.json": "becfefcda2c7116d31d83c8877b015d30dffaedbfce8fa2d854521b738b81d62",
+      "policy_postprocessor_step_0_flux3_action_history_unnormalizer.safetensors": "96a5f8de8c33db904ba2cfadeac7a4477f64bca1e0a5bba8da6f4ed576ff4331",
+      "policy_preprocessor.json": "4c6fb125252845fe64258ce4cfac8d6f29297be77d285abf862f0b894b55ae76",
+      "policy_preprocessor_step_3_flux3_observation_history_normalizer.safetensors": "fb0b16f0b7909cb2604c089e1fdda2caf34d7ea168574594a5f5cf673d326d97",
+      "policy_preprocessor_step_4_flux3_action_target_normalizer.safetensors": "96a5f8de8c33db904ba2cfadeac7a4477f64bca1e0a5bba8da6f4ed576ff4331"
+    },
+    "config": {
+      "action_dim": 6,
+      "action_modality": "action",
+      "camera_layout": "side_by_side",
+      "camera_keys": [
+        "images.scene",
+        "images.wrist"
+      ],
+      "canvas_hw": [
+        256,
+        512
+      ],
+      "chunk_size": 42,
+      "n_action_steps": 32,
+      "fps": 30.0,
+      "action_scale": 2.0,
+      "gripper_flip_dims": [],
+      "action_parameterization": "joint_delta",
+      "absolute_action_dims": [
+        5
+      ],
+      "action_normalization": {
+        "q01": [
+          -3.603515625,
+          -2.63671875,
+          -3.427734375,
+          -5.09765625,
+          -3.251953125,
+          -0.09560229629278183
+        ],
+        "q99": [
+          3.33984375,
+          4.130859375,
+          4.130859375,
+          5.44921875,
+          3.1640625,
+          54.16267776489258
+        ]
+      },
+      "state_normalization": {
+        "q01": [
+          -92.021484375,
+          84.814453125,
+          61.435546875,
+          -23.994140625,
+          -124.541015625,
+          0.4595588445663452
+        ],
+        "q99": [
+          54.140625,
+          184.21875,
+          178.857421875,
+          80.595703125,
+          60.205078125,
+          53.57535934448242
+        ]
+      },
+      "normalization_clip": 6.0,
+      "camera_dropout": {},
+      "trunk_weights": null,
+      "video_vae_id": "black-forest-labs/flux-3-action-base:video_vae.safetensors@62878e2925e59b7a89ec14463ce89932624c490d",
+      "text_encoder_id": "black-forest-labs/flux-3-action-base:text_encoder@62878e2925e59b7a89ec14463ce89932624c490d",
+      "dit_config": {},
+      "content_streams": [
+        "video",
+        "video_cond"
+      ],
+      "head_init_seed": 0,
+      "torch_dtype": "bfloat16",
+      "quantization": null,
+      "attn_mode": "torch",
+      "compile_model": false,
+      "single_frame_encode": true,
+      "inference_profile": "history",
+      "n_obs_steps": 8,
+      "history_snapshots": 2,
+      "condition_on_past_actions": true,
+      "video_position_fps": 24.0,
+      "text_fixed_length": 320,
+      "sampler": "euler",
+      "num_inference_steps": 4,
+      "guidance_scale": 3.0,
+      "guidance_scale_action": null,
+      "sampler_shift": 6.93,
+      "inference_seed": 42,
+      "train_timestep_width": 0.75,
+      "train_timestep_shift": 42.0,
+      "separate_timesteps": true,
+      "video_logit_mean": 1.08,
+      "video_logit_std": 1.0,
+      "conditioning_noise_max": 0.2,
+      "loss_reduction": "modalities",
+      "action_channel_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0
+      ],
+      "action_loss_weight": 0.5,
+      "video_loss_weight": 1.0,
+      "caption_dropout": 0.1,
+      "augment": true,
+      "vae_batch_windows": 8,
+      "optimizer_lr": 0.000192,
+      "optimizer_lr_heads_multiplier": 5.0
+    },
+    "runtime": {
+      "torch": "2.10.0+cu128",
+      "cuda": "12.8",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti"
+    },
+    "free_before_cuda_bytes": 15740174336,
+    "text_encoding_seconds": 44.14768048300175,
+    "peak_text_bytes": 9047628288,
+    "resident_blocks": [
+      "content_mode_blocks.action.0",
+      "content_mode_blocks.action.1",
+      "content_mode_blocks.action.2",
+      "content_mode_blocks.action.3",
+      "content_mode_blocks.action.4",
+      "content_mode_blocks.action_cond.0",
+      "content_mode_blocks.action_cond.1",
+      "content_mode_blocks.action_cond.2",
+      "content_mode_blocks.action_cond.3",
+      "content_mode_blocks.action_cond.4",
+      "content_mode_blocks.video.0",
+      "content_mode_blocks.video.1"
+    ],
+    "offloaded_blocks": [
+      "content_mode_blocks.video.2",
+      "content_mode_blocks.video.3",
+      "content_mode_blocks.video.4",
+      "content_mode_blocks.video_cond.0",
+      "content_mode_blocks.video_cond.1",
+      "content_mode_blocks.video_cond.2",
+      "content_mode_blocks.video_cond.3",
+      "content_mode_blocks.video_cond.4",
+      "txt_mode_blocks.0",
+      "txt_mode_blocks.1",
+      "txt_mode_blocks.2",
+      "txt_mode_blocks.3",
+      "txt_mode_blocks.4",
+      "single_blocks.0",
+      "single_blocks.1",
+      "single_blocks.2",
+      "single_blocks.3",
+      "single_blocks.4",
+      "single_blocks.5",
+      "single_blocks.6",
+      "single_blocks.7",
+      "single_blocks.8",
+      "single_blocks.9",
+      "single_blocks.10",
+      "single_blocks.11",
+      "single_blocks.12",
+      "single_blocks.13",
+      "single_blocks.14",
+      "single_blocks.15",
+      "single_blocks.16",
+      "single_blocks.17",
+      "single_blocks.18",
+      "single_blocks.19",
+      "single_blocks.20",
+      "single_blocks.21",
+      "single_blocks.22",
+      "single_blocks.23",
+      "single_blocks.24",
+      "single_blocks.25",
+      "single_blocks.26",
+      "single_blocks.27"
+    ],
+    "resident_weight_bytes": 6342149088,
+    "model_parameter_count": 6947071232,
+    "allocated_after_staging_bytes": 6408916992
+  },
+  "metrics": {
+    "inference_seconds": 78.17265557398787,
+    "peak_allocated_bytes": 7101794304,
+    "peak_reserved_bytes": 7365197824
+  },
+  "actions_shape": [
+    42,
+    6
+  ],
+  "actions_min": [
+    -0.06650280207395554,
+    -91.73917388916016,
+    87.77522277832031,
+    68.25041198730469,
+    -2.4856483936309814,
+    4.160506725311279
+  ],
+  "actions_max": [
+    2.3772928714752197,
+    -65.61603546142578,
+    114.08666229248047,
+    72.85365295410156,
+    0.12646640837192535,
+    18.65887451171875
+  ],
+  "actions_sha256": "890f408dc07b24e93cb935c29e9fa5b27202978700f59500aaf9ff9f15017684",
+  "gpu_samples": [
+    {
+      "elapsed_seconds": 0.048107086011441424,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 1.1569581360090524,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 2.206340820004698,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 2,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 3.256306378010777,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 4.30098961800104,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 5.346508189002634,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 6.3931394470128,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 7.424482100002933,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 2,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 8.455055135011207,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 9.491117316007148,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 10.52144456600945,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 11.552704052010085,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 12.580232910011546,
+      "used_mib": 897,
+      "free_mib": 15101,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 13.609395469000447,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 14.638821802000166,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 2,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 15.671058541003731,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 8,
+      "phase": "starting"
+    },
+    {
+      "elapsed_seconds": 16.702260491001653,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 2,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 17.744688023012714,
+      "used_mib": 910,
+      "free_mib": 15088,
+      "util_percent": 2,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 18.77157700600219,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 2,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 19.802575683002942,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 20.830104193009902,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 21.859049566002795,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 22.88641367800301,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 23.91696364300151,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 24.945492832004675,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 25.976665429014247,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 27.003460671010544,
+      "used_mib": 897,
+      "free_mib": 15101,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 28.03293180000037,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 29.059837895008968,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 30.09003320201009,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 31.11768489901442,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 32.14782037900295,
+      "used_mib": 897,
+      "free_mib": 15101,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 33.17771464100224,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 34.207848078003735,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 35.235933710006066,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 36.26634664401354,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 37.294018972010235,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 38.32414994999999,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 39.3516037940135,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 40.381203420009115,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 41.408086809009546,
+      "used_mib": 899,
+      "free_mib": 15099,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 42.43814489900251,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 43.46514379000291,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 44.49606937200588,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 45.52407550600765,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 46.55321421001281,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 47.579475838007056,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 48.608834224010934,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 49.63559473800706,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "hash_package"
+    },
+    {
+      "elapsed_seconds": 50.66707850000239,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 51.69916517600359,
+      "used_mib": 910,
+      "free_mib": 15088,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 52.74026641000819,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 53.7676658360142,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 54.79622127801122,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 55.82360712000809,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 56.852474773011636,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 57.87956719000067,
+      "used_mib": 905,
+      "free_mib": 15093,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 58.908345601012115,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 59.938043705013115,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 60.96828763600206,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 62.00237251500948,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 63.03365028000553,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 64.06111037700612,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 65.11883547200705,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 66.15144774100918,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 67.18397689200356,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 68.21793704401352,
+      "used_mib": 905,
+      "free_mib": 15093,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 69.26185921100841,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 70.29212748500868,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 71.33832443000574,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 72.38110860201414,
+      "used_mib": 907,
+      "free_mib": 15091,
+      "util_percent": 1,
+      "phase": "load_cpu_encoders"
+    },
+    {
+      "elapsed_seconds": 73.53259565601184,
+      "used_mib": 1178,
+      "free_mib": 14820,
+      "util_percent": 1,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 74.566686975013,
+      "used_mib": 1393,
+      "free_mib": 14605,
+      "util_percent": 2,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 75.60116075200494,
+      "used_mib": 1613,
+      "free_mib": 14385,
+      "util_percent": 1,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 76.6351193270093,
+      "used_mib": 1837,
+      "free_mib": 14161,
+      "util_percent": 2,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 77.66695557101048,
+      "used_mib": 2703,
+      "free_mib": 13295,
+      "util_percent": 1,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 78.70077852200484,
+      "used_mib": 2708,
+      "free_mib": 13290,
+      "util_percent": 1,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 79.73322972100868,
+      "used_mib": 2703,
+      "free_mib": 13295,
+      "util_percent": 2,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 80.7663673680072,
+      "used_mib": 2907,
+      "free_mib": 13091,
+      "util_percent": 2,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 81.80044091500167,
+      "used_mib": 3151,
+      "free_mib": 12847,
+      "util_percent": 5,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 82.83256084800814,
+      "used_mib": 3431,
+      "free_mib": 12567,
+      "util_percent": 6,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 83.87304003800091,
+      "used_mib": 3680,
+      "free_mib": 12318,
+      "util_percent": 5,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 84.90759276600147,
+      "used_mib": 3907,
+      "free_mib": 12091,
+      "util_percent": 11,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 85.9399066670012,
+      "used_mib": 4207,
+      "free_mib": 11791,
+      "util_percent": 11,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 86.97330083300767,
+      "used_mib": 4459,
+      "free_mib": 11539,
+      "util_percent": 10,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 88.00582875100372,
+      "used_mib": 4751,
+      "free_mib": 11247,
+      "util_percent": 9,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 89.03978482200182,
+      "used_mib": 4980,
+      "free_mib": 11018,
+      "util_percent": 9,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 90.07346034501097,
+      "used_mib": 5235,
+      "free_mib": 10763,
+      "util_percent": 10,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 91.10804433800513,
+      "used_mib": 5527,
+      "free_mib": 10471,
+      "util_percent": 9,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 92.14072914300777,
+      "used_mib": 5759,
+      "free_mib": 10239,
+      "util_percent": 11,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 93.17341079900507,
+      "used_mib": 6031,
+      "free_mib": 9967,
+      "util_percent": 11,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 94.20750901701103,
+      "used_mib": 6308,
+      "free_mib": 9690,
+      "util_percent": 8,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 95.24118914800056,
+      "used_mib": 6535,
+      "free_mib": 9463,
+      "util_percent": 11,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 96.45031550400017,
+      "used_mib": 6787,
+      "free_mib": 9211,
+      "util_percent": 8,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 97.47936270300124,
+      "used_mib": 7079,
+      "free_mib": 8919,
+      "util_percent": 8,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 98.50768551400688,
+      "used_mib": 7311,
+      "free_mib": 8687,
+      "util_percent": 9,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 99.54283786601445,
+      "used_mib": 7563,
+      "free_mib": 8435,
+      "util_percent": 9,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 100.57774500900996,
+      "used_mib": 7767,
+      "free_mib": 8231,
+      "util_percent": 10,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 101.64389572500659,
+      "used_mib": 8039,
+      "free_mib": 7959,
+      "util_percent": 8,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 102.67957962700166,
+      "used_mib": 8291,
+      "free_mib": 7707,
+      "util_percent": 10,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 103.71388428100909,
+      "used_mib": 8523,
+      "free_mib": 7475,
+      "util_percent": 11,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 104.74698930700833,
+      "used_mib": 8764,
+      "free_mib": 7234,
+      "util_percent": 9,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 105.77945301700674,
+      "used_mib": 9064,
+      "free_mib": 6934,
+      "util_percent": 11,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 106.81159677800315,
+      "used_mib": 9356,
+      "free_mib": 6642,
+      "util_percent": 12,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 107.84495885801152,
+      "used_mib": 9636,
+      "free_mib": 6362,
+      "util_percent": 12,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 108.87262681001448,
+      "used_mib": 9762,
+      "free_mib": 6236,
+      "util_percent": 2,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 109.9065437100071,
+      "used_mib": 9826,
+      "free_mib": 6172,
+      "util_percent": 7,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 110.96133335900959,
+      "used_mib": 9826,
+      "free_mib": 6172,
+      "util_percent": 6,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 111.99975919700228,
+      "used_mib": 9856,
+      "free_mib": 6142,
+      "util_percent": 7,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 113.03334097401239,
+      "used_mib": 9854,
+      "free_mib": 6144,
+      "util_percent": 7,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 114.06416134300525,
+      "used_mib": 5930,
+      "free_mib": 10068,
+      "util_percent": 38,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 115.09626060300798,
+      "used_mib": 9844,
+      "free_mib": 6154,
+      "util_percent": 21,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 116.12934372200107,
+      "used_mib": 9834,
+      "free_mib": 6164,
+      "util_percent": 8,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 117.16515224000614,
+      "used_mib": 9834,
+      "free_mib": 6164,
+      "util_percent": 6,
+      "phase": "preencode_text"
+    },
+    {
+      "elapsed_seconds": 118.19219812500523,
+      "used_mib": 3842,
+      "free_mib": 12156,
+      "util_percent": 2,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 119.22279254700697,
+      "used_mib": 4184,
+      "free_mib": 11814,
+      "util_percent": 2,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 120.24970209599996,
+      "used_mib": 4472,
+      "free_mib": 11526,
+      "util_percent": 2,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 121.29277182600345,
+      "used_mib": 4724,
+      "free_mib": 11274,
+      "util_percent": 5,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 122.3253304920072,
+      "used_mib": 5012,
+      "free_mib": 10986,
+      "util_percent": 5,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 123.35772080201423,
+      "used_mib": 5264,
+      "free_mib": 10734,
+      "util_percent": 6,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 124.39115881900943,
+      "used_mib": 5534,
+      "free_mib": 10464,
+      "util_percent": 9,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 125.42571753000084,
+      "used_mib": 5876,
+      "free_mib": 10122,
+      "util_percent": 15,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 126.45921389601426,
+      "used_mib": 6110,
+      "free_mib": 9888,
+      "util_percent": 15,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 127.49329347000457,
+      "used_mib": 6344,
+      "free_mib": 9654,
+      "util_percent": 8,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 128.5252241470007,
+      "used_mib": 6596,
+      "free_mib": 9402,
+      "util_percent": 9,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 129.5586335810076,
+      "used_mib": 6884,
+      "free_mib": 9114,
+      "util_percent": 9,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 130.5925546760118,
+      "used_mib": 7136,
+      "free_mib": 8862,
+      "util_percent": 12,
+      "phase": "stage_cuda_modules"
+    },
+    {
+      "elapsed_seconds": 131.62618216300325,
+      "used_mib": 7398,
+      "free_mib": 8600,
+      "util_percent": 10,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 132.65753605200734,
+      "used_mib": 7860,
+      "free_mib": 8138,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 133.68992036700365,
+      "used_mib": 7914,
+      "free_mib": 8084,
+      "util_percent": 1,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 134.72270214901073,
+      "used_mib": 7912,
+      "free_mib": 8086,
+      "util_percent": 1,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 135.75413151000976,
+      "used_mib": 7914,
+      "free_mib": 8084,
+      "util_percent": 1,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 136.78737261300557,
+      "used_mib": 7914,
+      "free_mib": 8084,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 137.81920876201184,
+      "used_mib": 7968,
+      "free_mib": 8030,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 138.85095594900486,
+      "used_mib": 7968,
+      "free_mib": 8030,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 139.8855079440109,
+      "used_mib": 7966,
+      "free_mib": 8032,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 140.92271355100092,
+      "used_mib": 7968,
+      "free_mib": 8030,
+      "util_percent": 6,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 141.9544687710004,
+      "used_mib": 7968,
+      "free_mib": 8030,
+      "util_percent": 5,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 142.9886392220069,
+      "used_mib": 7968,
+      "free_mib": 8030,
+      "util_percent": 5,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 144.02248001600674,
+      "used_mib": 7994,
+      "free_mib": 8004,
+      "util_percent": 9,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 145.0641695890081,
+      "used_mib": 7994,
+      "free_mib": 8004,
+      "util_percent": 8,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 146.10788070200942,
+      "used_mib": 7994,
+      "free_mib": 8004,
+      "util_percent": 10,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 147.13949199501076,
+      "used_mib": 8174,
+      "free_mib": 7824,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 148.18551205100084,
+      "used_mib": 8210,
+      "free_mib": 7788,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 149.2170067140105,
+      "used_mib": 8210,
+      "free_mib": 7788,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 150.24957073200494,
+      "used_mib": 8215,
+      "free_mib": 7783,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 151.28145015600603,
+      "used_mib": 8213,
+      "free_mib": 7785,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 152.31350869000016,
+      "used_mib": 8213,
+      "free_mib": 7785,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 153.3456727580051,
+      "used_mib": 8213,
+      "free_mib": 7785,
+      "util_percent": 4,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 154.37750540500565,
+      "used_mib": 8213,
+      "free_mib": 7785,
+      "util_percent": 5,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 155.4104133360088,
+      "used_mib": 8210,
+      "free_mib": 7788,
+      "util_percent": 5,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 156.44304789300077,
+      "used_mib": 8213,
+      "free_mib": 7785,
+      "util_percent": 5,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 157.474834602006,
+      "used_mib": 8213,
+      "free_mib": 7785,
+      "util_percent": 5,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 158.50742032501148,
+      "used_mib": 8213,
+      "free_mib": 7785,
+      "util_percent": 5,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 159.538926594003,
+      "used_mib": 8213,
+      "free_mib": 7785,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 160.5714667220018,
+      "used_mib": 8210,
+      "free_mib": 7788,
+      "util_percent": 1,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 161.61530148300517,
+      "used_mib": 8210,
+      "free_mib": 7788,
+      "util_percent": 9,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 162.66376920501352,
+      "used_mib": 8197,
+      "free_mib": 7801,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 163.69797659601318,
+      "used_mib": 8208,
+      "free_mib": 7790,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 164.73017244400398,
+      "used_mib": 8231,
+      "free_mib": 7767,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 165.7613516820129,
+      "used_mib": 8231,
+      "free_mib": 7767,
+      "util_percent": 6,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 166.7944865090103,
+      "used_mib": 8231,
+      "free_mib": 7767,
+      "util_percent": 6,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 167.8274380350049,
+      "used_mib": 8231,
+      "free_mib": 7767,
+      "util_percent": 6,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 168.86296090501128,
+      "used_mib": 8231,
+      "free_mib": 7767,
+      "util_percent": 6,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 169.90021815001091,
+      "used_mib": 8231,
+      "free_mib": 7767,
+      "util_percent": 1,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 170.93696305900812,
+      "used_mib": 8237,
+      "free_mib": 7761,
+      "util_percent": 3,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 171.97943287101225,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 3,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 173.04154839400144,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 174.09035903301265,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 2,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 175.12962956800766,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 1,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 176.16658270001062,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 9,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 177.8432449690008,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 30,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 178.87863680800365,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 8,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 179.91322040901287,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 7,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 180.95897741500812,
+      "used_mib": 8237,
+      "free_mib": 7761,
+      "util_percent": 5,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 181.98778777300322,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 5,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 183.02846090200183,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 7,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 184.05763303900312,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 15,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 185.0881985770102,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 24,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 186.15024204600195,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 12,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 187.2099131460127,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 24,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 188.32121476100292,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 26,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 189.42432750100852,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 28,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 190.4693413900095,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 27,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 191.50158204100444,
+      "used_mib": 8244,
+      "free_mib": 7754,
+      "util_percent": 25,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 192.537206109002,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 27,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 193.61466935501085,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 33,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 194.64167763700243,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 24,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 195.69777639400854,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 27,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 196.76083240400476,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 25,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 197.80820116201357,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 24,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 198.8819790960115,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 26,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 199.91175806500542,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 28,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 200.94262752801296,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 31,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 201.98462135701266,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 25,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 203.0185737790016,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 33,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 204.05333926800813,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 27,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 205.0865152690094,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 16,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 206.11990322600468,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 15,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 207.1619914130133,
+      "used_mib": 8244,
+      "free_mib": 7754,
+      "util_percent": 18,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 208.19257605800522,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 14,
+      "phase": "predict"
+    },
+    {
+      "elapsed_seconds": 209.26392580900574,
+      "used_mib": 8239,
+      "free_mib": 7759,
+      "util_percent": 13,
+      "phase": "predict"
+    }
+  ],
+  "wall_seconds": 209.7402054680133
+}

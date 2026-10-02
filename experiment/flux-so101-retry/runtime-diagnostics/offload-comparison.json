@@ -1,0 +1,28 @@
+{
+  "scope": "Offline unvalidated-calibration runtime diagnostic, no task execution",
+  "same_observation": true,
+  "same_prompt": true,
+  "same_model_and_processor_hashes": true,
+  "same_effective_contract_and_sampler": true,
+  "same_output_shape": true,
+  "bit_identical_float32_actions": true,
+  "max_absolute_action_difference": 0.0,
+  "baseline_prediction_seconds": 78.17265557398787,
+  "optimized_prediction_seconds": 16.85217983799521,
+  "prediction_speedup_ratio": 4.638726641033018,
+  "optimized_metrics": {
+    "inference_seconds": 16.85217983799521,
+    "peak_allocated_bytes": 13483016192,
+    "peak_reserved_bytes": 13698596864
+  },
+  "optimized_whole_device_peak_mib": 14280,
+  "optimized_resident_budget_gib": 12.0,
+  "baseline_report_sha256": "20c1d37ac44035a3ca09b1fac5fe2e6114d90a72e4b25393849f34990cb237f2",
+  "optimized_report_sha256": "0fd6ed1ea296e9a2d48d4d568bf34c1f003d3569152c1b04eb7ed84511dda6e6",
+  "source_sha256": {
+    "local_runtime.py": "0ab4da66163b1531eee07ce5af1ae7f3449f7c0a7bc60b031c4d97c56a15cf3d",
+    "local_runtime_fast.py": "76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb",
+    "smoke.py": "f180c218984682a41af0768c53cdadf23bce7983eb270dd3b45a71062303d0fa",
+    "smoke_fast.py": "47904a537d8f06ece0a81d7405c95b42241b3a9e64482d9691b433ea7b8a1da9"
+  }
+}

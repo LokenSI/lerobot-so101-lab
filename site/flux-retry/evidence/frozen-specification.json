@@ -1,0 +1,93 @@
+{
+  "frozen_before_outcomes": true,
+  "role": "Exploratory adapter development; not final benchmark",
+  "modes": [
+    "hosted_median",
+    "legacy_candidate"
+  ],
+  "seeds": [
+    910
+  ],
+  "chunks": 24,
+  "execute_per_chunk": 32,
+  "fps": 30,
+  "prompt": "Grasp the red block and place it in the gray bin",
+  "settling_hold_seconds": 1.5,
+  "resident_gib": 12.0,
+  "camera_render_pixels": [
+    320,
+    240
+  ],
+  "policy_camera_resize_pixels": [
+    256,
+    256
+  ],
+  "success_requires": "Existing strict lift/release/containment/rest grade PLUS bilateral jaw contact during >90mm world-Z lift",
+  "runner_sha256": "3d289f6eb75319289070172cf244a23b7934c4e3d208c7861120a52a77f0f7cd",
+  "runtime_helper_sha256": "76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb",
+  "baseline_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "source_revision": "e2dd1d8dbc5977b54315d61f7548c63c043d6d4f",
+  "model_revision": "2d6be04357eef9fb8c8468adbc69e9d0c7093bec",
+  "no_training": true,
+  "legacy_candidate_uncertainty": "Exact dataset motor homing/sign calibration unavailable; shoulder sign hypothesis retained",
+  "legacy_candidate_affine": {
+    "scale": [
+      1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      0,
+      90,
+      90,
+      0,
+      -2.789136,
+      0
+    ],
+    "geometric_source": "https://github.com/TheRobotStudio/SO-ARM100/tree/5f6d2b876a53a4872e405b991dd925556c9e38a4/Simulation/SO101",
+    "shoulder_sign_evidence": "https://github.com/huggingface/lerobot/blob/e004247ed42008ff309b606aa2bb7124a8ae7c41/lerobot/common/robot_devices/robots/feetech_calibration.py",
+    "status": "Geometry-supported hypothesis; dataset motor homing file missing"
+  },
+  "hosted_median": {
+    "state": {
+      "q01": [
+        -37.969,
+        -99.316,
+        -45.78,
+        22.987,
+        -68.712,
+        0.45
+      ],
+      "q99": [
+        35.288,
+        43.076,
+        90.308,
+        95.704,
+        17.753,
+        40.324
+      ]
+    },
+    "action": {
+      "q01": [
+        -1.652,
+        -3.235,
+        -3.147,
+        -2.198,
+        -1.708,
+        0.0
+      ],
+      "q99": [
+        1.701,
+        3.487,
+        3.307,
+        2.072,
+        1.699,
+        40.733
+      ]
+    }
+  },
+  "object_truth_inputs": "Reset/strict grading/diagnostics only; never passed to FLUX"
+}

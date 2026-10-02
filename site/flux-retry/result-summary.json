@@ -1,0 +1,32 @@
+{
+  "status": "Completed exploratory adapter comparison",
+  "successful": 0,
+  "completed": 2,
+  "planned": 2,
+  "episodes": [
+    {
+      "mode": "hosted_median",
+      "seed": 910,
+      "status": "FAIL",
+      "report": "evidence/hosted_median-seed-910-report.json",
+      "mean_inference_seconds": 4.649239819373179,
+      "first_inference_seconds": 17.300084932008758,
+      "median_inference_seconds": 4.099276784494577,
+      "prediction_count": 24
+    },
+    {
+      "mode": "legacy_candidate",
+      "seed": 910,
+      "status": "FAIL",
+      "report": "evidence/legacy_candidate-seed-910-report.json",
+      "mean_inference_seconds": 4.134651066541967,
+      "first_inference_seconds": 4.298146487999475,
+      "median_inference_seconds": 4.109226370004762,
+      "prediction_count": 24
+    }
+  ],
+  "source_specification_sha256": "e639c8323d8fc6a27a277e65ab3e671c4937432db211cea751ae8e2eba0c934d",
+  "builder_sha256": "f04f31b219a50030ef3fd80913d0f64b23f7a8b4de8997f7369930774fed2f0d",
+  "model_weights_included": false,
+  "published": false
+}

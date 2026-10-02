@@ -5,6 +5,8 @@ venv/
 # Original/reproduced experiment bundles live in release assets
 runs/*
 !runs/so101-stereo-v1/
+!runs/flux-so101-retry/
+models/
 datasets/
 downloads/
 # Python/editor/OS temporary files

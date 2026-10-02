@@ -21,3 +21,9 @@ At revision `d7da38e032da0e136d6de21c218dc616982a8cc9`, the public Space has no 
 MuJoCo, NumPy, Pillow, ImageIO, PyOpenGL, PyTorch and other installed dependencies retain their own upstream licenses. They are installed into local environments rather than redistributed in this source package. No external photos, logos, textures or screenshots from unrelated projects are included by the source packaging step. Scene imagery comes from the simulator and its attributed robot assets.
 
 Original presentation scripts use Segoe UI supplied by the Windows host; no Microsoft font files are bundled. The new overlay renderer can use the Linux installation's DejaVu Sans fallback. Font binaries remain part of the user's licensed operating-system/packages rather than this repository. License evidence for upstream inputs is separate from any license chosen for the experiment's own code.
+
+## FLUX 3 Action pretrained retry
+
+Original inference source is pinned to Black Forest Labs [flux-action e2dd1d8](https://github.com/black-forest-labs/flux-action/tree/e2dd1d8dbc5977b54315d61f7548c63c043d6d4f), with the exact [Apache-2.0 license](docs/licenses/FLUX-ACTION-APACHE-LICENSE.txt). Local placement/history helpers and runners are experiment code; upstream implementation is downloaded into ignored runtime/ during bootstrap.
+
+The [SO101 package](https://huggingface.co/black-forest-labs/flux-3-action-so101/tree/2d6be04357eef9fb8c8468adbc69e9d0c7093bec) uses the original [FLUX Kommunity License v1.0](docs/licenses/FLUX-SO101-KOMMUNITY-LICENSE.md). Its weights and shared encoders are not bundled or relicensed. The source lock preserves their revisions, model-package hashes and original license hash. Simulator application code continues to be fetched separately under the existing license-gap disclosure above.

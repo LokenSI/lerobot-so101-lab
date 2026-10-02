@@ -1,0 +1,233 @@
+{
+  "mode": "hosted_median",
+  "seed": 910,
+  "prompt": "Grasp the red block and place it in the gray bin",
+  "control": "FLUX 3 Action SO101 checkpoint",
+  "learned_policy": true,
+  "scripted_pickup": false,
+  "object_attachment": false,
+  "object_pose_writes_after_reset": false,
+  "physics_geometry": "Existing documented fixed-finger hull split",
+  "source_sha256": "3d289f6eb75319289070172cf244a23b7934c4e3d208c7861120a52a77f0f7cd",
+  "model_sha256": "7728cb097c29201aae12580087d4ee09a4f4c89a9200756e1fa5bd773ba260cf",
+  "calibration_status": "Published median-statistics adaptation",
+  "normalization": {
+    "state": {
+      "q01": [
+        -37.969,
+        -99.316,
+        -45.78,
+        22.987,
+        -68.712,
+        0.45
+      ],
+      "q99": [
+        35.288,
+        43.076,
+        90.308,
+        95.704,
+        17.753,
+        40.324
+      ]
+    },
+    "action": {
+      "q01": [
+        -1.652,
+        -3.235,
+        -3.147,
+        -2.198,
+        -1.708,
+        0.0
+      ],
+      "q99": [
+        1.701,
+        3.487,
+        3.307,
+        2.072,
+        1.699,
+        40.733
+      ]
+    }
+  },
+  "complete": true,
+  "success": false,
+  "grader": {
+    "success": false,
+    "lifted": false,
+    "inside_tray_for_1_5_s": false,
+    "released_for_1_5_s": true,
+    "stable": true,
+    "settle_position_spread_m": 0.0,
+    "settle_orientation_spread_deg": 0.0,
+    "settle_max_linear_speed_m_s": 7.025608828662059e-17,
+    "max_object_height_m": 0.014995627991030262,
+    "final_object_xyz_m": [
+      0.19320720952137474,
+      -0.0038181853568474335,
+      0.014995627991030262
+    ],
+    "grading_frames": 45
+  },
+  "bilateral_contact_lift_over_90mm_world_z": false,
+  "trajectory_sha256": "a33de25bd77ccb124010d5129ec3f0c892de6a8bea4ffcd2935272783e48ca02",
+  "max_cube_displacement_m": 3.86843335142828e-16,
+  "closest_tcp_to_cube_m": 0.032405704083558175,
+  "physics_ticks": 813,
+  "simulated_seconds": 27.1,
+  "clipped_commands": 0,
+  "max_clipping_joint_radians": 0.0,
+  "inference": [
+    {
+      "inference_seconds": 17.300084932008758,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13490978816,
+      "chunk": 0
+    },
+    {
+      "inference_seconds": 4.104378631003783,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 1
+    },
+    {
+      "inference_seconds": 4.097930420990451,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 2
+    },
+    {
+      "inference_seconds": 4.1350573130039265,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 3
+    },
+    {
+      "inference_seconds": 4.105343349991017,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 4
+    },
+    {
+      "inference_seconds": 4.119221104003373,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 5
+    },
+    {
+      "inference_seconds": 4.10555898900202,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 6
+    },
+    {
+      "inference_seconds": 4.093899299987243,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 7
+    },
+    {
+      "inference_seconds": 4.119295637996402,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 8
+    },
+    {
+      "inference_seconds": 4.088060437992681,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 9
+    },
+    {
+      "inference_seconds": 4.086057588996482,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 10
+    },
+    {
+      "inference_seconds": 4.091717515009805,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 11
+    },
+    {
+      "inference_seconds": 4.0931188609974924,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 12
+    },
+    {
+      "inference_seconds": 4.054694455990102,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 13
+    },
+    {
+      "inference_seconds": 4.076802461000625,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 14
+    },
+    {
+      "inference_seconds": 4.06892095200601,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 15
+    },
+    {
+      "inference_seconds": 4.087461515999166,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 16
+    },
+    {
+      "inference_seconds": 4.086463970001205,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 17
+    },
+    {
+      "inference_seconds": 4.099960731997271,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 18
+    },
+    {
+      "inference_seconds": 4.105156374003855,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 19
+    },
+    {
+      "inference_seconds": 4.142692074994557,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 20
+    },
+    {
+      "inference_seconds": 4.098592836991884,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 21
+    },
+    {
+      "inference_seconds": 4.107488958994509,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 22
+    },
+    {
+      "inference_seconds": 4.113797251993674,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 23
+    }
+  ],
+  "planned_settling_hold_seconds": 1.5,
+  "completed_settling_hold_ticks": 45,
+  "completed_settling_hold_seconds": 1.5,
+  "initial_cube_truth_m": [
+    0.19320720952137474,
+    -0.0038181853568474335,
+    0.014995627991029875
+  ]
+}

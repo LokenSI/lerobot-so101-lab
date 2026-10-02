@@ -1,0 +1,22 @@
+{
+  "scope": "CPU-only current helper mutation/checkpoint/save_on_cpu/zero-budget/_apply audit; actualCUDAplacement not tested",
+  "helper_sha256": "551436eca7106eb9d315bea6aecb311a8d3104bd12e2af402d9bf1e92369ac1a",
+  "mutation_guard": true,
+  "checkpoint_parameter_gradient_error": 0.0,
+  "checkpoint_input_gradient_error": 0.0,
+  "frozen_buffer_hash_unchanged": true,
+  "outer_to_preserves_frozen_base_buffer": true,
+  "zero_budget_metadata": {
+    "requested_budget_bytes": 0,
+    "resident_base_bytes": 0,
+    "resident_base_modules": [],
+    "placement": "Immutable frozen buffers moved once before graph creation; no migration hooks"
+  },
+  "review_notes": [
+    "ctx.weight directreference bypasses savedtensor CPU hooks for frozenweights only",
+    "Callplacement onlyafterencoder caching/release andbefore anytraining graph",
+    "BF16frozenbase required byplacement; FP32base underBF16autocast remains unsupported",
+    "Start8GiBresidentbudget conservative;10GiB requiresactualfullwindowpeak/globalfreeVRAM check",
+    "Do not mutatebuffers via.data or replace them whilegraph alive; versionguard onlycatchesordinaryinplace modifications"
+  ]
+}

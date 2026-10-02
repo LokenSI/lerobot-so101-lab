@@ -1,0 +1,233 @@
+{
+  "mode": "legacy_candidate",
+  "seed": 910,
+  "prompt": "Grasp the red block and place it in the gray bin",
+  "control": "FLUX 3 Action SO101 checkpoint",
+  "learned_policy": true,
+  "scripted_pickup": false,
+  "object_attachment": false,
+  "object_pose_writes_after_reset": false,
+  "physics_geometry": "Existing documented fixed-finger hull split",
+  "source_sha256": "3d289f6eb75319289070172cf244a23b7934c4e3d208c7861120a52a77f0f7cd",
+  "model_sha256": "99c75bf7c9ff73e685365c583f254b5f98a3e47e6370e256f77387498e57cc07",
+  "calibration_status": "Geometry-supported legacy coordinate hypothesis; dataset motor calibration not verified",
+  "normalization": {
+    "state": {
+      "q01": [
+        -92.021484375,
+        84.814453125,
+        61.435546875,
+        -23.994140625,
+        -124.541015625,
+        0.4595588445663452
+      ],
+      "q99": [
+        54.140625,
+        184.21875,
+        178.857421875,
+        80.595703125,
+        60.205078125,
+        53.57535934448242
+      ]
+    },
+    "action": {
+      "q01": [
+        -3.603515625,
+        -2.63671875,
+        -3.427734375,
+        -5.09765625,
+        -3.251953125,
+        -0.09560229629278183
+      ],
+      "q99": [
+        3.33984375,
+        4.130859375,
+        4.130859375,
+        5.44921875,
+        3.1640625,
+        54.16267776489258
+      ]
+    }
+  },
+  "complete": true,
+  "success": false,
+  "grader": {
+    "success": false,
+    "lifted": false,
+    "inside_tray_for_1_5_s": false,
+    "released_for_1_5_s": true,
+    "stable": true,
+    "settle_position_spread_m": 0.0,
+    "settle_orientation_spread_deg": 4.182619578303746e-06,
+    "settle_max_linear_speed_m_s": 3.5937646801141984e-16,
+    "max_object_height_m": 0.024699647305126995,
+    "final_object_xyz_m": [
+      0.19972298280321815,
+      0.00352293814206513,
+      0.014995627991030248
+    ],
+    "grading_frames": 45
+  },
+  "bilateral_contact_lift_over_90mm_world_z": false,
+  "trajectory_sha256": "f3dfb55f13ff4dd8750178c4416c6cad8a02bf5d02ab1f88c664e3d4d2f53978",
+  "max_cube_displacement_m": 0.024873860348429443,
+  "closest_tcp_to_cube_m": 0.023082829996986607,
+  "physics_ticks": 813,
+  "simulated_seconds": 27.1,
+  "clipped_commands": 400,
+  "max_clipping_joint_radians": 0.30771174543536595,
+  "inference": [
+    {
+      "inference_seconds": 4.298146487999475,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 0
+    },
+    {
+      "inference_seconds": 4.0755704549956135,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 1
+    },
+    {
+      "inference_seconds": 4.100182581008994,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 2
+    },
+    {
+      "inference_seconds": 4.205915707992972,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 3
+    },
+    {
+      "inference_seconds": 4.109437713006628,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 4
+    },
+    {
+      "inference_seconds": 4.115605019003851,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 5
+    },
+    {
+      "inference_seconds": 4.07470250899496,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 6
+    },
+    {
+      "inference_seconds": 4.080501782998908,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 7
+    },
+    {
+      "inference_seconds": 4.102582412000629,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 8
+    },
+    {
+      "inference_seconds": 4.096171444005449,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 9
+    },
+    {
+      "inference_seconds": 4.07763123899349,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 10
+    },
+    {
+      "inference_seconds": 4.10272993799299,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 11
+    },
+    {
+      "inference_seconds": 4.085085730999708,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 12
+    },
+    {
+      "inference_seconds": 4.105056621003314,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 13
+    },
+    {
+      "inference_seconds": 4.178959786993801,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 14
+    },
+    {
+      "inference_seconds": 4.169572581013199,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 15
+    },
+    {
+      "inference_seconds": 4.094840984995244,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 16
+    },
+    {
+      "inference_seconds": 4.109015027002897,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 17
+    },
+    {
+      "inference_seconds": 4.178441176001797,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 18
+    },
+    {
+      "inference_seconds": 4.184682987994165,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 19
+    },
+    {
+      "inference_seconds": 4.148199418996228,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 20
+    },
+    {
+      "inference_seconds": 4.11350935100927,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 21
+    },
+    {
+      "inference_seconds": 4.1810659039911116,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 22
+    },
+    {
+      "inference_seconds": 4.244018738012528,
+      "peak_allocated_bytes": 13448458240,
+      "peak_reserved_bytes": 13511950336,
+      "chunk": 23
+    }
+  ],
+  "planned_settling_hold_seconds": 1.5,
+  "completed_settling_hold_ticks": 45,
+  "completed_settling_hold_seconds": 1.5,
+  "initial_cube_truth_m": [
+    0.19320720952137474,
+    -0.0038181853568474335,
+    0.014995627991029875
+  ]
+}

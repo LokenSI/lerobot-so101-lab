@@ -4,13 +4,21 @@ A small, reproducible image-and-joint-state control experiment with official LeR
 
 The prior final assessment completed **2/5** starts. A later exploratory check completed **10/12** rollouts: three paired starts in four visual conditions, rather than twelve independent starts. These results use the same frozen checkpoint and strict grader; the later check does not replace the earlier assessment. All results are simulation. No physical SO-101 or Orin performance is claimed.
 
-ACT receives two actual 96×96 RGB observations and six joint values. It predicts sixteen absolute joint targets and executes eight before replanning. Amber overlays show forward kinematics of predicted joint targets; cyan shows observed TCP motion. The overlays replay saved states and update every eight simulated control ticks, rather than presenting a hardware feed or a validated future trajectory.
+ACT receives two actual 96Ã—96 RGB observations and six joint values. It predicts sixteen absolute joint targets and executes eight before replanning. Amber overlays show forward kinematics of predicted joint targets; cyan shows observed TCP motion. The overlays replay saved states and update every eight simulated control ticks, rather than presenting a hardware feed or a validated future trajectory.
 
 ## Calibrated virtual stereo follow-up
 
 The [stereo viewer](https://lokensi.github.io/lerobot-so101-lab/stereo/) adds a generic 60 mm stereo RGB pair and marked-object localization. A frozen scripted contact baseline passed **4/4** nominal/shifted trials. Two separate perception negatives rejected localization and stopped before grasp motion. Five calibration probes had a maximum 1.425 mm 3D localization error.
 
 This uses an initial RGB-derived XY estimate, fixed grasp height and a known tray location. It is separate from the learned ACT results above. The video shows actual stereo images, fresh measurements, observed TCP and scripted targets. Read the [method](docs/stereo-method.md), [frozen results](runs/so101-stereo-v1/report.json), [independent audit](runs/so101-stereo-v1/independent-verification.json) and [retained setup failure](experiment/stereo-setup-failure/execution.log). Full saved RGB/state trajectories are included in this checkout through Git LFS; the earlier tagged release remains the original ACT bundle.
+
+## FLUX 3 Action: local pretrained retry
+
+The [FLUX viewer](https://lokensi.github.io/lerobot-so101-lab/flux-retry/) preserves two complete development trials, including every failed action chunk. The original pretrained SO101 checkpoint ran locally on a 16 GB RTX 5070 Ti using BF16 CPU offload: **0/2 placements succeeded**. The first prediction took 17.3 seconds; subsequent predictions were typically about 4.1 seconds. The simulated 30 Hz footage pauses inference between chunks; this is not real-time AI control.
+
+One adapter uses the hosted demo's published median statistics. The other is a geometry-supported legacy calibration hypothesis with unknown dataset motor offsets; it clipped 400 commands and did not establish a valid calibration. No additional training was used for these two trials. FLUX receives scene/wrist RGB, measured joints, previous issued commands and a text instruction; object coordinates are reserved for reset and grading.
+
+Read the [method](docs/flux-so101-retry-method.md), [reproduction](docs/flux-so101-retry-reproduction.md), [frozen run](runs/flux-so101-retry/dev-v1/frozen-specification.json), [independent CPU audit](runs/flux-so101-retry/dev-v1/independent-cpu-audit.json), and [original source inventory](experiment/flux-so101-retry/source-inventory.json). All 48 input windows, 48 action arrays and both full trajectories are included, with large camera arrays and videos in Git LFS. The original 13.9 GB checkpoint and shared encoders are fetched separately from pinned upstream revisions. The prepared adaptation loader/runner is separate from this measured pretrained result and supplies no task-success claim.
 
 ## Read the evidence
 

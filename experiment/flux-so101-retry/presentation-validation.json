@@ -1,0 +1,81 @@
+{
+  "source_hash_checks": {
+    "runner_sha256": true,
+    "runtime_helper_sha256": true,
+    "baseline_sha256": true
+  },
+  "neural_model_revision": "2d6be04357eef9fb8c8468adbc69e9d0c7093bec",
+  "neural_model_sha256_from_verified_load": "0f57664573dde660590060d81b2a0b336fc674f06e0494de9307e52f43b6fd01",
+  "local_neural_weight_bytes": 13894196280,
+  "neural_weights_reread_for_this_presentation_audit": false,
+  "source_model_hash_field_is_scene_xml": true,
+  "episodes": [
+    {
+      "mode": "hosted_median",
+      "seed": 910,
+      "complete": true,
+      "success": false,
+      "reported_xml_hash_matches": true,
+      "trajectory_hash_matches": true,
+      "report_sha256": "327607b7664ca48efe4b48e88fcce263e1ae5e096e1dbd3dee102024e7d5bbfc",
+      "presentation_video_sha256": "f347b1abcba9110a59a75fff36b9623027e019857702c9cc82d123bab4b280c9",
+      "observed_tcp_fk_max_error_m": 5.841872868741823e-16,
+      "clip_count": 0,
+      "strict_grader": {
+        "success": false,
+        "lifted": false,
+        "inside_tray_for_1_5_s": false,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 0.0,
+        "settle_max_linear_speed_m_s": 7.025608828662059e-17,
+        "max_object_height_m": 0.014995627991030262,
+        "final_object_xyz_m": [
+          0.19320720952137474,
+          -0.0038181853568474335,
+          0.014995627991030262
+        ],
+        "grading_frames": 45
+      },
+      "bilateral_contact_lift": false
+    },
+    {
+      "mode": "legacy_candidate",
+      "seed": 910,
+      "complete": true,
+      "success": false,
+      "reported_xml_hash_matches": true,
+      "trajectory_hash_matches": true,
+      "report_sha256": "c4d37ad3052c3fe55de1aa4c4be3b89982f4c2973ea90dd4ee7a8f9233419519",
+      "presentation_video_sha256": "81f693c98081e44c464f7904a7bb48ef66957e9fb6fd6ef6eff731e062240b83",
+      "observed_tcp_fk_max_error_m": 5.60978567249119e-16,
+      "clip_count": 400,
+      "strict_grader": {
+        "success": false,
+        "lifted": false,
+        "inside_tray_for_1_5_s": false,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 4.182619578303746e-06,
+        "settle_max_linear_speed_m_s": 3.5937646801141984e-16,
+        "max_object_height_m": 0.024699647305126995,
+        "final_object_xyz_m": [
+          0.19972298280321815,
+          0.00352293814206513,
+          0.014995627991030248
+        ],
+        "grading_frames": 45
+      },
+      "bilateral_contact_lift": false
+    }
+  ],
+  "media": "CPU-only 1440x1080 composition of actual saved320x240RGB; 813frames/27.1seconds each; no GPU context",
+  "site_files": 20,
+  "local_site_links_passed": true,
+  "presentation_media_hashes_passed": true,
+  "visual_qa": "Native saved poster and first/middle/final contact sheets inspected; labels fit and accurate",
+  "social_drafts_included": false,
+  "published": false
+}

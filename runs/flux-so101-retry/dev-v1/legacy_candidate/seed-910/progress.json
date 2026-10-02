@@ -1,0 +1,26 @@
+{
+  "mode": "legacy_candidate",
+  "seed": 910,
+  "completed_chunks": 24,
+  "planned_chunks": 24,
+  "simulated_seconds": 25.6,
+  "last_inference_seconds": 4.244018738012528,
+  "grader_so_far": {
+    "success": false,
+    "lifted": false,
+    "inside_tray_for_1_5_s": false,
+    "released_for_1_5_s": true,
+    "stable": true,
+    "settle_position_spread_m": 0.0,
+    "settle_orientation_spread_deg": 4.182619578303746e-06,
+    "settle_max_linear_speed_m_s": 3.571578449836715e-16,
+    "max_object_height_m": 0.024699647305126995,
+    "final_object_xyz_m": [
+      0.19972298280321815,
+      0.00352293814206513,
+      0.014995627991030248
+    ],
+    "grading_frames": 45
+  },
+  "clipped_commands": 400
+}

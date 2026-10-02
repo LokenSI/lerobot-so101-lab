@@ -1,0 +1,5693 @@
+[
+  {
+    "tick": 0,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 1,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 2,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 3,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 4,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 5,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 6,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 7,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 8,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 9,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 10,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 11,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 12,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 13,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 14,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 15,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 16,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 17,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 18,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 19,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 20,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 21,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 22,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 23,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 24,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 25,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 26,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 27,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 28,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 29,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 30,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 31,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 32,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 33,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 34,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 35,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 36,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 37,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 38,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 39,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 40,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 41,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 42,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 43,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 44,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 45,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 46,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 47,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 48,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 49,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 50,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 51,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 52,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 53,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 54,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 55,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 56,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 57,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 58,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 59,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 60,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 61,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 62,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 63,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 64,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 65,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 66,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 67,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 68,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 69,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 70,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 71,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 72,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 73,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 74,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 75,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 76,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 77,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 78,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 79,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 80,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 81,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 82,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 83,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 84,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 85,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 86,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 87,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 88,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 89,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 90,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 91,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 92,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 93,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 94,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 95,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 96,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 97,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 98,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 99,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 100,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 101,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 102,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 103,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 104,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 105,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 106,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 107,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 108,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 109,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 110,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 111,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 112,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 113,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 114,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 115,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 116,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 117,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 118,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 119,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 120,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 121,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 122,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 123,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 124,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 125,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 126,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 127,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 128,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 129,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 130,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 131,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 132,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 133,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 134,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 135,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 136,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 137,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 138,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 139,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 140,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 141,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 142,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 143,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 144,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 145,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 146,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 147,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 148,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 149,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 150,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 151,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 152,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 153,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 154,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 155,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 156,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 157,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 158,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 159,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 160,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 161,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 162,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 163,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 164,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 165,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 166,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 167,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 168,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 169,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 170,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 171,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 172,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 173,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 174,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 175,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 176,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 177,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 178,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 179,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 180,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 181,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 182,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 183,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 184,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 185,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 186,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 187,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 188,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 189,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 190,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 191,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 192,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 193,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 194,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 195,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 196,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 197,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 198,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 199,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 200,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 201,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 202,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 203,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 204,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 205,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 206,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 207,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 208,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 209,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 210,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 211,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 212,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 213,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 214,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 215,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 216,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 217,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 218,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 219,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 220,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 221,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 222,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 223,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 224,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 225,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 226,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 227,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 228,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 229,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 230,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 231,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 232,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 233,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 234,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 235,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 236,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 237,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 238,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 239,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 240,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 241,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 242,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 243,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 244,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 245,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 246,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 247,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 248,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 249,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 250,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 251,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 252,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 253,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 254,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 255,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 256,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 257,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 258,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 259,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 260,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 261,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 262,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 263,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 264,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 265,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 266,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 267,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 268,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 269,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 270,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 271,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 272,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 273,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 274,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 275,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 276,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 277,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 278,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 279,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 280,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 281,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 282,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 283,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 284,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 285,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 286,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 287,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 288,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 289,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 290,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 291,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 292,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 293,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 294,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 295,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 296,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 297,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 298,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 299,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 300,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 301,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 302,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 303,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 304,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 305,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 306,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 307,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 308,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 309,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 310,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 311,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 312,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 313,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 314,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 315,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 316,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 317,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 318,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 319,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 320,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 321,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 322,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 323,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 324,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 325,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 326,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 327,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 328,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 329,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 330,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 331,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 332,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 333,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 334,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 335,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 336,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 337,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 338,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 339,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 340,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 341,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 342,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 343,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 344,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 345,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 346,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 347,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 348,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 349,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 350,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 351,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 352,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 353,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 354,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 355,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 356,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 357,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 358,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 359,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 360,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 361,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 362,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 363,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 364,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 365,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 366,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 367,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 368,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 369,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 370,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 371,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 372,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 373,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 374,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 375,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 376,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 377,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 378,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 379,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 380,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 381,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 382,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 383,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 384,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 385,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 386,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 387,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 388,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 389,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 390,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 391,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 392,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 393,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 394,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 395,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 396,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 397,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 398,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 399,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 400,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 401,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 402,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 403,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 404,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 405,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 406,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 407,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 408,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 409,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 410,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 411,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 412,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 413,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 414,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 415,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 416,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 417,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 418,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 419,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 420,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 421,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 422,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 423,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 424,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 425,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 426,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 427,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 428,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 429,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 430,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 431,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 432,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 433,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 434,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 435,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 436,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 437,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 438,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 439,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 440,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 441,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 442,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 443,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 444,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 445,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 446,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 447,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 448,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 449,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 450,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 451,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 452,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 453,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 454,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 455,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 456,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 457,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 458,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 459,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 460,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 461,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 462,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 463,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 464,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 465,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 466,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 467,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 468,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 469,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 470,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 471,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 472,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 473,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 474,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 475,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 476,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 477,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 478,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 479,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 480,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 481,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 482,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 483,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 484,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 485,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 486,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 487,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 488,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 489,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 490,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 491,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 492,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 493,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 494,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 495,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 496,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 497,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 498,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 499,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 500,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 501,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 502,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 503,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 504,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 505,
+    "cube_z_m": 0.014939826250169017,
+    "fixed_finger_peak_contact_force_n": 1.973703611956141,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 506,
+    "cube_z_m": 0.014829807339544856,
+    "fixed_finger_peak_contact_force_n": 6.926396237652939,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 507,
+    "cube_z_m": 0.01471008663147915,
+    "fixed_finger_peak_contact_force_n": 13.822561320668592,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 508,
+    "cube_z_m": 0.014682265861997253,
+    "fixed_finger_peak_contact_force_n": 16.57378013776167,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 509,
+    "cube_z_m": 0.01471504399582747,
+    "fixed_finger_peak_contact_force_n": 17.187335765606242,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 510,
+    "cube_z_m": 0.014734166398535324,
+    "fixed_finger_peak_contact_force_n": 18.044628737051507,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 511,
+    "cube_z_m": 0.014780536420826365,
+    "fixed_finger_peak_contact_force_n": 18.825499368948254,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 512,
+    "cube_z_m": 0.014793079088437171,
+    "fixed_finger_peak_contact_force_n": 19.37595336559953,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 513,
+    "cube_z_m": 0.01481835904513688,
+    "fixed_finger_peak_contact_force_n": 19.889799954822998,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 514,
+    "cube_z_m": 0.01487833460581586,
+    "fixed_finger_peak_contact_force_n": 19.369806464204512,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 515,
+    "cube_z_m": 0.014934811918725194,
+    "fixed_finger_peak_contact_force_n": 19.027356796971116,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 516,
+    "cube_z_m": 0.014898800834142571,
+    "fixed_finger_peak_contact_force_n": 19.318523910997254,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 517,
+    "cube_z_m": 0.014918534388887244,
+    "fixed_finger_peak_contact_force_n": 18.22779456879436,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 518,
+    "cube_z_m": 0.014782101161881249,
+    "fixed_finger_peak_contact_force_n": 18.442851925204966,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 519,
+    "cube_z_m": 0.01477480781834164,
+    "fixed_finger_peak_contact_force_n": 19.06836443179778,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 520,
+    "cube_z_m": 0.014790729878216438,
+    "fixed_finger_peak_contact_force_n": 18.53596328184343,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 521,
+    "cube_z_m": 0.014886225058780941,
+    "fixed_finger_peak_contact_force_n": 19.1210689588831,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 522,
+    "cube_z_m": 0.015091021798604765,
+    "fixed_finger_peak_contact_force_n": 22.769717717436812,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 523,
+    "cube_z_m": 0.01551980884376634,
+    "fixed_finger_peak_contact_force_n": 25.325409124609674,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 524,
+    "cube_z_m": 0.016229438265105478,
+    "fixed_finger_peak_contact_force_n": 27.12651215504329,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 525,
+    "cube_z_m": 0.016938900849946113,
+    "fixed_finger_peak_contact_force_n": 24.04427002432826,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 526,
+    "cube_z_m": 0.017882514130867843,
+    "fixed_finger_peak_contact_force_n": 26.157245550625063,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 527,
+    "cube_z_m": 0.01885329166318614,
+    "fixed_finger_peak_contact_force_n": 20.253480041561826,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 528,
+    "cube_z_m": 0.019772572368452302,
+    "fixed_finger_peak_contact_force_n": 16.768344534918974,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 529,
+    "cube_z_m": 0.02022055519135964,
+    "fixed_finger_peak_contact_force_n": 17.065539149554862,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 530,
+    "cube_z_m": 0.02062549475577184,
+    "fixed_finger_peak_contact_force_n": 14.544232505043981,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 531,
+    "cube_z_m": 0.02075219476308177,
+    "fixed_finger_peak_contact_force_n": 15.132070446845246,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 532,
+    "cube_z_m": 0.02074658903180806,
+    "fixed_finger_peak_contact_force_n": 16.220745410495546,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 533,
+    "cube_z_m": 0.020741452882535028,
+    "fixed_finger_peak_contact_force_n": 17.834690095128302,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 534,
+    "cube_z_m": 0.02069789891959351,
+    "fixed_finger_peak_contact_force_n": 16.100533526472205,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 535,
+    "cube_z_m": 0.02056627132791648,
+    "fixed_finger_peak_contact_force_n": 17.895731748607766,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 536,
+    "cube_z_m": 0.02044312646011738,
+    "fixed_finger_peak_contact_force_n": 16.924559010447233,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 537,
+    "cube_z_m": 0.020320013010834054,
+    "fixed_finger_peak_contact_force_n": 18.033103540105085,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 538,
+    "cube_z_m": 0.020267978170640917,
+    "fixed_finger_peak_contact_force_n": 16.1939278744404,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 539,
+    "cube_z_m": 0.02017453021246118,
+    "fixed_finger_peak_contact_force_n": 17.907947147331118,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 540,
+    "cube_z_m": 0.020268152680102115,
+    "fixed_finger_peak_contact_force_n": 16.10210749498879,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 541,
+    "cube_z_m": 0.020368660358758464,
+    "fixed_finger_peak_contact_force_n": 16.557708360367723,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 542,
+    "cube_z_m": 0.020696988807141978,
+    "fixed_finger_peak_contact_force_n": 14.324890509020166,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 543,
+    "cube_z_m": 0.021103688788272606,
+    "fixed_finger_peak_contact_force_n": 14.722491431192571,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 544,
+    "cube_z_m": 0.021557189277211255,
+    "fixed_finger_peak_contact_force_n": 12.70960611203302,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 545,
+    "cube_z_m": 0.021926855641938598,
+    "fixed_finger_peak_contact_force_n": 12.439860709871269,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 546,
+    "cube_z_m": 0.022347501771480035,
+    "fixed_finger_peak_contact_force_n": 12.136217897036454,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 547,
+    "cube_z_m": 0.02270559092141142,
+    "fixed_finger_peak_contact_force_n": 11.557960225279775,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 548,
+    "cube_z_m": 0.02289390598365554,
+    "fixed_finger_peak_contact_force_n": 13.102295974458155,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 549,
+    "cube_z_m": 0.023146821330251133,
+    "fixed_finger_peak_contact_force_n": 13.527544057091188,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 550,
+    "cube_z_m": 0.023413631863527806,
+    "fixed_finger_peak_contact_force_n": 14.002969108001508,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 551,
+    "cube_z_m": 0.023669999605504047,
+    "fixed_finger_peak_contact_force_n": 10.049635881491616,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 552,
+    "cube_z_m": 0.024699647305126995,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 553,
+    "cube_z_m": 0.02448848782963424,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 554,
+    "cube_z_m": 0.022977727416958124,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 555,
+    "cube_z_m": 0.021064333298773046,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 556,
+    "cube_z_m": 0.019294844059900174,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 557,
+    "cube_z_m": 0.015029217396591242,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 558,
+    "cube_z_m": 0.014958839564036246,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 559,
+    "cube_z_m": 0.01499523809086957,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 560,
+    "cube_z_m": 0.014995624183654568,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 561,
+    "cube_z_m": 0.014995627953850506,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 562,
+    "cube_z_m": 0.014995627990667186,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 563,
+    "cube_z_m": 0.014995627991026706,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 564,
+    "cube_z_m": 0.014995627991030215,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 565,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 566,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 567,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 568,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 569,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 570,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 571,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 572,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 573,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 574,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 575,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 576,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 577,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 578,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 579,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 580,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 581,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 582,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 583,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 584,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 585,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 586,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 587,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 588,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 589,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 590,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 591,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 592,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 593,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 594,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 595,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 596,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 597,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 598,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 599,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 600,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 601,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 602,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 603,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 604,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 605,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 606,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 607,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 608,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 609,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 610,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 611,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 612,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 613,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 614,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 615,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 616,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 617,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 618,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 619,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 620,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 621,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 622,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 623,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 624,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 625,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 626,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 627,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 628,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 629,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 630,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 631,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 632,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 633,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 634,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 635,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 636,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 637,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 638,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 639,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 640,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 641,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 642,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 643,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 644,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 645,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 646,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 647,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 648,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 649,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 650,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 651,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 652,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 653,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 654,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 655,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 656,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 657,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 658,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 659,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 660,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 661,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 662,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 663,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 664,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 665,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 666,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 667,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 668,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 669,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 670,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 671,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 672,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 673,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 674,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 675,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 676,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 677,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 678,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 679,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 680,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 681,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 682,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 683,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 684,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 685,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 686,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 687,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 688,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 689,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 690,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 691,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 692,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 693,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 694,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 695,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 696,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 697,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 698,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 699,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 700,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 701,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 702,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 703,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 704,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 705,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 706,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 707,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 708,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 709,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 710,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 711,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 712,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 713,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 714,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 715,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 716,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 717,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 718,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 719,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 720,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 721,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 722,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 723,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 724,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 725,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 726,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 727,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 728,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 729,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 730,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 731,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 732,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 733,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 734,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 735,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 736,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 737,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 738,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 739,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 740,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 741,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 742,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 743,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 744,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 745,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 746,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 747,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 748,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 749,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 750,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 751,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 752,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 753,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 754,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 755,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 756,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 757,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 758,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 759,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 760,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 761,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 762,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 763,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 764,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 765,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 766,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 767,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 768,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 769,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 770,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 771,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 772,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 773,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 774,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 775,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 776,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 777,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 778,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 779,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 780,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 781,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 782,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 783,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 784,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 785,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 786,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 787,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 788,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 789,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 790,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 791,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 792,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 793,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 794,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 795,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 796,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 797,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 798,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 799,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 800,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 801,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 802,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 803,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 804,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 805,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 806,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 807,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 808,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 809,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 810,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 811,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 812,
+    "cube_z_m": 0.014995627991030248,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  }
+]

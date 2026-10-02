@@ -1,0 +1,15 @@
+{
+  "run": "smoke-raw-v1",
+  "status": "complete",
+  "scope": "Offline runtime diagnostic only; raw simulator coordinates, no validated calibration adapter or robot execution",
+  "model_revision": "2d6be04357eef9fb8c8468adbc69e9d0c7093bec",
+  "source_revision": "e2dd1d8dbc5977b54315d61f7548c63c043d6d4f",
+  "files": {
+    "smoke.py": "f180c218984682a41af0768c53cdadf23bce7983eb270dd3b45a71062303d0fa",
+    "smoke-raw-v1/actions.npy": "890f408dc07b24e93cb935c29e9fa5b27202978700f59500aaf9ff9f15017684",
+    "local_runtime.py": "0ab4da66163b1531eee07ce5af1ae7f3449f7c0a7bc60b031c4d97c56a15cf3d",
+    "smoke-observation.json": "4265fd9f4c6d932cc2c20bfbef0437e23a58af5ae44d73885bc3c68a6c721c2f",
+    "smoke-raw-v1/report.json": "20c1d37ac44035a3ca09b1fac5fe2e6114d90a72e4b25393849f34990cb237f2",
+    "smoke-observation.npz": "d633211cdc2115b13c22b47ef10cf85e13db6266f08b476ec77ba5b0d8aefe6d"
+  }
+}
