@@ -1,0 +1,6 @@
+This FLUX Model is licensed by Black Forest Labs Inc. under the FLUX Kommunity License. Copyright Black Forest Labs Inc. IN NO EVENT SHALL BLACK FOREST LABS INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH USE OF THIS MODEL.
+
+
+Modification statement: The FLUX 3 Action SO101 model has been modified for this independent simulator experiment through rank-8/alpha-8 LoRA, trained robot action heads and train-only simulator-coordinate normalization. The original pretrained base weights remain unchanged and are downloaded separately. This derivative is not an official Black Forest Labs product and is not represented as endorsed, approved or validated by Black Forest Labs.
+
+Rights to use the FLUX Model and this derivative are granted directly by Black Forest Labs Inc. pursuant to the accompanying FLUX Kommunity License in LICENSE.md. The original license terms, disclaimers and limitations of liability apply. Repository code licensing does not replace the model/derivative terms.

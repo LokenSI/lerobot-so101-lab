@@ -1,0 +1,475 @@
+{
+  "complete": true,
+  "successful": 1,
+  "total_completed": 2,
+  "episodes": [
+    {
+      "mode": "native_cfg3",
+      "seed": 910,
+      "prompt": "Grasp the red block and place it in the gray bin.",
+      "control": "FLUX 3 Action SO101 checkpoint plus trained LoRA",
+      "learned_policy": true,
+      "scripted_pickup": false,
+      "object_attachment": false,
+      "object_pose_writes_after_reset": false,
+      "physics_geometry": "Existing documented fixed-finger hull split",
+      "source_sha256": "f004b20348cbe0943109ae124a8a99c195ef521c50ec23669dc1777d277937b5",
+      "mujoco_xml_sha256": "7728cb097c29201aae12580087d4ee09a4f4c89a9200756e1fa5bd773ba260cf",
+      "calibration_status": "Trained simulator-native coordinate adapter; identity five joint degrees and gripper percentage",
+      "guidance_scale": 3.0,
+      "normalization": {
+        "state": {
+          "q01": [
+            -1.131548523902893,
+            -91.12730407714844,
+            -18.181028366088867,
+            41.37699508666992,
+            0.3926128149032593,
+            2.815521001815796
+          ],
+          "q99": [
+            39.863800048828125,
+            -0.9912323951721191,
+            87.5820083618164,
+            80.61937713623047,
+            60.25354766845703,
+            45.00305938720703
+          ]
+        },
+        "action": {
+          "q01": [
+            -0.024452993646264076,
+            -2.909060478210449,
+            -1.4210658073425293,
+            -0.9627473950386047,
+            -0.023048363626003265,
+            0.0
+          ],
+          "q99": [
+            0.8476848602294922,
+            1.147369384765625,
+            1.9657326936721802,
+            1.2608871459960938,
+            0.9159727096557617,
+            45.0
+          ]
+        }
+      },
+      "complete": true,
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 0.0,
+        "settle_max_linear_speed_m_s": 1.1284924211052078e-15,
+        "max_object_height_m": 0.11448303943434582,
+        "final_object_xyz_m": [
+          0.2543205631463633,
+          -0.14436957735650371,
+          0.018995627991030262
+        ],
+        "grading_frames": 45
+      },
+      "bilateral_contact_lift_over_90mm_world_z": true,
+      "trajectory_sha256": "4e714de074d42d7c344ffcf8e5e2be69c902381aee8ebe51b66a27d793989122",
+      "max_cube_displacement_m": 0.16776930581081403,
+      "closest_tcp_to_cube_m": 0.0048026162177279485,
+      "physics_ticks": 813,
+      "simulated_seconds": 27.1,
+      "clipped_commands": 57,
+      "max_clipping_joint_radians": 0.03963394605669976,
+      "inference": [
+        {
+          "inference_seconds": 17.082563417003257,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 0
+        },
+        {
+          "inference_seconds": 4.580611666999175,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 1
+        },
+        {
+          "inference_seconds": 4.583044572995277,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 2
+        },
+        {
+          "inference_seconds": 4.581504239991773,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 3
+        },
+        {
+          "inference_seconds": 4.590671858997666,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 4
+        },
+        {
+          "inference_seconds": 4.573362844006624,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 5
+        },
+        {
+          "inference_seconds": 4.602352564994362,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 6
+        },
+        {
+          "inference_seconds": 4.65170826499525,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 7
+        },
+        {
+          "inference_seconds": 4.700773374992423,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 8
+        },
+        {
+          "inference_seconds": 4.760955245001242,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 9
+        },
+        {
+          "inference_seconds": 4.6540618110011565,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 10
+        },
+        {
+          "inference_seconds": 4.691885866996017,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 11
+        },
+        {
+          "inference_seconds": 4.621959518000949,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 12
+        },
+        {
+          "inference_seconds": 4.598699408001266,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 13
+        },
+        {
+          "inference_seconds": 4.558476865000557,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 14
+        },
+        {
+          "inference_seconds": 4.558727563009597,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 15
+        },
+        {
+          "inference_seconds": 4.56565241800854,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 16
+        },
+        {
+          "inference_seconds": 4.5927869959996315,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 17
+        },
+        {
+          "inference_seconds": 4.615946202000487,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 18
+        },
+        {
+          "inference_seconds": 4.595812544997898,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 19
+        },
+        {
+          "inference_seconds": 4.665795863998937,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 20
+        },
+        {
+          "inference_seconds": 4.586325040989323,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 21
+        },
+        {
+          "inference_seconds": 4.590370364996488,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 22
+        },
+        {
+          "inference_seconds": 4.601568799000233,
+          "peak_allocated_bytes": 13620928512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 23
+        }
+      ],
+      "planned_settling_hold_seconds": 1.5,
+      "completed_settling_hold_ticks": 45,
+      "completed_settling_hold_seconds": 1.5,
+      "initial_cube_truth_m": [
+        0.19320720952137474,
+        -0.0038181853568474335,
+        0.014995627991029875
+      ]
+    },
+    {
+      "mode": "native_cfg1",
+      "seed": 910,
+      "prompt": "Grasp the red block and place it in the gray bin.",
+      "control": "FLUX 3 Action SO101 checkpoint plus trained LoRA",
+      "learned_policy": true,
+      "scripted_pickup": false,
+      "object_attachment": false,
+      "object_pose_writes_after_reset": false,
+      "physics_geometry": "Existing documented fixed-finger hull split",
+      "source_sha256": "f004b20348cbe0943109ae124a8a99c195ef521c50ec23669dc1777d277937b5",
+      "mujoco_xml_sha256": "99c75bf7c9ff73e685365c583f254b5f98a3e47e6370e256f77387498e57cc07",
+      "calibration_status": "Trained simulator-native coordinate adapter; identity five joint degrees and gripper percentage",
+      "guidance_scale": 1.0,
+      "normalization": {
+        "state": {
+          "q01": [
+            -1.131548523902893,
+            -91.12730407714844,
+            -18.181028366088867,
+            41.37699508666992,
+            0.3926128149032593,
+            2.815521001815796
+          ],
+          "q99": [
+            39.863800048828125,
+            -0.9912323951721191,
+            87.5820083618164,
+            80.61937713623047,
+            60.25354766845703,
+            45.00305938720703
+          ]
+        },
+        "action": {
+          "q01": [
+            -0.024452993646264076,
+            -2.909060478210449,
+            -1.4210658073425293,
+            -0.9627473950386047,
+            -0.023048363626003265,
+            0.0
+          ],
+          "q99": [
+            0.8476848602294922,
+            1.147369384765625,
+            1.9657326936721802,
+            1.2608871459960938,
+            0.9159727096557617,
+            45.0
+          ]
+        }
+      },
+      "complete": true,
+      "success": false,
+      "grader": {
+        "success": false,
+        "lifted": false,
+        "inside_tray_for_1_5_s": false,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 1.5265566588595902e-15,
+        "settle_orientation_spread_deg": 0.0,
+        "settle_max_linear_speed_m_s": 9.976047836781839e-16,
+        "max_object_height_m": 0.022363166071789637,
+        "final_object_xyz_m": [
+          0.18899121583750844,
+          0.013889058712413709,
+          0.014995627991030264
+        ],
+        "grading_frames": 45
+      },
+      "bilateral_contact_lift_over_90mm_world_z": false,
+      "trajectory_sha256": "2e7cf8fa2bb462d12af448c82826f05252ae48bf561c15a73cfb40e7a578ae36",
+      "max_cube_displacement_m": 0.018876482253583675,
+      "closest_tcp_to_cube_m": 0.0310396726381815,
+      "physics_ticks": 813,
+      "simulated_seconds": 27.1,
+      "clipped_commands": 1,
+      "max_clipping_joint_radians": 0.0029254630152583116,
+      "inference": [
+        {
+          "inference_seconds": 2.4362354040058563,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 0
+        },
+        {
+          "inference_seconds": 2.322844823997002,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 1
+        },
+        {
+          "inference_seconds": 2.3229396189999534,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 2
+        },
+        {
+          "inference_seconds": 2.332530613988638,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 3
+        },
+        {
+          "inference_seconds": 2.31861852799193,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 4
+        },
+        {
+          "inference_seconds": 2.3121346260013524,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 5
+        },
+        {
+          "inference_seconds": 2.311940603001858,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 6
+        },
+        {
+          "inference_seconds": 2.3268002279946813,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 7
+        },
+        {
+          "inference_seconds": 2.304081631998997,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 8
+        },
+        {
+          "inference_seconds": 2.311453906004317,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 9
+        },
+        {
+          "inference_seconds": 2.3104624950065045,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 10
+        },
+        {
+          "inference_seconds": 2.3334594540065154,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 11
+        },
+        {
+          "inference_seconds": 2.299460980008007,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 12
+        },
+        {
+          "inference_seconds": 2.3290881589928176,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 13
+        },
+        {
+          "inference_seconds": 2.3141778119897936,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 14
+        },
+        {
+          "inference_seconds": 2.2957348890049616,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 15
+        },
+        {
+          "inference_seconds": 2.318567403999623,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 16
+        },
+        {
+          "inference_seconds": 2.3010241180018056,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 17
+        },
+        {
+          "inference_seconds": 2.310027847997844,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 18
+        },
+        {
+          "inference_seconds": 2.321002941011102,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 19
+        },
+        {
+          "inference_seconds": 2.317286694989889,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 20
+        },
+        {
+          "inference_seconds": 2.3170592749956995,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 21
+        },
+        {
+          "inference_seconds": 2.2991813979897415,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 22
+        },
+        {
+          "inference_seconds": 2.326973764997092,
+          "peak_allocated_bytes": 13620608512,
+          "peak_reserved_bytes": 13709082624,
+          "chunk": 23
+        }
+      ],
+      "planned_settling_hold_seconds": 1.5,
+      "completed_settling_hold_ticks": 45,
+      "completed_settling_hold_seconds": 1.5,
+      "initial_cube_truth_m": [
+        0.19320720952137474,
+        -0.0038181853568474335,
+        0.014995627991029875
+      ]
+    }
+  ]
+}

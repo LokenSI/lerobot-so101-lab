@@ -5,9 +5,11 @@ venv/
 # Original/reproduced experiment bundles live in release assets
 runs/*
 !runs/so101-stereo-v1/
+!runs/so101-teaser-dataset/
 !runs/flux-so101-retry/
 models/
-datasets/
+datasets/*
+!datasets/flux-so101-native-v1/
 downloads/
 # Python/editor/OS temporary files
 __pycache__/

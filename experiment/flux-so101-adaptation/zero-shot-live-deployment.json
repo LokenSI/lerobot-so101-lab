@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/LokenSI/lerobot-so101-lab",
+  "commit": "fe78d582f753859e06dadab6326b1985d857ed75",
+  "workflow_run": 37025251909,
+  "workflow_conclusion": "success",
+  "url": "https://lokensi.github.io/lerobot-so101-lab/flux-retry/",
+  "http_status": 200,
+  "videos": [
+    {
+      "name": "hosted_median-seed-910",
+      "status": 200,
+      "bytes": 19983241
+    },
+    {
+      "name": "legacy_candidate-seed-910",
+      "status": 200,
+      "bytes": 19768007
+    }
+  ],
+  "scope": "Verified public zero-shot evidence snapshot; no trained robot success in this snapshot",
+  "note": "The original result-summary published=false field reflects its pre-publication generation state; this separate deployment record confirms actual publication without altering measured artifacts."
+}

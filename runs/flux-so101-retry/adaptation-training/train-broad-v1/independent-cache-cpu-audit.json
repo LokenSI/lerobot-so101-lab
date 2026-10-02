@@ -1,0 +1,2486 @@
+{
+  "scope": "CPU-only numeric/provenance/cache audit; no originalmodel/encoder loaded, GPUoperations or latentdecode",
+  "checker_sha256": "00b0c445134bf1e9e39122ef74b605fbeaeec0f3412a7212697e22a9db797bc1",
+  "checks": {
+    "split_disjoint_complete": {
+      "passed": true
+    },
+    "validation_excluded_statistics": {
+      "passed": true
+    },
+    "statistics_config_identical": {
+      "passed": true
+    },
+    "model_pinned_hash_recorded": {
+      "passed": true
+    },
+    "frozen_training_source_train_broad.py": {
+      "passed": true
+    },
+    "frozen_training_source_experimental_lora.py": {
+      "passed": true
+    },
+    "native_seed0_hash": {
+      "passed": true
+    },
+    "seed0_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed0_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed0_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed0_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed0_numeric_finite": {
+      "passed": true
+    },
+    "seed0_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "native_seed1_hash": {
+      "passed": true
+    },
+    "seed1_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed1_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed1_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed1_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed1_numeric_finite": {
+      "passed": true
+    },
+    "seed1_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed1_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed2_hash": {
+      "passed": true
+    },
+    "seed2_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed2_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed2_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed2_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed2_numeric_finite": {
+      "passed": true
+    },
+    "seed2_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed2_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed3_hash": {
+      "passed": true
+    },
+    "seed3_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed3_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed3_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed3_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed3_numeric_finite": {
+      "passed": true
+    },
+    "seed3_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed3_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed4_hash": {
+      "passed": true
+    },
+    "seed4_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed4_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed4_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed4_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed4_numeric_finite": {
+      "passed": true
+    },
+    "seed4_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed4_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed5_hash": {
+      "passed": true
+    },
+    "seed5_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed5_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed5_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed5_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed5_numeric_finite": {
+      "passed": true
+    },
+    "seed5_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed5_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed6_hash": {
+      "passed": true
+    },
+    "seed6_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed6_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed6_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed6_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed6_numeric_finite": {
+      "passed": true
+    },
+    "seed6_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed6_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed7_hash": {
+      "passed": true
+    },
+    "seed7_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed7_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed7_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed7_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed7_numeric_finite": {
+      "passed": true
+    },
+    "seed7_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "native_seed8_hash": {
+      "passed": true
+    },
+    "seed8_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed8_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed8_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed8_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed8_numeric_finite": {
+      "passed": true
+    },
+    "seed8_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed8_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed9_hash": {
+      "passed": true
+    },
+    "seed9_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed9_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed9_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed9_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed9_numeric_finite": {
+      "passed": true
+    },
+    "seed9_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed9_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed10_hash": {
+      "passed": true
+    },
+    "seed10_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed10_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed10_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed10_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed10_numeric_finite": {
+      "passed": true
+    },
+    "seed10_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed10_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed11_hash": {
+      "passed": true
+    },
+    "seed11_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed11_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed11_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed11_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed11_numeric_finite": {
+      "passed": true
+    },
+    "seed11_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed11_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed12_hash": {
+      "passed": true
+    },
+    "seed12_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed12_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed12_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed12_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed12_numeric_finite": {
+      "passed": true
+    },
+    "seed12_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed12_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed13_hash": {
+      "passed": true
+    },
+    "seed13_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed13_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed13_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed13_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed13_numeric_finite": {
+      "passed": true
+    },
+    "seed13_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed13_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed14_hash": {
+      "passed": true
+    },
+    "seed14_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed14_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed14_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed14_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed14_numeric_finite": {
+      "passed": true
+    },
+    "seed14_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "native_seed15_hash": {
+      "passed": true
+    },
+    "seed15_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed15_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed15_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed15_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed15_numeric_finite": {
+      "passed": true
+    },
+    "seed15_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed15_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed16_hash": {
+      "passed": true
+    },
+    "seed16_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed16_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed16_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed16_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed16_numeric_finite": {
+      "passed": true
+    },
+    "seed16_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed16_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed17_hash": {
+      "passed": true
+    },
+    "seed17_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed17_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed17_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed17_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed17_numeric_finite": {
+      "passed": true
+    },
+    "seed17_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed17_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed18_hash": {
+      "passed": true
+    },
+    "seed18_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed18_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed18_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed18_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed18_numeric_finite": {
+      "passed": true
+    },
+    "seed18_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed18_normalization_source_hash": {
+      "passed": true
+    },
+    "native_seed19_hash": {
+      "passed": true
+    },
+    "seed19_images_scene.npy_header": {
+      "passed": true
+    },
+    "seed19_images_wrist.npy_header": {
+      "passed": true
+    },
+    "seed19_native_measured_state_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed19_native_issued_command_units": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-06
+    },
+    "seed19_numeric_finite": {
+      "passed": true
+    },
+    "seed19_30hz_time": {
+      "passed": true,
+      "max_error": 3.031602746617068e-14,
+      "tolerance": 1e-10
+    },
+    "seed19_normalization_source_hash": {
+      "passed": true
+    },
+    "train_only_state_q01": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-12
+    },
+    "train_only_state_q99": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-12
+    },
+    "train_only_action_q01": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-12
+    },
+    "train_only_action_q99": {
+      "passed": true,
+      "max_error": 0.0,
+      "tolerance": 1e-12
+    },
+    "cached_window_counts": {
+      "passed": true
+    },
+    "cache_train_1_8_shapes": {
+      "passed": true
+    },
+    "cache_train_1_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_40_shapes": {
+      "passed": true
+    },
+    "cache_train_1_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_72_shapes": {
+      "passed": true
+    },
+    "cache_train_1_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_104_shapes": {
+      "passed": true
+    },
+    "cache_train_1_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_136_shapes": {
+      "passed": true
+    },
+    "cache_train_1_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_168_shapes": {
+      "passed": true
+    },
+    "cache_train_1_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_200_shapes": {
+      "passed": true
+    },
+    "cache_train_1_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_232_shapes": {
+      "passed": true
+    },
+    "cache_train_1_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_264_shapes": {
+      "passed": true
+    },
+    "cache_train_1_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_296_shapes": {
+      "passed": true
+    },
+    "cache_train_1_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_328_shapes": {
+      "passed": true
+    },
+    "cache_train_1_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_360_shapes": {
+      "passed": true
+    },
+    "cache_train_1_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_392_shapes": {
+      "passed": true
+    },
+    "cache_train_1_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_424_shapes": {
+      "passed": true
+    },
+    "cache_train_1_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_1_456_shapes": {
+      "passed": true
+    },
+    "cache_train_1_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_8_shapes": {
+      "passed": true
+    },
+    "cache_train_2_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_40_shapes": {
+      "passed": true
+    },
+    "cache_train_2_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_72_shapes": {
+      "passed": true
+    },
+    "cache_train_2_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_104_shapes": {
+      "passed": true
+    },
+    "cache_train_2_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_136_shapes": {
+      "passed": true
+    },
+    "cache_train_2_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_168_shapes": {
+      "passed": true
+    },
+    "cache_train_2_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_200_shapes": {
+      "passed": true
+    },
+    "cache_train_2_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_232_shapes": {
+      "passed": true
+    },
+    "cache_train_2_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_264_shapes": {
+      "passed": true
+    },
+    "cache_train_2_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_296_shapes": {
+      "passed": true
+    },
+    "cache_train_2_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_328_shapes": {
+      "passed": true
+    },
+    "cache_train_2_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_360_shapes": {
+      "passed": true
+    },
+    "cache_train_2_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_392_shapes": {
+      "passed": true
+    },
+    "cache_train_2_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_424_shapes": {
+      "passed": true
+    },
+    "cache_train_2_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_2_456_shapes": {
+      "passed": true
+    },
+    "cache_train_2_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_8_shapes": {
+      "passed": true
+    },
+    "cache_train_3_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_40_shapes": {
+      "passed": true
+    },
+    "cache_train_3_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_72_shapes": {
+      "passed": true
+    },
+    "cache_train_3_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_104_shapes": {
+      "passed": true
+    },
+    "cache_train_3_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_136_shapes": {
+      "passed": true
+    },
+    "cache_train_3_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_168_shapes": {
+      "passed": true
+    },
+    "cache_train_3_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_200_shapes": {
+      "passed": true
+    },
+    "cache_train_3_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_232_shapes": {
+      "passed": true
+    },
+    "cache_train_3_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_264_shapes": {
+      "passed": true
+    },
+    "cache_train_3_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_296_shapes": {
+      "passed": true
+    },
+    "cache_train_3_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_328_shapes": {
+      "passed": true
+    },
+    "cache_train_3_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_360_shapes": {
+      "passed": true
+    },
+    "cache_train_3_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_392_shapes": {
+      "passed": true
+    },
+    "cache_train_3_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_424_shapes": {
+      "passed": true
+    },
+    "cache_train_3_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_3_456_shapes": {
+      "passed": true
+    },
+    "cache_train_3_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_8_shapes": {
+      "passed": true
+    },
+    "cache_train_4_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_40_shapes": {
+      "passed": true
+    },
+    "cache_train_4_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_72_shapes": {
+      "passed": true
+    },
+    "cache_train_4_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_104_shapes": {
+      "passed": true
+    },
+    "cache_train_4_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_136_shapes": {
+      "passed": true
+    },
+    "cache_train_4_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_168_shapes": {
+      "passed": true
+    },
+    "cache_train_4_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_200_shapes": {
+      "passed": true
+    },
+    "cache_train_4_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_232_shapes": {
+      "passed": true
+    },
+    "cache_train_4_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_264_shapes": {
+      "passed": true
+    },
+    "cache_train_4_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_296_shapes": {
+      "passed": true
+    },
+    "cache_train_4_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_328_shapes": {
+      "passed": true
+    },
+    "cache_train_4_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_360_shapes": {
+      "passed": true
+    },
+    "cache_train_4_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_392_shapes": {
+      "passed": true
+    },
+    "cache_train_4_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_424_shapes": {
+      "passed": true
+    },
+    "cache_train_4_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_4_456_shapes": {
+      "passed": true
+    },
+    "cache_train_4_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_8_shapes": {
+      "passed": true
+    },
+    "cache_train_5_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_40_shapes": {
+      "passed": true
+    },
+    "cache_train_5_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_72_shapes": {
+      "passed": true
+    },
+    "cache_train_5_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_104_shapes": {
+      "passed": true
+    },
+    "cache_train_5_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_136_shapes": {
+      "passed": true
+    },
+    "cache_train_5_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_168_shapes": {
+      "passed": true
+    },
+    "cache_train_5_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_200_shapes": {
+      "passed": true
+    },
+    "cache_train_5_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_232_shapes": {
+      "passed": true
+    },
+    "cache_train_5_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_264_shapes": {
+      "passed": true
+    },
+    "cache_train_5_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_296_shapes": {
+      "passed": true
+    },
+    "cache_train_5_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_328_shapes": {
+      "passed": true
+    },
+    "cache_train_5_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_360_shapes": {
+      "passed": true
+    },
+    "cache_train_5_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_392_shapes": {
+      "passed": true
+    },
+    "cache_train_5_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_424_shapes": {
+      "passed": true
+    },
+    "cache_train_5_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_5_456_shapes": {
+      "passed": true
+    },
+    "cache_train_5_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_8_shapes": {
+      "passed": true
+    },
+    "cache_train_6_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_40_shapes": {
+      "passed": true
+    },
+    "cache_train_6_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_72_shapes": {
+      "passed": true
+    },
+    "cache_train_6_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_104_shapes": {
+      "passed": true
+    },
+    "cache_train_6_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_136_shapes": {
+      "passed": true
+    },
+    "cache_train_6_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_168_shapes": {
+      "passed": true
+    },
+    "cache_train_6_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_200_shapes": {
+      "passed": true
+    },
+    "cache_train_6_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_232_shapes": {
+      "passed": true
+    },
+    "cache_train_6_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_264_shapes": {
+      "passed": true
+    },
+    "cache_train_6_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_296_shapes": {
+      "passed": true
+    },
+    "cache_train_6_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_328_shapes": {
+      "passed": true
+    },
+    "cache_train_6_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_360_shapes": {
+      "passed": true
+    },
+    "cache_train_6_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_392_shapes": {
+      "passed": true
+    },
+    "cache_train_6_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_424_shapes": {
+      "passed": true
+    },
+    "cache_train_6_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_6_456_shapes": {
+      "passed": true
+    },
+    "cache_train_6_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_8_shapes": {
+      "passed": true
+    },
+    "cache_train_8_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_40_shapes": {
+      "passed": true
+    },
+    "cache_train_8_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_72_shapes": {
+      "passed": true
+    },
+    "cache_train_8_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_104_shapes": {
+      "passed": true
+    },
+    "cache_train_8_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_136_shapes": {
+      "passed": true
+    },
+    "cache_train_8_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_168_shapes": {
+      "passed": true
+    },
+    "cache_train_8_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_200_shapes": {
+      "passed": true
+    },
+    "cache_train_8_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_232_shapes": {
+      "passed": true
+    },
+    "cache_train_8_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_264_shapes": {
+      "passed": true
+    },
+    "cache_train_8_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_296_shapes": {
+      "passed": true
+    },
+    "cache_train_8_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_328_shapes": {
+      "passed": true
+    },
+    "cache_train_8_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_360_shapes": {
+      "passed": true
+    },
+    "cache_train_8_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_392_shapes": {
+      "passed": true
+    },
+    "cache_train_8_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_424_shapes": {
+      "passed": true
+    },
+    "cache_train_8_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_8_456_shapes": {
+      "passed": true
+    },
+    "cache_train_8_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_8_shapes": {
+      "passed": true
+    },
+    "cache_train_9_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_40_shapes": {
+      "passed": true
+    },
+    "cache_train_9_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_72_shapes": {
+      "passed": true
+    },
+    "cache_train_9_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_104_shapes": {
+      "passed": true
+    },
+    "cache_train_9_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_136_shapes": {
+      "passed": true
+    },
+    "cache_train_9_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_168_shapes": {
+      "passed": true
+    },
+    "cache_train_9_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_200_shapes": {
+      "passed": true
+    },
+    "cache_train_9_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_232_shapes": {
+      "passed": true
+    },
+    "cache_train_9_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_264_shapes": {
+      "passed": true
+    },
+    "cache_train_9_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_296_shapes": {
+      "passed": true
+    },
+    "cache_train_9_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_328_shapes": {
+      "passed": true
+    },
+    "cache_train_9_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_360_shapes": {
+      "passed": true
+    },
+    "cache_train_9_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_392_shapes": {
+      "passed": true
+    },
+    "cache_train_9_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_424_shapes": {
+      "passed": true
+    },
+    "cache_train_9_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_9_456_shapes": {
+      "passed": true
+    },
+    "cache_train_9_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_8_shapes": {
+      "passed": true
+    },
+    "cache_train_10_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_40_shapes": {
+      "passed": true
+    },
+    "cache_train_10_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_72_shapes": {
+      "passed": true
+    },
+    "cache_train_10_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_104_shapes": {
+      "passed": true
+    },
+    "cache_train_10_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_136_shapes": {
+      "passed": true
+    },
+    "cache_train_10_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_168_shapes": {
+      "passed": true
+    },
+    "cache_train_10_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_200_shapes": {
+      "passed": true
+    },
+    "cache_train_10_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_232_shapes": {
+      "passed": true
+    },
+    "cache_train_10_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_264_shapes": {
+      "passed": true
+    },
+    "cache_train_10_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_296_shapes": {
+      "passed": true
+    },
+    "cache_train_10_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_328_shapes": {
+      "passed": true
+    },
+    "cache_train_10_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_360_shapes": {
+      "passed": true
+    },
+    "cache_train_10_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_392_shapes": {
+      "passed": true
+    },
+    "cache_train_10_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_424_shapes": {
+      "passed": true
+    },
+    "cache_train_10_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_10_456_shapes": {
+      "passed": true
+    },
+    "cache_train_10_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_8_shapes": {
+      "passed": true
+    },
+    "cache_train_11_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_40_shapes": {
+      "passed": true
+    },
+    "cache_train_11_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_72_shapes": {
+      "passed": true
+    },
+    "cache_train_11_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_104_shapes": {
+      "passed": true
+    },
+    "cache_train_11_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_136_shapes": {
+      "passed": true
+    },
+    "cache_train_11_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_168_shapes": {
+      "passed": true
+    },
+    "cache_train_11_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_200_shapes": {
+      "passed": true
+    },
+    "cache_train_11_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_232_shapes": {
+      "passed": true
+    },
+    "cache_train_11_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_264_shapes": {
+      "passed": true
+    },
+    "cache_train_11_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_296_shapes": {
+      "passed": true
+    },
+    "cache_train_11_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_328_shapes": {
+      "passed": true
+    },
+    "cache_train_11_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_360_shapes": {
+      "passed": true
+    },
+    "cache_train_11_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_392_shapes": {
+      "passed": true
+    },
+    "cache_train_11_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_424_shapes": {
+      "passed": true
+    },
+    "cache_train_11_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_11_456_shapes": {
+      "passed": true
+    },
+    "cache_train_11_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_8_shapes": {
+      "passed": true
+    },
+    "cache_train_12_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_40_shapes": {
+      "passed": true
+    },
+    "cache_train_12_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_72_shapes": {
+      "passed": true
+    },
+    "cache_train_12_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_104_shapes": {
+      "passed": true
+    },
+    "cache_train_12_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_136_shapes": {
+      "passed": true
+    },
+    "cache_train_12_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_168_shapes": {
+      "passed": true
+    },
+    "cache_train_12_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_200_shapes": {
+      "passed": true
+    },
+    "cache_train_12_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_232_shapes": {
+      "passed": true
+    },
+    "cache_train_12_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_264_shapes": {
+      "passed": true
+    },
+    "cache_train_12_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_296_shapes": {
+      "passed": true
+    },
+    "cache_train_12_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_328_shapes": {
+      "passed": true
+    },
+    "cache_train_12_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_360_shapes": {
+      "passed": true
+    },
+    "cache_train_12_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_392_shapes": {
+      "passed": true
+    },
+    "cache_train_12_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_424_shapes": {
+      "passed": true
+    },
+    "cache_train_12_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_12_456_shapes": {
+      "passed": true
+    },
+    "cache_train_12_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_8_shapes": {
+      "passed": true
+    },
+    "cache_train_13_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_40_shapes": {
+      "passed": true
+    },
+    "cache_train_13_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_72_shapes": {
+      "passed": true
+    },
+    "cache_train_13_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_104_shapes": {
+      "passed": true
+    },
+    "cache_train_13_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_136_shapes": {
+      "passed": true
+    },
+    "cache_train_13_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_168_shapes": {
+      "passed": true
+    },
+    "cache_train_13_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_200_shapes": {
+      "passed": true
+    },
+    "cache_train_13_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_232_shapes": {
+      "passed": true
+    },
+    "cache_train_13_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_264_shapes": {
+      "passed": true
+    },
+    "cache_train_13_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_296_shapes": {
+      "passed": true
+    },
+    "cache_train_13_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_328_shapes": {
+      "passed": true
+    },
+    "cache_train_13_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_360_shapes": {
+      "passed": true
+    },
+    "cache_train_13_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_392_shapes": {
+      "passed": true
+    },
+    "cache_train_13_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_424_shapes": {
+      "passed": true
+    },
+    "cache_train_13_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_13_456_shapes": {
+      "passed": true
+    },
+    "cache_train_13_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_8_shapes": {
+      "passed": true
+    },
+    "cache_train_15_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_40_shapes": {
+      "passed": true
+    },
+    "cache_train_15_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_72_shapes": {
+      "passed": true
+    },
+    "cache_train_15_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_104_shapes": {
+      "passed": true
+    },
+    "cache_train_15_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_136_shapes": {
+      "passed": true
+    },
+    "cache_train_15_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_168_shapes": {
+      "passed": true
+    },
+    "cache_train_15_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_200_shapes": {
+      "passed": true
+    },
+    "cache_train_15_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_232_shapes": {
+      "passed": true
+    },
+    "cache_train_15_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_264_shapes": {
+      "passed": true
+    },
+    "cache_train_15_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_296_shapes": {
+      "passed": true
+    },
+    "cache_train_15_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_328_shapes": {
+      "passed": true
+    },
+    "cache_train_15_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_360_shapes": {
+      "passed": true
+    },
+    "cache_train_15_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_392_shapes": {
+      "passed": true
+    },
+    "cache_train_15_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_424_shapes": {
+      "passed": true
+    },
+    "cache_train_15_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_15_456_shapes": {
+      "passed": true
+    },
+    "cache_train_15_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_8_shapes": {
+      "passed": true
+    },
+    "cache_train_16_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_40_shapes": {
+      "passed": true
+    },
+    "cache_train_16_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_72_shapes": {
+      "passed": true
+    },
+    "cache_train_16_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_104_shapes": {
+      "passed": true
+    },
+    "cache_train_16_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_136_shapes": {
+      "passed": true
+    },
+    "cache_train_16_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_168_shapes": {
+      "passed": true
+    },
+    "cache_train_16_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_200_shapes": {
+      "passed": true
+    },
+    "cache_train_16_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_232_shapes": {
+      "passed": true
+    },
+    "cache_train_16_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_264_shapes": {
+      "passed": true
+    },
+    "cache_train_16_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_296_shapes": {
+      "passed": true
+    },
+    "cache_train_16_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_328_shapes": {
+      "passed": true
+    },
+    "cache_train_16_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_360_shapes": {
+      "passed": true
+    },
+    "cache_train_16_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_392_shapes": {
+      "passed": true
+    },
+    "cache_train_16_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_424_shapes": {
+      "passed": true
+    },
+    "cache_train_16_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_16_456_shapes": {
+      "passed": true
+    },
+    "cache_train_16_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_8_shapes": {
+      "passed": true
+    },
+    "cache_train_17_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_40_shapes": {
+      "passed": true
+    },
+    "cache_train_17_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_72_shapes": {
+      "passed": true
+    },
+    "cache_train_17_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_104_shapes": {
+      "passed": true
+    },
+    "cache_train_17_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_136_shapes": {
+      "passed": true
+    },
+    "cache_train_17_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_168_shapes": {
+      "passed": true
+    },
+    "cache_train_17_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_200_shapes": {
+      "passed": true
+    },
+    "cache_train_17_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_232_shapes": {
+      "passed": true
+    },
+    "cache_train_17_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_264_shapes": {
+      "passed": true
+    },
+    "cache_train_17_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_296_shapes": {
+      "passed": true
+    },
+    "cache_train_17_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_328_shapes": {
+      "passed": true
+    },
+    "cache_train_17_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_360_shapes": {
+      "passed": true
+    },
+    "cache_train_17_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_392_shapes": {
+      "passed": true
+    },
+    "cache_train_17_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_424_shapes": {
+      "passed": true
+    },
+    "cache_train_17_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_17_456_shapes": {
+      "passed": true
+    },
+    "cache_train_17_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_8_shapes": {
+      "passed": true
+    },
+    "cache_train_18_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_40_shapes": {
+      "passed": true
+    },
+    "cache_train_18_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_72_shapes": {
+      "passed": true
+    },
+    "cache_train_18_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_104_shapes": {
+      "passed": true
+    },
+    "cache_train_18_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_136_shapes": {
+      "passed": true
+    },
+    "cache_train_18_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_168_shapes": {
+      "passed": true
+    },
+    "cache_train_18_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_200_shapes": {
+      "passed": true
+    },
+    "cache_train_18_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_232_shapes": {
+      "passed": true
+    },
+    "cache_train_18_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_264_shapes": {
+      "passed": true
+    },
+    "cache_train_18_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_296_shapes": {
+      "passed": true
+    },
+    "cache_train_18_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_328_shapes": {
+      "passed": true
+    },
+    "cache_train_18_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_360_shapes": {
+      "passed": true
+    },
+    "cache_train_18_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_392_shapes": {
+      "passed": true
+    },
+    "cache_train_18_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_424_shapes": {
+      "passed": true
+    },
+    "cache_train_18_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_18_456_shapes": {
+      "passed": true
+    },
+    "cache_train_18_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_8_shapes": {
+      "passed": true
+    },
+    "cache_train_19_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_40_shapes": {
+      "passed": true
+    },
+    "cache_train_19_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_72_shapes": {
+      "passed": true
+    },
+    "cache_train_19_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_104_shapes": {
+      "passed": true
+    },
+    "cache_train_19_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_136_shapes": {
+      "passed": true
+    },
+    "cache_train_19_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_168_shapes": {
+      "passed": true
+    },
+    "cache_train_19_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_200_shapes": {
+      "passed": true
+    },
+    "cache_train_19_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_232_shapes": {
+      "passed": true
+    },
+    "cache_train_19_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_264_shapes": {
+      "passed": true
+    },
+    "cache_train_19_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_296_shapes": {
+      "passed": true
+    },
+    "cache_train_19_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_328_shapes": {
+      "passed": true
+    },
+    "cache_train_19_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_360_shapes": {
+      "passed": true
+    },
+    "cache_train_19_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_392_shapes": {
+      "passed": true
+    },
+    "cache_train_19_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_424_shapes": {
+      "passed": true
+    },
+    "cache_train_19_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_train_19_456_shapes": {
+      "passed": true
+    },
+    "cache_train_19_456_finite_cpu": {
+      "passed": true
+    },
+    "train_episode_window_coverage": {
+      "passed": true
+    },
+    "cache_val_0_8_shapes": {
+      "passed": true
+    },
+    "cache_val_0_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_40_shapes": {
+      "passed": true
+    },
+    "cache_val_0_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_72_shapes": {
+      "passed": true
+    },
+    "cache_val_0_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_104_shapes": {
+      "passed": true
+    },
+    "cache_val_0_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_136_shapes": {
+      "passed": true
+    },
+    "cache_val_0_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_168_shapes": {
+      "passed": true
+    },
+    "cache_val_0_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_200_shapes": {
+      "passed": true
+    },
+    "cache_val_0_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_232_shapes": {
+      "passed": true
+    },
+    "cache_val_0_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_264_shapes": {
+      "passed": true
+    },
+    "cache_val_0_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_296_shapes": {
+      "passed": true
+    },
+    "cache_val_0_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_328_shapes": {
+      "passed": true
+    },
+    "cache_val_0_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_360_shapes": {
+      "passed": true
+    },
+    "cache_val_0_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_392_shapes": {
+      "passed": true
+    },
+    "cache_val_0_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_424_shapes": {
+      "passed": true
+    },
+    "cache_val_0_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_0_456_shapes": {
+      "passed": true
+    },
+    "cache_val_0_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_8_shapes": {
+      "passed": true
+    },
+    "cache_val_7_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_40_shapes": {
+      "passed": true
+    },
+    "cache_val_7_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_72_shapes": {
+      "passed": true
+    },
+    "cache_val_7_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_104_shapes": {
+      "passed": true
+    },
+    "cache_val_7_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_136_shapes": {
+      "passed": true
+    },
+    "cache_val_7_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_168_shapes": {
+      "passed": true
+    },
+    "cache_val_7_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_200_shapes": {
+      "passed": true
+    },
+    "cache_val_7_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_232_shapes": {
+      "passed": true
+    },
+    "cache_val_7_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_264_shapes": {
+      "passed": true
+    },
+    "cache_val_7_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_296_shapes": {
+      "passed": true
+    },
+    "cache_val_7_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_328_shapes": {
+      "passed": true
+    },
+    "cache_val_7_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_360_shapes": {
+      "passed": true
+    },
+    "cache_val_7_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_392_shapes": {
+      "passed": true
+    },
+    "cache_val_7_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_424_shapes": {
+      "passed": true
+    },
+    "cache_val_7_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_7_456_shapes": {
+      "passed": true
+    },
+    "cache_val_7_456_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_8_shapes": {
+      "passed": true
+    },
+    "cache_val_14_8_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_40_shapes": {
+      "passed": true
+    },
+    "cache_val_14_40_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_72_shapes": {
+      "passed": true
+    },
+    "cache_val_14_72_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_104_shapes": {
+      "passed": true
+    },
+    "cache_val_14_104_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_136_shapes": {
+      "passed": true
+    },
+    "cache_val_14_136_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_168_shapes": {
+      "passed": true
+    },
+    "cache_val_14_168_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_200_shapes": {
+      "passed": true
+    },
+    "cache_val_14_200_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_232_shapes": {
+      "passed": true
+    },
+    "cache_val_14_232_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_264_shapes": {
+      "passed": true
+    },
+    "cache_val_14_264_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_296_shapes": {
+      "passed": true
+    },
+    "cache_val_14_296_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_328_shapes": {
+      "passed": true
+    },
+    "cache_val_14_328_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_360_shapes": {
+      "passed": true
+    },
+    "cache_val_14_360_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_392_shapes": {
+      "passed": true
+    },
+    "cache_val_14_392_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_424_shapes": {
+      "passed": true
+    },
+    "cache_val_14_424_finite_cpu": {
+      "passed": true
+    },
+    "cache_val_14_456_shapes": {
+      "passed": true
+    },
+    "cache_val_14_456_finite_cpu": {
+      "passed": true
+    },
+    "val_episode_window_coverage": {
+      "passed": true
+    },
+    "no_validation_optimizer_windows": {
+      "passed": true
+    },
+    "cached_state_history_normalization": {
+      "passed": true,
+      "max_error": 0.0
+    },
+    "cached_future_deltas_absolute_gripper": {
+      "passed": true,
+      "max_error": 0.0
+    },
+    "latent_shapes": {
+      "passed": true,
+      "observed": [
+        [
+          1,
+          96,
+          13,
+          8,
+          16
+        ]
+      ]
+    },
+    "context_shapes": {
+      "passed": true,
+      "observed": [
+        [
+          1,
+          320,
+          20480
+        ]
+      ]
+    }
+  },
+  "passed": true,
+  "cache_sha256": "2850b508e14459ede9d0ef9c235e6a0846e0eb3ff9b87182b75155bc60a38a33",
+  "frozen_plan_sha256": "2ebec4c80d2cfe84126416c5c3fa12285d59fa8ddf8b9a265710d2fadcf0eee4",
+  "window_counts": {
+    "train": 255,
+    "val": 45
+  },
+  "train_only_normalization": true,
+  "latent_provenance_note": "Frozen actualencoder-cache producer source, exactnativeepisodehashes, finite/shapes verified. No GPU decoder used to independently reproduce latent pixels."
+}

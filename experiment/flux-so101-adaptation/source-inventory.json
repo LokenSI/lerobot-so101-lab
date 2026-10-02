@@ -1,0 +1,118 @@
+[
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/prepare_numeric.py",
+    "original_sha256": "602701e9862ffcf883b4fd1f619f1fee7bd48ddf8aea3cd94871f9311210e010",
+    "portable": "vendor/flux_adaptation_runtime/prepare_numeric.py",
+    "portable_sha256": "0dcf0c5a8903806d3ab66e26a74fa722816453c1322dc97779f8133f18158229",
+    "change": "Only default native-data location relocated when present; ROOTparents2 retained"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/replay_native.py",
+    "original_sha256": "48feeaa1e4fbfde34cf08df33f397f10a4dd706c74b2417b5f394ee53fd4b3bf",
+    "portable": "vendor/flux_adaptation_runtime/replay_native.py",
+    "portable_sha256": "131953060e94f77f9f3a6c44953db2b1cc8cdbbcd39a7dfa00b6ca09653cd8a3",
+    "change": "Only default native-data location relocated when present; ROOTparents2 retained"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/train_smoke.py",
+    "original_sha256": "151b48a033bf69d48405118c21ac3c34002ea7c7cc55f3a371a484bf38c08c77",
+    "portable": "vendor/flux_adaptation_runtime/train_smoke.py",
+    "portable_sha256": "46d38574d0dfa66d49c01aea77643174f8dfe1f77ac2ca076a80669bfc798935",
+    "change": "Only default native-data location relocated when present; ROOTparents2 retained"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/train_broad.py",
+    "original_sha256": "6c1c11742c2cae30e4f312f50c9e854f27a031269cc81c3f1e4f5f64ec259673",
+    "portable": "vendor/flux_adaptation_runtime/train_broad.py",
+    "portable_sha256": "7032ef3ae5bf9e4f62e965b5c8e06f4d503f40dda0f0c5020046420a51147c25",
+    "change": "Only default native-data location relocated when present; ROOTparents2 retained"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/experimental_lora.py",
+    "original_sha256": "551436eca7106eb9d315bea6aecb311a8d3104bd12e2af402d9bf1e92369ac1a",
+    "portable": "vendor/flux_adaptation_runtime/experimental_lora.py",
+    "portable_sha256": "b86eacf2548a6d6e0e7710ce07556c7f77a430a05962e495ddcab856d2064439",
+    "change": "Only default native-data location relocated when present; ROOTparents2 retained"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/complete_native_manifest.py",
+    "original_sha256": "ff1b1406e2ce0d919f28058e11cc0c9e2870b5a5d135d1bbc9644ecd8f2f5a85",
+    "portable": "vendor/flux_adaptation_runtime/complete_native_manifest.py",
+    "portable_sha256": "6b22a39bdab445a84e8ce79e7ba8e6cae3e39ee873f057a2606c0f2a56ceaef5",
+    "change": "Only default native-data location relocated when present; ROOTparents2 retained"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/run_flux_so101_adapted.py",
+    "original_sha256": "f77044dd088b84e3627d9e43e9385c3117ad42c471f27a9c2e890a685d5bd9de",
+    "portable": "scripts/run_flux_so101_adapted.py",
+    "portable_sha256": "6d20434fb4fe487adee4d18a3208241daa84db441f07d64a95c164d69333aaf6",
+    "change": "Runtime import path relocated to tracked vendor helper"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/flux_adapted_inference.py",
+    "original_sha256": "23255dafd0d08817925b7a6eb78f42501303a1c324372dd9d1fc0eb64310007f",
+    "portable": "scripts/flux_adapted_inference.py",
+    "portable_sha256": "32f537479bfc269308c4ab1b3e812ad49865c7e2bc1dd442c69f4ffff9438fb3",
+    "change": "Runtime import path relocated to tracked vendor helper"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/render_adapted_saved_rgb.py",
+    "original_sha256": "092640dcba8ba420618f8ea485fc4049136759e41f66a6b5f1be88f5776b6f05",
+    "portable": "scripts/render_adapted_saved_rgb.py",
+    "portable_sha256": "092640dcba8ba420618f8ea485fc4049136759e41f66a6b5f1be88f5776b6f05",
+    "change": "Presentation helper ROOT relocated only where needed; recorded measured sources remain separate"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/render_flux_adapted_helpers.py",
+    "original_sha256": "b2be1df62e2abe2f78ad1e270cea85b107956a0fec69611b48030693258e326a",
+    "portable": "scripts/render_flux_adapted_helpers.py",
+    "portable_sha256": "b2be1df62e2abe2f78ad1e270cea85b107956a0fec69611b48030693258e326a",
+    "change": "Presentation helper ROOT relocated only where needed; recorded measured sources remain separate"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/render_adapted_variants_rgb.py",
+    "original_sha256": "4e44c30e4426cd48c964f981600523b589c44d7b5b0625e0b5baa37b69db1559",
+    "portable": "scripts/render_adapted_variants_rgb.py",
+    "portable_sha256": "4e44c30e4426cd48c964f981600523b589c44d7b5b0625e0b5baa37b69db1559",
+    "change": "Presentation helper ROOT relocated only where needed; recorded measured sources remain separate"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/render_flux_adapted_variants_helpers.py",
+    "original_sha256": "c1b6f83993e3f8f35de7142806a18f12af70112b042457fd82e3f8493eb28e22",
+    "portable": "scripts/render_flux_adapted_variants_helpers.py",
+    "portable_sha256": "c1b6f83993e3f8f35de7142806a18f12af70112b042457fd82e3f8493eb28e22",
+    "change": "Presentation helper ROOT relocated only where needed; recorded measured sources remain separate"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/build_adapted_page.py",
+    "original_sha256": "cb8817f91b0c97637633bdbe4413d402b69d668b6a9c084543bec49551f87fc6",
+    "portable": "scripts/build_adapted_page.py",
+    "portable_sha256": "bff077ed2ae7369213b7af80bd3682f327f3cdc739f35f654246f73bdccc7fef",
+    "change": "Presentation helper ROOT relocated only where needed; recorded measured sources remain separate"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/freeze_flux_adapted_selection.py",
+    "original_sha256": "6ed6cc0dbaf2ca13b925236b8a09b439c1143915dde352d6a1c4ba9f2f5f1aa8",
+    "portable": null,
+    "change": "Exact original source; local paths preserved as provenance"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/verify_fresh_selection.py",
+    "original_sha256": "e00e36dc8507d2d5add07b0876e8b5d45ac6667bdca63d31ac0189a2ee21f627",
+    "portable": null,
+    "change": "Exact original source; local paths preserved as provenance"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/verify_training_cache_cpu.py",
+    "original_sha256": "00b0c445134bf1e9e39122ef74b605fbeaeec0f3412a7212697e22a9db797bc1",
+    "portable": null,
+    "change": "Exact original source; local paths preserved as provenance"
+  },
+  {
+    "original": "experiment/flux-so101-adaptation/source-original/render_flux_business_teaser.py",
+    "original_sha256": "2c6c908cee3dc237490add753320f901bd33562cc59426dc43dd9be577b2841d",
+    "portable": "scripts/render_flux_business_teaser.py",
+    "portable_sha256": "2c6c908cee3dc237490add753320f901bd33562cc59426dc43dd9be577b2841d",
+    "change": "Byte-identical CPU-only presentation renderer; accepts explicit replay/episode/suite paths"
+  }
+]

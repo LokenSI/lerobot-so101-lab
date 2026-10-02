@@ -1,0 +1,25 @@
+{
+  "scope": "Independent CPU camera/pixel probe using retained pretrained failure scene; not an adapted robot trial",
+  "passed": true,
+  "gpu_used": false,
+  "physics_steps": 0,
+  "model_inference_started": false,
+  "source_scene_xml_sha256": "7728cb097c29201aae12580087d4ee09a4f4c89a9200756e1fa5bd773ba260cf",
+  "source_native_scene_png_sha256": "1b429c6eb835a6ecd26d8c6a7b7f229e3bc30ad9613e70268b781f8ae3f9349a",
+  "native_pixels": [
+    320,
+    240
+  ],
+  "processed_pixels": [
+    256,
+    256
+  ],
+  "projection_method": "Physical320x240 intrinsics then anisotropic XY scaling256/320,256/240",
+  "projected_cube_center_xy_px": [
+    124.2179992148603,
+    141.17882578382364
+  ],
+  "nearest_recorded_red_pixel_distance_px": 0.4274076741892998,
+  "renderer_sha256": "092640dcba8ba420618f8ea485fc4049136759e41f66a6b5f1be88f5776b6f05",
+  "mujoco": "3.6.0"
+}

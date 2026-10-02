@@ -1,10 +1,10 @@
-# LeRobot ACT / SO-101 simulation lab
+# SO-101 robotics lab: LeRobot and FLUX
 
-A small, reproducible image-and-joint-state control experiment with official LeRobot ACT and a contact-based SO-101 MuJoCo scene. Watch the [interactive viewer](https://lokensi.github.io/lerobot-so101-lab/), including the paired success/failure comparison and every failed rollout.
+A small robotics lab testing how learned models control a simulated SO-101 arm. It retains official LeRobot ACT experiments and a FLUX model trained to follow a simple pick-and-place instruction. Watch the [interactive viewer](https://lokensi.github.io/lerobot-so101-lab/), including the paired success/failure comparison and every failed rollout.
 
 The prior final assessment completed **2/5** starts. A later exploratory check completed **10/12** rollouts: three paired starts in four visual conditions, rather than twelve independent starts. These results use the same frozen checkpoint and strict grader; the later check does not replace the earlier assessment. All results are simulation. No physical SO-101 or Orin performance is claimed.
 
-ACT receives two actual 96Ã—96 RGB observations and six joint values. It predicts sixteen absolute joint targets and executes eight before replanning. Amber overlays show forward kinematics of predicted joint targets; cyan shows observed TCP motion. The overlays replay saved states and update every eight simulated control ticks, rather than presenting a hardware feed or a validated future trajectory.
+ACT receives two actual 96×96 RGB observations and six joint values. It predicts sixteen absolute joint targets and executes eight before replanning. Amber overlays show forward kinematics of predicted joint targets; cyan shows observed TCP motion. The overlays replay saved states and update every eight simulated control ticks, rather than presenting a hardware feed or a validated future trajectory.
 
 ## Calibrated virtual stereo follow-up
 
@@ -18,7 +18,15 @@ The [FLUX viewer](https://lokensi.github.io/lerobot-so101-lab/flux-retry/) prese
 
 One adapter uses the hosted demo's published median statistics. The other is a geometry-supported legacy calibration hypothesis with unknown dataset motor offsets; it clipped 400 commands and did not establish a valid calibration. No additional training was used for these two trials. FLUX receives scene/wrist RGB, measured joints, previous issued commands and a text instruction; object coordinates are reserved for reset and grading.
 
-Read the [method](docs/flux-so101-retry-method.md), [reproduction](docs/flux-so101-retry-reproduction.md), [frozen run](runs/flux-so101-retry/dev-v1/frozen-specification.json), [independent CPU audit](runs/flux-so101-retry/dev-v1/independent-cpu-audit.json), and [original source inventory](experiment/flux-so101-retry/source-inventory.json). All 48 input windows, 48 action arrays and both full trajectories are included, with large camera arrays and videos in Git LFS. The original 13.9 GB checkpoint and shared encoders are fetched separately from pinned upstream revisions. The prepared adaptation loader/runner is separate from this measured pretrained result and supplies no task-success claim.
+Read the [method](docs/flux-so101-retry-method.md), [reproduction](docs/flux-so101-retry-reproduction.md), [frozen run](runs/flux-so101-retry/dev-v1/frozen-specification.json), [independent CPU audit](runs/flux-so101-retry/dev-v1/independent-cpu-audit.json), and [original source inventory](experiment/flux-so101-retry/source-inventory.json). All 48 input windows, 48 action arrays and both full trajectories are included, with large camera arrays and videos in Git LFS. The original 13.9 GB checkpoint and shared encoders are fetched separately from pinned upstream revisions. The later trained adaptation is documented below as a separate experiment.
+
+## FLUX learned our simulated task
+
+After the original pretrained model completed **0/2** placements, we trained the real FLUX 3 Action SO101 model using **17 demonstrations**, with three other demonstrations reserved for validation. The selected model completed **2/3 fresh simulated starts** after 256 training updates. All three independent evidence audits passed. The third trial grasped and carried the block but did not release it within the fixed run.
+
+The instruction was **“Grasp the red block and place it in the gray bin.”** FLUX receives two camera views, measured joints and previous commands, then predicts the next movements. During these tests it received no object coordinates or scripted pickup correction. Watch the [FLUX videos and all outcomes](https://lokensi.github.io/lerobot-so101-lab/flux-adapted/), including the failures and overlays of predicted and actual movement.
+
+This is a small, same-task simulation experiment. Median warm prediction time was 4.58 seconds for 1.07 seconds of simulated commands; playback excludes inference pauses. Physical SO101 and Orin deployment remain untested. Original demonstrations, training data, adapters, optimizer state, model inputs/actions and independent audits are retained through Git LFS. See the [training recipe](docs/flux-adaptation-reproduction.md), [frozen selection](runs/flux-so101-retry/selected-adapter-0256-cfg3.json) and [source inventory](experiment/flux-so101-adaptation/source-inventory.json). The earlier ACT and stereo experiments remain separate.
 
 ## Read the evidence
 

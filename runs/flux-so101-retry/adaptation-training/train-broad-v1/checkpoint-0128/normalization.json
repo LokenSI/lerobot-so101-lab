@@ -1,0 +1,127 @@
+{
+  "statistics": {
+    "state": {
+      "q01": [
+        -1.131548523902893,
+        -91.12730407714844,
+        -18.181028366088867,
+        41.37699508666992,
+        0.3926128149032593,
+        2.815521001815796
+      ],
+      "q99": [
+        39.863800048828125,
+        -0.9912323951721191,
+        87.5820083618164,
+        80.61937713623047,
+        60.25354766845703,
+        45.00305938720703
+      ]
+    },
+    "action": {
+      "q01": [
+        -0.024452993646264076,
+        -2.909060478210449,
+        -1.4210658073425293,
+        -0.9627473950386047,
+        -0.023048363626003265,
+        0.0
+      ],
+      "q99": [
+        0.8476848602294922,
+        1.147369384765625,
+        1.9657326936721802,
+        1.2608871459960938,
+        0.9159727096557617,
+        45.0
+      ]
+    }
+  },
+  "scope": "New native simulator-domain normalization; training episodes only; no legacy-coordinate mapping",
+  "units": [
+    "degrees",
+    "degrees",
+    "degrees",
+    "degrees",
+    "degrees",
+    "gripper percentage"
+  ],
+  "action_targets": "Consecutive command deltas, absolute gripper; first artificial zero-delta row excluded per episode",
+  "training_episodes": [
+    {
+      "seed": 1,
+      "source_sha256": "0f53b0fb9e370e2af41af5dbe5887ec6a663767015df2b09f2aec195acd50ff0"
+    },
+    {
+      "seed": 2,
+      "source_sha256": "99495f5e06ad6f662e26fab03de17d9cdc91bd974a6af8853c758750d0b94751"
+    },
+    {
+      "seed": 3,
+      "source_sha256": "a311cdd3cd10aba41340e968571a33b573fd5632f6c7356856b378cfc085817b"
+    },
+    {
+      "seed": 4,
+      "source_sha256": "b0b51ca33cd108c8c7fef09a3b453636c6330cfce5b41e7a5678b6791a901f7b"
+    },
+    {
+      "seed": 5,
+      "source_sha256": "5a589560a1118ef434150d84edeb988270035673e630abba69a9676138ea308b"
+    },
+    {
+      "seed": 6,
+      "source_sha256": "b2e9ea98eed60a07c52bcba3f6203d97aa28bc5fdb94d332d0625f0762af4107"
+    },
+    {
+      "seed": 8,
+      "source_sha256": "f8b1070a9667e8a5f135ec9ae650f6f102bb340e81c12a44a0679476d7f5ff16"
+    },
+    {
+      "seed": 9,
+      "source_sha256": "3fdf83f55addf80d9c795492c7652b5dab306a9ba987341d2ef2cb82f04c1ce7"
+    },
+    {
+      "seed": 10,
+      "source_sha256": "7781eb1f65c26fcf29ed2566e95225e2870b4162e9d17860e5b71762b64102e0"
+    },
+    {
+      "seed": 11,
+      "source_sha256": "4f95edfc6a84c1ab5f2bcb49e7d529a557f8484f6e4a56ea03ba1aeef2561d86"
+    },
+    {
+      "seed": 12,
+      "source_sha256": "9019c566e60a9018d51942189e2fd38a0793b3163372446c434c90988e4b0243"
+    },
+    {
+      "seed": 13,
+      "source_sha256": "2f351bbf683aef8f3cda299d96a060219e8cf8c92958d421d863fb7af4104e98"
+    },
+    {
+      "seed": 15,
+      "source_sha256": "fd584ab326d1db3317c7ded0f4244d71c813771014e1a43458b3405421d733de"
+    },
+    {
+      "seed": 16,
+      "source_sha256": "e4e2a6c6c8d7d625690f2f735748efda59b65ab81220e68d228b90b39595b55c"
+    },
+    {
+      "seed": 17,
+      "source_sha256": "223f7b8451ef30f569077816a855cbf461eedc89141de4b6f4f7bf78f2f0dffe"
+    },
+    {
+      "seed": 18,
+      "source_sha256": "79c08ed8277387b74e28da01c9ead255832d20c8294bff782464a69152424a99"
+    },
+    {
+      "seed": 19,
+      "source_sha256": "d34f81ae6230541b325e699c78b0633fb2a84d10b16e57c684fe65e1d49be907"
+    }
+  ],
+  "validation_seeds": [
+    0,
+    7,
+    14
+  ],
+  "control_hz": 30,
+  "camera_projection": "320x240 rendered then each view resized256x256"
+}

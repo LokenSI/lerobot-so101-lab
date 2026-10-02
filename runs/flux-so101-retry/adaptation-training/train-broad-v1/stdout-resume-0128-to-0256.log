@@ -1,0 +1,22 @@
+{"phase": "load_original_cpu_policy_for_resume", "elapsed_seconds": 0.25571400400076527}
+{"phase": "install_real_adapters", "elapsed_seconds": 0.9018780420010444}
+{"phase": "ready_for_real_updates", "elapsed_seconds": 22.39049321100174, "resident_gpu_bytes": 10002371584}
+{"phase": "optimizer_update", "elapsed_seconds": 40.96656574400549, "step": 136, "seed": 10, "start": 104, "loss": 0.11680388450622559, "action_mse": 0.1334589421749115, "grad_norm": 1.5757430791854858, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 57.37093733700749, "step": 144, "seed": 17, "start": 392, "loss": 0.13359832763671875, "action_mse": 0.07951197028160095, "grad_norm": 0.9946455359458923, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 74.98376998200547, "step": 152, "seed": 13, "start": 8, "loss": 0.15286779403686523, "action_mse": 0.1374739110469818, "grad_norm": 1.5572377443313599, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 91.78190961400105, "step": 160, "seed": 4, "start": 360, "loss": 0.07433198392391205, "action_mse": 0.023219667375087738, "grad_norm": 0.582839846611023, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 108.27186930901371, "step": 168, "seed": 13, "start": 168, "loss": 0.07562195509672165, "action_mse": 0.040854085236787796, "grad_norm": 0.8163748979568481, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 124.82755225201254, "step": 176, "seed": 4, "start": 104, "loss": 0.06769092381000519, "action_mse": 0.019827885553240776, "grad_norm": 0.38906899094581604, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 141.23821142200904, "step": 184, "seed": 2, "start": 328, "loss": 0.10344749689102173, "action_mse": 0.06634331494569778, "grad_norm": 1.0365080833435059, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 157.6063961960026, "step": 192, "seed": 5, "start": 360, "loss": 0.07305297255516052, "action_mse": 0.01568693295121193, "grad_norm": 0.8394873142242432, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 174.01460208000208, "step": 200, "seed": 17, "start": 104, "loss": 0.08872908353805542, "action_mse": 0.06275001168251038, "grad_norm": 0.7586483359336853, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 190.60039066900208, "step": 208, "seed": 1, "start": 456, "loss": 0.0884266197681427, "action_mse": 0.03733060508966446, "grad_norm": 0.36395952105522156, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 207.08116199400683, "step": 216, "seed": 19, "start": 424, "loss": 0.1363149881362915, "action_mse": 0.08279015123844147, "grad_norm": 1.4176069498062134, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 223.4645373890089, "step": 224, "seed": 15, "start": 328, "loss": 0.08385772258043289, "action_mse": 0.060209013521671295, "grad_norm": 0.6297861337661743, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 239.94114323001122, "step": 232, "seed": 4, "start": 72, "loss": 0.08686172962188721, "action_mse": 0.0205688439309597, "grad_norm": 0.8465266227722168, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 256.32706978500937, "step": 240, "seed": 12, "start": 232, "loss": 0.12574276328086853, "action_mse": 0.08056601136922836, "grad_norm": 0.6622232794761658, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 272.64616498400574, "step": 248, "seed": 8, "start": 328, "loss": 0.09429167211055756, "action_mse": 0.05608732998371124, "grad_norm": 0.9128890633583069, "peak_gpu_bytes": 10763867648}
+{"phase": "optimizer_update", "elapsed_seconds": 289.46797158400295, "step": 256, "seed": 19, "start": 456, "loss": 0.0952855721116066, "action_mse": 0.040330443531274796, "grad_norm": 0.5811586380004883, "peak_gpu_bytes": 10763867648}
+{"phase": "checkpoint_saved", "elapsed_seconds": 291.62211319600465, "step": 256, "path": "/mnt/d/git/qwen-image_benchmark/runtime/flux-so101-adaptation/train-broad-v1/checkpoint-0256", "peak_gpu_bytes": 10763867648}
+{"phase": "heldout_flow_validation", "elapsed_seconds": 320.4387374120124, "step": 256, "mean_loss": 0.10422678531871901}
+{"phase": "stage_complete", "elapsed_seconds": 320.4401548750029}

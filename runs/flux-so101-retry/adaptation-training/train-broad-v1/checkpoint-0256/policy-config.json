@@ -1,0 +1,108 @@
+{
+  "action_dim": 6,
+  "action_modality": "action",
+  "camera_layout": "side_by_side",
+  "camera_keys": [
+    "images.scene",
+    "images.wrist"
+  ],
+  "canvas_hw": [
+    256,
+    512
+  ],
+  "chunk_size": 42,
+  "n_action_steps": 32,
+  "fps": 30.0,
+  "action_scale": 2.0,
+  "gripper_flip_dims": [],
+  "action_parameterization": "joint_delta",
+  "absolute_action_dims": [
+    5
+  ],
+  "action_normalization": {
+    "q01": [
+      -0.024452993646264076,
+      -2.909060478210449,
+      -1.4210658073425293,
+      -0.9627473950386047,
+      -0.023048363626003265,
+      0.0
+    ],
+    "q99": [
+      0.8476848602294922,
+      1.147369384765625,
+      1.9657326936721802,
+      1.2608871459960938,
+      0.9159727096557617,
+      45.0
+    ]
+  },
+  "state_normalization": {
+    "q01": [
+      -1.131548523902893,
+      -91.12730407714844,
+      -18.181028366088867,
+      41.37699508666992,
+      0.3926128149032593,
+      2.815521001815796
+    ],
+    "q99": [
+      39.863800048828125,
+      -0.9912323951721191,
+      87.5820083618164,
+      80.61937713623047,
+      60.25354766845703,
+      45.00305938720703
+    ]
+  },
+  "normalization_clip": 6.0,
+  "camera_dropout": {},
+  "trunk_weights": null,
+  "video_vae_id": "black-forest-labs/flux-3-action-base:video_vae.safetensors@62878e2925e59b7a89ec14463ce89932624c490d",
+  "text_encoder_id": "black-forest-labs/flux-3-action-base:text_encoder@62878e2925e59b7a89ec14463ce89932624c490d",
+  "dit_config": {},
+  "content_streams": [
+    "video",
+    "video_cond"
+  ],
+  "head_init_seed": 0,
+  "torch_dtype": "bfloat16",
+  "quantization": null,
+  "attn_mode": "torch",
+  "compile_model": false,
+  "single_frame_encode": true,
+  "inference_profile": "history",
+  "n_obs_steps": 8,
+  "history_snapshots": 2,
+  "condition_on_past_actions": true,
+  "video_position_fps": 24.0,
+  "text_fixed_length": 320,
+  "sampler": "euler",
+  "num_inference_steps": 4,
+  "guidance_scale": 3.0,
+  "guidance_scale_action": null,
+  "sampler_shift": 6.93,
+  "inference_seed": 42,
+  "train_timestep_width": 0.75,
+  "train_timestep_shift": 42.0,
+  "separate_timesteps": true,
+  "video_logit_mean": 1.08,
+  "video_logit_std": 1.0,
+  "conditioning_noise_max": 0.2,
+  "loss_reduction": "modalities",
+  "action_channel_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0
+  ],
+  "action_loss_weight": 0.5,
+  "video_loss_weight": 1.0,
+  "caption_dropout": 0.0,
+  "augment": false,
+  "vae_batch_windows": 8,
+  "optimizer_lr": 0.000192,
+  "optimizer_lr_heads_multiplier": 5.0
+}

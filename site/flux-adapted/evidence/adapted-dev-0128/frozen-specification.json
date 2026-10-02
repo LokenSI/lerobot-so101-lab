@@ -1,0 +1,43 @@
+{
+  "frozen_before_outcomes": true,
+  "role": "development",
+  "modes": [
+    "native_adapted"
+  ],
+  "seeds": [
+    910
+  ],
+  "chunks": 24,
+  "execute_per_chunk": 32,
+  "fps": 30,
+  "prompt": "Grasp the red block and place it in the gray bin.",
+  "settling_hold_seconds": 1.5,
+  "resident_gib": 12.0,
+  "camera_render_pixels": [
+    320,
+    240
+  ],
+  "policy_camera_resize_pixels": [
+    256,
+    256
+  ],
+  "recorded_policy_rgb_pixels": [
+    256,
+    256
+  ],
+  "camera_preprocessing": "Native320x240 RGB -> uint8 PIL bilinear256x256, identical to expert replay preparation -> official side_by_side canvas",
+  "success_requires": "Existing strict lift/release/containment/rest grade PLUS bilateral jaw contact during >90mm world-Z lift",
+  "runner_sha256": "f77044dd088b84e3627d9e43e9385c3117ad42c471f27a9c2e890a685d5bd9de",
+  "runtime_helper_sha256": "76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb",
+  "baseline_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "source_revision": "e2dd1d8dbc5977b54315d61f7548c63c043d6d4f",
+  "model_revision": "2d6be04357eef9fb8c8468adbc69e9d0c7093bec",
+  "no_training": false,
+  "adapter_sha256": "aff9d0b6168d2b39590b8b34438337050510a81e642f7f4f36f5c5fab284c5a8",
+  "adapter_metadata_sha256": "73e4e9b34bbd3fb8edd7bf10e48d3aa06e11c82bb79e3fee7eac2ed5a7ab1d8a",
+  "adapter_config_sha256": "5a7263386d4e7e3540c92fc4b17e42a0ffb0ec23db4b7c016631a062f94eb1dc",
+  "adapter_loader_sha256": "23255dafd0d08817925b7a6eb78f42501303a1c324372dd9d1fc0eb64310007f",
+  "adapter_restoration": "unmerged",
+  "adapter_units": "Five simulator arm joint degrees and gripper percent; identity transform",
+  "object_truth_inputs": "Reset/strict grading/diagnostics only; never passed to FLUX"
+}

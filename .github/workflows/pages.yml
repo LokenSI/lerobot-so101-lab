@@ -18,10 +18,14 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout source and real LFS payloads
+      - name: Checkout source without training LFS payloads
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          lfs: true
+          lfs: false
+      - name: Fetch only showcase LFS payloads
+        run: |
+          git lfs install --local
+          git lfs pull --include='site/**' --exclude=''
       - name: Validate links and reject unresolved LFS pointers
         run: python tools/verify_site.py
       - name: Configure Pages

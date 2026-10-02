@@ -1,0 +1,38 @@
+[
+  {
+    "suite": "adapted-dev-0128",
+    "frozen_specification_sha256": "c988203cb43cb6d9d01b72ad67ff8d3555afa8ca0ca155ff9f179460150171e1",
+    "sources": {
+      "runner_sha256": "experiment/flux-so101-adaptation/source-by-hash/f77044dd088b84e3627d9e43e9385c3117ad42c471f27a9c2e890a685d5bd9de-run_flux_so101_adapted.py",
+      "adapter_loader_sha256": "experiment/flux-so101-adaptation/source-by-hash/23255dafd0d08817925b7a6eb78f42501303a1c324372dd9d1fc0eb64310007f-flux_adapted_inference.py",
+      "baseline_sha256": "experiment/flux-so101-adaptation/source-by-hash/30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188-so101_pick_place_baseline.py",
+      "runtime_helper_sha256": "experiment/flux-so101-adaptation/source-by-hash/76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb-local_runtime_fast.py",
+      "checker_75fa524b0670df6a903367225ff0237fad0b543d40f482faea0f60a1a50583cf": "experiment/flux-so101-adaptation/source-by-hash/75fa524b0670df6a903367225ff0237fad0b543d40f482faea0f60a1a50583cf-verify_flux_retry.py"
+    },
+    "all_original_suite_bytes_preserved": true
+  },
+  {
+    "suite": "adapted-dev-0256-cfg",
+    "frozen_specification_sha256": "54af9a097efb2871db28eda289c93a7cbbe11029d91b40a886ba7cc9ef7bd2fc",
+    "sources": {
+      "runner_sha256": "experiment/flux-so101-adaptation/source-by-hash/f004b20348cbe0943109ae124a8a99c195ef521c50ec23669dc1777d277937b5-run_flux_so101_adapted_cfg.py",
+      "adapter_loader_sha256": "experiment/flux-so101-adaptation/source-by-hash/23255dafd0d08817925b7a6eb78f42501303a1c324372dd9d1fc0eb64310007f-flux_adapted_inference.py",
+      "baseline_sha256": "experiment/flux-so101-adaptation/source-by-hash/30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188-so101_pick_place_baseline.py",
+      "runtime_helper_sha256": "experiment/flux-so101-adaptation/source-by-hash/76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb-local_runtime_fast.py",
+      "checker_68e8a1e09949f834e2e9ad7cffce41bbfee5ddafcbdd6bc6acf4c092aeca2dea": "experiment/flux-so101-adaptation/source-by-hash/68e8a1e09949f834e2e9ad7cffce41bbfee5ddafcbdd6bc6acf4c092aeca2dea-verify_flux_retry.py"
+    },
+    "all_original_suite_bytes_preserved": true
+  },
+  {
+    "suite": "adapted-fresh-0256-cfg3",
+    "frozen_specification_sha256": "13a51a3e80d42b9b8de3937b79b1c3b5ec1312630272839c99bd113fa086b634",
+    "sources": {
+      "runner_sha256": "experiment/flux-so101-adaptation/source-by-hash/f004b20348cbe0943109ae124a8a99c195ef521c50ec23669dc1777d277937b5-run_flux_so101_adapted_cfg.py",
+      "adapter_loader_sha256": "experiment/flux-so101-adaptation/source-by-hash/23255dafd0d08817925b7a6eb78f42501303a1c324372dd9d1fc0eb64310007f-flux_adapted_inference.py",
+      "baseline_sha256": "experiment/flux-so101-adaptation/source-by-hash/30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188-so101_pick_place_baseline.py",
+      "runtime_helper_sha256": "experiment/flux-so101-adaptation/source-by-hash/76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb-local_runtime_fast.py",
+      "checker_68e8a1e09949f834e2e9ad7cffce41bbfee5ddafcbdd6bc6acf4c092aeca2dea": "experiment/flux-so101-adaptation/source-by-hash/68e8a1e09949f834e2e9ad7cffce41bbfee5ddafcbdd6bc6acf4c092aeca2dea-verify_flux_retry.py"
+    },
+    "all_original_suite_bytes_preserved": true
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "scope": "CPU toy algebra and checkpoint gradient audit; no actual FLUX, GPU allocation or training",
+  "source_sha256": "4a04ed094cd12bb68200580117db41280afc8703a715bd6dbbdcd15b93fbab47",
+  "torch": "2.10.0+cu128",
+  "frozen_linear_checks": [
+    {
+      "weight_dtype": "torch.float64",
+      "input_dtype": "torch.float64",
+      "forward_max_error": 0.0,
+      "input_gradient_max_error": 0.0
+    },
+    {
+      "weight_dtype": "torch.float32",
+      "input_dtype": "torch.float32",
+      "forward_max_error": 0.0,
+      "input_gradient_max_error": 0.0
+    },
+    {
+      "weight_dtype": "torch.bfloat16",
+      "input_dtype": "torch.float32",
+      "forward_max_error": 0.0,
+      "input_gradient_max_error": 0.0
+    }
+  ],
+  "gradcheck": true,
+  "gradgradcheck": true,
+  "checkpoint_blocks": [
+    "0",
+    "1"
+  ],
+  "checkpoint_parameter_gradient_max_error": 0.0,
+  "checkpoint_input_gradient_max_error": 0.0,
+  "fp32_base_under_bf16_autocast_input_gradient_error": 0.001589655876159668,
+  "precision_limit": "Actual checkpoint frozen bases are BF16, tested exact. FP32 frozen bases under BF16 autocast are not exact; disable autocast within custom frozen-linear or preserve effective forward cast for backward.",
+  "no_unsafe_device_mutation_observed": true
+}

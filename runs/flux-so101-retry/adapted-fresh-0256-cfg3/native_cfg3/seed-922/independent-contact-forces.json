@@ -1,0 +1,5693 @@
+[
+  {
+    "tick": 0,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 1,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 2,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 3,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 4,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 5,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 6,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 7,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 8,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 9,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 10,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 11,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 12,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 13,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 14,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 15,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 16,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 17,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 18,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 19,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 20,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 21,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 22,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 23,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 24,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 25,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 26,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 27,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 28,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 29,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 30,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 31,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 32,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 33,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 34,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 35,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 36,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 37,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 38,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 39,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 40,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 41,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 42,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 43,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 44,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 45,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 46,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 47,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 48,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 49,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 50,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 51,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 52,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 53,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 54,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 55,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 56,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 57,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 58,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 59,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 60,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 61,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 62,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 63,
+    "cube_z_m": 0.014995627991030257,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 64,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 65,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 66,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 67,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 68,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 69,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 70,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 71,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 72,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 73,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 74,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 75,
+    "cube_z_m": 0.014995627991030259,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 76,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 77,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 78,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 79,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 80,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 81,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 82,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 83,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 84,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 85,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 86,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 87,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 88,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 89,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 90,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 91,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 92,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 93,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 94,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 95,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 96,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 97,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 98,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 99,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 100,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 101,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 102,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 103,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 104,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 105,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 106,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 107,
+    "cube_z_m": 0.01499562799103026,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 108,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 109,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 110,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 111,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 112,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 113,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 114,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 115,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 116,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 117,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 118,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 119,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 120,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 121,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 122,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 123,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 124,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 125,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 126,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 127,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 128,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 129,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 130,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 131,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 132,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 133,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 134,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 135,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 136,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 137,
+    "cube_z_m": 0.014995627991030262,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 0.0,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 138,
+    "cube_z_m": 0.014935102371587572,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 2.2873813780142838,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 139,
+    "cube_z_m": 0.014860220685014679,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 4.510016336785557,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 140,
+    "cube_z_m": 0.014733981801664839,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 13.985986784994948,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 141,
+    "cube_z_m": 0.014719657559374438,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.457618030727724,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 142,
+    "cube_z_m": 0.014772672947033046,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.379237061407686,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 143,
+    "cube_z_m": 0.014795844051051582,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 15.175583117318684,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 144,
+    "cube_z_m": 0.014834834547454236,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 15.133373836006394,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 145,
+    "cube_z_m": 0.014846779662318033,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.236365323372066,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 146,
+    "cube_z_m": 0.01488228470755549,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.482415375072293,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 147,
+    "cube_z_m": 0.014903112765780794,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.579191389199934,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 148,
+    "cube_z_m": 0.014918363426254857,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.518177895298297,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 149,
+    "cube_z_m": 0.014860124700803994,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.820911039170344,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 150,
+    "cube_z_m": 0.014884167007828061,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.468001899023024,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 151,
+    "cube_z_m": 0.014841589620248714,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.96332358626763,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 152,
+    "cube_z_m": 0.014809778773540469,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.896357041050056,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 153,
+    "cube_z_m": 0.014774250222534636,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.084264550728761,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 154,
+    "cube_z_m": 0.014743061258529571,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.435255171234992,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 155,
+    "cube_z_m": 0.01475501128941975,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 13.806419848175775,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 156,
+    "cube_z_m": 0.014734479019366288,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 13.668753801272803,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 157,
+    "cube_z_m": 0.014797949176630765,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 13.46532606969028,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 158,
+    "cube_z_m": 0.01490663703407946,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 12.756098468641103,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 159,
+    "cube_z_m": 0.014683270873659568,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 16.342940875119236,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 160,
+    "cube_z_m": 0.014930972634636672,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 10.9663472350651,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 161,
+    "cube_z_m": 0.014834255192350172,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 15.274076002795752,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 162,
+    "cube_z_m": 0.014671554197304426,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.331660137901714,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 163,
+    "cube_z_m": 0.014912349544427694,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 12.854692721630974,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 164,
+    "cube_z_m": 0.015013979640042316,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 15.26359562973499,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 165,
+    "cube_z_m": 0.015211953990362704,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 11.705973649964083,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 166,
+    "cube_z_m": 0.015146413276333266,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 15.111502143556093,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 167,
+    "cube_z_m": 0.015453493644262609,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 12.159576784449774,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 168,
+    "cube_z_m": 0.015430757050439595,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 14.12806959566996,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 169,
+    "cube_z_m": 0.015473890850054739,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 13.208367532530106,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 170,
+    "cube_z_m": 0.015756196723771543,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 12.86484659558611,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 171,
+    "cube_z_m": 0.01600931279868719,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 11.745156608780723,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 172,
+    "cube_z_m": 0.01616392035987581,
+    "fixed_finger_peak_contact_force_n": 0.0,
+    "moving_jaw_peak_contact_force_n": 15.027474514777651,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 173,
+    "cube_z_m": 0.017159688444770185,
+    "fixed_finger_peak_contact_force_n": 46.55569374327211,
+    "moving_jaw_peak_contact_force_n": 54.93716928985406,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 174,
+    "cube_z_m": 0.016624578270398642,
+    "fixed_finger_peak_contact_force_n": 42.0595717659292,
+    "moving_jaw_peak_contact_force_n": 52.24902506677639,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 175,
+    "cube_z_m": 0.016167298282151472,
+    "fixed_finger_peak_contact_force_n": 35.06168243602674,
+    "moving_jaw_peak_contact_force_n": 47.231823484774445,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 176,
+    "cube_z_m": 0.01602949150170452,
+    "fixed_finger_peak_contact_force_n": 37.86655798757023,
+    "moving_jaw_peak_contact_force_n": 47.08967216627054,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 177,
+    "cube_z_m": 0.015797651516891092,
+    "fixed_finger_peak_contact_force_n": 38.35496253940788,
+    "moving_jaw_peak_contact_force_n": 47.634549850618846,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 178,
+    "cube_z_m": 0.015572020410454173,
+    "fixed_finger_peak_contact_force_n": 37.20675456686368,
+    "moving_jaw_peak_contact_force_n": 48.81555437907969,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 179,
+    "cube_z_m": 0.015409342833294891,
+    "fixed_finger_peak_contact_force_n": 41.21386729028394,
+    "moving_jaw_peak_contact_force_n": 45.96249946988658,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 180,
+    "cube_z_m": 0.015321135902477608,
+    "fixed_finger_peak_contact_force_n": 41.276488112556784,
+    "moving_jaw_peak_contact_force_n": 45.82198544740496,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 181,
+    "cube_z_m": 0.015134688687339538,
+    "fixed_finger_peak_contact_force_n": 40.584224026803284,
+    "moving_jaw_peak_contact_force_n": 47.25076135814223,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 182,
+    "cube_z_m": 0.01508278984195134,
+    "fixed_finger_peak_contact_force_n": 42.3557091805259,
+    "moving_jaw_peak_contact_force_n": 47.95794788722639,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 183,
+    "cube_z_m": 0.015024229822270595,
+    "fixed_finger_peak_contact_force_n": 46.80217778687756,
+    "moving_jaw_peak_contact_force_n": 44.39337578675787,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 184,
+    "cube_z_m": 0.01498661350899496,
+    "fixed_finger_peak_contact_force_n": 46.46047471591419,
+    "moving_jaw_peak_contact_force_n": 49.03164404023099,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 185,
+    "cube_z_m": 0.0149777064913608,
+    "fixed_finger_peak_contact_force_n": 50.75533518419787,
+    "moving_jaw_peak_contact_force_n": 45.79498656843346,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 186,
+    "cube_z_m": 0.014987317093740612,
+    "fixed_finger_peak_contact_force_n": 51.697035142256134,
+    "moving_jaw_peak_contact_force_n": 46.46398678745706,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 187,
+    "cube_z_m": 0.01501584146226767,
+    "fixed_finger_peak_contact_force_n": 49.416855801506394,
+    "moving_jaw_peak_contact_force_n": 51.58720350609936,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 188,
+    "cube_z_m": 0.01503602873387621,
+    "fixed_finger_peak_contact_force_n": 52.36967167081583,
+    "moving_jaw_peak_contact_force_n": 47.69384286118297,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 189,
+    "cube_z_m": 0.015068905989839159,
+    "fixed_finger_peak_contact_force_n": 50.295466258671084,
+    "moving_jaw_peak_contact_force_n": 52.59261208391462,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 190,
+    "cube_z_m": 0.015086456427217156,
+    "fixed_finger_peak_contact_force_n": 50.28369711902833,
+    "moving_jaw_peak_contact_force_n": 52.953462299018526,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 191,
+    "cube_z_m": 0.01510145503022754,
+    "fixed_finger_peak_contact_force_n": 49.99921166169661,
+    "moving_jaw_peak_contact_force_n": 53.280039344721125,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 192,
+    "cube_z_m": 0.015164890814110684,
+    "fixed_finger_peak_contact_force_n": 50.028062451416574,
+    "moving_jaw_peak_contact_force_n": 49.08034135760993,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 193,
+    "cube_z_m": 0.015203286797448675,
+    "fixed_finger_peak_contact_force_n": 46.77781903217736,
+    "moving_jaw_peak_contact_force_n": 52.86717179965575,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 194,
+    "cube_z_m": 0.015322156837651122,
+    "fixed_finger_peak_contact_force_n": 44.36631618209945,
+    "moving_jaw_peak_contact_force_n": 51.57113670587542,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 195,
+    "cube_z_m": 0.015526072431010732,
+    "fixed_finger_peak_contact_force_n": 41.31198661704832,
+    "moving_jaw_peak_contact_force_n": 48.12436752054035,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 196,
+    "cube_z_m": 0.015500385318884815,
+    "fixed_finger_peak_contact_force_n": 39.236575827046124,
+    "moving_jaw_peak_contact_force_n": 47.10200638009133,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 197,
+    "cube_z_m": 0.015554882043652173,
+    "fixed_finger_peak_contact_force_n": 38.130208543898064,
+    "moving_jaw_peak_contact_force_n": 49.668693910772554,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 198,
+    "cube_z_m": 0.015577620011306692,
+    "fixed_finger_peak_contact_force_n": 37.73418443999439,
+    "moving_jaw_peak_contact_force_n": 49.31630621303127,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 199,
+    "cube_z_m": 0.01563661350441444,
+    "fixed_finger_peak_contact_force_n": 38.02829512632093,
+    "moving_jaw_peak_contact_force_n": 48.31889282356134,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 200,
+    "cube_z_m": 0.015484600015382764,
+    "fixed_finger_peak_contact_force_n": 37.26073019326781,
+    "moving_jaw_peak_contact_force_n": 53.06397928583482,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 201,
+    "cube_z_m": 0.015481821899860283,
+    "fixed_finger_peak_contact_force_n": 37.25467661646382,
+    "moving_jaw_peak_contact_force_n": 53.816360475226375,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 202,
+    "cube_z_m": 0.015607230182797983,
+    "fixed_finger_peak_contact_force_n": 38.01020722596876,
+    "moving_jaw_peak_contact_force_n": 50.96036466944376,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 203,
+    "cube_z_m": 0.015583227483712766,
+    "fixed_finger_peak_contact_force_n": 40.87875496567421,
+    "moving_jaw_peak_contact_force_n": 51.616862008167836,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 204,
+    "cube_z_m": 0.01608219372789608,
+    "fixed_finger_peak_contact_force_n": 48.106327043851856,
+    "moving_jaw_peak_contact_force_n": 48.10880425728638,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 205,
+    "cube_z_m": 0.018616839803269423,
+    "fixed_finger_peak_contact_force_n": 47.28585937433831,
+    "moving_jaw_peak_contact_force_n": 47.570666737475335,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 206,
+    "cube_z_m": 0.02023621755401783,
+    "fixed_finger_peak_contact_force_n": 49.81395680151213,
+    "moving_jaw_peak_contact_force_n": 49.906127622844934,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 207,
+    "cube_z_m": 0.0226249660525054,
+    "fixed_finger_peak_contact_force_n": 48.376137062967516,
+    "moving_jaw_peak_contact_force_n": 48.62892508631437,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 208,
+    "cube_z_m": 0.024484963134249527,
+    "fixed_finger_peak_contact_force_n": 50.53489900395254,
+    "moving_jaw_peak_contact_force_n": 50.57533907875423,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 209,
+    "cube_z_m": 0.02704506057781061,
+    "fixed_finger_peak_contact_force_n": 50.11555598519969,
+    "moving_jaw_peak_contact_force_n": 50.346790317283144,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 210,
+    "cube_z_m": 0.02909656710606156,
+    "fixed_finger_peak_contact_force_n": 50.601497456370645,
+    "moving_jaw_peak_contact_force_n": 50.56197041196599,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 211,
+    "cube_z_m": 0.03177363372591464,
+    "fixed_finger_peak_contact_force_n": 50.07185002043609,
+    "moving_jaw_peak_contact_force_n": 50.29943004175526,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 212,
+    "cube_z_m": 0.03345105534316575,
+    "fixed_finger_peak_contact_force_n": 50.565013289177344,
+    "moving_jaw_peak_contact_force_n": 50.52966513759514,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 213,
+    "cube_z_m": 0.03589370103849614,
+    "fixed_finger_peak_contact_force_n": 50.13431632418133,
+    "moving_jaw_peak_contact_force_n": 50.31909476969206,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 214,
+    "cube_z_m": 0.03719186525177706,
+    "fixed_finger_peak_contact_force_n": 50.551741941860215,
+    "moving_jaw_peak_contact_force_n": 50.615173208273404,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 215,
+    "cube_z_m": 0.03866421357514613,
+    "fixed_finger_peak_contact_force_n": 50.281931706936646,
+    "moving_jaw_peak_contact_force_n": 50.266539287901566,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 216,
+    "cube_z_m": 0.03997894151244786,
+    "fixed_finger_peak_contact_force_n": 50.56847242503079,
+    "moving_jaw_peak_contact_force_n": 50.61190173130992,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 217,
+    "cube_z_m": 0.04130488294125548,
+    "fixed_finger_peak_contact_force_n": 50.24513002868908,
+    "moving_jaw_peak_contact_force_n": 50.263993893715124,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 218,
+    "cube_z_m": 0.043186644931570844,
+    "fixed_finger_peak_contact_force_n": 50.472100518239564,
+    "moving_jaw_peak_contact_force_n": 50.73331782467793,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 219,
+    "cube_z_m": 0.04511595107126448,
+    "fixed_finger_peak_contact_force_n": 50.17642098516878,
+    "moving_jaw_peak_contact_force_n": 50.40123657658758,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 220,
+    "cube_z_m": 0.04735991488088297,
+    "fixed_finger_peak_contact_force_n": 50.534648362735496,
+    "moving_jaw_peak_contact_force_n": 50.8207940139582,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 221,
+    "cube_z_m": 0.050203552899856285,
+    "fixed_finger_peak_contact_force_n": 50.26805358438557,
+    "moving_jaw_peak_contact_force_n": 50.3581027450951,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 222,
+    "cube_z_m": 0.05332764341301292,
+    "fixed_finger_peak_contact_force_n": 50.572891702775394,
+    "moving_jaw_peak_contact_force_n": 50.769477904032264,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 223,
+    "cube_z_m": 0.056249570369574384,
+    "fixed_finger_peak_contact_force_n": 50.366922929605686,
+    "moving_jaw_peak_contact_force_n": 50.34902830369837,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 224,
+    "cube_z_m": 0.060671883190998574,
+    "fixed_finger_peak_contact_force_n": 50.64406350608537,
+    "moving_jaw_peak_contact_force_n": 50.77848508691546,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 225,
+    "cube_z_m": 0.06471836794332625,
+    "fixed_finger_peak_contact_force_n": 50.40543035327104,
+    "moving_jaw_peak_contact_force_n": 50.36149801669143,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 226,
+    "cube_z_m": 0.06834964580012967,
+    "fixed_finger_peak_contact_force_n": 50.68970381987313,
+    "moving_jaw_peak_contact_force_n": 50.74331296820307,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 227,
+    "cube_z_m": 0.07220732778979189,
+    "fixed_finger_peak_contact_force_n": 50.399544923392206,
+    "moving_jaw_peak_contact_force_n": 50.3484770624663,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 228,
+    "cube_z_m": 0.0759076237956988,
+    "fixed_finger_peak_contact_force_n": 50.68101242602729,
+    "moving_jaw_peak_contact_force_n": 50.74118812622981,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 229,
+    "cube_z_m": 0.07868723540348097,
+    "fixed_finger_peak_contact_force_n": 50.33081028721593,
+    "moving_jaw_peak_contact_force_n": 50.42884596580842,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 230,
+    "cube_z_m": 0.08240457303353006,
+    "fixed_finger_peak_contact_force_n": 50.63237425794385,
+    "moving_jaw_peak_contact_force_n": 50.71562073574709,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 231,
+    "cube_z_m": 0.08468722769699133,
+    "fixed_finger_peak_contact_force_n": 50.27879952720198,
+    "moving_jaw_peak_contact_force_n": 50.46520912264901,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 232,
+    "cube_z_m": 0.08797360529728979,
+    "fixed_finger_peak_contact_force_n": 50.636642119324755,
+    "moving_jaw_peak_contact_force_n": 50.727686359906976,
+    "bilateral_lift": false
+  },
+  {
+    "tick": 233,
+    "cube_z_m": 0.09035493005185505,
+    "fixed_finger_peak_contact_force_n": 50.192242936057454,
+    "moving_jaw_peak_contact_force_n": 50.53070394729243,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 234,
+    "cube_z_m": 0.09326343150770981,
+    "fixed_finger_peak_contact_force_n": 50.672076815989406,
+    "moving_jaw_peak_contact_force_n": 50.72316974097893,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 235,
+    "cube_z_m": 0.09533198115253098,
+    "fixed_finger_peak_contact_force_n": 50.18094620590675,
+    "moving_jaw_peak_contact_force_n": 50.58512417204022,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 236,
+    "cube_z_m": 0.09803851160280953,
+    "fixed_finger_peak_contact_force_n": 50.70472449527758,
+    "moving_jaw_peak_contact_force_n": 50.76147565368404,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 237,
+    "cube_z_m": 0.10034894856853074,
+    "fixed_finger_peak_contact_force_n": 50.25748346201954,
+    "moving_jaw_peak_contact_force_n": 50.45513455025689,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 238,
+    "cube_z_m": 0.10311873137501251,
+    "fixed_finger_peak_contact_force_n": 48.86658380099345,
+    "moving_jaw_peak_contact_force_n": 48.88067537953878,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 239,
+    "cube_z_m": 0.1065309855674948,
+    "fixed_finger_peak_contact_force_n": 50.19523803476861,
+    "moving_jaw_peak_contact_force_n": 50.5163449825422,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 240,
+    "cube_z_m": 0.10915245766207492,
+    "fixed_finger_peak_contact_force_n": 50.74421878966604,
+    "moving_jaw_peak_contact_force_n": 50.81202479591554,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 241,
+    "cube_z_m": 0.11093813115173885,
+    "fixed_finger_peak_contact_force_n": 50.37271806670409,
+    "moving_jaw_peak_contact_force_n": 50.34061811725745,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 242,
+    "cube_z_m": 0.11327569304407227,
+    "fixed_finger_peak_contact_force_n": 50.54196574395074,
+    "moving_jaw_peak_contact_force_n": 50.85716370233119,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 243,
+    "cube_z_m": 0.11435383434008091,
+    "fixed_finger_peak_contact_force_n": 50.317353205730555,
+    "moving_jaw_peak_contact_force_n": 50.322844041836696,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 244,
+    "cube_z_m": 0.1161498951897858,
+    "fixed_finger_peak_contact_force_n": 50.63325831481762,
+    "moving_jaw_peak_contact_force_n": 50.76064554363586,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 245,
+    "cube_z_m": 0.11720798196076654,
+    "fixed_finger_peak_contact_force_n": 50.3667198622997,
+    "moving_jaw_peak_contact_force_n": 50.32476723405076,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 246,
+    "cube_z_m": 0.11823132287299117,
+    "fixed_finger_peak_contact_force_n": 50.665879294363144,
+    "moving_jaw_peak_contact_force_n": 50.66263499687473,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 247,
+    "cube_z_m": 0.11906239168969023,
+    "fixed_finger_peak_contact_force_n": 50.36750929230021,
+    "moving_jaw_peak_contact_force_n": 50.29046259561061,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 248,
+    "cube_z_m": 0.11966627382747373,
+    "fixed_finger_peak_contact_force_n": 50.679562016612266,
+    "moving_jaw_peak_contact_force_n": 50.70459993911866,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 249,
+    "cube_z_m": 0.11997354342885606,
+    "fixed_finger_peak_contact_force_n": 50.38261476600472,
+    "moving_jaw_peak_contact_force_n": 50.31260572905164,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 250,
+    "cube_z_m": 0.12059608446762803,
+    "fixed_finger_peak_contact_force_n": 50.6757356244854,
+    "moving_jaw_peak_contact_force_n": 50.66276735952285,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 251,
+    "cube_z_m": 0.12110872924937358,
+    "fixed_finger_peak_contact_force_n": 50.394902352351394,
+    "moving_jaw_peak_contact_force_n": 50.32876448626058,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 252,
+    "cube_z_m": 0.1216626516852169,
+    "fixed_finger_peak_contact_force_n": 50.66900756804081,
+    "moving_jaw_peak_contact_force_n": 50.610531652158485,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 253,
+    "cube_z_m": 0.12254433715715503,
+    "fixed_finger_peak_contact_force_n": 50.31462877628904,
+    "moving_jaw_peak_contact_force_n": 50.1890986585679,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 254,
+    "cube_z_m": 0.12359309310745929,
+    "fixed_finger_peak_contact_force_n": 50.66700672618017,
+    "moving_jaw_peak_contact_force_n": 50.61394290161145,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 255,
+    "cube_z_m": 0.12485448062027972,
+    "fixed_finger_peak_contact_force_n": 50.36501749560891,
+    "moving_jaw_peak_contact_force_n": 50.25677179658093,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 256,
+    "cube_z_m": 0.12545701356643504,
+    "fixed_finger_peak_contact_force_n": 50.67511838688084,
+    "moving_jaw_peak_contact_force_n": 50.585278090308655,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 257,
+    "cube_z_m": 0.12608414595349363,
+    "fixed_finger_peak_contact_force_n": 50.36700296188,
+    "moving_jaw_peak_contact_force_n": 50.20650581574585,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 258,
+    "cube_z_m": 0.12672207460962953,
+    "fixed_finger_peak_contact_force_n": 50.61451954102106,
+    "moving_jaw_peak_contact_force_n": 50.513564225558994,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 259,
+    "cube_z_m": 0.12747510733812412,
+    "fixed_finger_peak_contact_force_n": 50.30399501217232,
+    "moving_jaw_peak_contact_force_n": 50.15175811971689,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 260,
+    "cube_z_m": 0.12790472779275944,
+    "fixed_finger_peak_contact_force_n": 50.647045692191476,
+    "moving_jaw_peak_contact_force_n": 50.59351900264936,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 261,
+    "cube_z_m": 0.12839183567305568,
+    "fixed_finger_peak_contact_force_n": 50.34238027391396,
+    "moving_jaw_peak_contact_force_n": 50.22119640496709,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 262,
+    "cube_z_m": 0.12930572681682934,
+    "fixed_finger_peak_contact_force_n": 50.71915986005078,
+    "moving_jaw_peak_contact_force_n": 50.610317557570966,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 263,
+    "cube_z_m": 0.12995361045677836,
+    "fixed_finger_peak_contact_force_n": 50.301257514535926,
+    "moving_jaw_peak_contact_force_n": 50.204250682510356,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 264,
+    "cube_z_m": 0.1303117194553041,
+    "fixed_finger_peak_contact_force_n": 50.53755458077868,
+    "moving_jaw_peak_contact_force_n": 50.559674073071115,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 265,
+    "cube_z_m": 0.1307806309389393,
+    "fixed_finger_peak_contact_force_n": 50.30442371364799,
+    "moving_jaw_peak_contact_force_n": 50.21399109028497,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 266,
+    "cube_z_m": 0.13117060082857895,
+    "fixed_finger_peak_contact_force_n": 50.560272674298375,
+    "moving_jaw_peak_contact_force_n": 50.525598291029276,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 267,
+    "cube_z_m": 0.13144420385277186,
+    "fixed_finger_peak_contact_force_n": 50.25152858411146,
+    "moving_jaw_peak_contact_force_n": 50.152816780829966,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 268,
+    "cube_z_m": 0.13172099009927354,
+    "fixed_finger_peak_contact_force_n": 50.65573397314133,
+    "moving_jaw_peak_contact_force_n": 50.56297319344539,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 269,
+    "cube_z_m": 0.13204331579342202,
+    "fixed_finger_peak_contact_force_n": 49.020066227364524,
+    "moving_jaw_peak_contact_force_n": 48.90704134317607,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 270,
+    "cube_z_m": 0.13229611900872496,
+    "fixed_finger_peak_contact_force_n": 50.61823829930567,
+    "moving_jaw_peak_contact_force_n": 50.534184424887584,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 271,
+    "cube_z_m": 0.13253700355373527,
+    "fixed_finger_peak_contact_force_n": 48.96192964750171,
+    "moving_jaw_peak_contact_force_n": 48.856527038940214,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 272,
+    "cube_z_m": 0.13266151392132455,
+    "fixed_finger_peak_contact_force_n": 50.587084981218744,
+    "moving_jaw_peak_contact_force_n": 50.503907438192186,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 273,
+    "cube_z_m": 0.13265793122894123,
+    "fixed_finger_peak_contact_force_n": 48.98040412765775,
+    "moving_jaw_peak_contact_force_n": 48.86476396043925,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 274,
+    "cube_z_m": 0.13232672725877104,
+    "fixed_finger_peak_contact_force_n": 50.54641210009755,
+    "moving_jaw_peak_contact_force_n": 50.46268821687716,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 275,
+    "cube_z_m": 0.13194998163390653,
+    "fixed_finger_peak_contact_force_n": 48.77743539552276,
+    "moving_jaw_peak_contact_force_n": 48.63269922249557,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 276,
+    "cube_z_m": 0.1317521748674187,
+    "fixed_finger_peak_contact_force_n": 50.55587108796569,
+    "moving_jaw_peak_contact_force_n": 50.455340509222324,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 277,
+    "cube_z_m": 0.13137852370605033,
+    "fixed_finger_peak_contact_force_n": 48.991477103466046,
+    "moving_jaw_peak_contact_force_n": 48.87693441948059,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 278,
+    "cube_z_m": 0.1310211293139973,
+    "fixed_finger_peak_contact_force_n": 50.54504551297106,
+    "moving_jaw_peak_contact_force_n": 50.43325189823992,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 279,
+    "cube_z_m": 0.13070269146783334,
+    "fixed_finger_peak_contact_force_n": 49.00547570785159,
+    "moving_jaw_peak_contact_force_n": 48.88840368672286,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 280,
+    "cube_z_m": 0.13038301296650326,
+    "fixed_finger_peak_contact_force_n": 50.53426570372007,
+    "moving_jaw_peak_contact_force_n": 50.4058451883578,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 281,
+    "cube_z_m": 0.1298857700542782,
+    "fixed_finger_peak_contact_force_n": 48.996057717548545,
+    "moving_jaw_peak_contact_force_n": 48.868970069498815,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 282,
+    "cube_z_m": 0.12956420220240125,
+    "fixed_finger_peak_contact_force_n": 50.4999088771227,
+    "moving_jaw_peak_contact_force_n": 50.3584678941845,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 283,
+    "cube_z_m": 0.12923790017829845,
+    "fixed_finger_peak_contact_force_n": 50.76832293073793,
+    "moving_jaw_peak_contact_force_n": 50.69526099846412,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 284,
+    "cube_z_m": 0.12895066957407703,
+    "fixed_finger_peak_contact_force_n": 50.457005547318715,
+    "moving_jaw_peak_contact_force_n": 50.300541369178056,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 285,
+    "cube_z_m": 0.1288770433790089,
+    "fixed_finger_peak_contact_force_n": 50.715111250833935,
+    "moving_jaw_peak_contact_force_n": 50.65965354273788,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 286,
+    "cube_z_m": 0.12879275416455677,
+    "fixed_finger_peak_contact_force_n": 50.40560150749448,
+    "moving_jaw_peak_contact_force_n": 50.261277666931456,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 287,
+    "cube_z_m": 0.1289714471235324,
+    "fixed_finger_peak_contact_force_n": 50.688842867404944,
+    "moving_jaw_peak_contact_force_n": 50.56461654342106,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 288,
+    "cube_z_m": 0.1289555354516847,
+    "fixed_finger_peak_contact_force_n": 50.378028254753225,
+    "moving_jaw_peak_contact_force_n": 50.19739436572871,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 289,
+    "cube_z_m": 0.12879753865069934,
+    "fixed_finger_peak_contact_force_n": 50.67408553728924,
+    "moving_jaw_peak_contact_force_n": 50.58130140972088,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 290,
+    "cube_z_m": 0.1287375937001559,
+    "fixed_finger_peak_contact_force_n": 50.31144603014381,
+    "moving_jaw_peak_contact_force_n": 50.162443888071216,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 291,
+    "cube_z_m": 0.1288212498503269,
+    "fixed_finger_peak_contact_force_n": 50.63490318012823,
+    "moving_jaw_peak_contact_force_n": 50.56650365485484,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 292,
+    "cube_z_m": 0.12869177285347508,
+    "fixed_finger_peak_contact_force_n": 50.32473003607987,
+    "moving_jaw_peak_contact_force_n": 50.197058164740454,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 293,
+    "cube_z_m": 0.1286560236648818,
+    "fixed_finger_peak_contact_force_n": 50.66551974867507,
+    "moving_jaw_peak_contact_force_n": 50.54577610183503,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 294,
+    "cube_z_m": 0.12890992635584322,
+    "fixed_finger_peak_contact_force_n": 49.00767507802859,
+    "moving_jaw_peak_contact_force_n": 48.846028300775444,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 295,
+    "cube_z_m": 0.1290441248542154,
+    "fixed_finger_peak_contact_force_n": 50.54409711991033,
+    "moving_jaw_peak_contact_force_n": 50.425944229420146,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 296,
+    "cube_z_m": 0.12898834669051182,
+    "fixed_finger_peak_contact_force_n": 48.77431174846431,
+    "moving_jaw_peak_contact_force_n": 48.602901019745126,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 297,
+    "cube_z_m": 0.12908531009825772,
+    "fixed_finger_peak_contact_force_n": 50.57057758662731,
+    "moving_jaw_peak_contact_force_n": 50.44909997503874,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 298,
+    "cube_z_m": 0.12898718165036893,
+    "fixed_finger_peak_contact_force_n": 48.99115550828263,
+    "moving_jaw_peak_contact_force_n": 48.849495521186114,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 299,
+    "cube_z_m": 0.12890400637451155,
+    "fixed_finger_peak_contact_force_n": 50.527477140240826,
+    "moving_jaw_peak_contact_force_n": 50.40188243267224,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 300,
+    "cube_z_m": 0.1288604377618512,
+    "fixed_finger_peak_contact_force_n": 49.04078748553771,
+    "moving_jaw_peak_contact_force_n": 48.908609924445564,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 301,
+    "cube_z_m": 0.12887739987222724,
+    "fixed_finger_peak_contact_force_n": 50.546200023760136,
+    "moving_jaw_peak_contact_force_n": 50.41894297723496,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 302,
+    "cube_z_m": 0.1290213842187589,
+    "fixed_finger_peak_contact_force_n": 49.00138106139107,
+    "moving_jaw_peak_contact_force_n": 48.866636643021266,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 303,
+    "cube_z_m": 0.12900133014639717,
+    "fixed_finger_peak_contact_force_n": 50.47759086055368,
+    "moving_jaw_peak_contact_force_n": 50.36332609893167,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 304,
+    "cube_z_m": 0.12904983840247847,
+    "fixed_finger_peak_contact_force_n": 50.76530784787256,
+    "moving_jaw_peak_contact_force_n": 50.727990711041414,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 305,
+    "cube_z_m": 0.1291123101710563,
+    "fixed_finger_peak_contact_force_n": 50.418784642307266,
+    "moving_jaw_peak_contact_force_n": 50.302284742655154,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 306,
+    "cube_z_m": 0.12918391115952163,
+    "fixed_finger_peak_contact_force_n": 50.64356192400034,
+    "moving_jaw_peak_contact_force_n": 50.59704757580955,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 307,
+    "cube_z_m": 0.12916827101456604,
+    "fixed_finger_peak_contact_force_n": 50.34395413892889,
+    "moving_jaw_peak_contact_force_n": 50.241797279685244,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 308,
+    "cube_z_m": 0.12927078475371462,
+    "fixed_finger_peak_contact_force_n": 50.645916685182755,
+    "moving_jaw_peak_contact_force_n": 50.60713288805252,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 309,
+    "cube_z_m": 0.12926945490931416,
+    "fixed_finger_peak_contact_force_n": 50.317728715934855,
+    "moving_jaw_peak_contact_force_n": 50.197882020563206,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 310,
+    "cube_z_m": 0.12942350609620104,
+    "fixed_finger_peak_contact_force_n": 50.645780362545715,
+    "moving_jaw_peak_contact_force_n": 50.53506583357417,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 311,
+    "cube_z_m": 0.1295851590951674,
+    "fixed_finger_peak_contact_force_n": 49.03040811521668,
+    "moving_jaw_peak_contact_force_n": 48.87997585697084,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 312,
+    "cube_z_m": 0.12966430758051725,
+    "fixed_finger_peak_contact_force_n": 50.60464472054545,
+    "moving_jaw_peak_contact_force_n": 50.48935750729647,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 313,
+    "cube_z_m": 0.1295378940638124,
+    "fixed_finger_peak_contact_force_n": 48.783869600110954,
+    "moving_jaw_peak_contact_force_n": 48.60072078524758,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 314,
+    "cube_z_m": 0.129593438201417,
+    "fixed_finger_peak_contact_force_n": 50.53124480140791,
+    "moving_jaw_peak_contact_force_n": 50.39578154781069,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 315,
+    "cube_z_m": 0.12955704068751514,
+    "fixed_finger_peak_contact_force_n": 49.019076127800794,
+    "moving_jaw_peak_contact_force_n": 48.87744140327425,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 316,
+    "cube_z_m": 0.1293180275120493,
+    "fixed_finger_peak_contact_force_n": 50.54642089158801,
+    "moving_jaw_peak_contact_force_n": 50.408474422995724,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 317,
+    "cube_z_m": 0.1291160501947946,
+    "fixed_finger_peak_contact_force_n": 50.80251882760132,
+    "moving_jaw_peak_contact_force_n": 50.74653418629647,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 318,
+    "cube_z_m": 0.12860384920001366,
+    "fixed_finger_peak_contact_force_n": 50.43876391046748,
+    "moving_jaw_peak_contact_force_n": 50.33227425673418,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 319,
+    "cube_z_m": 0.12820626152462145,
+    "fixed_finger_peak_contact_force_n": 50.743059421904206,
+    "moving_jaw_peak_contact_force_n": 50.671806325375094,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 320,
+    "cube_z_m": 0.12786118965249613,
+    "fixed_finger_peak_contact_force_n": 50.41557730073632,
+    "moving_jaw_peak_contact_force_n": 50.29334681441052,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 321,
+    "cube_z_m": 0.12739882513045417,
+    "fixed_finger_peak_contact_force_n": 50.68325929097525,
+    "moving_jaw_peak_contact_force_n": 50.6412092092874,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 322,
+    "cube_z_m": 0.1272175006134828,
+    "fixed_finger_peak_contact_force_n": 50.34473895819092,
+    "moving_jaw_peak_contact_force_n": 50.22460823506523,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 323,
+    "cube_z_m": 0.12739849809646006,
+    "fixed_finger_peak_contact_force_n": 50.541284905677685,
+    "moving_jaw_peak_contact_force_n": 50.52223064353989,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 324,
+    "cube_z_m": 0.12709705440461408,
+    "fixed_finger_peak_contact_force_n": 50.28239734912032,
+    "moving_jaw_peak_contact_force_n": 50.1747041333655,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 325,
+    "cube_z_m": 0.12705726452332455,
+    "fixed_finger_peak_contact_force_n": 50.66048943991304,
+    "moving_jaw_peak_contact_force_n": 50.54816341520932,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 326,
+    "cube_z_m": 0.12740480567191728,
+    "fixed_finger_peak_contact_force_n": 49.02820191066993,
+    "moving_jaw_peak_contact_force_n": 48.903643178905185,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 327,
+    "cube_z_m": 0.12758777026884904,
+    "fixed_finger_peak_contact_force_n": 50.51462431616845,
+    "moving_jaw_peak_contact_force_n": 50.42740675299566,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 328,
+    "cube_z_m": 0.12757021805069574,
+    "fixed_finger_peak_contact_force_n": 49.040096262655446,
+    "moving_jaw_peak_contact_force_n": 48.92919066815032,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 329,
+    "cube_z_m": 0.12766874616176532,
+    "fixed_finger_peak_contact_force_n": 50.525657566124636,
+    "moving_jaw_peak_contact_force_n": 50.42269087791221,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 330,
+    "cube_z_m": 0.1277921438720484,
+    "fixed_finger_peak_contact_force_n": 49.025052264966256,
+    "moving_jaw_peak_contact_force_n": 48.924492161284675,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 331,
+    "cube_z_m": 0.12781753330969145,
+    "fixed_finger_peak_contact_force_n": 50.47450074373045,
+    "moving_jaw_peak_contact_force_n": 50.3674635757137,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 332,
+    "cube_z_m": 0.12787285099104545,
+    "fixed_finger_peak_contact_force_n": 50.72780274835436,
+    "moving_jaw_peak_contact_force_n": 50.68093282841197,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 333,
+    "cube_z_m": 0.12794812396283828,
+    "fixed_finger_peak_contact_force_n": 50.422658074957084,
+    "moving_jaw_peak_contact_force_n": 50.2974106325939,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 334,
+    "cube_z_m": 0.12818331814017853,
+    "fixed_finger_peak_contact_force_n": 50.68594537646814,
+    "moving_jaw_peak_contact_force_n": 50.66230693305012,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 335,
+    "cube_z_m": 0.12838910718874447,
+    "fixed_finger_peak_contact_force_n": 50.3493812355486,
+    "moving_jaw_peak_contact_force_n": 50.247131999611206,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 336,
+    "cube_z_m": 0.12891214635057072,
+    "fixed_finger_peak_contact_force_n": 50.61605663972904,
+    "moving_jaw_peak_contact_force_n": 50.589282039825314,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 337,
+    "cube_z_m": 0.129577616267681,
+    "fixed_finger_peak_contact_force_n": 50.289202278432306,
+    "moving_jaw_peak_contact_force_n": 50.191951575370084,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 338,
+    "cube_z_m": 0.1300995552904327,
+    "fixed_finger_peak_contact_force_n": 50.62865454424341,
+    "moving_jaw_peak_contact_force_n": 50.536877915744675,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 339,
+    "cube_z_m": 0.13053560353620658,
+    "fixed_finger_peak_contact_force_n": 49.06747799763172,
+    "moving_jaw_peak_contact_force_n": 48.94925590975634,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 340,
+    "cube_z_m": 0.1312272860235446,
+    "fixed_finger_peak_contact_force_n": 50.59095261120868,
+    "moving_jaw_peak_contact_force_n": 50.508903294043876,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 341,
+    "cube_z_m": 0.1316759088046278,
+    "fixed_finger_peak_contact_force_n": 49.03067379316101,
+    "moving_jaw_peak_contact_force_n": 48.91352513445145,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 342,
+    "cube_z_m": 0.13219212246365789,
+    "fixed_finger_peak_contact_force_n": 50.50639952085382,
+    "moving_jaw_peak_contact_force_n": 50.40624921239745,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 343,
+    "cube_z_m": 0.13259518486169428,
+    "fixed_finger_peak_contact_force_n": 49.06291691328077,
+    "moving_jaw_peak_contact_force_n": 48.94672106905403,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 344,
+    "cube_z_m": 0.13303441058719143,
+    "fixed_finger_peak_contact_force_n": 50.485715676144984,
+    "moving_jaw_peak_contact_force_n": 50.36248510988455,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 345,
+    "cube_z_m": 0.13340048126238407,
+    "fixed_finger_peak_contact_force_n": 50.739349902033624,
+    "moving_jaw_peak_contact_force_n": 50.70230197242811,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 346,
+    "cube_z_m": 0.13399581326746,
+    "fixed_finger_peak_contact_force_n": 50.41568904306818,
+    "moving_jaw_peak_contact_force_n": 50.275568265751716,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 347,
+    "cube_z_m": 0.13446377978846275,
+    "fixed_finger_peak_contact_force_n": 50.66376794361586,
+    "moving_jaw_peak_contact_force_n": 50.61183629972424,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 348,
+    "cube_z_m": 0.13501108441036033,
+    "fixed_finger_peak_contact_force_n": 50.30738455606051,
+    "moving_jaw_peak_contact_force_n": 50.183755910853904,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 349,
+    "cube_z_m": 0.13561289049673678,
+    "fixed_finger_peak_contact_force_n": 50.66968413563529,
+    "moving_jaw_peak_contact_force_n": 50.57415613351471,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 350,
+    "cube_z_m": 0.13604678269089815,
+    "fixed_finger_peak_contact_force_n": 49.062169076367404,
+    "moving_jaw_peak_contact_force_n": 48.949794280249044,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 351,
+    "cube_z_m": 0.13647569447217608,
+    "fixed_finger_peak_contact_force_n": 50.60541761590045,
+    "moving_jaw_peak_contact_force_n": 50.48409936748664,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 352,
+    "cube_z_m": 0.1370138129398206,
+    "fixed_finger_peak_contact_force_n": 49.03705962786966,
+    "moving_jaw_peak_contact_force_n": 48.89364276151051,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 353,
+    "cube_z_m": 0.13718009713434692,
+    "fixed_finger_peak_contact_force_n": 50.5175974563402,
+    "moving_jaw_peak_contact_force_n": 50.39382708964363,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 354,
+    "cube_z_m": 0.13729018432817575,
+    "fixed_finger_peak_contact_force_n": 49.07990601059264,
+    "moving_jaw_peak_contact_force_n": 48.94127727676668,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 355,
+    "cube_z_m": 0.13750183596355575,
+    "fixed_finger_peak_contact_force_n": 50.538422330577696,
+    "moving_jaw_peak_contact_force_n": 50.39852761090937,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 356,
+    "cube_z_m": 0.13738557676728683,
+    "fixed_finger_peak_contact_force_n": 50.79408984544257,
+    "moving_jaw_peak_contact_force_n": 50.73998659946609,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 357,
+    "cube_z_m": 0.13722103821769427,
+    "fixed_finger_peak_contact_force_n": 50.46121136803761,
+    "moving_jaw_peak_contact_force_n": 50.28854146349672,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 358,
+    "cube_z_m": 0.13737669101347458,
+    "fixed_finger_peak_contact_force_n": 50.743967084796765,
+    "moving_jaw_peak_contact_force_n": 50.670060037798365,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 359,
+    "cube_z_m": 0.13693998129599533,
+    "fixed_finger_peak_contact_force_n": 50.3959591294609,
+    "moving_jaw_peak_contact_force_n": 50.20657087975765,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 360,
+    "cube_z_m": 0.13618506183078055,
+    "fixed_finger_peak_contact_force_n": 50.74905295883303,
+    "moving_jaw_peak_contact_force_n": 50.49324826905281,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 361,
+    "cube_z_m": 0.1357077761692198,
+    "fixed_finger_peak_contact_force_n": 49.11511973690344,
+    "moving_jaw_peak_contact_force_n": 48.9072074447856,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 362,
+    "cube_z_m": 0.13471076705525573,
+    "fixed_finger_peak_contact_force_n": 50.66571071488036,
+    "moving_jaw_peak_contact_force_n": 50.439265692390414,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 363,
+    "cube_z_m": 0.13395196617478977,
+    "fixed_finger_peak_contact_force_n": 49.08969170578173,
+    "moving_jaw_peak_contact_force_n": 48.884395617623575,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 364,
+    "cube_z_m": 0.133044545735542,
+    "fixed_finger_peak_contact_force_n": 50.5642712681337,
+    "moving_jaw_peak_contact_force_n": 50.38768563560197,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 365,
+    "cube_z_m": 0.13216120371666273,
+    "fixed_finger_peak_contact_force_n": 50.88089562932519,
+    "moving_jaw_peak_contact_force_n": 50.77879434961683,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 366,
+    "cube_z_m": 0.13141537123731425,
+    "fixed_finger_peak_contact_force_n": 50.487099500020015,
+    "moving_jaw_peak_contact_force_n": 50.313056108855854,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 367,
+    "cube_z_m": 0.130559735795698,
+    "fixed_finger_peak_contact_force_n": 50.76015627716446,
+    "moving_jaw_peak_contact_force_n": 50.668966214237564,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 368,
+    "cube_z_m": 0.12987446659694685,
+    "fixed_finger_peak_contact_force_n": 50.409031345728216,
+    "moving_jaw_peak_contact_force_n": 50.21820303355176,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 369,
+    "cube_z_m": 0.12943705472793066,
+    "fixed_finger_peak_contact_force_n": 50.65981433518086,
+    "moving_jaw_peak_contact_force_n": 50.55622661127891,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 370,
+    "cube_z_m": 0.1289707707743774,
+    "fixed_finger_peak_contact_force_n": 50.33572683490367,
+    "moving_jaw_peak_contact_force_n": 50.17021183484655,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 371,
+    "cube_z_m": 0.12840245096301717,
+    "fixed_finger_peak_contact_force_n": 50.68616792984449,
+    "moving_jaw_peak_contact_force_n": 50.517222044958274,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 372,
+    "cube_z_m": 0.12812124999264854,
+    "fixed_finger_peak_contact_force_n": 49.12309843683162,
+    "moving_jaw_peak_contact_force_n": 48.937650494304535,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 373,
+    "cube_z_m": 0.12770377275785474,
+    "fixed_finger_peak_contact_force_n": 50.609120752027366,
+    "moving_jaw_peak_contact_force_n": 50.447309263942856,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 374,
+    "cube_z_m": 0.12729186311475432,
+    "fixed_finger_peak_contact_force_n": 49.10578187083192,
+    "moving_jaw_peak_contact_force_n": 48.919110566611025,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 375,
+    "cube_z_m": 0.1268643675207184,
+    "fixed_finger_peak_contact_force_n": 50.52331007020445,
+    "moving_jaw_peak_contact_force_n": 50.34409690635462,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 376,
+    "cube_z_m": 0.12657492963711822,
+    "fixed_finger_peak_contact_force_n": 50.77561755810659,
+    "moving_jaw_peak_contact_force_n": 50.664814977452544,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 377,
+    "cube_z_m": 0.12617549576520892,
+    "fixed_finger_peak_contact_force_n": 50.43478851818502,
+    "moving_jaw_peak_contact_force_n": 50.26296462487419,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 378,
+    "cube_z_m": 0.1260342584838944,
+    "fixed_finger_peak_contact_force_n": 50.695484789177044,
+    "moving_jaw_peak_contact_force_n": 50.620937573719736,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 379,
+    "cube_z_m": 0.12574582715497482,
+    "fixed_finger_peak_contact_force_n": 50.382236641096014,
+    "moving_jaw_peak_contact_force_n": 50.21846774770901,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 380,
+    "cube_z_m": 0.12545746907389,
+    "fixed_finger_peak_contact_force_n": 50.71900574427508,
+    "moving_jaw_peak_contact_force_n": 50.56709408364159,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 381,
+    "cube_z_m": 0.12532802115329508,
+    "fixed_finger_peak_contact_force_n": 49.08874510538849,
+    "moving_jaw_peak_contact_force_n": 48.910268039145315,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 382,
+    "cube_z_m": 0.12513242001627686,
+    "fixed_finger_peak_contact_force_n": 50.57825690878073,
+    "moving_jaw_peak_contact_force_n": 50.43265750134484,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 383,
+    "cube_z_m": 0.1250497979393635,
+    "fixed_finger_peak_contact_force_n": 49.12056263115101,
+    "moving_jaw_peak_contact_force_n": 48.96445245653804,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 384,
+    "cube_z_m": 0.12520619080106074,
+    "fixed_finger_peak_contact_force_n": 50.5417509834423,
+    "moving_jaw_peak_contact_force_n": 50.39013192202654,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 385,
+    "cube_z_m": 0.1250383266163763,
+    "fixed_finger_peak_contact_force_n": 50.7897173814897,
+    "moving_jaw_peak_contact_force_n": 50.73162548986855,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 386,
+    "cube_z_m": 0.12487586309371773,
+    "fixed_finger_peak_contact_force_n": 50.462464904454116,
+    "moving_jaw_peak_contact_force_n": 50.31889460902361,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 387,
+    "cube_z_m": 0.12502160990615488,
+    "fixed_finger_peak_contact_force_n": 50.69206574163356,
+    "moving_jaw_peak_contact_force_n": 50.605052410258764,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 388,
+    "cube_z_m": 0.1248213090883269,
+    "fixed_finger_peak_contact_force_n": 50.35366471049183,
+    "moving_jaw_peak_contact_force_n": 50.19332083011067,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 389,
+    "cube_z_m": 0.12462165763082236,
+    "fixed_finger_peak_contact_force_n": 50.70207542779192,
+    "moving_jaw_peak_contact_force_n": 50.540621883543835,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 390,
+    "cube_z_m": 0.12500442298743766,
+    "fixed_finger_peak_contact_force_n": 48.87775503254028,
+    "moving_jaw_peak_contact_force_n": 48.678162203126504,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 391,
+    "cube_z_m": 0.12498546346746973,
+    "fixed_finger_peak_contact_force_n": 50.63597823612074,
+    "moving_jaw_peak_contact_force_n": 50.497733385438494,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 392,
+    "cube_z_m": 0.124352019754075,
+    "fixed_finger_peak_contact_force_n": 49.149791734391705,
+    "moving_jaw_peak_contact_force_n": 48.91339659461449,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 393,
+    "cube_z_m": 0.1242663488542184,
+    "fixed_finger_peak_contact_force_n": 50.5457724532403,
+    "moving_jaw_peak_contact_force_n": 50.36886683370136,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 394,
+    "cube_z_m": 0.12336023571929812,
+    "fixed_finger_peak_contact_force_n": 50.8503974868191,
+    "moving_jaw_peak_contact_force_n": 50.66181164996708,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 395,
+    "cube_z_m": 0.1228803080904343,
+    "fixed_finger_peak_contact_force_n": 50.47095814291864,
+    "moving_jaw_peak_contact_force_n": 50.27696858950363,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 396,
+    "cube_z_m": 0.12213425833773392,
+    "fixed_finger_peak_contact_force_n": 50.785848613309675,
+    "moving_jaw_peak_contact_force_n": 50.65329833748726,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 397,
+    "cube_z_m": 0.12123737653843508,
+    "fixed_finger_peak_contact_force_n": 50.426317625845634,
+    "moving_jaw_peak_contact_force_n": 50.185165427602065,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 398,
+    "cube_z_m": 0.12078689989589665,
+    "fixed_finger_peak_contact_force_n": 50.71132568524061,
+    "moving_jaw_peak_contact_force_n": 50.55392444394417,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 399,
+    "cube_z_m": 0.12001421557094784,
+    "fixed_finger_peak_contact_force_n": 49.13950499028962,
+    "moving_jaw_peak_contact_force_n": 48.91772079303136,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 400,
+    "cube_z_m": 0.11974300094662098,
+    "fixed_finger_peak_contact_force_n": 50.66705988589691,
+    "moving_jaw_peak_contact_force_n": 50.483066989899676,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 401,
+    "cube_z_m": 0.11959179816012676,
+    "fixed_finger_peak_contact_force_n": 48.876324878782945,
+    "moving_jaw_peak_contact_force_n": 48.69786209078769,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 402,
+    "cube_z_m": 0.11936012323327108,
+    "fixed_finger_peak_contact_force_n": 50.524986749490495,
+    "moving_jaw_peak_contact_force_n": 50.36727303467158,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 403,
+    "cube_z_m": 0.11912937232564132,
+    "fixed_finger_peak_contact_force_n": 50.77135916671901,
+    "moving_jaw_peak_contact_force_n": 50.68225105866085,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 404,
+    "cube_z_m": 0.11925493634131552,
+    "fixed_finger_peak_contact_force_n": 50.41793578731585,
+    "moving_jaw_peak_contact_force_n": 50.25880969297195,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 405,
+    "cube_z_m": 0.11916199138479677,
+    "fixed_finger_peak_contact_force_n": 50.785872653693566,
+    "moving_jaw_peak_contact_force_n": 50.64875230320157,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 406,
+    "cube_z_m": 0.11919346908809224,
+    "fixed_finger_peak_contact_force_n": 49.11927058095802,
+    "moving_jaw_peak_contact_force_n": 48.93686083671365,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 407,
+    "cube_z_m": 0.11930515131980705,
+    "fixed_finger_peak_contact_force_n": 50.59235136927067,
+    "moving_jaw_peak_contact_force_n": 50.43256930478588,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 408,
+    "cube_z_m": 0.11951459553511543,
+    "fixed_finger_peak_contact_force_n": 49.122374168495625,
+    "moving_jaw_peak_contact_force_n": 48.94065971902101,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 409,
+    "cube_z_m": 0.11956995216927807,
+    "fixed_finger_peak_contact_force_n": 50.56663637677285,
+    "moving_jaw_peak_contact_force_n": 50.39622935753982,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 410,
+    "cube_z_m": 0.11984325614552696,
+    "fixed_finger_peak_contact_force_n": 50.79771829926867,
+    "moving_jaw_peak_contact_force_n": 50.6845659334063,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 411,
+    "cube_z_m": 0.12006530359646565,
+    "fixed_finger_peak_contact_force_n": 50.43709026808302,
+    "moving_jaw_peak_contact_force_n": 50.26933235903328,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 412,
+    "cube_z_m": 0.12024061986706713,
+    "fixed_finger_peak_contact_force_n": 50.731531020520904,
+    "moving_jaw_peak_contact_force_n": 50.659320891388575,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 413,
+    "cube_z_m": 0.12042049973573776,
+    "fixed_finger_peak_contact_force_n": 50.37639543021612,
+    "moving_jaw_peak_contact_force_n": 50.221603434513774,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 414,
+    "cube_z_m": 0.1205280973778331,
+    "fixed_finger_peak_contact_force_n": 50.68995724104134,
+    "moving_jaw_peak_contact_force_n": 50.54996685045777,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 415,
+    "cube_z_m": 0.12076531955179415,
+    "fixed_finger_peak_contact_force_n": 49.10756041086523,
+    "moving_jaw_peak_contact_force_n": 48.93129157130472,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 416,
+    "cube_z_m": 0.12131518656586404,
+    "fixed_finger_peak_contact_force_n": 50.648482047665084,
+    "moving_jaw_peak_contact_force_n": 50.4496119425323,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 417,
+    "cube_z_m": 0.12174043991607703,
+    "fixed_finger_peak_contact_force_n": 50.854581794722414,
+    "moving_jaw_peak_contact_force_n": 50.7389822396617,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 418,
+    "cube_z_m": 0.12214094678120822,
+    "fixed_finger_peak_contact_force_n": 50.486448592662775,
+    "moving_jaw_peak_contact_force_n": 50.29092455627646,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 419,
+    "cube_z_m": 0.12255583420674251,
+    "fixed_finger_peak_contact_force_n": 50.703791831622574,
+    "moving_jaw_peak_contact_force_n": 50.58095769228154,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 420,
+    "cube_z_m": 0.12299338920749975,
+    "fixed_finger_peak_contact_force_n": 50.416330380700046,
+    "moving_jaw_peak_contact_force_n": 50.229419057300426,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 421,
+    "cube_z_m": 0.12359529157792395,
+    "fixed_finger_peak_contact_force_n": 50.71591582612174,
+    "moving_jaw_peak_contact_force_n": 50.5329643066092,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 422,
+    "cube_z_m": 0.12445186490360581,
+    "fixed_finger_peak_contact_force_n": 49.12531751276474,
+    "moving_jaw_peak_contact_force_n": 48.91939277496041,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 423,
+    "cube_z_m": 0.12503676842312392,
+    "fixed_finger_peak_contact_force_n": 50.58309093670326,
+    "moving_jaw_peak_contact_force_n": 50.42468777056394,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 424,
+    "cube_z_m": 0.12557225348361717,
+    "fixed_finger_peak_contact_force_n": 49.140577327302175,
+    "moving_jaw_peak_contact_force_n": 48.95789235823967,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 425,
+    "cube_z_m": 0.12612691485066796,
+    "fixed_finger_peak_contact_force_n": 50.557235586897455,
+    "moving_jaw_peak_contact_force_n": 50.37964002730377,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 426,
+    "cube_z_m": 0.1263821657962211,
+    "fixed_finger_peak_contact_force_n": 50.74566003782184,
+    "moving_jaw_peak_contact_force_n": 50.65302628937067,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 427,
+    "cube_z_m": 0.1264937436256957,
+    "fixed_finger_peak_contact_force_n": 50.46122086786949,
+    "moving_jaw_peak_contact_force_n": 50.290873558156704,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 428,
+    "cube_z_m": 0.12648454696075015,
+    "fixed_finger_peak_contact_force_n": 50.76782367621302,
+    "moving_jaw_peak_contact_force_n": 50.604040358359555,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 429,
+    "cube_z_m": 0.126362465685437,
+    "fixed_finger_peak_contact_force_n": 48.91152341711641,
+    "moving_jaw_peak_contact_force_n": 48.68684211333765,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 430,
+    "cube_z_m": 0.12608119452710534,
+    "fixed_finger_peak_contact_force_n": 50.60800543971093,
+    "moving_jaw_peak_contact_force_n": 50.45310615402214,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 431,
+    "cube_z_m": 0.1254483606224176,
+    "fixed_finger_peak_contact_force_n": 49.134631146522,
+    "moving_jaw_peak_contact_force_n": 48.96937795843458,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 432,
+    "cube_z_m": 0.12496630151150066,
+    "fixed_finger_peak_contact_force_n": 50.530256663784435,
+    "moving_jaw_peak_contact_force_n": 50.358307190486194,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 433,
+    "cube_z_m": 0.12479152673798473,
+    "fixed_finger_peak_contact_force_n": 50.80277371135149,
+    "moving_jaw_peak_contact_force_n": 50.70325656419226,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 434,
+    "cube_z_m": 0.12474026411338912,
+    "fixed_finger_peak_contact_force_n": 50.42933846407207,
+    "moving_jaw_peak_contact_force_n": 50.26845942981673,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 435,
+    "cube_z_m": 0.12458658595906989,
+    "fixed_finger_peak_contact_force_n": 50.67904436623672,
+    "moving_jaw_peak_contact_force_n": 50.58908603402891,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 436,
+    "cube_z_m": 0.12474325143307939,
+    "fixed_finger_peak_contact_force_n": 50.319480832353285,
+    "moving_jaw_peak_contact_force_n": 50.15055021437206,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 437,
+    "cube_z_m": 0.12497917657762297,
+    "fixed_finger_peak_contact_force_n": 50.64911003216638,
+    "moving_jaw_peak_contact_force_n": 50.496332137103025,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 438,
+    "cube_z_m": 0.12526777400356634,
+    "fixed_finger_peak_contact_force_n": 49.16342898693352,
+    "moving_jaw_peak_contact_force_n": 48.99106683392402,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 439,
+    "cube_z_m": 0.12560409889494897,
+    "fixed_finger_peak_contact_force_n": 50.54164521313144,
+    "moving_jaw_peak_contact_force_n": 50.38012515391229,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 440,
+    "cube_z_m": 0.12594964062477534,
+    "fixed_finger_peak_contact_force_n": 50.7541907582856,
+    "moving_jaw_peak_contact_force_n": 50.68899150564034,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 441,
+    "cube_z_m": 0.12613836153160637,
+    "fixed_finger_peak_contact_force_n": 50.44240133086718,
+    "moving_jaw_peak_contact_force_n": 50.27340668703477,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 442,
+    "cube_z_m": 0.12639208625094267,
+    "fixed_finger_peak_contact_force_n": 50.64668237613868,
+    "moving_jaw_peak_contact_force_n": 50.54331407878756,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 443,
+    "cube_z_m": 0.12664040088157044,
+    "fixed_finger_peak_contact_force_n": 49.11411248866586,
+    "moving_jaw_peak_contact_force_n": 48.93001445936687,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 444,
+    "cube_z_m": 0.12673067163704105,
+    "fixed_finger_peak_contact_force_n": 50.647551621606446,
+    "moving_jaw_peak_contact_force_n": 50.50024635951312,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 445,
+    "cube_z_m": 0.1267475512212461,
+    "fixed_finger_peak_contact_force_n": 49.13084181069435,
+    "moving_jaw_peak_contact_force_n": 48.97157419851871,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 446,
+    "cube_z_m": 0.12670636532166368,
+    "fixed_finger_peak_contact_force_n": 50.52006186649682,
+    "moving_jaw_peak_contact_force_n": 50.369462570844675,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 447,
+    "cube_z_m": 0.1269302672882054,
+    "fixed_finger_peak_contact_force_n": 50.763746470526726,
+    "moving_jaw_peak_contact_force_n": 50.66523419997273,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 448,
+    "cube_z_m": 0.12740033763991268,
+    "fixed_finger_peak_contact_force_n": 50.44274695406795,
+    "moving_jaw_peak_contact_force_n": 50.24034606777053,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 449,
+    "cube_z_m": 0.12768542637141442,
+    "fixed_finger_peak_contact_force_n": 50.69234432241314,
+    "moving_jaw_peak_contact_force_n": 50.567285027371504,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 450,
+    "cube_z_m": 0.12785037860316129,
+    "fixed_finger_peak_contact_force_n": 49.17281576619738,
+    "moving_jaw_peak_contact_force_n": 48.95464197924346,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 451,
+    "cube_z_m": 0.12811773380173908,
+    "fixed_finger_peak_contact_force_n": 50.610833520163524,
+    "moving_jaw_peak_contact_force_n": 50.43612207232925,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 452,
+    "cube_z_m": 0.1282749678921093,
+    "fixed_finger_peak_contact_force_n": 48.915596262879085,
+    "moving_jaw_peak_contact_force_n": 48.698488236429796,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 453,
+    "cube_z_m": 0.12846203384491647,
+    "fixed_finger_peak_contact_force_n": 50.54747188824166,
+    "moving_jaw_peak_contact_force_n": 50.3658992274266,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 454,
+    "cube_z_m": 0.12900056408821087,
+    "fixed_finger_peak_contact_force_n": 50.74963367895643,
+    "moving_jaw_peak_contact_force_n": 50.6383198306137,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 455,
+    "cube_z_m": 0.12922454947489817,
+    "fixed_finger_peak_contact_force_n": 50.45195369087631,
+    "moving_jaw_peak_contact_force_n": 50.290107916847354,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 456,
+    "cube_z_m": 0.12920687367330144,
+    "fixed_finger_peak_contact_force_n": 50.73646243472716,
+    "moving_jaw_peak_contact_force_n": 50.59140400584391,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 457,
+    "cube_z_m": 0.1291915143687662,
+    "fixed_finger_peak_contact_force_n": 49.12365294249185,
+    "moving_jaw_peak_contact_force_n": 48.948550406857855,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 458,
+    "cube_z_m": 0.12909668823262327,
+    "fixed_finger_peak_contact_force_n": 50.62146401089792,
+    "moving_jaw_peak_contact_force_n": 50.473503849998934,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 459,
+    "cube_z_m": 0.12902119700832534,
+    "fixed_finger_peak_contact_force_n": 49.12388598654536,
+    "moving_jaw_peak_contact_force_n": 48.958010854392654,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 460,
+    "cube_z_m": 0.1289220377524722,
+    "fixed_finger_peak_contact_force_n": 50.48922495441348,
+    "moving_jaw_peak_contact_force_n": 50.330858100053774,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 461,
+    "cube_z_m": 0.12866908378806924,
+    "fixed_finger_peak_contact_force_n": 50.782551720464326,
+    "moving_jaw_peak_contact_force_n": 50.69915651712029,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 462,
+    "cube_z_m": 0.1285985776113618,
+    "fixed_finger_peak_contact_force_n": 50.401232679141486,
+    "moving_jaw_peak_contact_force_n": 50.23916578497969,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 463,
+    "cube_z_m": 0.12822647399204581,
+    "fixed_finger_peak_contact_force_n": 50.67365825689061,
+    "moving_jaw_peak_contact_force_n": 50.544013753216284,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 464,
+    "cube_z_m": 0.12810693517620858,
+    "fixed_finger_peak_contact_force_n": 48.90319433827328,
+    "moving_jaw_peak_contact_force_n": 48.700260137245714,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 465,
+    "cube_z_m": 0.12820783660664736,
+    "fixed_finger_peak_contact_force_n": 50.56406348594087,
+    "moving_jaw_peak_contact_force_n": 50.421574673246425,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 466,
+    "cube_z_m": 0.12838590247085713,
+    "fixed_finger_peak_contact_force_n": 50.8293699101474,
+    "moving_jaw_peak_contact_force_n": 50.75315898593238,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 467,
+    "cube_z_m": 0.1284887924720737,
+    "fixed_finger_peak_contact_force_n": 50.435079938927,
+    "moving_jaw_peak_contact_force_n": 50.29248355552368,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 468,
+    "cube_z_m": 0.12880932744964582,
+    "fixed_finger_peak_contact_force_n": 50.67997522755599,
+    "moving_jaw_peak_contact_force_n": 50.597246382193546,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 469,
+    "cube_z_m": 0.1291180758648756,
+    "fixed_finger_peak_contact_force_n": 50.40643588026267,
+    "moving_jaw_peak_contact_force_n": 50.26077126204125,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 470,
+    "cube_z_m": 0.12953628028217642,
+    "fixed_finger_peak_contact_force_n": 50.702284835066756,
+    "moving_jaw_peak_contact_force_n": 50.567933443646844,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 471,
+    "cube_z_m": 0.1298297228290311,
+    "fixed_finger_peak_contact_force_n": 49.106364818717424,
+    "moving_jaw_peak_contact_force_n": 48.947861362922396,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 472,
+    "cube_z_m": 0.13007876446390074,
+    "fixed_finger_peak_contact_force_n": 50.598151658331425,
+    "moving_jaw_peak_contact_force_n": 50.44848872457533,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 473,
+    "cube_z_m": 0.1303541865045949,
+    "fixed_finger_peak_contact_force_n": 50.78906713451008,
+    "moving_jaw_peak_contact_force_n": 50.70266812876407,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 474,
+    "cube_z_m": 0.1305672038605384,
+    "fixed_finger_peak_contact_force_n": 50.410983258432054,
+    "moving_jaw_peak_contact_force_n": 50.257664916712756,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 475,
+    "cube_z_m": 0.13063301828956275,
+    "fixed_finger_peak_contact_force_n": 50.713335020473465,
+    "moving_jaw_peak_contact_force_n": 50.633433886901145,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 476,
+    "cube_z_m": 0.13064206743882326,
+    "fixed_finger_peak_contact_force_n": 50.317223903653826,
+    "moving_jaw_peak_contact_force_n": 50.171138056609145,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 477,
+    "cube_z_m": 0.13062382150298535,
+    "fixed_finger_peak_contact_force_n": 50.65774055797577,
+    "moving_jaw_peak_contact_force_n": 50.52796233879937,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 478,
+    "cube_z_m": 0.13056378196517968,
+    "fixed_finger_peak_contact_force_n": 49.129058487331825,
+    "moving_jaw_peak_contact_force_n": 48.98855005624459,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 479,
+    "cube_z_m": 0.1306303203122812,
+    "fixed_finger_peak_contact_force_n": 50.516715007741176,
+    "moving_jaw_peak_contact_force_n": 50.359590978531216,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 480,
+    "cube_z_m": 0.1310305709094341,
+    "fixed_finger_peak_contact_force_n": 50.78083074372586,
+    "moving_jaw_peak_contact_force_n": 50.679176140321694,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 481,
+    "cube_z_m": 0.1311668185239968,
+    "fixed_finger_peak_contact_force_n": 50.3969476177043,
+    "moving_jaw_peak_contact_force_n": 50.20474721608594,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 482,
+    "cube_z_m": 0.13137624438559473,
+    "fixed_finger_peak_contact_force_n": 50.74097249900845,
+    "moving_jaw_peak_contact_force_n": 50.545980604017856,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 483,
+    "cube_z_m": 0.1317094889612183,
+    "fixed_finger_peak_contact_force_n": 49.14650645078698,
+    "moving_jaw_peak_contact_force_n": 48.93070138931326,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 484,
+    "cube_z_m": 0.1320228640228484,
+    "fixed_finger_peak_contact_force_n": 50.56352543649876,
+    "moving_jaw_peak_contact_force_n": 50.39721985888002,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 485,
+    "cube_z_m": 0.13256271289270938,
+    "fixed_finger_peak_contact_force_n": 50.86272450790994,
+    "moving_jaw_peak_contact_force_n": 50.74896259365653,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 486,
+    "cube_z_m": 0.13342260937458442,
+    "fixed_finger_peak_contact_force_n": 50.43989151723698,
+    "moving_jaw_peak_contact_force_n": 50.25600770032725,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 487,
+    "cube_z_m": 0.13411845833191582,
+    "fixed_finger_peak_contact_force_n": 50.70909008939936,
+    "moving_jaw_peak_contact_force_n": 50.61054428630134,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 488,
+    "cube_z_m": 0.13458091111272655,
+    "fixed_finger_peak_contact_force_n": 50.34378546159363,
+    "moving_jaw_peak_contact_force_n": 50.183253825461264,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 489,
+    "cube_z_m": 0.1352116604949277,
+    "fixed_finger_peak_contact_force_n": 50.63299599180859,
+    "moving_jaw_peak_contact_force_n": 50.47217909850108,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 490,
+    "cube_z_m": 0.1354969481238643,
+    "fixed_finger_peak_contact_force_n": 49.148685010268274,
+    "moving_jaw_peak_contact_force_n": 48.98590193809774,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 491,
+    "cube_z_m": 0.13577007660374935,
+    "fixed_finger_peak_contact_force_n": 50.53536287625897,
+    "moving_jaw_peak_contact_force_n": 50.366362055443176,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 492,
+    "cube_z_m": 0.13585608072783512,
+    "fixed_finger_peak_contact_force_n": 50.76013634280143,
+    "moving_jaw_peak_contact_force_n": 50.70039067594763,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 493,
+    "cube_z_m": 0.13587498773722187,
+    "fixed_finger_peak_contact_force_n": 50.38235285829091,
+    "moving_jaw_peak_contact_force_n": 50.226039099070334,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 494,
+    "cube_z_m": 0.13562301547674516,
+    "fixed_finger_peak_contact_force_n": 50.726094362832754,
+    "moving_jaw_peak_contact_force_n": 50.593895539638865,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 495,
+    "cube_z_m": 0.13498637013928164,
+    "fixed_finger_peak_contact_force_n": 49.12885536768248,
+    "moving_jaw_peak_contact_force_n": 48.97475391188689,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 496,
+    "cube_z_m": 0.1345863775776247,
+    "fixed_finger_peak_contact_force_n": 50.56476122187966,
+    "moving_jaw_peak_contact_force_n": 50.43771071626155,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 497,
+    "cube_z_m": 0.13453168496644136,
+    "fixed_finger_peak_contact_force_n": 50.85239294666588,
+    "moving_jaw_peak_contact_force_n": 50.78981830534726,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 498,
+    "cube_z_m": 0.13450091637556985,
+    "fixed_finger_peak_contact_force_n": 50.43828122543582,
+    "moving_jaw_peak_contact_force_n": 50.30545191313632,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 499,
+    "cube_z_m": 0.1344691361348316,
+    "fixed_finger_peak_contact_force_n": 50.70714345362689,
+    "moving_jaw_peak_contact_force_n": 50.63858848613542,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 500,
+    "cube_z_m": 0.13463292547532615,
+    "fixed_finger_peak_contact_force_n": 50.34601719265148,
+    "moving_jaw_peak_contact_force_n": 50.1931628112362,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 501,
+    "cube_z_m": 0.13501517821386372,
+    "fixed_finger_peak_contact_force_n": 50.62867502050967,
+    "moving_jaw_peak_contact_force_n": 50.4809679290421,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 502,
+    "cube_z_m": 0.1353352709909214,
+    "fixed_finger_peak_contact_force_n": 49.15925227115945,
+    "moving_jaw_peak_contact_force_n": 48.99306384961892,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 503,
+    "cube_z_m": 0.13564295351417185,
+    "fixed_finger_peak_contact_force_n": 50.52498892557089,
+    "moving_jaw_peak_contact_force_n": 50.36410391204352,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 504,
+    "cube_z_m": 0.13599147257169572,
+    "fixed_finger_peak_contact_force_n": 50.752739362837524,
+    "moving_jaw_peak_contact_force_n": 50.68787376950471,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 505,
+    "cube_z_m": 0.1362543464625279,
+    "fixed_finger_peak_contact_force_n": 50.378114231570486,
+    "moving_jaw_peak_contact_force_n": 50.21285656444057,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 506,
+    "cube_z_m": 0.13654907622956797,
+    "fixed_finger_peak_contact_force_n": 50.72261573032546,
+    "moving_jaw_peak_contact_force_n": 50.56838705677325,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 507,
+    "cube_z_m": 0.1367295307515776,
+    "fixed_finger_peak_contact_force_n": 49.131067814089434,
+    "moving_jaw_peak_contact_force_n": 48.953469505565444,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 508,
+    "cube_z_m": 0.13684953947866044,
+    "fixed_finger_peak_contact_force_n": 50.605117665378195,
+    "moving_jaw_peak_contact_force_n": 50.45162118910253,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 509,
+    "cube_z_m": 0.1369363934437644,
+    "fixed_finger_peak_contact_force_n": 48.92390068713631,
+    "moving_jaw_peak_contact_force_n": 48.738612323072026,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 510,
+    "cube_z_m": 0.13687565929069642,
+    "fixed_finger_peak_contact_force_n": 50.47229774380195,
+    "moving_jaw_peak_contact_force_n": 50.319453193719404,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 511,
+    "cube_z_m": 0.13690543302624783,
+    "fixed_finger_peak_contact_force_n": 50.73906649404548,
+    "moving_jaw_peak_contact_force_n": 50.64651441771373,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 512,
+    "cube_z_m": 0.13724587887152198,
+    "fixed_finger_peak_contact_force_n": 50.35421467940255,
+    "moving_jaw_peak_contact_force_n": 50.162458482479465,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 513,
+    "cube_z_m": 0.13736044609671136,
+    "fixed_finger_peak_contact_force_n": 50.66596908445341,
+    "moving_jaw_peak_contact_force_n": 50.48613659046272,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 514,
+    "cube_z_m": 0.1373862412015007,
+    "fixed_finger_peak_contact_force_n": 49.15738753666063,
+    "moving_jaw_peak_contact_force_n": 48.95725706168769,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 515,
+    "cube_z_m": 0.13781709614771928,
+    "fixed_finger_peak_contact_force_n": 50.56507182648454,
+    "moving_jaw_peak_contact_force_n": 50.36384258630628,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 516,
+    "cube_z_m": 0.13804918595459073,
+    "fixed_finger_peak_contact_force_n": 50.79614419846149,
+    "moving_jaw_peak_contact_force_n": 50.68540400473376,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 517,
+    "cube_z_m": 0.1382261422867393,
+    "fixed_finger_peak_contact_force_n": 50.39916851379194,
+    "moving_jaw_peak_contact_force_n": 50.21566601185436,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 518,
+    "cube_z_m": 0.13866540228699206,
+    "fixed_finger_peak_contact_force_n": 50.75660798078936,
+    "moving_jaw_peak_contact_force_n": 50.58110180084896,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 519,
+    "cube_z_m": 0.1387187911234214,
+    "fixed_finger_peak_contact_force_n": 49.15113584956566,
+    "moving_jaw_peak_contact_force_n": 48.95498014931051,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 520,
+    "cube_z_m": 0.13835200371689518,
+    "fixed_finger_peak_contact_force_n": 50.59747772067347,
+    "moving_jaw_peak_contact_force_n": 50.44473822534057,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 521,
+    "cube_z_m": 0.1380271666892856,
+    "fixed_finger_peak_contact_force_n": 48.940183309151,
+    "moving_jaw_peak_contact_force_n": 48.72311739829797,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 522,
+    "cube_z_m": 0.13744864686710626,
+    "fixed_finger_peak_contact_force_n": 50.487031367673985,
+    "moving_jaw_peak_contact_force_n": 50.31352217063203,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 523,
+    "cube_z_m": 0.13680586930076102,
+    "fixed_finger_peak_contact_force_n": 50.751723577852516,
+    "moving_jaw_peak_contact_force_n": 50.647327532232886,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 524,
+    "cube_z_m": 0.1362355577260892,
+    "fixed_finger_peak_contact_force_n": 50.36681495204455,
+    "moving_jaw_peak_contact_force_n": 50.17544697067351,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 525,
+    "cube_z_m": 0.13580811653090705,
+    "fixed_finger_peak_contact_force_n": 50.68080901394168,
+    "moving_jaw_peak_contact_force_n": 50.497500624286346,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 526,
+    "cube_z_m": 0.1355392669390605,
+    "fixed_finger_peak_contact_force_n": 48.93537704464659,
+    "moving_jaw_peak_contact_force_n": 48.71821886458903,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 527,
+    "cube_z_m": 0.13485985412032356,
+    "fixed_finger_peak_contact_force_n": 50.576650412278376,
+    "moving_jaw_peak_contact_force_n": 50.40897618621199,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 528,
+    "cube_z_m": 0.13444723626534566,
+    "fixed_finger_peak_contact_force_n": 50.76107292137687,
+    "moving_jaw_peak_contact_force_n": 50.65133686473685,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 529,
+    "cube_z_m": 0.13424055351451902,
+    "fixed_finger_peak_contact_force_n": 50.450566151636856,
+    "moving_jaw_peak_contact_force_n": 50.25939970594427,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 530,
+    "cube_z_m": 0.13431217969056644,
+    "fixed_finger_peak_contact_force_n": 50.72851421507144,
+    "moving_jaw_peak_contact_force_n": 50.54302496524879,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 531,
+    "cube_z_m": 0.13420347137347888,
+    "fixed_finger_peak_contact_force_n": 49.17570056448339,
+    "moving_jaw_peak_contact_force_n": 48.97963162109817,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 532,
+    "cube_z_m": 0.13434813982712046,
+    "fixed_finger_peak_contact_force_n": 50.53097501105228,
+    "moving_jaw_peak_contact_force_n": 50.35863171101813,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 533,
+    "cube_z_m": 0.13452364691380986,
+    "fixed_finger_peak_contact_force_n": 50.8222371411391,
+    "moving_jaw_peak_contact_force_n": 50.707755179546474,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 534,
+    "cube_z_m": 0.13488724382003425,
+    "fixed_finger_peak_contact_force_n": 50.459503638980664,
+    "moving_jaw_peak_contact_force_n": 50.28183397634679,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 535,
+    "cube_z_m": 0.1353201065012585,
+    "fixed_finger_peak_contact_force_n": 50.77862082450754,
+    "moving_jaw_peak_contact_force_n": 50.61068787176893,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 536,
+    "cube_z_m": 0.13583796288685124,
+    "fixed_finger_peak_contact_force_n": 49.15139665966728,
+    "moving_jaw_peak_contact_force_n": 48.95897521550465,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 537,
+    "cube_z_m": 0.13632440637446405,
+    "fixed_finger_peak_contact_force_n": 50.588298051607985,
+    "moving_jaw_peak_contact_force_n": 50.417321503990564,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 538,
+    "cube_z_m": 0.13697665924196514,
+    "fixed_finger_peak_contact_force_n": 48.92039231781443,
+    "moving_jaw_peak_contact_force_n": 48.710208804993364,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 539,
+    "cube_z_m": 0.13760816047605354,
+    "fixed_finger_peak_contact_force_n": 50.45728857692039,
+    "moving_jaw_peak_contact_force_n": 50.286908638382286,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 540,
+    "cube_z_m": 0.13804329748216793,
+    "fixed_finger_peak_contact_force_n": 50.7261132532527,
+    "moving_jaw_peak_contact_force_n": 50.62790464768245,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 541,
+    "cube_z_m": 0.1384008195763448,
+    "fixed_finger_peak_contact_force_n": 49.155390162925954,
+    "moving_jaw_peak_contact_force_n": 48.966652062176976,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 542,
+    "cube_z_m": 0.13864561587809393,
+    "fixed_finger_peak_contact_force_n": 50.61544958710807,
+    "moving_jaw_peak_contact_force_n": 50.47153081647292,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 543,
+    "cube_z_m": 0.13896595568028172,
+    "fixed_finger_peak_contact_force_n": 49.17821918273636,
+    "moving_jaw_peak_contact_force_n": 49.003155049947296,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 544,
+    "cube_z_m": 0.13963933216660823,
+    "fixed_finger_peak_contact_force_n": 50.52369053401993,
+    "moving_jaw_peak_contact_force_n": 50.31510321672746,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 545,
+    "cube_z_m": 0.14001953490420455,
+    "fixed_finger_peak_contact_force_n": 50.717100829354585,
+    "moving_jaw_peak_contact_force_n": 50.60227879083058,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 546,
+    "cube_z_m": 0.14019397353485244,
+    "fixed_finger_peak_contact_force_n": 50.41625243614039,
+    "moving_jaw_peak_contact_force_n": 50.222906418960164,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 547,
+    "cube_z_m": 0.1402984810498106,
+    "fixed_finger_peak_contact_force_n": 50.68172286379691,
+    "moving_jaw_peak_contact_force_n": 50.50076371087876,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 548,
+    "cube_z_m": 0.14002129420273587,
+    "fixed_finger_peak_contact_force_n": 49.19593458026932,
+    "moving_jaw_peak_contact_force_n": 49.012090052010144,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 549,
+    "cube_z_m": 0.13982643576711287,
+    "fixed_finger_peak_contact_force_n": 50.528222096036416,
+    "moving_jaw_peak_contact_force_n": 50.33749705459352,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 550,
+    "cube_z_m": 0.1398221176353544,
+    "fixed_finger_peak_contact_force_n": 50.76523715036913,
+    "moving_jaw_peak_contact_force_n": 50.64667880805181,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 551,
+    "cube_z_m": 0.1393341055946195,
+    "fixed_finger_peak_contact_force_n": 50.37633748625433,
+    "moving_jaw_peak_contact_force_n": 50.198985841631306,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 552,
+    "cube_z_m": 0.13862447241251338,
+    "fixed_finger_peak_contact_force_n": 50.739345504885456,
+    "moving_jaw_peak_contact_force_n": 50.57425654623286,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 553,
+    "cube_z_m": 0.13771092304252572,
+    "fixed_finger_peak_contact_force_n": 49.15654253956,
+    "moving_jaw_peak_contact_force_n": 48.97036462208436,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 554,
+    "cube_z_m": 0.136494149678245,
+    "fixed_finger_peak_contact_force_n": 50.60368227757633,
+    "moving_jaw_peak_contact_force_n": 50.43982376597883,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 555,
+    "cube_z_m": 0.1353229645014537,
+    "fixed_finger_peak_contact_force_n": 50.78137115634662,
+    "moving_jaw_peak_contact_force_n": 50.696152591376716,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 556,
+    "cube_z_m": 0.13419355790813753,
+    "fixed_finger_peak_contact_force_n": 50.43253497259585,
+    "moving_jaw_peak_contact_force_n": 50.24420527945953,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 557,
+    "cube_z_m": 0.133399046963543,
+    "fixed_finger_peak_contact_force_n": 50.74999884959545,
+    "moving_jaw_peak_contact_force_n": 50.56501618761308,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 558,
+    "cube_z_m": 0.13256184955389713,
+    "fixed_finger_peak_contact_force_n": 49.159899635079675,
+    "moving_jaw_peak_contact_force_n": 48.96929274796842,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 559,
+    "cube_z_m": 0.13170825097534294,
+    "fixed_finger_peak_contact_force_n": 50.6294832264157,
+    "moving_jaw_peak_contact_force_n": 50.46172583552541,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 560,
+    "cube_z_m": 0.13103026115943564,
+    "fixed_finger_peak_contact_force_n": 50.81582955620259,
+    "moving_jaw_peak_contact_force_n": 50.716380141152456,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 561,
+    "cube_z_m": 0.13049342839467082,
+    "fixed_finger_peak_contact_force_n": 50.44211149232126,
+    "moving_jaw_peak_contact_force_n": 50.27187824758294,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 562,
+    "cube_z_m": 0.13018612181047248,
+    "fixed_finger_peak_contact_force_n": 50.65100875672499,
+    "moving_jaw_peak_contact_force_n": 50.54233600701505,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 563,
+    "cube_z_m": 0.12983260752635642,
+    "fixed_finger_peak_contact_force_n": 49.15887467294964,
+    "moving_jaw_peak_contact_force_n": 48.97747114917956,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 564,
+    "cube_z_m": 0.1297095381648262,
+    "fixed_finger_peak_contact_force_n": 50.56990862422329,
+    "moving_jaw_peak_contact_force_n": 50.41864932658345,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 565,
+    "cube_z_m": 0.129869000101847,
+    "fixed_finger_peak_contact_force_n": 50.83320362454753,
+    "moving_jaw_peak_contact_force_n": 50.744282033755134,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 566,
+    "cube_z_m": 0.13018396971037,
+    "fixed_finger_peak_contact_force_n": 50.407291752726195,
+    "moving_jaw_peak_contact_force_n": 50.25343342485762,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 567,
+    "cube_z_m": 0.1305832776560596,
+    "fixed_finger_peak_contact_force_n": 50.64981707327047,
+    "moving_jaw_peak_contact_force_n": 50.58709656044897,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 568,
+    "cube_z_m": 0.13121319732441145,
+    "fixed_finger_peak_contact_force_n": 49.13152051880273,
+    "moving_jaw_peak_contact_force_n": 48.94520047379277,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 569,
+    "cube_z_m": 0.131905167580729,
+    "fixed_finger_peak_contact_force_n": 50.591228299844815,
+    "moving_jaw_peak_contact_force_n": 50.439963423724286,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 570,
+    "cube_z_m": 0.1327250724718909,
+    "fixed_finger_peak_contact_force_n": 50.84304651789935,
+    "moving_jaw_peak_contact_force_n": 50.75428689288324,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 571,
+    "cube_z_m": 0.1337930185198604,
+    "fixed_finger_peak_contact_force_n": 50.43404111053382,
+    "moving_jaw_peak_contact_force_n": 50.27321506832119,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 572,
+    "cube_z_m": 0.13451860365824417,
+    "fixed_finger_peak_contact_force_n": 50.66623903938161,
+    "moving_jaw_peak_contact_force_n": 50.59227270975386,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 573,
+    "cube_z_m": 0.1352625973034387,
+    "fixed_finger_peak_contact_force_n": 50.298126183754334,
+    "moving_jaw_peak_contact_force_n": 50.16597074012073,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 574,
+    "cube_z_m": 0.13574770868680533,
+    "fixed_finger_peak_contact_force_n": 50.5625412168998,
+    "moving_jaw_peak_contact_force_n": 50.454032638160115,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 575,
+    "cube_z_m": 0.1360868979863294,
+    "fixed_finger_peak_contact_force_n": 49.1539506362674,
+    "moving_jaw_peak_contact_force_n": 48.99723923400932,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 576,
+    "cube_z_m": 0.13688298007230876,
+    "fixed_finger_peak_contact_force_n": 50.49809219535676,
+    "moving_jaw_peak_contact_force_n": 50.30958642113091,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 577,
+    "cube_z_m": 0.13747661645997825,
+    "fixed_finger_peak_contact_force_n": 50.70210388384787,
+    "moving_jaw_peak_contact_force_n": 50.60450446783574,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 578,
+    "cube_z_m": 0.13769904736642444,
+    "fixed_finger_peak_contact_force_n": 49.16739571902581,
+    "moving_jaw_peak_contact_force_n": 48.9812236205074,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 579,
+    "cube_z_m": 0.13796513542195868,
+    "fixed_finger_peak_contact_force_n": 50.56038508415991,
+    "moving_jaw_peak_contact_force_n": 50.39992122783786,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 580,
+    "cube_z_m": 0.13787322991421566,
+    "fixed_finger_peak_contact_force_n": 49.14634179064616,
+    "moving_jaw_peak_contact_force_n": 48.98448321174954,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 581,
+    "cube_z_m": 0.13785423338505998,
+    "fixed_finger_peak_contact_force_n": 50.47175952335646,
+    "moving_jaw_peak_contact_force_n": 50.29804929850908,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 582,
+    "cube_z_m": 0.13804277343016205,
+    "fixed_finger_peak_contact_force_n": 50.71480997099834,
+    "moving_jaw_peak_contact_force_n": 50.604136975510194,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 583,
+    "cube_z_m": 0.1377997740294237,
+    "fixed_finger_peak_contact_force_n": 49.1714104283066,
+    "moving_jaw_peak_contact_force_n": 48.9862088925492,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 584,
+    "cube_z_m": 0.1372170531102384,
+    "fixed_finger_peak_contact_force_n": 50.61736070391279,
+    "moving_jaw_peak_contact_force_n": 50.459039355417794,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 585,
+    "cube_z_m": 0.13657150513487912,
+    "fixed_finger_peak_contact_force_n": 49.16985146225577,
+    "moving_jaw_peak_contact_force_n": 48.97644423077073,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 586,
+    "cube_z_m": 0.13563962925365528,
+    "fixed_finger_peak_contact_force_n": 50.52801130749701,
+    "moving_jaw_peak_contact_force_n": 50.33980881142771,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 587,
+    "cube_z_m": 0.13476982048651817,
+    "fixed_finger_peak_contact_force_n": 50.78081623763273,
+    "moving_jaw_peak_contact_force_n": 50.642620573838016,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 588,
+    "cube_z_m": 0.13384469592963352,
+    "fixed_finger_peak_contact_force_n": 50.38685899241141,
+    "moving_jaw_peak_contact_force_n": 50.17200360552049,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 589,
+    "cube_z_m": 0.1331830476549188,
+    "fixed_finger_peak_contact_force_n": 50.666007510489834,
+    "moving_jaw_peak_contact_force_n": 50.4770777897541,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 590,
+    "cube_z_m": 0.1325719141793599,
+    "fixed_finger_peak_contact_force_n": 48.966500783678505,
+    "moving_jaw_peak_contact_force_n": 48.76213654183082,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 591,
+    "cube_z_m": 0.13199844744434536,
+    "fixed_finger_peak_contact_force_n": 50.509944351579364,
+    "moving_jaw_peak_contact_force_n": 50.344108698636994,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 592,
+    "cube_z_m": 0.13163116940325584,
+    "fixed_finger_peak_contact_force_n": 50.74527385386422,
+    "moving_jaw_peak_contact_force_n": 50.6482261047974,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 593,
+    "cube_z_m": 0.13152206620688994,
+    "fixed_finger_peak_contact_force_n": 50.349037419498075,
+    "moving_jaw_peak_contact_force_n": 50.18788292322854,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 594,
+    "cube_z_m": 0.13175229125281815,
+    "fixed_finger_peak_contact_force_n": 50.63738011989976,
+    "moving_jaw_peak_contact_force_n": 50.489235467750476,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 595,
+    "cube_z_m": 0.13187864071679292,
+    "fixed_finger_peak_contact_force_n": 49.19102193710952,
+    "moving_jaw_peak_contact_force_n": 49.03927320962496,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 596,
+    "cube_z_m": 0.13223227586176198,
+    "fixed_finger_peak_contact_force_n": 50.49070406928065,
+    "moving_jaw_peak_contact_force_n": 50.33524165992669,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 597,
+    "cube_z_m": 0.13280135765061302,
+    "fixed_finger_peak_contact_force_n": 50.69562779217229,
+    "moving_jaw_peak_contact_force_n": 50.60675681419451,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 598,
+    "cube_z_m": 0.13347228870174668,
+    "fixed_finger_peak_contact_force_n": 50.29136205266762,
+    "moving_jaw_peak_contact_force_n": 50.13824345284016,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 599,
+    "cube_z_m": 0.1341257711687212,
+    "fixed_finger_peak_contact_force_n": 50.61111488693515,
+    "moving_jaw_peak_contact_force_n": 50.46874397795473,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 600,
+    "cube_z_m": 0.13488348982585255,
+    "fixed_finger_peak_contact_force_n": 49.15728574785696,
+    "moving_jaw_peak_contact_force_n": 49.00910422154612,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 601,
+    "cube_z_m": 0.135548209070394,
+    "fixed_finger_peak_contact_force_n": 50.46336124405335,
+    "moving_jaw_peak_contact_force_n": 50.308284458416026,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 602,
+    "cube_z_m": 0.1362180631184577,
+    "fixed_finger_peak_contact_force_n": 50.702066292434615,
+    "moving_jaw_peak_contact_force_n": 50.61301812850193,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 603,
+    "cube_z_m": 0.13684616114034956,
+    "fixed_finger_peak_contact_force_n": 50.2951233506394,
+    "moving_jaw_peak_contact_force_n": 50.142681343721414,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 604,
+    "cube_z_m": 0.13746126437978973,
+    "fixed_finger_peak_contact_force_n": 50.60789091258037,
+    "moving_jaw_peak_contact_force_n": 50.46811859387655,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 605,
+    "cube_z_m": 0.13814221732885326,
+    "fixed_finger_peak_contact_force_n": 49.151021485909624,
+    "moving_jaw_peak_contact_force_n": 49.016225009607965,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 606,
+    "cube_z_m": 0.1387813032871706,
+    "fixed_finger_peak_contact_force_n": 50.45341172406563,
+    "moving_jaw_peak_contact_force_n": 50.326194003213786,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 607,
+    "cube_z_m": 0.13944740148493692,
+    "fixed_finger_peak_contact_force_n": 50.6833976927722,
+    "moving_jaw_peak_contact_force_n": 50.61537667605747,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 608,
+    "cube_z_m": 0.1406179232753791,
+    "fixed_finger_peak_contact_force_n": 48.94507349693586,
+    "moving_jaw_peak_contact_force_n": 48.69788725606799,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 609,
+    "cube_z_m": 0.14146117245919368,
+    "fixed_finger_peak_contact_force_n": 50.57421116538192,
+    "moving_jaw_peak_contact_force_n": 50.40177984545812,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 610,
+    "cube_z_m": 0.14224392356213925,
+    "fixed_finger_peak_contact_force_n": 50.831173627661634,
+    "moving_jaw_peak_contact_force_n": 50.70858397756541,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 611,
+    "cube_z_m": 0.1430758770878201,
+    "fixed_finger_peak_contact_force_n": 50.461485228479184,
+    "moving_jaw_peak_contact_force_n": 50.27544641494841,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 612,
+    "cube_z_m": 0.14342995169301803,
+    "fixed_finger_peak_contact_force_n": 50.740944111376045,
+    "moving_jaw_peak_contact_force_n": 50.59015830199593,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 613,
+    "cube_z_m": 0.14388560748020274,
+    "fixed_finger_peak_contact_force_n": 48.935314961674116,
+    "moving_jaw_peak_contact_force_n": 48.708900638365066,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 614,
+    "cube_z_m": 0.14443992725370858,
+    "fixed_finger_peak_contact_force_n": 50.54501322185479,
+    "moving_jaw_peak_contact_force_n": 50.39024487081049,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 615,
+    "cube_z_m": 0.14448872128633358,
+    "fixed_finger_peak_contact_force_n": 50.7890390600974,
+    "moving_jaw_peak_contact_force_n": 50.70912431740126,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 616,
+    "cube_z_m": 0.144074412343163,
+    "fixed_finger_peak_contact_force_n": 50.42381771833536,
+    "moving_jaw_peak_contact_force_n": 50.274763120218665,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 617,
+    "cube_z_m": 0.14351381079851672,
+    "fixed_finger_peak_contact_force_n": 50.74005072688913,
+    "moving_jaw_peak_contact_force_n": 50.60239758102781,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 618,
+    "cube_z_m": 0.14260691245281418,
+    "fixed_finger_peak_contact_force_n": 49.15192160593445,
+    "moving_jaw_peak_contact_force_n": 49.00094861469045,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 619,
+    "cube_z_m": 0.1415456988371852,
+    "fixed_finger_peak_contact_force_n": 50.54789087071763,
+    "moving_jaw_peak_contact_force_n": 50.425157704220695,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 620,
+    "cube_z_m": 0.14056097589747812,
+    "fixed_finger_peak_contact_force_n": 50.82814094171804,
+    "moving_jaw_peak_contact_force_n": 50.752501798566,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 621,
+    "cube_z_m": 0.1397139537953234,
+    "fixed_finger_peak_contact_force_n": 50.38682495230939,
+    "moving_jaw_peak_contact_force_n": 50.23942760857167,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 622,
+    "cube_z_m": 0.13902418628380708,
+    "fixed_finger_peak_contact_force_n": 50.72831132104586,
+    "moving_jaw_peak_contact_force_n": 50.59040143317934,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 623,
+    "cube_z_m": 0.13826305704029543,
+    "fixed_finger_peak_contact_force_n": 49.18072692042492,
+    "moving_jaw_peak_contact_force_n": 49.027569294736644,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 624,
+    "cube_z_m": 0.13755762004539387,
+    "fixed_finger_peak_contact_force_n": 50.51794128939939,
+    "moving_jaw_peak_contact_force_n": 50.372515865892474,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 625,
+    "cube_z_m": 0.1368801880169639,
+    "fixed_finger_peak_contact_force_n": 50.719993949187376,
+    "moving_jaw_peak_contact_force_n": 50.67151765359758,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 626,
+    "cube_z_m": 0.13640793063294052,
+    "fixed_finger_peak_contact_force_n": 50.40464969222151,
+    "moving_jaw_peak_contact_force_n": 50.24920826355792,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 627,
+    "cube_z_m": 0.1359443029578607,
+    "fixed_finger_peak_contact_force_n": 50.65737812629689,
+    "moving_jaw_peak_contact_force_n": 50.517207545366276,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 628,
+    "cube_z_m": 0.13593535741810994,
+    "fixed_finger_peak_contact_force_n": 49.18270152424531,
+    "moving_jaw_peak_contact_force_n": 49.01041549010048,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 629,
+    "cube_z_m": 0.13601708765483267,
+    "fixed_finger_peak_contact_force_n": 50.514966354694685,
+    "moving_jaw_peak_contact_force_n": 50.357411952844465,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 630,
+    "cube_z_m": 0.13636710057386436,
+    "fixed_finger_peak_contact_force_n": 50.686507239710224,
+    "moving_jaw_peak_contact_force_n": 50.614392298959125,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 631,
+    "cube_z_m": 0.13675433083042446,
+    "fixed_finger_peak_contact_force_n": 50.34895678217142,
+    "moving_jaw_peak_contact_force_n": 50.186805767175095,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 632,
+    "cube_z_m": 0.1372829679808984,
+    "fixed_finger_peak_contact_force_n": 50.63767455932203,
+    "moving_jaw_peak_contact_force_n": 50.48175876747157,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 633,
+    "cube_z_m": 0.13793034764241158,
+    "fixed_finger_peak_contact_force_n": 49.17705324128339,
+    "moving_jaw_peak_contact_force_n": 49.00217394897828,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 634,
+    "cube_z_m": 0.13874336831048656,
+    "fixed_finger_peak_contact_force_n": 50.46952581808008,
+    "moving_jaw_peak_contact_force_n": 50.291970164864466,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 635,
+    "cube_z_m": 0.13960602782730017,
+    "fixed_finger_peak_contact_force_n": 50.67601696995763,
+    "moving_jaw_peak_contact_force_n": 50.57047189215789,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 636,
+    "cube_z_m": 0.14033748593237774,
+    "fixed_finger_peak_contact_force_n": 49.1725310093649,
+    "moving_jaw_peak_contact_force_n": 48.990851452912885,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 637,
+    "cube_z_m": 0.14131852336151707,
+    "fixed_finger_peak_contact_force_n": 50.56949087587242,
+    "moving_jaw_peak_contact_force_n": 50.414968831117996,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 638,
+    "cube_z_m": 0.14225708793826622,
+    "fixed_finger_peak_contact_force_n": 50.797619906213725,
+    "moving_jaw_peak_contact_force_n": 50.72001495460138,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 639,
+    "cube_z_m": 0.1432088853631566,
+    "fixed_finger_peak_contact_force_n": 50.400874704173326,
+    "moving_jaw_peak_contact_force_n": 50.23353376976204,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 640,
+    "cube_z_m": 0.14504250057011944,
+    "fixed_finger_peak_contact_force_n": 50.682145333605895,
+    "moving_jaw_peak_contact_force_n": 50.58394658695492,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 641,
+    "cube_z_m": 0.14631130965483188,
+    "fixed_finger_peak_contact_force_n": 49.103229346977926,
+    "moving_jaw_peak_contact_force_n": 49.037647847765115,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 642,
+    "cube_z_m": 0.14705001261931616,
+    "fixed_finger_peak_contact_force_n": 50.48305025523928,
+    "moving_jaw_peak_contact_force_n": 50.398081222159135,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 643,
+    "cube_z_m": 0.14795838835096034,
+    "fixed_finger_peak_contact_force_n": 50.72346838843274,
+    "moving_jaw_peak_contact_force_n": 50.72474690728552,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 644,
+    "cube_z_m": 0.14772937520308654,
+    "fixed_finger_peak_contact_force_n": 50.365719423166134,
+    "moving_jaw_peak_contact_force_n": 50.288728227330104,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 645,
+    "cube_z_m": 0.14782876240087428,
+    "fixed_finger_peak_contact_force_n": 50.687570165216755,
+    "moving_jaw_peak_contact_force_n": 50.62482004537054,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 646,
+    "cube_z_m": 0.14815710450382946,
+    "fixed_finger_peak_contact_force_n": 49.09451711250015,
+    "moving_jaw_peak_contact_force_n": 49.03237147362534,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 647,
+    "cube_z_m": 0.14766473526139764,
+    "fixed_finger_peak_contact_force_n": 50.50968550100253,
+    "moving_jaw_peak_contact_force_n": 50.40701543598348,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 648,
+    "cube_z_m": 0.14633208538593934,
+    "fixed_finger_peak_contact_force_n": 50.745541245298405,
+    "moving_jaw_peak_contact_force_n": 50.67465064694049,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 649,
+    "cube_z_m": 0.145375021910577,
+    "fixed_finger_peak_contact_force_n": 50.40637296502211,
+    "moving_jaw_peak_contact_force_n": 50.23667813614607,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 650,
+    "cube_z_m": 0.14422083210698397,
+    "fixed_finger_peak_contact_force_n": 50.649113155135346,
+    "moving_jaw_peak_contact_force_n": 50.51043887917394,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 651,
+    "cube_z_m": 0.14285790419145927,
+    "fixed_finger_peak_contact_force_n": 49.17874053678909,
+    "moving_jaw_peak_contact_force_n": 49.024062060938384,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 652,
+    "cube_z_m": 0.14161211673933263,
+    "fixed_finger_peak_contact_force_n": 50.49342834305882,
+    "moving_jaw_peak_contact_force_n": 50.32277673389095,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 653,
+    "cube_z_m": 0.14031952019211233,
+    "fixed_finger_peak_contact_force_n": 50.696485653645446,
+    "moving_jaw_peak_contact_force_n": 50.612881631612396,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 654,
+    "cube_z_m": 0.13940197173193195,
+    "fixed_finger_peak_contact_force_n": 48.957843322371055,
+    "moving_jaw_peak_contact_force_n": 48.749921342231325,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 655,
+    "cube_z_m": 0.13827999158279042,
+    "fixed_finger_peak_contact_force_n": 50.57688833539263,
+    "moving_jaw_peak_contact_force_n": 50.45717149669142,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 656,
+    "cube_z_m": 0.13741759997685554,
+    "fixed_finger_peak_contact_force_n": 50.81381104697574,
+    "moving_jaw_peak_contact_force_n": 50.750678232823944,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 657,
+    "cube_z_m": 0.1365798975502986,
+    "fixed_finger_peak_contact_force_n": 50.402314209376485,
+    "moving_jaw_peak_contact_force_n": 50.27205737570415,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 658,
+    "cube_z_m": 0.13587587457624845,
+    "fixed_finger_peak_contact_force_n": 50.70557614764743,
+    "moving_jaw_peak_contact_force_n": 50.57889043458515,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 659,
+    "cube_z_m": 0.13527336982699936,
+    "fixed_finger_peak_contact_force_n": 49.171388215603194,
+    "moving_jaw_peak_contact_force_n": 49.02592585740076,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 660,
+    "cube_z_m": 0.13512924261527848,
+    "fixed_finger_peak_contact_force_n": 50.55653801495986,
+    "moving_jaw_peak_contact_force_n": 50.4004460374289,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 661,
+    "cube_z_m": 0.13506365650036012,
+    "fixed_finger_peak_contact_force_n": 50.72971644992405,
+    "moving_jaw_peak_contact_force_n": 50.64640015897982,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 662,
+    "cube_z_m": 0.13532262425794397,
+    "fixed_finger_peak_contact_force_n": 50.36327539556353,
+    "moving_jaw_peak_contact_force_n": 50.20021582622221,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 663,
+    "cube_z_m": 0.1357544507038977,
+    "fixed_finger_peak_contact_force_n": 50.61542171505631,
+    "moving_jaw_peak_contact_force_n": 50.46506312236425,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 664,
+    "cube_z_m": 0.13611662148730458,
+    "fixed_finger_peak_contact_force_n": 49.178611702811516,
+    "moving_jaw_peak_contact_force_n": 49.02025751941996,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 665,
+    "cube_z_m": 0.1364564074364884,
+    "fixed_finger_peak_contact_force_n": 50.44931819462469,
+    "moving_jaw_peak_contact_force_n": 50.29278943263768,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 666,
+    "cube_z_m": 0.13715541578818297,
+    "fixed_finger_peak_contact_force_n": 50.67352605563915,
+    "moving_jaw_peak_contact_force_n": 50.566679349959905,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 667,
+    "cube_z_m": 0.13783872415610499,
+    "fixed_finger_peak_contact_force_n": 49.14857129391612,
+    "moving_jaw_peak_contact_force_n": 48.96250819252159,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 668,
+    "cube_z_m": 0.13847826192657067,
+    "fixed_finger_peak_contact_force_n": 50.550202655514425,
+    "moving_jaw_peak_contact_force_n": 50.39512485559287,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 669,
+    "cube_z_m": 0.1392373136906973,
+    "fixed_finger_peak_contact_force_n": 50.78449223341877,
+    "moving_jaw_peak_contact_force_n": 50.69087197007411,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 670,
+    "cube_z_m": 0.14003601514445818,
+    "fixed_finger_peak_contact_force_n": 50.37901828478144,
+    "moving_jaw_peak_contact_force_n": 50.22001678021965,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 671,
+    "cube_z_m": 0.1410750273987661,
+    "fixed_finger_peak_contact_force_n": 50.67964573177735,
+    "moving_jaw_peak_contact_force_n": 50.51935338346395,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 672,
+    "cube_z_m": 0.14271426738188742,
+    "fixed_finger_peak_contact_force_n": 48.92276462474728,
+    "moving_jaw_peak_contact_force_n": 48.728117227553945,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 673,
+    "cube_z_m": 0.14403226073840825,
+    "fixed_finger_peak_contact_force_n": 50.48936249011083,
+    "moving_jaw_peak_contact_force_n": 50.377369458644765,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 674,
+    "cube_z_m": 0.14481553136475367,
+    "fixed_finger_peak_contact_force_n": 50.687829425024596,
+    "moving_jaw_peak_contact_force_n": 50.61663598817302,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 675,
+    "cube_z_m": 0.14550397607624688,
+    "fixed_finger_peak_contact_force_n": 50.32490901443195,
+    "moving_jaw_peak_contact_force_n": 50.197654668430864,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 676,
+    "cube_z_m": 0.1454590194445332,
+    "fixed_finger_peak_contact_force_n": 50.59255674926289,
+    "moving_jaw_peak_contact_force_n": 50.47128411742412,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 677,
+    "cube_z_m": 0.1453398021727551,
+    "fixed_finger_peak_contact_force_n": 48.9553461703912,
+    "moving_jaw_peak_contact_force_n": 48.781809923683475,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 678,
+    "cube_z_m": 0.1454192912698381,
+    "fixed_finger_peak_contact_force_n": 50.4391979653765,
+    "moving_jaw_peak_contact_force_n": 50.32580817848168,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 679,
+    "cube_z_m": 0.14487343569932398,
+    "fixed_finger_peak_contact_force_n": 50.6574727669112,
+    "moving_jaw_peak_contact_force_n": 50.5702244327024,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 680,
+    "cube_z_m": 0.1441527241550402,
+    "fixed_finger_peak_contact_force_n": 49.17262302993128,
+    "moving_jaw_peak_contact_force_n": 48.98617087566568,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 681,
+    "cube_z_m": 0.1435232613465926,
+    "fixed_finger_peak_contact_force_n": 50.5841747546915,
+    "moving_jaw_peak_contact_force_n": 50.426594065004785,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 682,
+    "cube_z_m": 0.14252522538081583,
+    "fixed_finger_peak_contact_force_n": 50.749583420835776,
+    "moving_jaw_peak_contact_force_n": 50.68403778635501,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 683,
+    "cube_z_m": 0.1414108455453109,
+    "fixed_finger_peak_contact_force_n": 50.36414149479876,
+    "moving_jaw_peak_contact_force_n": 50.2311012390087,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 684,
+    "cube_z_m": 0.14024887797174707,
+    "fixed_finger_peak_contact_force_n": 50.68231530265163,
+    "moving_jaw_peak_contact_force_n": 50.558793481291964,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 685,
+    "cube_z_m": 0.13899148410312046,
+    "fixed_finger_peak_contact_force_n": 49.17450438182184,
+    "moving_jaw_peak_contact_force_n": 49.04037525249814,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 686,
+    "cube_z_m": 0.13786261769829364,
+    "fixed_finger_peak_contact_force_n": 50.44961791573914,
+    "moving_jaw_peak_contact_force_n": 50.32467975348159,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 687,
+    "cube_z_m": 0.13669871937130978,
+    "fixed_finger_peak_contact_force_n": 50.657656138368985,
+    "moving_jaw_peak_contact_force_n": 50.606060806698416,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 688,
+    "cube_z_m": 0.13555377166435068,
+    "fixed_finger_peak_contact_force_n": 49.16842744764123,
+    "moving_jaw_peak_contact_force_n": 49.0447968367131,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 689,
+    "cube_z_m": 0.1344815553557697,
+    "fixed_finger_peak_contact_force_n": 50.552355480382374,
+    "moving_jaw_peak_contact_force_n": 50.46031039207945,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 690,
+    "cube_z_m": 0.13345938050190181,
+    "fixed_finger_peak_contact_force_n": 50.78937426671379,
+    "moving_jaw_peak_contact_force_n": 50.76131726165762,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 691,
+    "cube_z_m": 0.13254555670883247,
+    "fixed_finger_peak_contact_force_n": 50.38528492322106,
+    "moving_jaw_peak_contact_force_n": 50.26966468558536,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 692,
+    "cube_z_m": 0.13222165003292233,
+    "fixed_finger_peak_contact_force_n": 50.675393717370895,
+    "moving_jaw_peak_contact_force_n": 50.58789951247072,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 693,
+    "cube_z_m": 0.1321906403363612,
+    "fixed_finger_peak_contact_force_n": 49.19012338590423,
+    "moving_jaw_peak_contact_force_n": 49.08337540601688,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 694,
+    "cube_z_m": 0.13252335377547156,
+    "fixed_finger_peak_contact_force_n": 50.451785808229445,
+    "moving_jaw_peak_contact_force_n": 50.360635199027044,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 695,
+    "cube_z_m": 0.13302295934913666,
+    "fixed_finger_peak_contact_force_n": 50.60839124889149,
+    "moving_jaw_peak_contact_force_n": 50.592165647490845,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 696,
+    "cube_z_m": 0.13365916586823998,
+    "fixed_finger_peak_contact_force_n": 50.281169743431384,
+    "moving_jaw_peak_contact_force_n": 50.17028803090934,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 697,
+    "cube_z_m": 0.13440001729525813,
+    "fixed_finger_peak_contact_force_n": 50.576585708672916,
+    "moving_jaw_peak_contact_force_n": 50.450424969735316,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 698,
+    "cube_z_m": 0.1353404459693537,
+    "fixed_finger_peak_contact_force_n": 50.798970519552675,
+    "moving_jaw_peak_contact_force_n": 50.72831131841905,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 699,
+    "cube_z_m": 0.13628551532945107,
+    "fixed_finger_peak_contact_force_n": 50.38851200534588,
+    "moving_jaw_peak_contact_force_n": 50.258216873799775,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 700,
+    "cube_z_m": 0.1373581609789677,
+    "fixed_finger_peak_contact_force_n": 50.645968735065814,
+    "moving_jaw_peak_contact_force_n": 50.533653224866704,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 701,
+    "cube_z_m": 0.138472896162167,
+    "fixed_finger_peak_contact_force_n": 48.888398661965894,
+    "moving_jaw_peak_contact_force_n": 48.743731235978004,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 702,
+    "cube_z_m": 0.13944983774380962,
+    "fixed_finger_peak_contact_force_n": 50.44538014867799,
+    "moving_jaw_peak_contact_force_n": 50.34350751324037,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 703,
+    "cube_z_m": 0.14039306904973706,
+    "fixed_finger_peak_contact_force_n": 50.682820966739065,
+    "moving_jaw_peak_contact_force_n": 50.59895499303408,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 704,
+    "cube_z_m": 0.14193968334409476,
+    "fixed_finger_peak_contact_force_n": 49.16779764399726,
+    "moving_jaw_peak_contact_force_n": 48.975743980226866,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 705,
+    "cube_z_m": 0.14308118754198387,
+    "fixed_finger_peak_contact_force_n": 50.58254599016727,
+    "moving_jaw_peak_contact_force_n": 50.45403161965681,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 706,
+    "cube_z_m": 0.14379067487268848,
+    "fixed_finger_peak_contact_force_n": 50.75284791282097,
+    "moving_jaw_peak_contact_force_n": 50.684359810938666,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 707,
+    "cube_z_m": 0.1442347764392171,
+    "fixed_finger_peak_contact_force_n": 50.338799807151005,
+    "moving_jaw_peak_contact_force_n": 50.206079009819696,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 708,
+    "cube_z_m": 0.14403211000996363,
+    "fixed_finger_peak_contact_force_n": 50.669844240959804,
+    "moving_jaw_peak_contact_force_n": 50.53872644357146,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 709,
+    "cube_z_m": 0.14356356867800887,
+    "fixed_finger_peak_contact_force_n": 49.18330855304168,
+    "moving_jaw_peak_contact_force_n": 48.99777590143999,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 710,
+    "cube_z_m": 0.14356527910882266,
+    "fixed_finger_peak_contact_force_n": 50.45897619924899,
+    "moving_jaw_peak_contact_force_n": 50.31875028170108,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 711,
+    "cube_z_m": 0.14264320412974923,
+    "fixed_finger_peak_contact_force_n": 50.721471079457174,
+    "moving_jaw_peak_contact_force_n": 50.572331086325654,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 712,
+    "cube_z_m": 0.14140300197576866,
+    "fixed_finger_peak_contact_force_n": 49.22796297215623,
+    "moving_jaw_peak_contact_force_n": 48.962981810785855,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 713,
+    "cube_z_m": 0.14015579900532532,
+    "fixed_finger_peak_contact_force_n": 50.59121701416239,
+    "moving_jaw_peak_contact_force_n": 50.356693966471425,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 714,
+    "cube_z_m": 0.13897070773162148,
+    "fixed_finger_peak_contact_force_n": 50.832314893290075,
+    "moving_jaw_peak_contact_force_n": 50.653053135318494,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 715,
+    "cube_z_m": 0.13771021928243027,
+    "fixed_finger_peak_contact_force_n": 50.490160656016585,
+    "moving_jaw_peak_contact_force_n": 50.23169521429177,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 716,
+    "cube_z_m": 0.13667143851515756,
+    "fixed_finger_peak_contact_force_n": 50.67898380405384,
+    "moving_jaw_peak_contact_force_n": 50.454210850693464,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 717,
+    "cube_z_m": 0.13578740783341436,
+    "fixed_finger_peak_contact_force_n": 49.22127916120662,
+    "moving_jaw_peak_contact_force_n": 49.012564577304055,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 718,
+    "cube_z_m": 0.13486673126396673,
+    "fixed_finger_peak_contact_force_n": 50.46825202426717,
+    "moving_jaw_peak_contact_force_n": 50.26421918291022,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 719,
+    "cube_z_m": 0.13395412436098877,
+    "fixed_finger_peak_contact_force_n": 50.667736901693125,
+    "moving_jaw_peak_contact_force_n": 50.5621414554176,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 720,
+    "cube_z_m": 0.13323005386462486,
+    "fixed_finger_peak_contact_force_n": 49.179477669106134,
+    "moving_jaw_peak_contact_force_n": 49.000275631611025,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 721,
+    "cube_z_m": 0.1326285301711245,
+    "fixed_finger_peak_contact_force_n": 50.57096250270319,
+    "moving_jaw_peak_contact_force_n": 50.420281038843555,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 722,
+    "cube_z_m": 0.1320980317149365,
+    "fixed_finger_peak_contact_force_n": 50.72981950189408,
+    "moving_jaw_peak_contact_force_n": 50.64878036672228,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 723,
+    "cube_z_m": 0.13175391817697177,
+    "fixed_finger_peak_contact_force_n": 50.33634628670136,
+    "moving_jaw_peak_contact_force_n": 50.181944636538184,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 724,
+    "cube_z_m": 0.1316512437138973,
+    "fixed_finger_peak_contact_force_n": 50.58268528327608,
+    "moving_jaw_peak_contact_force_n": 50.44841278758674,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 725,
+    "cube_z_m": 0.1314676537062006,
+    "fixed_finger_peak_contact_force_n": 49.159949208731064,
+    "moving_jaw_peak_contact_force_n": 49.00746316340507,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 726,
+    "cube_z_m": 0.13155162106980614,
+    "fixed_finger_peak_contact_force_n": 50.46254947628632,
+    "moving_jaw_peak_contact_force_n": 50.30972635425376,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 727,
+    "cube_z_m": 0.13157020514612164,
+    "fixed_finger_peak_contact_force_n": 50.71077203256683,
+    "moving_jaw_peak_contact_force_n": 50.571505855532095,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 728,
+    "cube_z_m": 0.1316853701812295,
+    "fixed_finger_peak_contact_force_n": 49.17071544364083,
+    "moving_jaw_peak_contact_force_n": 49.005074516019334,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 729,
+    "cube_z_m": 0.13166192158440737,
+    "fixed_finger_peak_contact_force_n": 50.50696539102532,
+    "moving_jaw_peak_contact_force_n": 50.35268413696383,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 730,
+    "cube_z_m": 0.13202881371349465,
+    "fixed_finger_peak_contact_force_n": 50.673590118234706,
+    "moving_jaw_peak_contact_force_n": 50.599445729113484,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 731,
+    "cube_z_m": 0.13242073392252654,
+    "fixed_finger_peak_contact_force_n": 50.32276302130647,
+    "moving_jaw_peak_contact_force_n": 50.16817547333579,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 732,
+    "cube_z_m": 0.13300030292814882,
+    "fixed_finger_peak_contact_force_n": 50.56939562787068,
+    "moving_jaw_peak_contact_force_n": 50.424007337844884,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 733,
+    "cube_z_m": 0.1335893508400006,
+    "fixed_finger_peak_contact_force_n": 50.77448714340576,
+    "moving_jaw_peak_contact_force_n": 50.691884147908944,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 734,
+    "cube_z_m": 0.13417741432986094,
+    "fixed_finger_peak_contact_force_n": 50.40213492648634,
+    "moving_jaw_peak_contact_force_n": 50.25239491062418,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 735,
+    "cube_z_m": 0.13479290812079306,
+    "fixed_finger_peak_contact_force_n": 50.60249131507761,
+    "moving_jaw_peak_contact_force_n": 50.45850897696486,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 736,
+    "cube_z_m": 0.1361779162925096,
+    "fixed_finger_peak_contact_force_n": 48.90938592587088,
+    "moving_jaw_peak_contact_force_n": 48.72613631793387,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 737,
+    "cube_z_m": 0.13696883857548575,
+    "fixed_finger_peak_contact_force_n": 50.44091633977387,
+    "moving_jaw_peak_contact_force_n": 50.32213159934653,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 738,
+    "cube_z_m": 0.13729059269726118,
+    "fixed_finger_peak_contact_force_n": 50.64458362005283,
+    "moving_jaw_peak_contact_force_n": 50.55931111627663,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 739,
+    "cube_z_m": 0.13750732999508103,
+    "fixed_finger_peak_contact_force_n": 49.16784198564185,
+    "moving_jaw_peak_contact_force_n": 48.99857871477674,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 740,
+    "cube_z_m": 0.1371878655363571,
+    "fixed_finger_peak_contact_force_n": 50.53973799837897,
+    "moving_jaw_peak_contact_force_n": 50.39117227964238,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 741,
+    "cube_z_m": 0.1367873330413452,
+    "fixed_finger_peak_contact_force_n": 50.723846908325164,
+    "moving_jaw_peak_contact_force_n": 50.62257301271154,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 742,
+    "cube_z_m": 0.1367582364642729,
+    "fixed_finger_peak_contact_force_n": 50.3202589174141,
+    "moving_jaw_peak_contact_force_n": 50.19968733338605,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 743,
+    "cube_z_m": 0.13553523824199534,
+    "fixed_finger_peak_contact_force_n": 50.61715168250419,
+    "moving_jaw_peak_contact_force_n": 50.407376532768566,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 744,
+    "cube_z_m": 0.1343401319448915,
+    "fixed_finger_peak_contact_force_n": 49.199459130700454,
+    "moving_jaw_peak_contact_force_n": 48.99574884001327,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 745,
+    "cube_z_m": 0.13321331611533563,
+    "fixed_finger_peak_contact_force_n": 50.447436014696315,
+    "moving_jaw_peak_contact_force_n": 50.24928148813334,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 746,
+    "cube_z_m": 0.13180592281653727,
+    "fixed_finger_peak_contact_force_n": 50.72436889768428,
+    "moving_jaw_peak_contact_force_n": 50.52205699007558,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 747,
+    "cube_z_m": 0.13047130842180676,
+    "fixed_finger_peak_contact_force_n": 49.21457255363384,
+    "moving_jaw_peak_contact_force_n": 48.9834600085544,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 748,
+    "cube_z_m": 0.1293028609110306,
+    "fixed_finger_peak_contact_force_n": 50.53979212568089,
+    "moving_jaw_peak_contact_force_n": 50.32243171976035,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 749,
+    "cube_z_m": 0.12823794288284887,
+    "fixed_finger_peak_contact_force_n": 50.690617760415954,
+    "moving_jaw_peak_contact_force_n": 50.57045032743668,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 750,
+    "cube_z_m": 0.12754257426879406,
+    "fixed_finger_peak_contact_force_n": 49.18726023201112,
+    "moving_jaw_peak_contact_force_n": 48.986633463167315,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 751,
+    "cube_z_m": 0.12673075905915443,
+    "fixed_finger_peak_contact_force_n": 50.54423932686388,
+    "moving_jaw_peak_contact_force_n": 50.39440300341493,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 752,
+    "cube_z_m": 0.1262095272177319,
+    "fixed_finger_peak_contact_force_n": 50.76049924968199,
+    "moving_jaw_peak_contact_force_n": 50.668807776862636,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 753,
+    "cube_z_m": 0.1260191002520626,
+    "fixed_finger_peak_contact_force_n": 50.33599175881471,
+    "moving_jaw_peak_contact_force_n": 50.169717921089024,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 754,
+    "cube_z_m": 0.12604887594232564,
+    "fixed_finger_peak_contact_force_n": 50.61766893737442,
+    "moving_jaw_peak_contact_force_n": 50.47478605676765,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 755,
+    "cube_z_m": 0.12626207210097576,
+    "fixed_finger_peak_contact_force_n": 49.16120495152361,
+    "moving_jaw_peak_contact_force_n": 49.00745408535669,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 756,
+    "cube_z_m": 0.12660941116905333,
+    "fixed_finger_peak_contact_force_n": 50.42973100951221,
+    "moving_jaw_peak_contact_force_n": 50.285962440031035,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 757,
+    "cube_z_m": 0.12696529329137227,
+    "fixed_finger_peak_contact_force_n": 50.68738526269137,
+    "moving_jaw_peak_contact_force_n": 50.54627235677523,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 758,
+    "cube_z_m": 0.12757088565320326,
+    "fixed_finger_peak_contact_force_n": 49.175012895785436,
+    "moving_jaw_peak_contact_force_n": 49.0082670649089,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 759,
+    "cube_z_m": 0.12824240817767465,
+    "fixed_finger_peak_contact_force_n": 50.48597728223389,
+    "moving_jaw_peak_contact_force_n": 50.33037039918187,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 760,
+    "cube_z_m": 0.12900908180880322,
+    "fixed_finger_peak_contact_force_n": 50.616124520666084,
+    "moving_jaw_peak_contact_force_n": 50.549772710422516,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 761,
+    "cube_z_m": 0.12979971061748552,
+    "fixed_finger_peak_contact_force_n": 49.15639791063443,
+    "moving_jaw_peak_contact_force_n": 48.97398156192682,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 762,
+    "cube_z_m": 0.1307642573300925,
+    "fixed_finger_peak_contact_force_n": 50.51746022027048,
+    "moving_jaw_peak_contact_force_n": 50.36451911182458,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 763,
+    "cube_z_m": 0.13187118540531223,
+    "fixed_finger_peak_contact_force_n": 50.74318523244302,
+    "moving_jaw_peak_contact_force_n": 50.65266694884604,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 764,
+    "cube_z_m": 0.13283326866937398,
+    "fixed_finger_peak_contact_force_n": 50.34234946351345,
+    "moving_jaw_peak_contact_force_n": 50.184681663317,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 765,
+    "cube_z_m": 0.1338813013655243,
+    "fixed_finger_peak_contact_force_n": 50.57960733552909,
+    "moving_jaw_peak_contact_force_n": 50.43603020421872,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 766,
+    "cube_z_m": 0.13473672923511487,
+    "fixed_finger_peak_contact_force_n": 48.939491941984954,
+    "moving_jaw_peak_contact_force_n": 48.761759109227356,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 767,
+    "cube_z_m": 0.13565528496237575,
+    "fixed_finger_peak_contact_force_n": 50.425317330878286,
+    "moving_jaw_peak_contact_force_n": 50.26092015712448,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 768,
+    "cube_z_m": 0.13556512508010007,
+    "fixed_finger_peak_contact_force_n": 50.67178165742534,
+    "moving_jaw_peak_contact_force_n": 50.539555855568274,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 769,
+    "cube_z_m": 0.13555077630915,
+    "fixed_finger_peak_contact_force_n": 49.19069598050116,
+    "moving_jaw_peak_contact_force_n": 49.02427251987874,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 770,
+    "cube_z_m": 0.13554015902645225,
+    "fixed_finger_peak_contact_force_n": 50.44513280334823,
+    "moving_jaw_peak_contact_force_n": 50.29132606051823,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 771,
+    "cube_z_m": 0.13554065570852653,
+    "fixed_finger_peak_contact_force_n": 50.660495185766116,
+    "moving_jaw_peak_contact_force_n": 50.57542444959749,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 772,
+    "cube_z_m": 0.13553535423509633,
+    "fixed_finger_peak_contact_force_n": 48.95504155535793,
+    "moving_jaw_peak_contact_force_n": 48.75176098414463,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 773,
+    "cube_z_m": 0.13553680715992897,
+    "fixed_finger_peak_contact_force_n": 50.49245336768623,
+    "moving_jaw_peak_contact_force_n": 50.349977300508385,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 774,
+    "cube_z_m": 0.13553802102307239,
+    "fixed_finger_peak_contact_force_n": 50.71900429787002,
+    "moving_jaw_peak_contact_force_n": 50.638200111313196,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 775,
+    "cube_z_m": 0.13553209782393685,
+    "fixed_finger_peak_contact_force_n": 50.33183523882774,
+    "moving_jaw_peak_contact_force_n": 50.17797206770627,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 776,
+    "cube_z_m": 0.13553607920327157,
+    "fixed_finger_peak_contact_force_n": 50.565651637877,
+    "moving_jaw_peak_contact_force_n": 50.42241780449536,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 777,
+    "cube_z_m": 0.1355352763166846,
+    "fixed_finger_peak_contact_force_n": 50.81675589525324,
+    "moving_jaw_peak_contact_force_n": 50.737929315500544,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 778,
+    "cube_z_m": 0.1355302614968173,
+    "fixed_finger_peak_contact_force_n": 50.36336792925868,
+    "moving_jaw_peak_contact_force_n": 50.210746234885875,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 779,
+    "cube_z_m": 0.13553027695524625,
+    "fixed_finger_peak_contact_force_n": 50.64335363039842,
+    "moving_jaw_peak_contact_force_n": 50.50073750445083,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 780,
+    "cube_z_m": 0.13552760167404118,
+    "fixed_finger_peak_contact_force_n": 49.17881245849181,
+    "moving_jaw_peak_contact_force_n": 49.01868365212058,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 781,
+    "cube_z_m": 0.13552824906456773,
+    "fixed_finger_peak_contact_force_n": 50.43838533462233,
+    "moving_jaw_peak_contact_force_n": 50.28508185911807,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 782,
+    "cube_z_m": 0.1355281423422067,
+    "fixed_finger_peak_contact_force_n": 50.73514435224948,
+    "moving_jaw_peak_contact_force_n": 50.592059856511504,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 783,
+    "cube_z_m": 0.1355288335768681,
+    "fixed_finger_peak_contact_force_n": 49.17870637833673,
+    "moving_jaw_peak_contact_force_n": 49.016055242253,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 784,
+    "cube_z_m": 0.13552325892144185,
+    "fixed_finger_peak_contact_force_n": 50.53476226507423,
+    "moving_jaw_peak_contact_force_n": 50.38087232019578,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 785,
+    "cube_z_m": 0.13552815496543857,
+    "fixed_finger_peak_contact_force_n": 50.68197639546705,
+    "moving_jaw_peak_contact_force_n": 50.599743582651904,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 786,
+    "cube_z_m": 0.13552157621416908,
+    "fixed_finger_peak_contact_force_n": 49.19203115684401,
+    "moving_jaw_peak_contact_force_n": 49.0104036330316,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 787,
+    "cube_z_m": 0.1355242960769339,
+    "fixed_finger_peak_contact_force_n": 50.51853774354208,
+    "moving_jaw_peak_contact_force_n": 50.37594286690199,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 788,
+    "cube_z_m": 0.1355269688770027,
+    "fixed_finger_peak_contact_force_n": 50.72796884512656,
+    "moving_jaw_peak_contact_force_n": 50.64656311564072,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 789,
+    "cube_z_m": 0.13551935374181254,
+    "fixed_finger_peak_contact_force_n": 50.37056377447029,
+    "moving_jaw_peak_contact_force_n": 50.21634091503779,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 790,
+    "cube_z_m": 0.13552119580001698,
+    "fixed_finger_peak_contact_force_n": 50.57770898653612,
+    "moving_jaw_peak_contact_force_n": 50.43498672889449,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 791,
+    "cube_z_m": 0.13551760990236056,
+    "fixed_finger_peak_contact_force_n": 49.163110146397514,
+    "moving_jaw_peak_contact_force_n": 49.00976627052369,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 792,
+    "cube_z_m": 0.13551773981459608,
+    "fixed_finger_peak_contact_force_n": 50.38816831598905,
+    "moving_jaw_peak_contact_force_n": 50.235484193266394,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 793,
+    "cube_z_m": 0.1355183671119056,
+    "fixed_finger_peak_contact_force_n": 50.666465881213924,
+    "moving_jaw_peak_contact_force_n": 50.523522482162946,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 794,
+    "cube_z_m": 0.1355141518160204,
+    "fixed_finger_peak_contact_force_n": 49.21828310021523,
+    "moving_jaw_peak_contact_force_n": 49.057334929691116,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 795,
+    "cube_z_m": 0.1355164680289687,
+    "fixed_finger_peak_contact_force_n": 50.43662772819287,
+    "moving_jaw_peak_contact_force_n": 50.28366203248384,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 796,
+    "cube_z_m": 0.13551721318291002,
+    "fixed_finger_peak_contact_force_n": 50.61106873424412,
+    "moving_jaw_peak_contact_force_n": 50.526687919218915,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 797,
+    "cube_z_m": 0.13551173462813176,
+    "fixed_finger_peak_contact_force_n": 49.18194120182308,
+    "moving_jaw_peak_contact_force_n": 49.00907059448362,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 798,
+    "cube_z_m": 0.13551096791196174,
+    "fixed_finger_peak_contact_force_n": 50.51525657737859,
+    "moving_jaw_peak_contact_force_n": 50.36150143380158,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 799,
+    "cube_z_m": 0.13551357319925209,
+    "fixed_finger_peak_contact_force_n": 50.695564307778604,
+    "moving_jaw_peak_contact_force_n": 50.61304956182822,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 800,
+    "cube_z_m": 0.1355105759370175,
+    "fixed_finger_peak_contact_force_n": 49.18334902398696,
+    "moving_jaw_peak_contact_force_n": 49.00887866396203,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 801,
+    "cube_z_m": 0.13551369498703206,
+    "fixed_finger_peak_contact_force_n": 50.49122308926839,
+    "moving_jaw_peak_contact_force_n": 50.35256201808409,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 802,
+    "cube_z_m": 0.13551346156758848,
+    "fixed_finger_peak_contact_force_n": 50.72864865687365,
+    "moving_jaw_peak_contact_force_n": 50.674597784382144,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 803,
+    "cube_z_m": 0.135505272249166,
+    "fixed_finger_peak_contact_force_n": 50.3344491688113,
+    "moving_jaw_peak_contact_force_n": 50.18057067771321,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 804,
+    "cube_z_m": 0.13550701217185568,
+    "fixed_finger_peak_contact_force_n": 50.584807523967456,
+    "moving_jaw_peak_contact_force_n": 50.44245139975464,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 805,
+    "cube_z_m": 0.13551013819583377,
+    "fixed_finger_peak_contact_force_n": 50.77205376800612,
+    "moving_jaw_peak_contact_force_n": 50.6933419418167,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 806,
+    "cube_z_m": 0.1355017957414708,
+    "fixed_finger_peak_contact_force_n": 50.42759805911669,
+    "moving_jaw_peak_contact_force_n": 50.273210194860944,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 807,
+    "cube_z_m": 0.1355081527739583,
+    "fixed_finger_peak_contact_force_n": 50.59599853256064,
+    "moving_jaw_peak_contact_force_n": 50.45693102509308,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 808,
+    "cube_z_m": 0.13550101021475575,
+    "fixed_finger_peak_contact_force_n": 48.96163543829469,
+    "moving_jaw_peak_contact_force_n": 48.77369990382269,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 809,
+    "cube_z_m": 0.13550033698918235,
+    "fixed_finger_peak_contact_force_n": 50.433260013000925,
+    "moving_jaw_peak_contact_force_n": 50.28041874145516,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 810,
+    "cube_z_m": 0.13550127730782976,
+    "fixed_finger_peak_contact_force_n": 50.684048697036516,
+    "moving_jaw_peak_contact_force_n": 50.541447143577194,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 811,
+    "cube_z_m": 0.1354982617212766,
+    "fixed_finger_peak_contact_force_n": 49.19087648471114,
+    "moving_jaw_peak_contact_force_n": 49.02731447418732,
+    "bilateral_lift": true
+  },
+  {
+    "tick": 812,
+    "cube_z_m": 0.13550118080939527,
+    "fixed_finger_peak_contact_force_n": 50.42517340042562,
+    "moving_jaw_peak_contact_force_n": 50.271600332280755,
+    "bilateral_lift": true
+  }
+]

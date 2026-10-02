@@ -1,0 +1,23 @@
+{
+  "renderer_sha256": "2c6c908cee3dc237490add753320f901bd33562cc59426dc43dd9be577b2841d",
+  "source_video_sha256": "51960bec38cd4adc244533cf917d858ab742b8143a2cff01d27d06bb0762df36",
+  "source_report_sha256": "f5dcd91c0ae1da456d49bdf6cc318ec674e143e76dcd5dd0eb50f6cb8ce376c4",
+  "source_trajectory_sha256": "296d7ef49543f19992a147f4ff5b4f9edcc009a2496bf57065207f42fe7ced20",
+  "source_audit_sha256": "a073b4099d30db8f6ea2cdce1ed8489f1def7cef0481bb6103922358da4e49c5",
+  "suite_summary_sha256": "664b975e81fec6d991d3049bde1d33a3e05476c9bee296b24d2cdccefa2e405b",
+  "video_sha256": "ce0c03d31ea133a9fc52dd880c98538e32b49411ef96ff787fde777594cc49e4",
+  "seed": 920,
+  "fresh_task_successes": 2,
+  "fresh_task_trials": 3,
+  "presentation": "CPU FFmpeg crop of actual saved model RGB and original prediction/measured-path overlays, resized to a square presentation with plain labels. No new model inference or physics.",
+  "source_crop_xywh": [
+    20,
+    145,
+    960,
+    720
+  ],
+  "width": 1080,
+  "height": 1080,
+  "simulation_only": true,
+  "inference_pauses_omitted": true
+}

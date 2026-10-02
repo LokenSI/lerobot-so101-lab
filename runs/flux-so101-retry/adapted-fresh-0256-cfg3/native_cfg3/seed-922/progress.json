@@ -1,0 +1,26 @@
+{
+  "mode": "native_cfg3",
+  "seed": 922,
+  "completed_chunks": 24,
+  "planned_chunks": 24,
+  "simulated_seconds": 25.6,
+  "last_inference_seconds": 4.583442837989423,
+  "grader_so_far": {
+    "success": false,
+    "lifted": true,
+    "inside_tray_for_1_5_s": false,
+    "released_for_1_5_s": false,
+    "stable": false,
+    "settle_position_spread_m": 0.01576869578492661,
+    "settle_orientation_spread_deg": 2.159727303886105,
+    "settle_max_linear_speed_m_s": 0.04935076830875264,
+    "max_object_height_m": 0.14815710450382946,
+    "final_object_xyz_m": [
+      0.2511835645096358,
+      -0.18163688976336245,
+      0.13565528496237575
+    ],
+    "grading_frames": 45
+  },
+  "clipped_commands": 41
+}

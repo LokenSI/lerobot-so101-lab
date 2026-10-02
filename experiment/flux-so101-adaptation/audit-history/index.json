@@ -1,0 +1,104 @@
+{
+  "scope": "Original failed precision/serialization diagnostics plus exact archived checker versions; actual outcome reports untouched",
+  "final_audit_method": "Reconstruct the exact frozen baseline compiled model on CPU. Saved-state physics/contact replay uses that original model.",
+  "reason": "Reloading decimal XML meshes produced a0.257 micrometre diagnostic contact-distance difference; inferred STL content_type attributes caused a separate serialization-only mismatch.",
+  "semantic_comparison": "Only suffix-implied content_type=model/stl attributes ignored; all numeric model fields and all task thresholds retained.",
+  "final_result": "Both256 development conditions independently verified; CFG3 strict placement succeeds, CFG1 fails. Contact distances match exactly under reconstructed model.",
+  "files": [
+    {
+      "path": "adapted-dev-0256-cfg-check-output.json",
+      "sha256": "6fcd3cba75a5ad9fa117d4dff0aa512be8b3690b571459d2cf1877b3fc74c956",
+      "bytes": 19427
+    },
+    {
+      "path": "adapted-dev-0256-cfg-original-model-check-output.json",
+      "sha256": "fc588aa4e22f753597a011da1d8bb9ab11948e040f5c00a2dddbc5c020e10c29",
+      "bytes": 19381
+    },
+    {
+      "path": "adapted-dev-0256-cfg-original-model-serialization-audit/native_cfg1-independent-cpu-audit.json",
+      "sha256": "3b37d0f67942e6119d5bd89990d010604134419c3d1cf9624185a6a25cd7b732",
+      "bytes": 24579
+    },
+    {
+      "path": "adapted-dev-0256-cfg-original-model-serialization-audit/native_cfg3-independent-cpu-audit.json",
+      "sha256": "b8608f8a6d47379aaabbe52fede4a686487c5dca943c7c933a5165c28b7601c8",
+      "bytes": 24900
+    },
+    {
+      "path": "adapted-dev-0256-cfg-original-model-serialization-audit/suite-independent-cpu-audit.json",
+      "sha256": "a580232aed7d639cf7501957cf7edee7be7617c398b38eeacf2b879aba607443",
+      "bytes": 57602
+    },
+    {
+      "path": "adapted-dev-0256-cfg-serialization-error.txt",
+      "sha256": "3fd019d7c46cff3846a1d956d0cdbc92d42145080fdb16e29e4460a467189dfd",
+      "bytes": 144
+    },
+    {
+      "path": "adapted-dev-0256-cfg-serialized-xml-audit/native_cfg1-independent-contact-forces.json",
+      "sha256": "acf4889c9736b282de71be73b6e5d6696c0dedfc8caf30dda3875f6df2a10068",
+      "bytes": 152186
+    },
+    {
+      "path": "adapted-dev-0256-cfg-serialized-xml-audit/native_cfg1-independent-cpu-audit.json",
+      "sha256": "8249df694ceaba2cd5a3382454c729547de8c69230734a615b17431545914e72",
+      "bytes": 35718
+    },
+    {
+      "path": "adapted-dev-0256-cfg-serialized-xml-audit/native_cfg3-independent-contact-forces.json",
+      "sha256": "0eb6d6e1ed4fb597e8aa6dd57dcca09ea5a8d3ac1068fa5561f8fd6238abc99b",
+      "bytes": 154671
+    },
+    {
+      "path": "adapted-dev-0256-cfg-serialized-xml-audit/native_cfg3-independent-cpu-audit.json",
+      "sha256": "843a785292956440781f03db18e4fa3ab0310cc919dc42d7f027a945e79e4459",
+      "bytes": 24590
+    },
+    {
+      "path": "adapted-dev-0256-cfg-serialized-xml-audit/suite-independent-cpu-audit.json",
+      "sha256": "dbfa1c616aca0fee4d57a37923f74489b0fcdb206db26375ca1b6f8c6d2fe4e1",
+      "bytes": 70507
+    },
+    {
+      "path": "adapted-dev-0256-cfg3-pre-serialization-fix-audit.json",
+      "sha256": "c1fce0b48b41ad7ed06926b3c819586d712a5acf016844ca4e91fac3dd91cf57",
+      "bytes": 24590
+    },
+    {
+      "path": "checker-versionarchive/verify_flux_retry-23eaf1b5817a02e9e3eb2bb31aca6935192b6f4efa5a1576cef1e827f5be5d69.py",
+      "sha256": "23eaf1b5817a02e9e3eb2bb31aca6935192b6f4efa5a1576cef1e827f5be5d69",
+      "bytes": 18171
+    },
+    {
+      "path": "checker-versionarchive/verify_flux_retry-68e8a1e09949f834e2e9ad7cffce41bbfee5ddafcbdd6bc6acf4c092aeca2dea.py",
+      "sha256": "68e8a1e09949f834e2e9ad7cffce41bbfee5ddafcbdd6bc6acf4c092aeca2dea",
+      "bytes": 20319
+    },
+    {
+      "path": "checker-versionarchive/verify_flux_retry-6b085cf482c8fbdc493da65d1a5b819a3fc823df45aa6e1ef4b5f3cfce038a92.py",
+      "sha256": "6b085cf482c8fbdc493da65d1a5b819a3fc823df45aa6e1ef4b5f3cfce038a92",
+      "bytes": 14823
+    },
+    {
+      "path": "checker-versionarchive/verify_flux_retry-75fa524b0670df6a903367225ff0237fad0b543d40f482faea0f60a1a50583cf.py",
+      "sha256": "75fa524b0670df6a903367225ff0237fad0b543d40f482faea0f60a1a50583cf",
+      "bytes": 16836
+    },
+    {
+      "path": "checker-versionarchive/verify_flux_retry-7d5760c31e91597cf5b8eb9ab01153eb00a3d3c0627ddbb156b816939f2a6ac0.py",
+      "sha256": "7d5760c31e91597cf5b8eb9ab01153eb00a3d3c0627ddbb156b816939f2a6ac0",
+      "bytes": 19416
+    },
+    {
+      "path": "checker-versionarchive/verify_flux_retry-b55e6570fe837186c1052f44b2d161ffe4557b9cbf4a66041c0acbd1b3007e8a.py",
+      "sha256": "b55e6570fe837186c1052f44b2d161ffe4557b9cbf4a66041c0acbd1b3007e8a",
+      "bytes": 14096
+    },
+    {
+      "path": "checker-versionarchive/verify_flux_retry-db22cced0f8e927ddde8a78f5db9208b3fe607cba9f4998c2b11ef4e3692217c.py",
+      "sha256": "db22cced0f8e927ddde8a78f5db9208b3fe607cba9f4998c2b11ef4e3692217c",
+      "bytes": 18177
+    }
+  ]
+}

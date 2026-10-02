@@ -1,0 +1,38 @@
+{
+  "scope": "Matched fixed-noise held-out flow prediction only. Not robot accuracy, task success, or physical validation.",
+  "split": "17 training episodes; 3 held-out validation episodes, seeds0/7/14; 15 windows per episode",
+  "normalization": "Shared train-only simulator-domain quantiles at all stages",
+  "warning": "Repeated offline validation and development seed910 guide candidate selection; fresh920/921/922 reserved for eventual task evaluation.",
+  "stages": [
+    {
+      "optimizer_updates": 0,
+      "window_count": 45,
+      "mean_loss": 0.6804245180553861,
+      "mean_action_flow_mse": 1.5261817932128907,
+      "mean_loss_reduction_percent": 0.0,
+      "windows_with_lower_loss_vs_base": 0,
+      "source": "validation-step-0000.json",
+      "sha256": "7229d11ebe78969f7a2509bb6f58448c20faea1d0872279608e7cc510e307784"
+    },
+    {
+      "optimizer_updates": 128,
+      "window_count": 45,
+      "mean_loss": 0.13698797110054228,
+      "mean_action_flow_mse": 0.13435651403334406,
+      "mean_loss_reduction_percent": 79.8672788141077,
+      "windows_with_lower_loss_vs_base": 45,
+      "source": "validation-step-0128.json",
+      "sha256": "cecbfa2e627cb61e4506ba090b83d1e968efaa8390c61ba753523be57dee72af"
+    },
+    {
+      "optimizer_updates": 256,
+      "window_count": 45,
+      "mean_loss": 0.10422678531871901,
+      "mean_action_flow_mse": 0.07590446292112271,
+      "mean_loss_reduction_percent": 84.68209440532902,
+      "windows_with_lower_loss_vs_base": 45,
+      "source": "validation-step-0256.json",
+      "sha256": "1ed5b2ddfdaeddcf42d54603aed341b2531bdca149f5d5bb3a7071e5e9c4738c"
+    }
+  ]
+}

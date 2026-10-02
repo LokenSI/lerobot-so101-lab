@@ -1,0 +1,50 @@
+{
+  "frozen_before_outcomes": true,
+  "role": "held-out",
+  "modes": [
+    "native_cfg3"
+  ],
+  "seeds": [
+    920,
+    921,
+    922
+  ],
+  "chunks": 24,
+  "execute_per_chunk": 32,
+  "fps": 30,
+  "prompt": "Grasp the red block and place it in the gray bin.",
+  "settling_hold_seconds": 1.5,
+  "resident_gib": 12.0,
+  "camera_render_pixels": [
+    320,
+    240
+  ],
+  "policy_camera_resize_pixels": [
+    256,
+    256
+  ],
+  "recorded_policy_rgb_pixels": [
+    256,
+    256
+  ],
+  "camera_preprocessing": "Native320x240 RGB -> uint8 PIL bilinear256x256, identical to expert replay preparation -> official side_by_side canvas",
+  "success_requires": "Existing strict lift/release/containment/rest grade PLUS bilateral jaw contact during >90mm world-Z lift",
+  "runner_filename": "run_flux_so101_adapted_cfg.py",
+  "guidance_scales": [
+    3.0
+  ],
+  "guidance_reason": "All adapted caches contain task text; evaluate original CFG3 versus conditional-only CFG1 prospectively, keeping all outcomes",
+  "runner_sha256": "f004b20348cbe0943109ae124a8a99c195ef521c50ec23669dc1777d277937b5",
+  "runtime_helper_sha256": "76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb",
+  "baseline_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "source_revision": "e2dd1d8dbc5977b54315d61f7548c63c043d6d4f",
+  "model_revision": "2d6be04357eef9fb8c8468adbc69e9d0c7093bec",
+  "no_training": false,
+  "adapter_sha256": "a404b1bd8380c71be7b8f7d92b70317b133ab7516877a854ca5918fd95d1fe8a",
+  "adapter_metadata_sha256": "3d271087fdc3e040f8f07715eecd6a05de7336094c22ddd84a17e7c88d656b4e",
+  "adapter_config_sha256": "5a7263386d4e7e3540c92fc4b17e42a0ffb0ec23db4b7c016631a062f94eb1dc",
+  "adapter_loader_sha256": "23255dafd0d08817925b7a6eb78f42501303a1c324372dd9d1fc0eb64310007f",
+  "adapter_restoration": "unmerged",
+  "adapter_units": "Five simulator arm joint degrees and gripper percent; identity transform",
+  "object_truth_inputs": "Reset/strict grading/diagnostics only; never passed to FLUX"
+}

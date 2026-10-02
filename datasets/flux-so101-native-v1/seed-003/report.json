@@ -1,0 +1,32 @@
+{
+  "seed": 3,
+  "frames": 525,
+  "success": true,
+  "replay_max_state_error_rad": 0.0,
+  "grade": {
+    "success": true,
+    "lifted": true,
+    "inside_tray_for_1_5_s": true,
+    "released_for_1_5_s": true,
+    "stable": true,
+    "settle_position_spread_m": 0.0,
+    "settle_orientation_spread_deg": 3.4150945850063755e-06,
+    "settle_max_linear_speed_m_s": 5.638131041383947e-16,
+    "max_object_height_m": 0.11757796808201107,
+    "final_object_xyz_m": [
+      0.24616201606856472,
+      -0.16731964487369944,
+      0.01899562799103025
+    ],
+    "grading_frames": 45
+  },
+  "source_episode_sha256": "a311cdd3cd10aba41340e968571a33b573fd5632f6c7356856b378cfc085817b",
+  "native_episode_sha256": "7f53296d8c61b4ef7a9a14e9a695f119042822a39a757db44f6351951e0cee19",
+  "baseline_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "control": "Scripted expert action replay, not FLUX",
+  "camera_render": "Native 320x240 physical camera projection, then bilinear resize to 256x256 per view",
+  "alignment": "Measured state + images immediately before corresponding command",
+  "object_pose_written_after_reset": false,
+  "attachments": false,
+  "mujoco_version": "3.6.0"
+}

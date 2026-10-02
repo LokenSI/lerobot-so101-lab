@@ -1,0 +1,11 @@
+{
+  "state": "Sources/data prepared; training/evaluation artifacts and outcome page pending",
+  "task_success_claimed": false,
+  "canonical_written": false,
+  "base_weights_included": false,
+  "encoders_included": false,
+  "native_data_bytes": 1371609527,
+  "native_data_files": 62,
+  "original_demonstration_bytes": 91151135,
+  "ci_lfs_scope": "site/** only before existing verify_site.py"
+}

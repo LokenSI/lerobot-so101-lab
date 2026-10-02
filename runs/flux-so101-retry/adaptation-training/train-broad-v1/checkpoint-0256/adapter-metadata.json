@@ -1,0 +1,16 @@
+{
+  "rank": 8,
+  "alpha": 8,
+  "task_instruction": "Grasp the red block and place it in the gray bin.",
+  "backend": "original-bf16-fixed-placement",
+  "original_model_sha256": "0f57664573dde660590060d81b2a0b336fc674f06e0494de9307e52f43b6fd01",
+  "adapter_sha256": "a404b1bd8380c71be7b8f7d92b70317b133ab7516877a854ca5918fd95d1fe8a",
+  "config_sha256": "5a7263386d4e7e3540c92fc4b17e42a0ffb0ec23db4b7c016631a062f94eb1dc",
+  "normalization_sha256": "3823f1105a76c2640c5210fce37e81783530fa81fc8dd540c6a4dcce9f2ecd4f",
+  "optimizer_updates": 256,
+  "format": "Native dit-relative FP32 trainable heads plus projection .A/.B",
+  "EMA": false,
+  "claimed_robot_success": false,
+  "sampling": "Original checkpoint sampler/history/canvas retained",
+  "calibration": "Native simulator degrees/gripper percentage, no legacy offset/sign mapping"
+}

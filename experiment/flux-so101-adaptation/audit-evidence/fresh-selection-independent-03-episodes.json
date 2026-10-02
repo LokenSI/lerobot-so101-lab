@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "selection_sha256": "9540e16b15f37cbb06409a3867d026783ff867b9f0d3077b24ce0e327d403eda",
+  "checker_sha256": "68e8a1e09949f834e2e9ad7cffce41bbfee5ddafcbdd6bc6acf4c092aeca2dea",
+  "checks": {
+    "selection_bytes_match_pre_fresh_recorded_hash": true,
+    "all_selected_files_match_pre_fresh_hashes": true,
+    "checker_frozen_exact": true,
+    "selected_adapter_config_loader_and_sources_match_fresh_spec": true,
+    "fresh_protocol_matches_selection": true,
+    "seed920_belongs_to_frozen_protocol": true,
+    "seed920_independent_audit_complete_and_frozen": true,
+    "seed921_belongs_to_frozen_protocol": true,
+    "seed921_independent_audit_complete_and_frozen": true,
+    "seed922_belongs_to_frozen_protocol": true,
+    "seed922_independent_audit_complete_and_frozen": true
+  },
+  "selected_files": {
+    "runtime/flux-so101-adaptation/train-broad-v1/checkpoint-0256/adapter.safetensors": {
+      "expected": "a404b1bd8380c71be7b8f7d92b70317b133ab7516877a854ca5918fd95d1fe8a",
+      "actual": "a404b1bd8380c71be7b8f7d92b70317b133ab7516877a854ca5918fd95d1fe8a"
+    },
+    "runtime/flux-so101-adaptation/train-broad-v1/checkpoint-0256/adapter-metadata.json": {
+      "expected": "3d271087fdc3e040f8f07715eecd6a05de7336094c22ddd84a17e7c88d656b4e",
+      "actual": "3d271087fdc3e040f8f07715eecd6a05de7336094c22ddd84a17e7c88d656b4e"
+    },
+    "runtime/flux-so101-adaptation/train-broad-v1/checkpoint-0256/policy-config.json": {
+      "expected": "5a7263386d4e7e3540c92fc4b17e42a0ffb0ec23db4b7c016631a062f94eb1dc",
+      "actual": "5a7263386d4e7e3540c92fc4b17e42a0ffb0ec23db4b7c016631a062f94eb1dc"
+    },
+    "runtime/flux-so101-adaptation/train-broad-v1/checkpoint-0256/normalization.json": {
+      "expected": "3823f1105a76c2640c5210fce37e81783530fa81fc8dd540c6a4dcce9f2ecd4f",
+      "actual": "3823f1105a76c2640c5210fce37e81783530fa81fc8dd540c6a4dcce9f2ecd4f"
+    },
+    "scripts/run_flux_so101_adapted_cfg.py": {
+      "expected": "f004b20348cbe0943109ae124a8a99c195ef521c50ec23669dc1777d277937b5",
+      "actual": "f004b20348cbe0943109ae124a8a99c195ef521c50ec23669dc1777d277937b5"
+    },
+    "scripts/flux_adapted_inference.py": {
+      "expected": "23255dafd0d08817925b7a6eb78f42501303a1c324372dd9d1fc0eb64310007f",
+      "actual": "23255dafd0d08817925b7a6eb78f42501303a1c324372dd9d1fc0eb64310007f"
+    },
+    "scripts/so101_pick_place_baseline.py": {
+      "expected": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "actual": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188"
+    },
+    "runtime/flux-so101-work/local_runtime_fast.py": {
+      "expected": "76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb",
+      "actual": "76b570cd478ac6a8f88c277e5218a75d00f15d06e9ca37a70d26f14635d79beb"
+    },
+    "runtime/flux-sim-audit/verify_flux_retry.py": {
+      "expected": "68e8a1e09949f834e2e9ad7cffce41bbfee5ddafcbdd6bc6acf4c092aeca2dea",
+      "actual": "68e8a1e09949f834e2e9ad7cffce41bbfee5ddafcbdd6bc6acf4c092aeca2dea"
+    },
+    "runs/flux-so101-retry/adaptation-evaluation-plan.json": {
+      "expected": "c6fb379d4c294492c3eec941f1f2893bc89eed75aaddc581bca2e9fcb3d04df0",
+      "actual": "c6fb379d4c294492c3eec941f1f2893bc89eed75aaddc581bca2e9fcb3d04df0"
+    },
+    "runs/flux-so101-retry/guidance-ablation-plan.json": {
+      "expected": "528cd96754254188cb68d0192c9da82312357ccdd18ab1c9a9845f9ff4ba3a47",
+      "actual": "528cd96754254188cb68d0192c9da82312357ccdd18ab1c9a9845f9ff4ba3a47"
+    },
+    "runs/flux-so101-retry/adapted-dev-0256-cfg/summary.json": {
+      "expected": "3854b5a8637e6bb4a3bbead5073638bc8d6efa5f9f9e9ee261e2d0b4444b3584",
+      "actual": "3854b5a8637e6bb4a3bbead5073638bc8d6efa5f9f9e9ee261e2d0b4444b3584"
+    },
+    "runs/flux-so101-retry/adapted-dev-0256-cfg/frozen-specification.json": {
+      "expected": "54af9a097efb2871db28eda289c93a7cbbe11029d91b40a886ba7cc9ef7bd2fc",
+      "actual": "54af9a097efb2871db28eda289c93a7cbbe11029d91b40a886ba7cc9ef7bd2fc"
+    },
+    "runs/flux-so101-retry/adapted-dev-0256-cfg/independent-cpu-audit.json": {
+      "expected": "31cae32aecec762f215fdd9a5da207f5aca377236802c6608f28db0aef7f4e19",
+      "actual": "31cae32aecec762f215fdd9a5da207f5aca377236802c6608f28db0aef7f4e19"
+    },
+    "runs/flux-so101-retry/adapted-dev-0256-cfg/native_cfg3/seed-910/report.json": {
+      "expected": "4890a8e7e6594f8fd220fa5fd07e632cce8a913eac47ae5b001e670b4fcbc532",
+      "actual": "4890a8e7e6594f8fd220fa5fd07e632cce8a913eac47ae5b001e670b4fcbc532"
+    },
+    "runs/flux-so101-retry/adapted-dev-0256-cfg/native_cfg1/seed-910/report.json": {
+      "expected": "af5aca748147b6f7277b7e4ade6c3412043ee90bea9edde4467acd884fc10ef2",
+      "actual": "af5aca748147b6f7277b7e4ade6c3412043ee90bea9edde4467acd884fc10ef2"
+    }
+  },
+  "completed_episodes": [
+    {
+      "seed": 920,
+      "success": true,
+      "report_sha256": "f5dcd91c0ae1da456d49bdf6cc318ec674e143e76dcd5dd0eb50f6cb8ce376c4",
+      "audit_sha256": "a073b4099d30db8f6ea2cdce1ed8489f1def7cef0481bb6103922358da4e49c5"
+    },
+    {
+      "seed": 921,
+      "success": true,
+      "report_sha256": "4381d11749ed7f90d19d91b7ce9e88cf9dafeaee576ac0670365c24043cb5d40",
+      "audit_sha256": "886c39437c64259085dab742cef271a987b16f81990c54809522c506ab012eba"
+    },
+    {
+      "seed": 922,
+      "success": false,
+      "report_sha256": "bc5fad44645d3b1025e695e301f509e3190d34e7b020fcedca35ac4032dc285a",
+      "audit_sha256": "15d1de018fb77ebd6044d568265762a7812a23507a8c78f6246b2ebe8d9c4534"
+    }
+  ],
+  "assessment_complete": true,
+  "scope": "Checks immutable selection/source/adapter files and protocol agreement. Task grading is performed by the separately frozen CPU verifier; this script does not infer unseen outcomes."
+}

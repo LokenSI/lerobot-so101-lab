@@ -1,0 +1,12 @@
+{
+  "attribution_source": "Original FLUX Kommunity License section3b",
+  "license_sha256": "100a3a5af8f1a2943dca0d127671bcaa93ad894a63330825219f1a0a44451f22",
+  "attribution_exactly_copied": true,
+  "modified_model_statement_included": true,
+  "direct_company_rights_statement_included": true,
+  "directories": [
+    "runs/flux-so101-retry/adaptation-training/train-broad-v1/checkpoint-0128",
+    "runs/flux-so101-retry/adaptation-training/train-broad-v1/checkpoint-0256"
+  ],
+  "older_zero_shot_manifest_modified": false
+}

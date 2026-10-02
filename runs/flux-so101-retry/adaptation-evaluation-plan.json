@@ -1,0 +1,37 @@
+{
+  "status": "Frozen before any adapted closed-loop outcome",
+  "task_instruction": "Grasp the red block and place it in the gray bin.",
+  "training": {
+    "family": "Original FLUX 3 Action SO101, genuine native flow-matching loss",
+    "training_seeds": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19],
+    "validation_seeds": [0, 7, 14],
+    "maximum_optimizer_updates": 400,
+    "adapter_rank": 8,
+    "checkpoint_candidates": [128, 256, 400]
+  },
+  "development": {
+    "seed": 910,
+    "role": "Known development start, also used in both failed zero-shot trials",
+    "selection": "Test checkpoint candidates in order; retain all failures and use the earliest successful development checkpoint for a separately frozen fresh-start assessment. If no checkpoint succeeds, report the unsuccessful adaptation honestly.",
+    "training_budget": "Stop and preserve optimizer/RNG at each tested stage. Continue to the next candidate only if development fails. The 400-update budget is a maximum, not a required success claim."
+  },
+  "fresh_start_assessment": {
+    "seeds": [920, 921, 922],
+    "role": "Unseen simulator starts after checkpoint selection; small exploratory assessment, not production reliability",
+    "checkpoint": "Freeze selected adapter SHA256, config, source and sampler before these starts",
+    "rule": "Retain every planned start. Do not retune against these three outcomes or combine with development denominators."
+  },
+  "execution": {
+    "predict_commands": 42,
+    "execute_commands": 32,
+    "max_action_chunks": 24,
+    "control_hz_simulated": 30,
+    "final_fixed_command_hold_ticks": 45,
+    "inference_restoration": "Unmerged original BF16 bases with FP32 adapters/heads under BF16 autocast",
+    "units": "Five arm joint degrees and gripper percentage; identity simulator coordinates",
+    "camera_preprocessing": "Native320x240 projection, uint8 PIL bilinear256x256, identical expert preparation"
+  },
+  "success": "Actual bilateral fixed-finger and moving-jaw contact with positive normal forces during cube world-Z above90mm, followed by full cube containment, release and stable position/orientation/speed for1.5seconds under the unchanged strict grader",
+  "prohibited_shortcuts": ["Scripted pickup correction", "Inverse-kinematics command correction", "Object attachment", "Object pose writes after reset", "Object coordinates passed to FLUX", "Calling expert replay or ACT a FLUX success"],
+  "verification": "Independent CPU replay, contact-force/history/action/hash audit before any task-success presentation"
+}

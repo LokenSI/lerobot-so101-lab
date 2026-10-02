@@ -1,0 +1,232 @@
+{
+  "purpose": "Scripted simulator demonstrations for a learned SO-101 image-and-joint-state policy",
+  "task": "Lift the 30 mm red cube and release it fully inside the gray tray",
+  "control_source": "Privileged-pose scripted Cartesian IK, no learned policy in demonstration controller",
+  "learned_policy": false,
+  "object_attachments": false,
+  "object_pose_written_during_rollout": false,
+  "engine": "MuJoCo",
+  "version": "3.6.0",
+  "source": {
+    "space": "https://huggingface.co/spaces/multimodalart/flux-3-action-so101-sim",
+    "revision": "d7da38e032da0e136d6de21c218dc616982a8cc9",
+    "pinned_files_modified": false,
+    "source_model_sha256": "011c5fb06c999f5207d2ad6a331ba6e602cf0b29edf120097016d23cfd8eaeaf"
+  },
+  "collision_adjustment": "Fixed-jaw concave visual mesh originally used as one convex collision hull. Replace only that collision geom with two overlapping convex hulls of original body-local vertices z<-0.055 m and z>-0.060 m. Original visual mesh, inertial properties, all joints and position actuators retained.",
+  "script_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "observation_order": "images and joint state immediately BEFORE corresponding absolute action target is applied",
+  "state_action_units": [
+    "radian",
+    "radian",
+    "radian",
+    "radian",
+    "radian",
+    "radian"
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "control_hz": 30,
+  "episode_frames": 525,
+  "images": {
+    "images_front": {
+      "camera": "scene",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "dtype": "uint8"
+    },
+    "images_wrist": {
+      "camera": "wrist",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "dtype": "uint8"
+    },
+    "rendered_natively_square": true
+  },
+  "randomization": "Source reset samples cube x and y independently within \u00b115 mm; cube yaw0.3 rad, lighting and cameras fixed. Seed is recorded.",
+  "success_grader": {
+    "lift_center_height_m": ">0.09",
+    "tray": "Entire oriented cube inside inner walls, base resting within1mm of tray floor",
+    "release": "No finger or gripper-body contacts for final45frames",
+    "rest_position_spread_m": "<0.001",
+    "rest_orientation_spread_deg": "<1",
+    "rest_max_linear_speed_m_s": "<0.002",
+    "consecutive_settle_frames": 45
+  },
+  "total": 20,
+  "successful": 20,
+  "runs": [
+    {
+      "seed": 0,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "a5027604cde4fa5bc5299f0f631f684ba34636472264112afaed3726427048f3",
+      "path": "runs/so101-teaser-dataset/seed-000/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 1,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "0f53b0fb9e370e2af41af5dbe5887ec6a663767015df2b09f2aec195acd50ff0",
+      "path": "runs/so101-teaser-dataset/seed-001/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 2,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "99495f5e06ad6f662e26fab03de17d9cdc91bd974a6af8853c758750d0b94751",
+      "path": "runs/so101-teaser-dataset/seed-002/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 3,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "a311cdd3cd10aba41340e968571a33b573fd5632f6c7356856b378cfc085817b",
+      "path": "runs/so101-teaser-dataset/seed-003/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 4,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "b0b51ca33cd108c8c7fef09a3b453636c6330cfce5b41e7a5678b6791a901f7b",
+      "path": "runs/so101-teaser-dataset/seed-004/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 5,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "5a589560a1118ef434150d84edeb988270035673e630abba69a9676138ea308b",
+      "path": "runs/so101-teaser-dataset/seed-005/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 6,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "b2e9ea98eed60a07c52bcba3f6203d97aa28bc5fdb94d332d0625f0762af4107",
+      "path": "runs/so101-teaser-dataset/seed-006/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 7,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "055a4a5b274aa02a0a4bd0b2428f8006103b56f390ef0336a769e0d60c8d02ea",
+      "path": "runs/so101-teaser-dataset/seed-007/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 8,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "f8b1070a9667e8a5f135ec9ae650f6f102bb340e81c12a44a0679476d7f5ff16",
+      "path": "runs/so101-teaser-dataset/seed-008/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 9,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "3fdf83f55addf80d9c795492c7652b5dab306a9ba987341d2ef2cb82f04c1ce7",
+      "path": "runs/so101-teaser-dataset/seed-009/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 10,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "7781eb1f65c26fcf29ed2566e95225e2870b4162e9d17860e5b71762b64102e0",
+      "path": "runs/so101-teaser-dataset/seed-010/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 11,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "4f95edfc6a84c1ab5f2bcb49e7d529a557f8484f6e4a56ea03ba1aeef2561d86",
+      "path": "runs/so101-teaser-dataset/seed-011/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 12,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "9019c566e60a9018d51942189e2fd38a0793b3163372446c434c90988e4b0243",
+      "path": "runs/so101-teaser-dataset/seed-012/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 13,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "2f351bbf683aef8f3cda299d96a060219e8cf8c92958d421d863fb7af4104e98",
+      "path": "runs/so101-teaser-dataset/seed-013/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 14,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "cd41a7e27458850bb05662a591e62b171e78f8c50225c846887f25b511f77656",
+      "path": "runs/so101-teaser-dataset/seed-014/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 15,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "fd584ab326d1db3317c7ded0f4244d71c813771014e1a43458b3405421d733de",
+      "path": "runs/so101-teaser-dataset/seed-015/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 16,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "e4e2a6c6c8d7d625690f2f735748efda59b65ab81220e68d228b90b39595b55c",
+      "path": "runs/so101-teaser-dataset/seed-016/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 17,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "223f7b8451ef30f569077816a855cbf461eedc89141de4b6f4f7bf78f2f0dffe",
+      "path": "runs/so101-teaser-dataset/seed-017/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 18,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "79c08ed8277387b74e28da01c9ead255832d20c8294bff782464a69152424a99",
+      "path": "runs/so101-teaser-dataset/seed-018/episode.npz",
+      "frame_count": 525
+    },
+    {
+      "seed": 19,
+      "success": true,
+      "replay_max_error_rad": 0.0,
+      "sha256_episode": "d34f81ae6230541b325e699c78b0633fb2a84d10b16e57c684fe65e1d49be907",
+      "path": "runs/so101-teaser-dataset/seed-019/episode.npz",
+      "frame_count": 525
+    }
+  ]
+}

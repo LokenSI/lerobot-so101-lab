@@ -1,0 +1,6 @@
+{
+  "exact_reported_helper_sha256": "4a04ed094cd12bb68200580117db41280afc8703a715bd6dbbdcd15b93fbab47",
+  "recovered_source_hash_matches_report": true,
+  "earlier_zero_shot_manifest_modified": false,
+  "scope": "Historical CPU toy algebra/gradient proof; no model inference or task-success claim"
+}

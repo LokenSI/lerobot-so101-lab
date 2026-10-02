@@ -1,0 +1,14 @@
+{
+  "status": "Prospective extension frozen before checkpoint256 closed-loop outcomes",
+  "reason": "128-update development failed despite lower held-out flow loss. All cached training contexts contain the task text; caption_dropout was0. CFG3 also uses an empty-text branch whose simulator domain was not separately adapted. Test conditional-only guidance1 against original guidance3.",
+  "previous_plan": "adaptation-evaluation-plan.json remains preserved; its default-guidance checkpoint candidates and fresh starts stay separate from these additional development conditions.",
+  "checkpoint_candidates": [256, 400],
+  "development_seed": 910,
+  "guidance_scales_in_order": [3, 1],
+  "training_changes": "None: preserve existing frozen maximum400-update training recipe, optimizer/RNG, dataset, normalizers and checkpoint sequence",
+  "inference_changes": "Only global guidance_scale; preserve original Euler4 steps, timestep shift6.93, history8, prediction42/execution32, camera pipeline and original BF16 plus unmerged adapter precision",
+  "selection": "Retain both planned guidance outcomes. Choose the earliest development checkpoint/condition that meets the unchanged independent bilateral lift/release/containment/rest grader; at a tie prefer guidance3. Then freeze exact adapter+guidance+source hashes before fresh920,921,922. Do not tune against those fresh outcomes.",
+  "fresh_assessment": "Small exploratory simulation assessment; include all three planned starts separately from development results",
+  "excluded_shortcuts": "No IK command corrections, scripted pickup, attachments, object position writes after reset or object coordinates in model inputs",
+  "negative_result": "If both guidance conditions fail at both remaining checkpoints, retain them and report failure rather than calling offline improvement task success. Further experiments require their own separate prospective recipe and evidence."
+}
