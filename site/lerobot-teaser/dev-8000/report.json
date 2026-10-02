@@ -1,0 +1,100 @@
+{
+  "policy": "Official LeRobot ACT, compact deterministic configuration; VAE disabled",
+  "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+  "parameters": 11902150,
+  "model_file_bytes": 47701616,
+  "environment_module": "so101_pick_place_baseline",
+  "environment_script_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+  "observation": "Scene RGB, wrist RGB, six measured joint values. No object coordinates, expert waypoints or phase counters.",
+  "action_units": "radians",
+  "grader": "Independent environment.task_success(env); model cannot access grading state",
+  "seeds": [
+    100
+  ],
+  "max_steps": 525,
+  "demonstration_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "architecture": {
+    "dim_model": 128,
+    "n_heads": 4,
+    "dim_feedforward": 512,
+    "n_encoder_layers": 2,
+    "n_decoder_layers": 1,
+    "chunk_size": 16,
+    "n_action_steps": 8,
+    "use_vae": false,
+    "vision_backbone": "resnet18"
+  },
+  "device": "cuda",
+  "torch": "2.10.0+cu128",
+  "episodes": [
+    {
+      "seed": 100,
+      "steps": 525,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 2.9575586669421963e-06,
+        "settle_max_linear_speed_m_s": 1.1167931804174614e-15,
+        "max_object_height_m": 0.11897681695849711,
+        "final_object_xyz_m": [
+          0.27135299918808264,
+          -0.16085139930561004,
+          0.018995627991030255
+        ],
+        "grading_frames": 45
+      },
+      "success": true,
+      "wall_seconds": 24.50603638800385,
+      "video": "seed-100.mp4",
+      "actuator_target_limit_events": 66,
+      "max_target_limit_excess_rad": 0.006493985147476206
+    }
+  ],
+  "complete": true,
+  "camera_shape": [
+    96,
+    96,
+    3
+  ],
+  "orin_tested": false,
+  "generalization_scope": "Same simulator, fixed task and cameras, separate evaluation seeds; hardware and offshore conditions untested",
+  "success_count": 1,
+  "total": 1,
+  "action_selection_seconds": {
+    "median": 0.00026041900855489075,
+    "p95": 0.013669322803616523
+  },
+  "fresh_chunk_inference_seconds": {
+    "median": 0.01310806850233348,
+    "p95": 0.01884996124499594,
+    "count": 66
+  },
+  "whole_device_peak_mib": 1211,
+  "torch_peak_allocated_bytes": 87680000
+}

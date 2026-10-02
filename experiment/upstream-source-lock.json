@@ -1,0 +1,43 @@
+{
+  "format_version": 1,
+  "lerobot": {
+    "repository": "https://github.com/huggingface/lerobot",
+    "revision": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+    "archive_url": "https://codeload.github.com/huggingface/lerobot/tar.gz/6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+    "runtime_directory": "runtime/lerobot-teaser-src",
+    "checked_files": {
+      "LICENSE": "9e108af26a7ae92a6d2cb0273856a4a0a84da8819c2cffee8b2657cc4f905718",
+      "pyproject.toml": "d3c6b12f4e2c950aac1c6a7e44e3aeb064d9a7138690d828e3c763687193addd",
+      "uv.lock": "ada53504b54c6854b721bc13826f7085e77dc120f94d35c063d2f68a99fa7613",
+      "src/lerobot/configs/types.py": "1354e7d24b19d5d4970064104f76d8c85570c204bf2d09e2b4402f93a994ad99",
+      "src/lerobot/policies/act/configuration_act.py": "35a60c0dd3c811b137b5eb035bdbd40d40e2c24ba0cda61756052e6e1c829282",
+      "src/lerobot/policies/act/modeling_act.py": "83d954f79ccd3eaa6774dbea92524939c8ac08359bb355ba7cd37b8601e1e3af"
+    }
+  },
+  "so101_space": {
+    "repository": "https://huggingface.co/spaces/multimodalart/flux-3-action-so101-sim",
+    "revision": "d7da38e032da0e136d6de21c218dc616982a8cc9",
+    "runtime_directory": "runtime/flux-action-so101-sim",
+    "files": {
+      "README.md": "1f5c6a8046ec65f35fa86c33bc5075bc816b2abce383018e991515ffcb788baa",
+      "sim.py": "c6a998933841b5bfcc41cc0d198181897435e84222982a8f6085cfc7ab7943f4",
+      "so101.xml": "011c5fb06c999f5207d2ad6a331ba6e602cf0b29edf120097016d23cfd8eaeaf",
+      "assets/base_motor_holder_so101_v1.stl": "892848045bbe47a9a409b999b99ccd3ff79cfdf754412deae5762823f111085b",
+      "assets/base_so101_v2.stl": "b785607d3adcee2f66c8aef480845a7f46eb532c74728fe72fe1ef28cc5f8fca",
+      "assets/motor_holder_so101_base_v1.stl": "d90c54b188a65ef9ed575b02316f21c2afdb1fee117d168d53c84289fef16eb7",
+      "assets/motor_holder_so101_wrist_v1.stl": "cacddcdc81b408a9206dcc3430473f1ddef4b9d334c45743ad3c35a1f3b1386a",
+      "assets/moving_jaw_so101_v1.stl": "ed76b76a9631d0c08902d465ce417fe1bd947d73a0f9426eb05f4a212ba2f318",
+      "assets/rotation_pitch_so101_v1.stl": "d6067c0f9b34cd8da08ba597a44cdeb05f135c781f7799cd84fdd5e788d750d5",
+      "assets/sts3215_03a_no_horn_v1.stl": "e4727426e8c7f858fa6fda117ddc5b7013ea43341e5fa32d10bcd05922454cb8",
+      "assets/sts3215_03a_v1.stl": "12a8178489ce5f0f5a9d5a6789e21ea95c491e664940350c99cf42d21430dfbf",
+      "assets/under_arm_so101_v1.stl": "4ccb3f2ef4d5758594aeeecf80ced601036b029812e5ef4290310953c523e3bb",
+      "assets/upper_arm_so101_v1.stl": "2792eef7bc229ee24808a0690a5c06471e4a49f233bb15d33ea4d36ff73c1397",
+      "assets/waveshare_mounting_plate_so101_v2.stl": "d251454e16285e0ab95ed69b172cbc81e2f878d7a909374b7b748edb46a32755",
+      "assets/wrist_camera_mount_so101_v1.stl": "4196541595a6d8f9242697ca0b0c8092b32f45ff7b1e010f58117612ab23b510",
+      "assets/wrist_camera_so101_v1.stl": "cf314ea77ea3dacb2fa8319acc5764276496916f986d5e25eb6cd687ee145fe8",
+      "assets/wrist_roll_follower_so101_v1.stl": "84760835966740bcf2699b9ed311db507dcce8f05271757116200a798d4f4106",
+      "assets/wrist_roll_pitch_so101_v2.stl": "075d3d4d9f85aa6def1a27e3fc7e002153ebe3e7f06b43171834902986eff8c1"
+    },
+    "download_reason": "Pinned Space provides no code redistribution license; fetch directly from official upstream instead of vendoring runtime source or assets."
+  }
+}

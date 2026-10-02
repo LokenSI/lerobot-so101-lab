@@ -1,0 +1,24 @@
+# Local dependencies and downloaded upstream source
+runtime/
+.venv/
+venv/
+# Original/reproduced experiment bundles live in release assets
+runs/
+datasets/
+downloads/
+# Python/editor/OS temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+# Public site videos and images are intentionally tracked (via Git LFS).
+
+# Keep social-post drafts local
+**/*linkedin*draft*
+**/*linkedin*post*
+local-content/

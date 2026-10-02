@@ -1,0 +1,70 @@
+{
+  "complete": true,
+  "clips": [
+    {
+      "case": "nominal",
+      "seed": 401,
+      "frames": 570,
+      "fps": 30.0,
+      "size": [
+        1440,
+        1080
+      ],
+      "duration": 19.0,
+      "success": true,
+      "projection_error_px": 0.1859989895469176
+    },
+    {
+      "case": "blue_target",
+      "seed": 401,
+      "frames": 570,
+      "fps": 30.0,
+      "size": [
+        1440,
+        1080
+      ],
+      "duration": 19.0,
+      "success": true,
+      "projection_error_px": 0.1859989895469176
+    },
+    {
+      "case": "dim_light",
+      "seed": 401,
+      "frames": 570,
+      "fps": 30.0,
+      "size": [
+        1440,
+        1080
+      ],
+      "duration": 19.0,
+      "success": false,
+      "projection_error_px": 0.1859989895469176
+    },
+    {
+      "case": "visual_distractor",
+      "seed": 401,
+      "frames": 570,
+      "fps": 30.0,
+      "size": [
+        1440,
+        1080
+      ],
+      "duration": 19.0,
+      "success": true,
+      "projection_error_px": 0.1859989895469176
+    },
+    {
+      "case": "nominal",
+      "seed": 301,
+      "frames": 570,
+      "fps": 30.0,
+      "size": [
+        1440,
+        1080
+      ],
+      "duration": 19.0,
+      "success": true,
+      "projection_error_px": 0.1859989895469176
+    }
+  ]
+}

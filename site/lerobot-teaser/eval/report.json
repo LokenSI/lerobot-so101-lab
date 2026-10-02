@@ -1,0 +1,208 @@
+{
+  "policy": "Official LeRobot ACT, compact deterministic configuration; VAE disabled",
+  "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+  "parameters": 11902150,
+  "model_file_bytes": 47701616,
+  "environment_module": "so101_pick_place_baseline",
+  "environment_script_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+  "observation": "Scene RGB, wrist RGB, six measured joint values. No object coordinates, expert waypoints or phase counters.",
+  "action_units": "radians",
+  "grader": "Independent environment.task_success(env); model cannot access grading state",
+  "seeds": [
+    300,
+    301,
+    302,
+    303,
+    304
+  ],
+  "max_steps": 525,
+  "demonstration_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "architecture": {
+    "dim_model": 128,
+    "n_heads": 4,
+    "dim_feedforward": 512,
+    "n_encoder_layers": 2,
+    "n_decoder_layers": 1,
+    "chunk_size": 16,
+    "n_action_steps": 8,
+    "use_vae": false,
+    "vision_backbone": "resnet18"
+  },
+  "device": "cuda",
+  "torch": "2.10.0+cu128",
+  "episodes": [
+    {
+      "seed": 300,
+      "steps": 525,
+      "grader": {
+        "success": false,
+        "lifted": false,
+        "inside_tray_for_1_5_s": false,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 0.0,
+        "settle_max_linear_speed_m_s": 7.689980100899722e-16,
+        "max_object_height_m": 0.022497606533342554,
+        "final_object_xyz_m": [
+          0.22352464045884374,
+          -0.014155889481943936,
+          0.014995627991030262
+        ],
+        "grading_frames": 45
+      },
+      "success": false,
+      "wall_seconds": 24.252073277995805,
+      "video": "seed-300.mp4",
+      "actuator_target_limit_events": 301,
+      "max_target_limit_excess_rad": 0.08157479712486268
+    },
+    {
+      "seed": 301,
+      "steps": 525,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 0.0,
+        "settle_max_linear_speed_m_s": 1.2708439981490002e-15,
+        "max_object_height_m": 0.11516652629281601,
+        "final_object_xyz_m": [
+          0.267568337590774,
+          -0.15654663763183876,
+          0.018995627991030262
+        ],
+        "grading_frames": 45
+      },
+      "success": true,
+      "wall_seconds": 24.85193911800161,
+      "video": "seed-301.mp4",
+      "actuator_target_limit_events": 65,
+      "max_target_limit_excess_rad": 0.006493985147476206
+    },
+    {
+      "seed": 302,
+      "steps": 525,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 0.0,
+        "settle_max_linear_speed_m_s": 5.636491411413709e-16,
+        "max_object_height_m": 0.118566278477175,
+        "final_object_xyz_m": [
+          0.2532136681562335,
+          -0.1728888631226437,
+          0.018995627991030255
+        ],
+        "grading_frames": 45
+      },
+      "success": true,
+      "wall_seconds": 25.151493639001274,
+      "video": "seed-302.mp4",
+      "actuator_target_limit_events": 66,
+      "max_target_limit_excess_rad": 0.006493985147476206
+    },
+    {
+      "seed": 303,
+      "steps": 525,
+      "grader": {
+        "success": false,
+        "lifted": false,
+        "inside_tray_for_1_5_s": false,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 0.0,
+        "settle_max_linear_speed_m_s": 1.0542489609709141e-15,
+        "max_object_height_m": 0.023671909491403638,
+        "final_object_xyz_m": [
+          0.22246087011564322,
+          -0.021762539490055036,
+          0.014995627991030283
+        ],
+        "grading_frames": 45
+      },
+      "success": false,
+      "wall_seconds": 25.317014444997767,
+      "video": "seed-303.mp4",
+      "actuator_target_limit_events": 341,
+      "max_target_limit_excess_rad": 0.08157479712486268
+    },
+    {
+      "seed": 304,
+      "steps": 525,
+      "grader": {
+        "success": false,
+        "lifted": true,
+        "inside_tray_for_1_5_s": false,
+        "released_for_1_5_s": false,
+        "stable": false,
+        "settle_position_spread_m": 0.06058625952165416,
+        "settle_orientation_spread_deg": 32.240003025240384,
+        "settle_max_linear_speed_m_s": 0.680142596365851,
+        "max_object_height_m": 0.11110215900565475,
+        "final_object_xyz_m": [
+          0.2480145982507986,
+          -0.16822168136312732,
+          0.018995627991030255
+        ],
+        "grading_frames": 45
+      },
+      "success": false,
+      "wall_seconds": 24.901776825005072,
+      "video": "seed-304.mp4",
+      "actuator_target_limit_events": 98,
+      "max_target_limit_excess_rad": 0.006493985147476206
+    }
+  ],
+  "complete": true,
+  "camera_shape": [
+    96,
+    96,
+    3
+  ],
+  "orin_tested": false,
+  "generalization_scope": "Same simulator, fixed task and cameras, separate evaluation seeds; hardware and offshore conditions untested",
+  "success_count": 2,
+  "total": 5,
+  "action_selection_seconds": {
+    "median": 0.0002652449911693111,
+    "p95": 0.014378146000672108
+  },
+  "fresh_chunk_inference_seconds": {
+    "median": 0.013418552996881772,
+    "p95": 0.025593260204914262,
+    "count": 330
+  },
+  "whole_device_peak_mib": 1209,
+  "torch_peak_allocated_bytes": 87680000
+}

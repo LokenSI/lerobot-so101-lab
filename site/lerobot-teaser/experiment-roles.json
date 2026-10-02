@@ -1,0 +1,17 @@
+{
+  "chosen_checkpoint": "runs/lerobot-teaser/train-8000",
+  "selection_fixed_before_final_assessment": true,
+  "selection_reason": "8000-step ACT succeeded on development seed100; longer64/32 candidate failed that same development seed. Final300–304 outcomes cannot change this selection.",
+  "model_family": "Official LeRobot ACTPolicy with custom NPZ demonstration sampler and explicit normalization; not FLUX3 Action",
+  "demonstration_seeds": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+  "prior_assessments": [
+    {"report": "runs/lerobot-teaser/eval-4000/report.json", "checkpoint": "runs/lerobot-teaser/train", "seeds": [100,101,102,103,104], "success_count": 0, "total": 5, "role": "Initial assessment, subsequently used to guide development"},
+    {"report": "runs/lerobot-teaser/dev-8000/report.json", "checkpoint": "runs/lerobot-teaser/train-8000", "seeds": [100], "success_count": 1, "total": 1, "role": "Development probe"},
+    {"report": "runs/lerobot-teaser/eval-8000/report.json", "checkpoint": "runs/lerobot-teaser/train-8000", "seeds": [200,201,202,203,204], "success_count": 3, "total": 5, "role": "Prior fresh assessment, subsequently used to guide longer-horizon development"},
+    {"report": "runs/lerobot-teaser/dev-64/report.json", "checkpoint": "runs/lerobot-teaser/train-64-6000", "seeds": [100], "success_count": 0, "total": 1, "role": "Development probe of64/32 horizon and cosine-decay variant"}
+  ],
+  "final_assessment": {"report": "runs/lerobot-teaser/eval/report.json", "checkpoint": "runs/lerobot-teaser/train-8000", "seeds": [300,301,302,303,304], "success_count": 2, "total": 5, "successful_seeds": [301,302], "role": "Untouched final assessment of the preselected frozen model", "status": "complete"},
+  "further_model_tuning_planned": false,
+  "hardware_orin_tested": false,
+  "physical_robot_tested": false
+}

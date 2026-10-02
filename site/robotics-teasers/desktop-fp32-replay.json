@@ -1,0 +1,18 @@
+{
+  "device_name": "NVIDIA GeForce RTX 5070 Ti",
+  "device": "cuda",
+  "torch": "2.10.0+cu128",
+  "iterations": 100,
+  "precision": "float32",
+  "fresh_chunk_median_seconds": 0.0066084325007977895,
+  "fresh_chunk_p95_seconds": 0.015663774650602137,
+  "peak_torch_allocated_bytes": 72356864,
+  "model_file_bytes": 47701616,
+  "shape": [
+    1,
+    16,
+    6
+  ],
+  "finite": true,
+  "measurement_scope": "Inference on a fixed saved observation; no closed-loop success measurement or robot control"
+}

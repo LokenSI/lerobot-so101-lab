@@ -1,0 +1,552 @@
+{
+  "format_version": 1,
+  "measured_date": "2026-10-02",
+  "simulation_only": true,
+  "physical_robot_tested": false,
+  "orin_tested": false,
+  "checkpoint": {
+    "path": "runs/lerobot-teaser/train-8000",
+    "sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+    "parameters": 11902150,
+    "model_file_bytes": 47701616,
+    "lerobot_revision": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7"
+  },
+  "demonstrations": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "count": 20,
+    "train_count": 17,
+    "validation_count": 3,
+    "control": "Privileged Cartesian IK scripted demonstrations; no learned control during generation"
+  },
+  "prior_final_assessment": {
+    "path": "runs/lerobot-teaser/eval/report.json",
+    "sha256": "1e41c38d06ad47ef6722e264b401352cd93dd695217e2f3e9a523c05ed79d5eb",
+    "seeds": [
+      300,
+      301,
+      302,
+      303,
+      304
+    ],
+    "successful": 2,
+    "total": 5,
+    "episodes": [
+      {
+        "seed": 300,
+        "success": false,
+        "grader": {
+          "success": false,
+          "lifted": false,
+          "inside_tray_for_1_5_s": false,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 0.0,
+          "settle_max_linear_speed_m_s": 7.689980100899722e-16,
+          "max_object_height_m": 0.022497606533342554,
+          "final_object_xyz_m": [
+            0.22352464045884374,
+            -0.014155889481943936,
+            0.014995627991030262
+          ],
+          "grading_frames": 45
+        }
+      },
+      {
+        "seed": 301,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 0.0,
+          "settle_max_linear_speed_m_s": 1.2708439981490002e-15,
+          "max_object_height_m": 0.11516652629281601,
+          "final_object_xyz_m": [
+            0.267568337590774,
+            -0.15654663763183876,
+            0.018995627991030262
+          ],
+          "grading_frames": 45
+        }
+      },
+      {
+        "seed": 302,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 0.0,
+          "settle_max_linear_speed_m_s": 5.636491411413709e-16,
+          "max_object_height_m": 0.118566278477175,
+          "final_object_xyz_m": [
+            0.2532136681562335,
+            -0.1728888631226437,
+            0.018995627991030255
+          ],
+          "grading_frames": 45
+        }
+      },
+      {
+        "seed": 303,
+        "success": false,
+        "grader": {
+          "success": false,
+          "lifted": false,
+          "inside_tray_for_1_5_s": false,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 0.0,
+          "settle_max_linear_speed_m_s": 1.0542489609709141e-15,
+          "max_object_height_m": 0.023671909491403638,
+          "final_object_xyz_m": [
+            0.22246087011564322,
+            -0.021762539490055036,
+            0.014995627991030283
+          ],
+          "grading_frames": 45
+        }
+      },
+      {
+        "seed": 304,
+        "success": false,
+        "grader": {
+          "success": false,
+          "lifted": true,
+          "inside_tray_for_1_5_s": false,
+          "released_for_1_5_s": false,
+          "stable": false,
+          "settle_position_spread_m": 0.06058625952165416,
+          "settle_orientation_spread_deg": 32.240003025240384,
+          "settle_max_linear_speed_m_s": 0.680142596365851,
+          "max_object_height_m": 0.11110215900565475,
+          "final_object_xyz_m": [
+            0.2480145982507986,
+            -0.16822168136312732,
+            0.018995627991030255
+          ],
+          "grading_frames": 45
+        }
+      }
+    ],
+    "action_selection_seconds": {
+      "median": 0.0002652449911693111,
+      "p95": 0.014378146000672108
+    },
+    "fresh_chunk_inference_seconds": {
+      "median": 0.013418552996881772,
+      "p95": 0.025593260204914262,
+      "count": 330
+    }
+  },
+  "exploratory_paired_robustness": {
+    "path": "runs/lerobot-cases/report.json",
+    "sha256": "bc1ec64ca75c211bc4755d17854251a7ffb32436f16cd499e65a36219b1fbca9",
+    "successful": 10,
+    "total": 12,
+    "independent_start_seeds": [
+      400,
+      401,
+      402
+    ],
+    "conditions": {
+      "nominal": {
+        "successful": 3,
+        "total": 3
+      },
+      "blue_target": {
+        "successful": 3,
+        "total": 3
+      },
+      "dim_light": {
+        "successful": 2,
+        "total": 3
+      },
+      "visual_distractor": {
+        "successful": 2,
+        "total": 3
+      }
+    },
+    "episodes": [
+      {
+        "case": "nominal",
+        "seed": 400,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 2.42861286636753e-17,
+          "settle_orientation_spread_deg": 3.818191820832845e-06,
+          "settle_max_linear_speed_m_s": 4.269605393247606e-15,
+          "max_object_height_m": 0.11042387376720104,
+          "final_object_xyz_m": [
+            0.24883928782472725,
+            -0.17309572644357896,
+            0.01899562799103025
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.012078581996320281,
+          "p95": 0.020601547752448823,
+          "count": 66
+        }
+      },
+      {
+        "case": "nominal",
+        "seed": 401,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 2.4148365394514667e-06,
+          "settle_max_linear_speed_m_s": 1.5106560700321744e-16,
+          "max_object_height_m": 0.11700872751934795,
+          "final_object_xyz_m": [
+            0.24669237086261303,
+            -0.1699132737018353,
+            0.018995627991030255
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.01447733700479148,
+          "p95": 0.019672383499710122,
+          "count": 66
+        }
+      },
+      {
+        "case": "nominal",
+        "seed": 402,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 0.0,
+          "settle_max_linear_speed_m_s": 1.1539918317477414e-15,
+          "max_object_height_m": 0.10910327141168906,
+          "final_object_xyz_m": [
+            0.24721182660537555,
+            -0.16894697396273198,
+            0.018995627991030262
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.013933543006714899,
+          "p95": 0.024097136498312466,
+          "count": 66
+        }
+      },
+      {
+        "case": "blue_target",
+        "seed": 400,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 6.613302226726412e-06,
+          "settle_max_linear_speed_m_s": 1.2390413545433942e-15,
+          "max_object_height_m": 0.11290761046962168,
+          "final_object_xyz_m": [
+            0.2466066156153701,
+            -0.17354469696584623,
+            0.018995627991030235
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.014498857497528661,
+          "p95": 0.026034252005047165,
+          "count": 66
+        }
+      },
+      {
+        "case": "blue_target",
+        "seed": 401,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 3.818191820832845e-06,
+          "settle_max_linear_speed_m_s": 6.463169137154635e-16,
+          "max_object_height_m": 0.1170996490223051,
+          "final_object_xyz_m": [
+            0.2718142096653091,
+            -0.16627079340725542,
+            0.01899562799103025
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.014626854499510955,
+          "p95": 0.022550319499714533,
+          "count": 66
+        }
+      },
+      {
+        "case": "blue_target",
+        "seed": 402,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 3.4150945850063755e-06,
+          "settle_max_linear_speed_m_s": 5.722995938492186e-16,
+          "max_object_height_m": 0.11693651883656188,
+          "final_object_xyz_m": [
+            0.2446047261453225,
+            -0.16279001501903265,
+            0.01899562799103025
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.015666785002395045,
+          "p95": 0.02085224899565219,
+          "count": 66
+        }
+      },
+      {
+        "case": "dim_light",
+        "seed": 400,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 2.9575586669421963e-06,
+          "settle_max_linear_speed_m_s": 1.2284533849557901e-15,
+          "max_object_height_m": 0.11179377356898233,
+          "final_object_xyz_m": [
+            0.24794744075950928,
+            -0.17567066777056767,
+            0.018995627991030255
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.015325114000006579,
+          "p95": 0.025956182500522118,
+          "count": 66
+        }
+      },
+      {
+        "case": "dim_light",
+        "seed": 401,
+        "success": false,
+        "grader": {
+          "success": false,
+          "lifted": true,
+          "inside_tray_for_1_5_s": false,
+          "released_for_1_5_s": false,
+          "stable": false,
+          "settle_position_spread_m": 0.08419854822773418,
+          "settle_orientation_spread_deg": 5.989382464115776,
+          "settle_max_linear_speed_m_s": 0.1963658117381109,
+          "max_object_height_m": 0.11821031130457836,
+          "final_object_xyz_m": [
+            0.24043657086532216,
+            -0.17023727635639335,
+            0.11600646243952516
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.013579190504970029,
+          "p95": 0.02091943499908666,
+          "count": 66
+        }
+      },
+      {
+        "case": "dim_light",
+        "seed": 402,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 3.818191820832845e-06,
+          "settle_max_linear_speed_m_s": 1.121834047369915e-15,
+          "max_object_height_m": 0.11009849948475903,
+          "final_object_xyz_m": [
+            0.24660043677072857,
+            -0.17184730655690791,
+            0.01899562799103025
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.014248400511860382,
+          "p95": 0.022262172748014564,
+          "count": 66
+        }
+      },
+      {
+        "case": "visual_distractor",
+        "seed": 400,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 0.0,
+          "settle_max_linear_speed_m_s": 1.165413430199823e-15,
+          "max_object_height_m": 0.11175097481002164,
+          "final_object_xyz_m": [
+            0.2482500113022008,
+            -0.17169908764059955,
+            0.018995627991030262
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.013737522494920995,
+          "p95": 0.021453531000588555,
+          "count": 66
+        }
+      },
+      {
+        "case": "visual_distractor",
+        "seed": 401,
+        "success": true,
+        "grader": {
+          "success": true,
+          "lifted": true,
+          "inside_tray_for_1_5_s": true,
+          "released_for_1_5_s": true,
+          "stable": true,
+          "settle_position_spread_m": 0.0,
+          "settle_orientation_spread_deg": 1.7075472925031877e-06,
+          "settle_max_linear_speed_m_s": 3.6528690374534836e-16,
+          "max_object_height_m": 0.1166117209246784,
+          "final_object_xyz_m": [
+            0.24337424637741448,
+            -0.17311389529133503,
+            0.018995627991030255
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.014353637001477182,
+          "p95": 0.022646481753326952,
+          "count": 66
+        }
+      },
+      {
+        "case": "visual_distractor",
+        "seed": 402,
+        "success": false,
+        "grader": {
+          "success": false,
+          "lifted": true,
+          "inside_tray_for_1_5_s": false,
+          "released_for_1_5_s": false,
+          "stable": false,
+          "settle_position_spread_m": 0.026877621174678835,
+          "settle_orientation_spread_deg": 30.739527654031196,
+          "settle_max_linear_speed_m_s": 0.6408781999157155,
+          "max_object_height_m": 0.11961947038743599,
+          "final_object_xyz_m": [
+            0.24637511227689657,
+            -0.1653726098229814,
+            0.018995627991030255
+          ],
+          "grading_frames": 45
+        },
+        "fresh_chunk_inference_seconds": {
+          "median": 0.014117444494331721,
+          "p95": 0.021093790001032175,
+          "count": 66
+        }
+      }
+    ],
+    "scope": "Three paired starts x four visual conditions; exploratory after prior assessment, not12 independent starts or an untouched replacement benchmark"
+  },
+  "reference301": {
+    "success": true,
+    "excluded_from_fresh_count": true,
+    "scope": "Previously evaluated successful seed reproduction"
+  },
+  "training_arguments": {
+    "dataset": "runs/so101-teaser-dataset",
+    "output": "runs/lerobot-teaser/train-8000",
+    "steps": 8000,
+    "batch_size": 48,
+    "image_size": 96,
+    "chunk_size": 16,
+    "action_steps": 8,
+    "resume": "runs/lerobot-teaser/train/training-state.pt",
+    "seed": 42,
+    "pretrained_backbone": false
+  },
+  "measured_desktop": {
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "torch": "2.10.0+cu128",
+    "python": "3.12.3",
+    "simulation_engine": "MuJoCo3.6.0",
+    "operating_system": "Ubuntu24.04 in WSL2 on Windows"
+  },
+  "provenance": "Raw original reports, all successes/failures, observations, trajectories, checkpoints and optimizer states are retained under runs/ in the release experiment ZIP."
+}

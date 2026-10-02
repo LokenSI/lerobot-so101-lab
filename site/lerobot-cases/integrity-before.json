@@ -1,0 +1,7 @@
+{
+  "scripts/so101_pick_place_baseline.py": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "scripts/evaluate_lerobot_teaser.py": "3625b05a0d1707ea17796acbb07d4c08888e3a2c53e12e11fdefee8da654bebb",
+  "runs/lerobot-teaser/train-8000/model.safetensors": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+  "runs/lerobot-teaser/eval/report.json": "1e41c38d06ad47ef6722e264b401352cd93dd695217e2f3e9a523c05ed79d5eb",
+  "runs/lerobot-teaser/experiment-roles.json": "1cfa33e81644aa28acaf97c32011933876db05fb43bce91403402a6f661b08fc"
+}

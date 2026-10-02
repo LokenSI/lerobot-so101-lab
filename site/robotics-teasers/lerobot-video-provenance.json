@@ -1,0 +1,33 @@
+{
+  "scope": "HD presentation replay of saved learned-policy evaluation states; not a new test",
+  "seed": 301,
+  "success": true,
+  "grader": {
+    "success": true,
+    "lifted": true,
+    "inside_tray_for_1_5_s": true,
+    "released_for_1_5_s": true,
+    "stable": true,
+    "settle_position_spread_m": 0.0,
+    "settle_orientation_spread_deg": 0.0,
+    "settle_max_linear_speed_m_s": 1.2708439981490002e-15,
+    "max_object_height_m": 0.11516652629281601,
+    "final_object_xyz_m": [
+      0.267568337590774,
+      -0.15654663763183876,
+      0.018995627991030262
+    ],
+    "grading_frames": 45
+  },
+  "frames": 525,
+  "seconds": 17.5,
+  "video": "lerobot-learned-pick-place.mp4",
+  "trajectory": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/eval/seed-301-trajectory.npz",
+  "trajectory_sha256": "996001ab023c63e4b3c8ad16ccc923ef099ac32b03e979e970e7409aa668f11f",
+  "source_evaluation": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/eval/report.json",
+  "full_qpos_and_qvel_replayed": true,
+  "lift_frame": 312,
+  "presentation_shadow_map_disabled": true,
+  "physical_robot_tested": false,
+  "orin_tested": false
+}

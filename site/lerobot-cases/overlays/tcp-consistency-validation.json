@@ -1,0 +1,308 @@
+{
+  "complete": true,
+  "conclusion": "Existing overlays are correct forward kinematics of saved qpos. Recorded tcp_before_m/tcp_after_m are cached MuJoCo transforms from before the last 1/600 s position integration, and match a one-substep rewind to numerical precision. No rerender or physics/model change is required.",
+  "source": "https://raw.githubusercontent.com/google-deepmind/mujoco/3.6.0/src/engine/engine_forward.c",
+  "source_functions": {
+    "mj_step": "mj_forward is called before Euler integration; no position refresh after integration (lines1385-1418)",
+    "mj_advance": "updates qvel, then integrates qpos using updated qvel, then advances time (lines834-847)"
+  },
+  "collector": "run_lerobot_cases.py logs tcp(env,env.data) directly from cached data.xpos/xmat; Sim.step ends with mj_step and no mj_forward. Both caches and actual qpos/qvel are preserved unchanged.",
+  "verification": "For every saved qpos_before/qpos_after, populate independent MjData and mj_forward. Separately copy qpos and call mj_integratePos(model,qpos,qvel,-model.opt.timestep), then mj_forward to reconstruct the cached state. Compare all cached TCP values to rewound FK; compare all overlay observed TCP points including terminal to fresh current FK.",
+  "presentation_note": "HD scene and observed trail recompute transforms from authoritative saved joint positions; RGB insets retain the actual saved policy pixels from the original cached-transform render. Difference is one physics substep (1.667ms), not a 30Hz control tick. Frozen grading data and outcomes remain unchanged.",
+  "mujoco_version": "3.6.0",
+  "tolerance_m": 1e-12,
+  "episodes_checked": 13,
+  "overlay_frames_checked": 2630,
+  "results": [
+    {
+      "case": "nominal",
+      "seed": 400,
+      "episodepath": "nominal/seed-400",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "9707915a5bfa926abbd3f7f1a0c01bf217c1ce97b979ca3fcbd93f5c51f89c35",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.0013530559329681376,
+        "cached_vs_current_fk_max_frame": 30,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 0.0,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.0013530559329681376,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 0.0,
+        "frames_checked": 525
+      }
+    },
+    {
+      "case": "nominal",
+      "seed": 401,
+      "episodepath": "nominal/seed-401",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "cecffc1d53d3d00101c3e01a033230636aa5b362c1f3b9c048775f255308dc05",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.001426263954417654,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 1.6711069443220838e-16,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.001426263954417654,
+        "cached_vs_current_fk_max_frame": 28,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 1.6711069443220838e-16,
+        "frames_checked": 525
+      },
+      "overlay": {
+        "frames_checked": 526,
+        "observed_vs_fresh_saved_qpos_fk_max_error_m": 0.0,
+        "overlay_record_sha256": "a556bd9eeb0e00b70e505df42266ae2fdf919db148e4891cc7fdffbb63ffbfa4",
+        "terminal_state_is_final_qpos_after": true
+      }
+    },
+    {
+      "case": "nominal",
+      "seed": 402,
+      "episodepath": "nominal/seed-402",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "dc41c1eb1131a4617f8b36d3c10bbb27b8e37e88a2d72726a1894f6e5c4dae60",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.00144025344652474,
+        "cached_vs_current_fk_max_frame": 30,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 3.929062510380681e-17,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.00144025344652474,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 3.929062510380681e-17,
+        "frames_checked": 525
+      }
+    },
+    {
+      "case": "blue_target",
+      "seed": 400,
+      "episodepath": "blue_target/seed-400",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "d92c7b112b1da33f1ccea02d651684f22a1b0541f7807bc02dcc7907bbfff97a",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.0015131506880081025,
+        "cached_vs_current_fk_max_frame": 28,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 1.0103182026100663e-16,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.0015131506880081025,
+        "cached_vs_current_fk_max_frame": 27,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 1.0103182026100663e-16,
+        "frames_checked": 525
+      }
+    },
+    {
+      "case": "blue_target",
+      "seed": 401,
+      "episodepath": "blue_target/seed-401",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "3c0ae3acd9a08877194d37b84cda710a5f77bb77d7b77bed7bc91fc710b0dec3",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.001321630240275412,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 5.721958498152797e-17,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.001321630240275412,
+        "cached_vs_current_fk_max_frame": 28,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 5.721958498152797e-17,
+        "frames_checked": 525
+      },
+      "overlay": {
+        "frames_checked": 526,
+        "observed_vs_fresh_saved_qpos_fk_max_error_m": 0.0,
+        "overlay_record_sha256": "4004ff5d2d106c6fa5623ce7044fd70595e999b20a79e1505b44132b92b98a23",
+        "terminal_state_is_final_qpos_after": true
+      }
+    },
+    {
+      "case": "blue_target",
+      "seed": 402,
+      "episodepath": "blue_target/seed-402",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "2690f0766f67b3d1d9c314124867f07b1417e4a6bac1f0c73b1f4c392593a4f2",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.0016023836002317855,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 0.0,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.0016023836002317855,
+        "cached_vs_current_fk_max_frame": 28,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 0.0,
+        "frames_checked": 525
+      }
+    },
+    {
+      "case": "dim_light",
+      "seed": 400,
+      "episodepath": "dim_light/seed-400",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "bbe99b8fb7adf932138fd08eccdf3d3a070e9cc69f205bef4e2f2b74e53f771a",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.0013769137375013478,
+        "cached_vs_current_fk_max_frame": 30,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 0.0,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.0013769137375013478,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 0.0,
+        "frames_checked": 525
+      }
+    },
+    {
+      "case": "dim_light",
+      "seed": 401,
+      "episodepath": "dim_light/seed-401",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "279092304772f2b8d5917acd6d4122dc99874a9a107d0681f3221a77a1d20ce8",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.0011823914308439676,
+        "cached_vs_current_fk_max_frame": 30,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 3.6880726988814706e-17,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.0011823914308439676,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 3.6880726988814706e-17,
+        "frames_checked": 525
+      },
+      "overlay": {
+        "frames_checked": 526,
+        "observed_vs_fresh_saved_qpos_fk_max_error_m": 0.0,
+        "overlay_record_sha256": "3f572147fb6bd32bf73d0916b37a8a5ecf9add5dd91d94ce058c5ec9191fcc68",
+        "terminal_state_is_final_qpos_after": true
+      }
+    },
+    {
+      "case": "dim_light",
+      "seed": 402,
+      "episodepath": "dim_light/seed-402",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "483291b1bf2df70a1ed542a0cb69cfa5e3647ce1903076b84f38ca8ba1e9f854",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.0011581121406268778,
+        "cached_vs_current_fk_max_frame": 30,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 0.0,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.0011581121406268778,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 0.0,
+        "frames_checked": 525
+      }
+    },
+    {
+      "case": "visual_distractor",
+      "seed": 400,
+      "episodepath": "visual_distractor/seed-400",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "4c6c780e9e3f6e2940e5e354a2198a636cbb3dbe132159c7c97c8cc458d1d343",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.0013453048503299335,
+        "cached_vs_current_fk_max_frame": 28,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 2.7755575615628914e-17,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.0013453048503299335,
+        "cached_vs_current_fk_max_frame": 27,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 2.7755575615628914e-17,
+        "frames_checked": 525
+      }
+    },
+    {
+      "case": "visual_distractor",
+      "seed": 401,
+      "episodepath": "visual_distractor/seed-401",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "fa23cbcb3d38bb975bf90996b5ecd89f7e37469fc03a302b065c35610b10280d",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.001478085173613458,
+        "cached_vs_current_fk_max_frame": 30,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 2.168404344971009e-19,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.001478085173613458,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 2.168404344971009e-19,
+        "frames_checked": 525
+      },
+      "overlay": {
+        "frames_checked": 526,
+        "observed_vs_fresh_saved_qpos_fk_max_error_m": 0.0,
+        "overlay_record_sha256": "45cf682affe1fda018dae6e3378e0f7d62c100665bfae4e49f0c243360c7f766",
+        "terminal_state_is_final_qpos_after": true
+      }
+    },
+    {
+      "case": "visual_distractor",
+      "seed": 402,
+      "episodepath": "visual_distractor/seed-402",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "a8d614a07ec95f987105690e6e77362daad800911c80fcdc07a2cc6e2517622c",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.0015032563295283928,
+        "cached_vs_current_fk_max_frame": 31,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 2.778605206969998e-17,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.0015032563295283928,
+        "cached_vs_current_fk_max_frame": 30,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 2.778605206969998e-17,
+        "frames_checked": 525
+      }
+    },
+    {
+      "case": "nominal",
+      "seed": 301,
+      "episodepath": "reference-301",
+      "physics_dt_s": 0.0016666666666666668,
+      "integrator": "Euler (semi-implicit in velocity)",
+      "trajectory_sha256": "1d1075bc6e42039ab033ecadb2af2178e47def7d92c704c5d261c6a9f1fd479b",
+      "before": {
+        "cached_vs_current_fk_max_error_m": 0.0014470555953857859,
+        "cached_vs_current_fk_max_frame": 30,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 1.962615573354719e-17,
+        "frames_checked": 525
+      },
+      "after": {
+        "cached_vs_current_fk_max_error_m": 0.0014470555953857859,
+        "cached_vs_current_fk_max_frame": 29,
+        "cached_vs_rewound_one_physics_substep_max_error_m": 1.962615573354719e-17,
+        "frames_checked": 525
+      },
+      "overlay": {
+        "frames_checked": 526,
+        "observed_vs_fresh_saved_qpos_fk_max_error_m": 0.0,
+        "overlay_record_sha256": "aa6af7159ab007791792e8b3e1125a672b4c94326d57087f37001b930ecabdab",
+        "terminal_state_is_final_qpos_after": true
+      }
+    }
+  ]
+}

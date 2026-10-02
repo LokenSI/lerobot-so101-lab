@@ -1,0 +1,12 @@
+{
+  "frames": 526,
+  "recorded_control_ticks": 525,
+  "replan_count": 66,
+  "replan_every_ticks": 8,
+  "horizon_ticks": 16,
+  "fps": 30,
+  "state_continuity_checked": true,
+  "frame_replan_mapping_checked": true,
+  "independent_fk_checked": true,
+  "actuator_clipping_checked": true
+}

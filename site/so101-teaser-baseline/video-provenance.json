@@ -1,0 +1,14 @@
+{
+  "scope": "Presentation replay of recorded scripted-control physics trajectory",
+  "source_trial": "runs/so101-teaser-dataset/seed-000",
+  "telemetry_sha256": "3597d00dcccb89a3f18981958bf800e684b3a09afaf022bfa15a77b4af25331c",
+  "video_sha256": "ff99c3e84f24197ef1317ccdf86e3fff6539c675f0a2a263a18e234911f1d09f",
+  "frames": 525,
+  "fps": 30,
+  "simulation_success": true,
+  "learned_policy": false,
+  "object_pose_written_in_actual_test": false,
+  "pose_writes_in_this_renderer": "Replay only; all qpos taken directly from saved physics frames",
+  "video": "scripted-pick-place.mp4",
+  "lift_frame": 355
+}

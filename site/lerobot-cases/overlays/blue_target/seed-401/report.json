@@ -1,0 +1,23 @@
+{
+  "case": "blue_target",
+  "seed": 401,
+  "success": true,
+  "reference_excluded_from_fresh_count": false,
+  "video": "overlay.mp4",
+  "provenance": "provenance.json",
+  "snapshots": [
+    "frame-0000.png",
+    "frame-0007.png",
+    "frame-0008.png",
+    "frame-0262.png",
+    "frame-0364.png",
+    "frame-0525.png"
+  ],
+  "contact_sheet": "contact-sheet.png",
+  "poster": "poster.png",
+  "width": 1440,
+  "height": 1080,
+  "frames": 570,
+  "final_state_hold_frames": 45,
+  "complete": true
+}

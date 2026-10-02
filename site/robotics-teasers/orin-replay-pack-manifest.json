@@ -1,0 +1,37 @@
+{
+  "scope": "Portable inference replay; no robot commands, no Orin measurements yet",
+  "checkpoint_source": "D:\\git\\qwen-image_benchmark\\runs\\lerobot-teaser\\train-8000",
+  "observation_source": "D:\\git\\qwen-image_benchmark\\runs\\so101-teaser-dataset\\seed-000\\episode.npz",
+  "observation_index": 0,
+  "lerobot_revision": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+  "files": {
+    "checkpoint/model.safetensors": {
+      "sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "bytes": 47701616
+    },
+    "checkpoint/config.json": {
+      "sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "bytes": 1669
+    },
+    "checkpoint/normalization.json": {
+      "sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "bytes": 746
+    },
+    "checkpoint/report.json": {
+      "sha256": "a2572f92bf30aa1d0d8cf26291596ef98f0e6611cbd51cbe46ac3b2467074b31",
+      "bytes": 11679
+    },
+    "observation.npz": {
+      "sha256": "d24cfe37b0e5cbe5314a6a3843007e1888c50172207cd7382612035a9044835e",
+      "bytes": 21460
+    },
+    "benchmark_lerobot_act_replay.py": {
+      "sha256": "81d539a16aa76618d6b19a5938b717aa156cd40822befd63a221f76e1b1278d9",
+      "bytes": 3936
+    },
+    "LEROBOT-LICENSE": {
+      "sha256": "9e108af26a7ae92a6d2cb0273856a4a0a84da8819c2cffee8b2657cc4f905718",
+      "bytes": 29977
+    }
+  }
+}

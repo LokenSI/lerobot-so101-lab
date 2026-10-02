@@ -1,0 +1,42 @@
+{
+  "scope": "Synthetic independent-grader logic cases, not robot task evaluation",
+  "cases": {
+    "valid_lift_release_rest": {
+      "success": true,
+      "expected": true
+    },
+    "no_lift": {
+      "success": false,
+      "expected": false
+    },
+    "too_short": {
+      "success": false,
+      "expected": false
+    },
+    "still_gripped": {
+      "success": false,
+      "expected": false
+    },
+    "high_linear_speed": {
+      "success": false,
+      "expected": false
+    },
+    "cube_crosses_wall": {
+      "success": false,
+      "expected": false
+    },
+    "floating_above_tray": {
+      "success": false,
+      "expected": false
+    },
+    "slow_drift": {
+      "success": false,
+      "expected": false
+    },
+    "rotating_at_rest": {
+      "success": false,
+      "expected": false
+    }
+  },
+  "passed": true
+}

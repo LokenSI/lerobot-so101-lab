@@ -1,0 +1,135 @@
+{
+  "original_scripts": [
+    {
+      "path": "scripts/analyze_hosted_so101.py",
+      "original_sha256": "3b893cdf0f3b4c0c7bddc68e27933e90f3a923d340aaf98806dd1060dc039211",
+      "staged_sha256": "3b893cdf0f3b4c0c7bddc68e27933e90f3a923d340aaf98806dd1060dc039211",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/benchmark_lerobot_act_replay.py",
+      "original_sha256": "81d539a16aa76618d6b19a5938b717aa156cd40822befd63a221f76e1b1278d9",
+      "staged_sha256": "81d539a16aa76618d6b19a5938b717aa156cd40822befd63a221f76e1b1278d9",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/diagnose_lerobot_act.py",
+      "original_sha256": "92c2533ffddab240c30c70176aac2a439c6f51f41fa29bdf5cc06d167240df01",
+      "staged_sha256": "92c2533ffddab240c30c70176aac2a439c6f51f41fa29bdf5cc06d167240df01",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/evaluate_lerobot_teaser.py",
+      "original_sha256": "3625b05a0d1707ea17796acbb07d4c08888e3a2c53e12e11fdefee8da654bebb",
+      "staged_sha256": "3625b05a0d1707ea17796acbb07d4c08888e3a2c53e12e11fdefee8da654bebb",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/lerobot_case_environment.py",
+      "original_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "staged_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/package_lerobot_replay.py",
+      "original_sha256": "63b0fbb29ab09f591e31592717c4dda21d5ecabe391f304eb652c64e8d1e378b",
+      "staged_sha256": "63b0fbb29ab09f591e31592717c4dda21d5ecabe391f304eb652c64e8d1e378b",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/prepare_so101_sim.py",
+      "original_sha256": "19ef005f640f90d0ec32ddd22d49b3620e1295ef624ecc816c78df452b3fd091",
+      "staged_sha256": "19ef005f640f90d0ec32ddd22d49b3620e1295ef624ecc816c78df452b3fd091",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/render_lerobot_overlays.py",
+      "original_sha256": "de1c256f480c24ae7116ff34be91ebe4d0c25da7dba14e62a017d9e37694b759",
+      "staged_sha256": "de1c256f480c24ae7116ff34be91ebe4d0c25da7dba14e62a017d9e37694b759",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/render_lerobot_teaser.py",
+      "original_sha256": "ef95f46a6261fc916939493dc563aaacf333541709c5ff1aafefb20a52373843",
+      "staged_sha256": "ef95f46a6261fc916939493dc563aaacf333541709c5ff1aafefb20a52373843",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/render_so101_baseline.py",
+      "original_sha256": "457fd2af126154f589ac14a8bb9f9a7b167e87525886a802d8859fb547588a0a",
+      "staged_sha256": "457fd2af126154f589ac14a8bb9f9a7b167e87525886a802d8859fb547588a0a",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/run_hosted_so101.py",
+      "original_sha256": "8c20c429a9e8074501ad2bc4668c1bc4878f51c50b8eba6c70ec466d11f96d34",
+      "staged_sha256": "8c20c429a9e8074501ad2bc4668c1bc4878f51c50b8eba6c70ec466d11f96d34",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/run_lerobot_cases.py",
+      "original_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "staged_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/so101_inspect_rollout.py",
+      "original_sha256": "78b68cf5a627e90ba50f9e479ef858b98ebc112937888c90a9d3f1a8f9ab9367",
+      "staged_sha256": "78b68cf5a627e90ba50f9e479ef858b98ebc112937888c90a9d3f1a8f9ab9367",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/so101_kinematic_probe.py",
+      "original_sha256": "be473b0a24cea4801642684c754fa443782e27c39a1bdb5723d9e5ccb4d0df08",
+      "staged_sha256": "be473b0a24cea4801642684c754fa443782e27c39a1bdb5723d9e5ccb4d0df08",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/so101_pick_place_baseline.py",
+      "original_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "staged_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/train_lerobot_teaser.py",
+      "original_sha256": "c3b3ce2138ba576bf841304ef2bfdc6a1c2ad344af7a1cad101f9bac2cf8e936",
+      "staged_sha256": "c3b3ce2138ba576bf841304ef2bfdc6a1c2ad344af7a1cad101f9bac2cf8e936",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/verify_lerobot_act_runtime.py",
+      "original_sha256": "3d296d393d742c41a5143d9a0977db023a44d224c1cc0348881667298ec0bb59",
+      "staged_sha256": "3d296d393d742c41a5143d9a0977db023a44d224c1cc0348881667298ec0bb59",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/verify_lerobot_case_artifacts.py",
+      "original_sha256": "5d930bd912616f8bde861542aa3ee97c1c52f40947395ef6b2056bd987a24530",
+      "staged_sha256": "5d930bd912616f8bde861542aa3ee97c1c52f40947395ef6b2056bd987a24530",
+      "byte_identical": true
+    },
+    {
+      "path": "scripts/verify_so101_dataset.py",
+      "original_sha256": "1f9270692784bb6308b5cdcd739f54bd6ab64c31d40b261b7a5a29c5f3b9ef0d",
+      "staged_sha256": "1f9270692784bb6308b5cdcd739f54bd6ab64c31d40b261b7a5a29c5f3b9ef0d",
+      "byte_identical": true
+    }
+  ],
+  "adapted_scripts": [
+    {
+      "path": "scripts/lerobot_case_report.py",
+      "original_sha256": "2840fd0d132690775e0756c083ca028930d2b5ec4d1c72a23009807c79e62a7d",
+      "staged_sha256": "0a020edccace5d68ed42f20ab79323a2f5b785ebcb4e5c50b698a3a4c0235ef5",
+      "byte_identical": false,
+      "changes": "Public-only presentation prose removes unrelated project context; experiment runner/environment/grader copies remain byte-identical."
+    }
+  ],
+  "omitted": "Mixed robotics_teaser_report.py and unrelated projects. No runtime, virtualenv, dataset, checkpoint, raw video, secret, host config or log is staged by this source packaging step.",
+  "new_scripts": [
+    {
+      "path": "scripts/bootstrap_runtime.py",
+      "staged_sha256": "d698673256271d7e88deb392acc127e579bbfdd1ff581fd45dde2d76ed218ee2",
+      "role": "Portable standard-library downloader and optional measured desktop environment installation"
+    }
+  ]
+}

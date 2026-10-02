@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "frozen_assets_unchanged": true,
+  "fresh_trials": 12,
+  "successful": 10,
+  "shared_initial_positions": 3,
+  "annotated_clips": [
+    {
+      "case": "nominal",
+      "seed": 401,
+      "replans": 66,
+      "source_hashes_match": true,
+      "observed_and_predicted_points_match": true,
+      "prediction_updates_are_dynamic": true
+    },
+    {
+      "case": "blue_target",
+      "seed": 401,
+      "replans": 66,
+      "source_hashes_match": true,
+      "observed_and_predicted_points_match": true,
+      "prediction_updates_are_dynamic": true
+    },
+    {
+      "case": "dim_light",
+      "seed": 401,
+      "replans": 66,
+      "source_hashes_match": true,
+      "observed_and_predicted_points_match": true,
+      "prediction_updates_are_dynamic": true
+    },
+    {
+      "case": "visual_distractor",
+      "seed": 401,
+      "replans": 66,
+      "source_hashes_match": true,
+      "observed_and_predicted_points_match": true,
+      "prediction_updates_are_dynamic": true
+    },
+    {
+      "case": "nominal",
+      "seed": 301,
+      "replans": 66,
+      "source_hashes_match": true,
+      "observed_and_predicted_points_match": true,
+      "prediction_updates_are_dynamic": true
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "clips": [
+    {
+      "case": "nominal",
+      "seed": 401,
+      "success": true,
+      "reference_excluded_from_fresh_count": false,
+      "video": "nominal/seed-401/overlay.mp4",
+      "provenance": "nominal/seed-401/provenance.json",
+      "snapshots": [
+        "nominal/seed-401/frame-0000.png",
+        "nominal/seed-401/frame-0007.png",
+        "nominal/seed-401/frame-0008.png",
+        "nominal/seed-401/frame-0262.png",
+        "nominal/seed-401/frame-0312.png",
+        "nominal/seed-401/frame-0525.png"
+      ],
+      "contact_sheet": "nominal/seed-401/contact-sheet.png",
+      "poster": "nominal/seed-401/poster.png",
+      "width": 1440,
+      "height": 1080,
+      "frames": 570,
+      "final_state_hold_frames": 45,
+      "complete": true,
+      "episodepath": "nominal/seed-401"
+    },
+    {
+      "case": "blue_target",
+      "seed": 401,
+      "success": true,
+      "reference_excluded_from_fresh_count": false,
+      "video": "blue_target/seed-401/overlay.mp4",
+      "provenance": "blue_target/seed-401/provenance.json",
+      "snapshots": [
+        "blue_target/seed-401/frame-0000.png",
+        "blue_target/seed-401/frame-0007.png",
+        "blue_target/seed-401/frame-0008.png",
+        "blue_target/seed-401/frame-0262.png",
+        "blue_target/seed-401/frame-0364.png",
+        "blue_target/seed-401/frame-0525.png"
+      ],
+      "contact_sheet": "blue_target/seed-401/contact-sheet.png",
+      "poster": "blue_target/seed-401/poster.png",
+      "width": 1440,
+      "height": 1080,
+      "frames": 570,
+      "final_state_hold_frames": 45,
+      "complete": true,
+      "episodepath": "blue_target/seed-401"
+    },
+    {
+      "case": "dim_light",
+      "seed": 401,
+      "success": false,
+      "reference_excluded_from_fresh_count": false,
+      "video": "dim_light/seed-401/overlay.mp4",
+      "provenance": "dim_light/seed-401/provenance.json",
+      "snapshots": [
+        "dim_light/seed-401/frame-0000.png",
+        "dim_light/seed-401/frame-0007.png",
+        "dim_light/seed-401/frame-0008.png",
+        "dim_light/seed-401/frame-0262.png",
+        "dim_light/seed-401/frame-0494.png",
+        "dim_light/seed-401/frame-0525.png"
+      ],
+      "contact_sheet": "dim_light/seed-401/contact-sheet.png",
+      "poster": "dim_light/seed-401/poster.png",
+      "width": 1440,
+      "height": 1080,
+      "frames": 570,
+      "final_state_hold_frames": 45,
+      "complete": true,
+      "episodepath": "dim_light/seed-401"
+    },
+    {
+      "case": "visual_distractor",
+      "seed": 401,
+      "success": true,
+      "reference_excluded_from_fresh_count": false,
+      "video": "visual_distractor/seed-401/overlay.mp4",
+      "provenance": "visual_distractor/seed-401/provenance.json",
+      "snapshots": [
+        "visual_distractor/seed-401/frame-0000.png",
+        "visual_distractor/seed-401/frame-0007.png",
+        "visual_distractor/seed-401/frame-0008.png",
+        "visual_distractor/seed-401/frame-0248.png",
+        "visual_distractor/seed-401/frame-0262.png",
+        "visual_distractor/seed-401/frame-0525.png"
+      ],
+      "contact_sheet": "visual_distractor/seed-401/contact-sheet.png",
+      "poster": "visual_distractor/seed-401/poster.png",
+      "width": 1440,
+      "height": 1080,
+      "frames": 570,
+      "final_state_hold_frames": 45,
+      "complete": true,
+      "episodepath": "visual_distractor/seed-401"
+    },
+    {
+      "case": "nominal",
+      "seed": 301,
+      "success": true,
+      "reference_excluded_from_fresh_count": true,
+      "video": "reference-301/overlay.mp4",
+      "provenance": "reference-301/provenance.json",
+      "snapshots": [
+        "reference-301/frame-0000.png",
+        "reference-301/frame-0007.png",
+        "reference-301/frame-0008.png",
+        "reference-301/frame-0262.png",
+        "reference-301/frame-0312.png",
+        "reference-301/frame-0525.png"
+      ],
+      "contact_sheet": "reference-301/contact-sheet.png",
+      "poster": "reference-301/poster.png",
+      "width": 1440,
+      "height": 1080,
+      "frames": 570,
+      "final_state_hold_frames": 45,
+      "complete": true,
+      "episodepath": "reference-301"
+    }
+  ],
+  "complete": true,
+  "selection": "Paired fresh seed401 per case; extra failure if necessary; reference301 excluded from fresh count"
+}

@@ -1,0 +1,7 @@
+# Measured Python3.12 simulator/presentation versions. GPU rendering requires EGL.
+mujoco==3.6.0
+numpy==2.2.6
+pillow==12.3.0
+pyopengl==3.1.10
+imageio==2.38.0
+imageio-ffmpeg==0.6.0

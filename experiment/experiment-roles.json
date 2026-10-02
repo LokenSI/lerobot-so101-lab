@@ -1,0 +1,86 @@
+{
+  "demonstration_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "training_split": {
+    "train": [
+      4,
+      9,
+      13,
+      15,
+      18,
+      6,
+      12,
+      17,
+      10,
+      1,
+      11,
+      2,
+      16,
+      7,
+      8,
+      0,
+      3
+    ],
+    "validation": [
+      19,
+      5,
+      14
+    ]
+  },
+  "development": {
+    "dev-8000": "Seed100 used during model selection",
+    "eval-8000": "Seeds200\u2013204 development assessment; prior to final test",
+    "other_training_runs": [
+      "runs/lerobot-teaser/train",
+      "runs/lerobot-teaser/train-64-6000",
+      "runs/lerobot-teaser/train-8000"
+    ]
+  },
+  "prior_final_assessment": {
+    "seeds": [
+      300,
+      301,
+      302,
+      303,
+      304
+    ],
+    "path": "runs/lerobot-teaser/eval",
+    "result": "2/5"
+  },
+  "subsequent_exploration": {
+    "starts": [
+      400,
+      401,
+      402
+    ],
+    "conditions": [
+      "nominal",
+      "blue_target",
+      "dim_light",
+      "visual_distractor"
+    ],
+    "result": "10/12 paired-condition rollouts",
+    "reference301": "Excluded from fresh count"
+  },
+  "raw_archive": "lerobot-experiments-2026-10-02.zip"
+}

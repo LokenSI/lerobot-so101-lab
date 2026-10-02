@@ -1,0 +1,26 @@
+{
+  "checked_date": "2026-10-02",
+  "lerobot": {
+    "revision": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+    "license": "Apache-2.0",
+    "license_url": "https://raw.githubusercontent.com/huggingface/lerobot/6e1fa4faf2a42927d463591aebaa0f62c2e654b7/LICENSE",
+    "license_sha256": "9e108af26a7ae92a6d2cb0273856a4a0a84da8819c2cffee8b2657cc4f905718"
+  },
+  "robot_model": {
+    "repository": "TheRobotStudio/SO-ARM100",
+    "license": "Apache-2.0",
+    "license_evidence_revision": "5f6d2b876a53a4872e405b991dd925556c9e38a4",
+    "license_url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/5f6d2b876a53a4872e405b991dd925556c9e38a4/LICENSE",
+    "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "mesh_attribution_evidence": "Pinned Space README identifies robot model and meshes as TheRobotStudio/SO-ARM100 Apache-2.0; exact original mesh commit is not specified."
+  },
+  "space": {
+    "revision": "d7da38e032da0e136d6de21c218dc616982a8cc9",
+    "metadata_url": "https://huggingface.co/api/spaces/multimodalart/flux-3-action-so101-sim/revision/d7da38e032da0e136d6de21c218dc616982a8cc9",
+    "license_metadata": null,
+    "license_or_notice_files": [],
+    "README_url": "https://huggingface.co/spaces/multimodalart/flux-3-action-so101-sim/raw/d7da38e032da0e136d6de21c218dc616982a8cc9/README.md",
+    "README_sha256": "1f5c6a8046ec65f35fa86c33bc5075bc816b2abce383018e991515ffcb788baa",
+    "code_redistribution_license": "Not established from pinned snapshot; no runtime code is vendored."
+  }
+}

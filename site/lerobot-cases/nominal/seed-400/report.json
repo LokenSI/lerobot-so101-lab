@@ -1,0 +1,114 @@
+{
+  "policy": "Official LeRobot ACT frozen train-8000",
+  "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+  "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+  "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+  "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+  "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+  "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+  "torch": "2.10.0+cu128",
+  "mujoco": "3.6.0",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+  "architecture": {
+    "chunk_size": 16,
+    "n_action_steps": 8,
+    "dim_model": 128,
+    "use_vae": false
+  },
+  "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+  "control": "Absolute joint targets in radians; established actuator clipping",
+  "hardware_tested": false,
+  "camera_pixels_logged": true,
+  "all_failures_retained": true,
+  "case": "nominal",
+  "case_config": {
+    "label": "New object starts",
+    "seeds": [
+      400,
+      401,
+      402
+    ]
+  },
+  "seed": 400,
+  "title": "New object starts",
+  "episodepath": "nominal/seed-400",
+  "initial_object_xyz_m": [
+    0.19097296432911798,
+    -0.006644528489676628,
+    0.014995627991029775
+  ],
+  "success": true,
+  "grader": {
+    "success": true,
+    "lifted": true,
+    "inside_tray_for_1_5_s": true,
+    "released_for_1_5_s": true,
+    "stable": true,
+    "settle_position_spread_m": 2.42861286636753e-17,
+    "settle_orientation_spread_deg": 3.818191820832845e-06,
+    "settle_max_linear_speed_m_s": 4.269605393247606e-15,
+    "max_object_height_m": 0.11042387376720104,
+    "final_object_xyz_m": [
+      0.24883928782472725,
+      -0.17309572644357896,
+      0.01899562799103025
+    ],
+    "grading_frames": 45
+  },
+  "steps": 525,
+  "video": "rollout.mp4",
+  "trajectory": "trajectory.npz",
+  "wall_seconds": 23.96717737900326,
+  "actuator_target_limit_events": 98,
+  "max_target_limit_excess_rad": 0.006493985147476206,
+  "fresh_chunk_inference_seconds": {
+    "median": 0.012078581996320281,
+    "p95": 0.020601547752448823,
+    "count": 66
+  },
+  "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+  "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+  "joint_order": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "actuator_limits_rad": [
+    [
+      -1.91986,
+      1.91986
+    ],
+    [
+      -1.74533,
+      1.74533
+    ],
+    [
+      -1.69,
+      1.69
+    ],
+    [
+      -1.65806,
+      1.65806
+    ],
+    [
+      -2.74385,
+      2.84121
+    ],
+    [
+      -0.17453,
+      1.74533
+    ]
+  ],
+  "tcp_local_m": [
+    0.0071,
+    -0.000218121,
+    -0.088
+  ],
+  "simulation_fps": 30,
+  "complete": true
+}

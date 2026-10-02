@@ -1,0 +1,81 @@
+{
+  "scope": "HD presentation replay of actual saved MuJoCo states; no new control evaluation",
+  "source_report": "runs/lerobot-cases/reference-301/report.json",
+  "source_trajectory": "runs/lerobot-cases/reference-301/trajectory.npz",
+  "source_report_sha256": "65398718fe953b117636e1aaf2c68861b9ba51e913768a9b78f4641287dda281",
+  "trajectory_sha256": "1d1075bc6e42039ab033ecadb2af2178e47def7d92c704c5d261c6a9f1fd479b",
+  "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+  "frozen_baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "renderer_sha256": "de1c256f480c24ae7116ff34be91ebe4d0c25da7dba14e62a017d9e37694b759",
+  "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+  "video_sha256": "5c45fd72099efe4acd851d78e56ade0d91eda6a9862f7490c8425e0e568f2bd2",
+  "overlay_record_sha256": "aa6af7159ab007791792e8b3e1125a672b4c94326d57087f37001b930ecabdab",
+  "video": "overlay.mp4",
+  "case": "nominal",
+  "seed": 301,
+  "resolution": [
+    1440,
+    1080
+  ],
+  "video_frames": 570,
+  "final_state_hold_frames": 45,
+  "simulated_seconds": 17.500000000000142,
+  "success": true,
+  "grader": {
+    "success": true,
+    "lifted": true,
+    "inside_tray_for_1_5_s": true,
+    "released_for_1_5_s": true,
+    "stable": true,
+    "settle_position_spread_m": 0.0,
+    "settle_orientation_spread_deg": 0.0,
+    "settle_max_linear_speed_m_s": 1.2708439981490002e-15,
+    "max_object_height_m": 0.11516652629281601,
+    "final_object_xyz_m": [
+      0.267568337590774,
+      -0.15654663763183876,
+      0.018995627991030262
+    ],
+    "grading_frames": 45
+  },
+  "temporal_validation": {
+    "frames": 526,
+    "recorded_control_ticks": 525,
+    "replan_count": 66,
+    "replan_every_ticks": 8,
+    "horizon_ticks": 16,
+    "fps": 30,
+    "state_continuity_checked": true,
+    "frame_replan_mapping_checked": true,
+    "independent_fk_checked": true,
+    "actuator_clipping_checked": true
+  },
+  "reference_excluded_from_fresh_count": true,
+  "projection_validation": {
+    "method": "isolated world-sphere rendered pixel centroid vs projected center",
+    "errors_px": [
+      0.07282731444815863,
+      0.1859989895469176,
+      2.1864037426296303e-06
+    ],
+    "max_error_px": 0.1859989895469176,
+    "tolerance_px": 1.5,
+    "camera": "active overview mjv_averageCamera",
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco/3.6.0/src/render/classic/render_gl3.c"
+  },
+  "full_qpos_qvel_replayed": true,
+  "terminal_state_appended": true,
+  "policy_rgb_insets": "actual saved unannotated 96px inputs before control",
+  "predictions": "Independent FK of physical actuator-clipped ACT joint chunk targets; not validated future motion",
+  "world_diagnostics": "Tray objective and cube height are grader context, never policy inputs",
+  "shadow_disabled_presentation_only": true,
+  "physical_robot_tested": false,
+  "snapshots": {
+    "frame-0000.png": "9ba8bab2189cb6631b6f85ece0a65608f703ef208f00cb882dcc0069b10f9908",
+    "frame-0007.png": "d845c40f60919c5386bae923456937cc04323fcbc5ea23d13719aaa898e887b9",
+    "frame-0008.png": "f9bac26ccc8ff9ef22952519db60de17c05fd309ada54f5201b882257479ca93",
+    "frame-0262.png": "dbb728cbb0941eab7d248e868fea07c12cee054ab69115487b781a5a65fe5a6a",
+    "frame-0312.png": "4f8ec397fe0188a37a59ac20716caf7b57e42fa8c71516286bbb3526159f6453",
+    "frame-0525.png": "a2531fd8cde54908cce42a441ef45a7a8c5adc8d4b2df36632a72838097e07cf"
+  }
+}

@@ -1,0 +1,2596 @@
+{
+  "policy": "Official LeRobot ACT frozen train-8000",
+  "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+  "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+  "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+  "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+  "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+  "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+  "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+  "torch": "2.10.0+cu128",
+  "mujoco": "3.6.0",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+  "architecture": {
+    "chunk_size": 16,
+    "n_action_steps": 8,
+    "dim_model": 128,
+    "use_vae": false
+  },
+  "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+  "control": "Absolute joint targets in radians; established actuator clipping",
+  "hardware_tested": false,
+  "camera_pixels_logged": true,
+  "all_failures_retained": true,
+  "scripted_baselines": [
+    {
+      "seed": 400,
+      "success": true,
+      "lifted": true,
+      "inside_tray_for_1_5_s": true,
+      "released_for_1_5_s": true,
+      "stable": true,
+      "initial_object_xyz_m": [
+        0.19097296432911798,
+        -0.006644528489676628,
+        0.014995627991029775
+      ],
+      "final_object_xyz_m": [
+        0.24939700103466436,
+        -0.1676524665125384,
+        0.01899562799103025
+      ],
+      "max_object_height_m": 0.10443512468805173,
+      "control": "scripted Cartesian waypoint IK using simulator object pose",
+      "learned_policy": false,
+      "object_attachment": false,
+      "object_pose_write_after_reset": false,
+      "simulation": {
+        "engine": "MuJoCo",
+        "version": "3.6.0",
+        "fps": 30,
+        "physics_dt": 0.0016666666666666668
+      },
+      "source_model_files_modified": false,
+      "collision_hull_split": true,
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "waypoints": [
+        {
+          "phase": "lift clear",
+          "target_tcp_m": [
+            0.22,
+            0.0,
+            0.1
+          ],
+          "q": [
+            0.009189081036693887,
+            -0.7990112852272426,
+            0.7455674724388571,
+            1.1242577214847027,
+            0.3566613664712752,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00010188559713064649,
+          "rotation_error": 0.006231306295579573,
+          "seconds": 2.0
+        },
+        {
+          "phase": "orient above cube",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.06
+          ],
+          "q": [
+            0.0574507984056131,
+            -0.3999326435806868,
+            0.6028198978695951,
+            1.367909072505025,
+            0.40613031325908433,
+            0.6894070000000001
+          ],
+          "position_error_m": 4.965805160200405e-14,
+          "rotation_error": 1.3610929251905275e-12,
+          "seconds": 2.0
+        },
+        {
+          "phase": "approach",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.017
+          ],
+          "q": [
+            0.057450798405600176,
+            -0.2641108649266997,
+            0.8175007138335183,
+            1.0174064778878642,
+            0.40613031325905846,
+            0.6894070000000001
+          ],
+          "position_error_m": 9.63342509744862e-15,
+          "rotation_error": 3.0117335569920847e-13,
+          "seconds": 2.0
+        },
+        {
+          "phase": "close grip",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.017
+          ],
+          "q": [
+            0.05745079840560087,
+            -0.26411086492637015,
+            0.8175007138331525,
+            1.0174064778881138,
+            0.40613031325906207,
+            -0.17453
+          ],
+          "position_error_m": 6.56048933836094e-17,
+          "rotation_error": 1.1710192972483486e-15,
+          "seconds": 1.5
+        },
+        {
+          "phase": "lift cube",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.12
+          ],
+          "q": [
+            0.0571914142779105,
+            -1.0229376502593337,
+            0.6940999821010194,
+            1.3996354712211194,
+            0.4055165051824449,
+            -0.17453
+          ],
+          "position_error_m": 3.5366173027184696e-05,
+          "rotation_error": 0.001807443913051817,
+          "seconds": 2.0
+        },
+        {
+          "phase": "transfer to tray",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.12
+          ],
+          "q": [
+            0.6957513944980195,
+            -0.08947347548302699,
+            -0.003923412304475966,
+            1.1648766031765396,
+            1.0516167782497112,
+            -0.17453
+          ],
+          "position_error_m": 0.0004368669827517345,
+          "rotation_error": 0.038705537304875914,
+          "seconds": 2.5
+        },
+        {
+          "phase": "lower cube",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.06
+          ],
+          "q": [
+            0.695751394508539,
+            -0.043079036048555085,
+            0.3924513512815123,
+            0.7221074000570353,
+            1.0516167783022943,
+            -0.17453
+          ],
+          "position_error_m": 0.00043686698524447807,
+          "rotation_error": 0.03870553729821565,
+          "seconds": 1.5
+        },
+        {
+          "phase": "release",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.06
+          ],
+          "q": [
+            0.6957513944980154,
+            -0.043079035957459474,
+            0.3924513511159323,
+            0.7221074002322007,
+            1.0516167782493862,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.0004368669827520545,
+          "rotation_error": 0.038705537304874055,
+          "seconds": 1.0
+        },
+        {
+          "phase": "retreat",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.15
+          ],
+          "q": [
+            0.6957513944986491,
+            -0.017803003255742626,
+            -0.31773313645594986,
+            1.4070158550996261,
+            1.051616778253367,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00043686698289885,
+          "rotation_error": 0.0387055373044829,
+          "seconds": 1.5
+        },
+        {
+          "phase": "settle",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.15
+          ],
+          "q": [
+            0.695751394498114,
+            -0.0178030032565428,
+            -0.31773313645449397,
+            1.4070158550992409,
+            1.0516167782501453,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00043686698277419086,
+          "rotation_error": 0.0387055373048167,
+          "seconds": 1.5
+        }
+      ],
+      "seconds": 17.5,
+      "settle_position_spread_m": 0.0,
+      "settle_orientation_spread_deg": 3.818191820832845e-06,
+      "settle_max_linear_speed_m_s": 3.7332548763694366e-16,
+      "grading_frames": 45,
+      "case": "nominal",
+      "case_config": {
+        "label": "New object starts",
+        "seeds": [
+          400,
+          401,
+          402
+        ]
+      },
+      "scope": "Scripted physical feasibility only; privileged IK controller, no learned policy"
+    },
+    {
+      "seed": 400,
+      "success": true,
+      "lifted": true,
+      "inside_tray_for_1_5_s": true,
+      "released_for_1_5_s": true,
+      "stable": true,
+      "initial_object_xyz_m": [
+        0.19097296432911798,
+        -0.006644528489676628,
+        0.014995627991029775
+      ],
+      "final_object_xyz_m": [
+        0.24939700103466436,
+        -0.1676524665125384,
+        0.01899562799103025
+      ],
+      "max_object_height_m": 0.10443512468805173,
+      "control": "scripted Cartesian waypoint IK using simulator object pose",
+      "learned_policy": false,
+      "object_attachment": false,
+      "object_pose_write_after_reset": false,
+      "simulation": {
+        "engine": "MuJoCo",
+        "version": "3.6.0",
+        "fps": 30,
+        "physics_dt": 0.0016666666666666668
+      },
+      "source_model_files_modified": false,
+      "collision_hull_split": true,
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "waypoints": [
+        {
+          "phase": "lift clear",
+          "target_tcp_m": [
+            0.22,
+            0.0,
+            0.1
+          ],
+          "q": [
+            0.009189081036693887,
+            -0.7990112852272426,
+            0.7455674724388571,
+            1.1242577214847027,
+            0.3566613664712752,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00010188559713064649,
+          "rotation_error": 0.006231306295579573,
+          "seconds": 2.0
+        },
+        {
+          "phase": "orient above cube",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.06
+          ],
+          "q": [
+            0.0574507984056131,
+            -0.3999326435806868,
+            0.6028198978695951,
+            1.367909072505025,
+            0.40613031325908433,
+            0.6894070000000001
+          ],
+          "position_error_m": 4.965805160200405e-14,
+          "rotation_error": 1.3610929251905275e-12,
+          "seconds": 2.0
+        },
+        {
+          "phase": "approach",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.017
+          ],
+          "q": [
+            0.057450798405600176,
+            -0.2641108649266997,
+            0.8175007138335183,
+            1.0174064778878642,
+            0.40613031325905846,
+            0.6894070000000001
+          ],
+          "position_error_m": 9.63342509744862e-15,
+          "rotation_error": 3.0117335569920847e-13,
+          "seconds": 2.0
+        },
+        {
+          "phase": "close grip",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.017
+          ],
+          "q": [
+            0.05745079840560087,
+            -0.26411086492637015,
+            0.8175007138331525,
+            1.0174064778881138,
+            0.40613031325906207,
+            -0.17453
+          ],
+          "position_error_m": 6.56048933836094e-17,
+          "rotation_error": 1.1710192972483486e-15,
+          "seconds": 1.5
+        },
+        {
+          "phase": "lift cube",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.12
+          ],
+          "q": [
+            0.0571914142779105,
+            -1.0229376502593337,
+            0.6940999821010194,
+            1.3996354712211194,
+            0.4055165051824449,
+            -0.17453
+          ],
+          "position_error_m": 3.5366173027184696e-05,
+          "rotation_error": 0.001807443913051817,
+          "seconds": 2.0
+        },
+        {
+          "phase": "transfer to tray",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.12
+          ],
+          "q": [
+            0.6957513944980195,
+            -0.08947347548302699,
+            -0.003923412304475966,
+            1.1648766031765396,
+            1.0516167782497112,
+            -0.17453
+          ],
+          "position_error_m": 0.0004368669827517345,
+          "rotation_error": 0.038705537304875914,
+          "seconds": 2.5
+        },
+        {
+          "phase": "lower cube",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.06
+          ],
+          "q": [
+            0.695751394508539,
+            -0.043079036048555085,
+            0.3924513512815123,
+            0.7221074000570353,
+            1.0516167783022943,
+            -0.17453
+          ],
+          "position_error_m": 0.00043686698524447807,
+          "rotation_error": 0.03870553729821565,
+          "seconds": 1.5
+        },
+        {
+          "phase": "release",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.06
+          ],
+          "q": [
+            0.6957513944980154,
+            -0.043079035957459474,
+            0.3924513511159323,
+            0.7221074002322007,
+            1.0516167782493862,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.0004368669827520545,
+          "rotation_error": 0.038705537304874055,
+          "seconds": 1.0
+        },
+        {
+          "phase": "retreat",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.15
+          ],
+          "q": [
+            0.6957513944986491,
+            -0.017803003255742626,
+            -0.31773313645594986,
+            1.4070158550996261,
+            1.051616778253367,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00043686698289885,
+          "rotation_error": 0.0387055373044829,
+          "seconds": 1.5
+        },
+        {
+          "phase": "settle",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.15
+          ],
+          "q": [
+            0.695751394498114,
+            -0.0178030032565428,
+            -0.31773313645449397,
+            1.4070158550992409,
+            1.0516167782501453,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00043686698277419086,
+          "rotation_error": 0.0387055373048167,
+          "seconds": 1.5
+        }
+      ],
+      "seconds": 17.5,
+      "settle_position_spread_m": 0.0,
+      "settle_orientation_spread_deg": 3.818191820832845e-06,
+      "settle_max_linear_speed_m_s": 3.7332548763694366e-16,
+      "grading_frames": 45,
+      "case": "blue_target",
+      "case_config": {
+        "label": "Blue target cube",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "target_rgba": [
+          0.1,
+          0.25,
+          0.75,
+          1.0
+        ]
+      },
+      "scope": "Scripted physical feasibility only; privileged IK controller, no learned policy"
+    },
+    {
+      "seed": 400,
+      "success": true,
+      "lifted": true,
+      "inside_tray_for_1_5_s": true,
+      "released_for_1_5_s": true,
+      "stable": true,
+      "initial_object_xyz_m": [
+        0.19097296432911798,
+        -0.006644528489676628,
+        0.014995627991029775
+      ],
+      "final_object_xyz_m": [
+        0.24939700103466436,
+        -0.1676524665125384,
+        0.01899562799103025
+      ],
+      "max_object_height_m": 0.10443512468805173,
+      "control": "scripted Cartesian waypoint IK using simulator object pose",
+      "learned_policy": false,
+      "object_attachment": false,
+      "object_pose_write_after_reset": false,
+      "simulation": {
+        "engine": "MuJoCo",
+        "version": "3.6.0",
+        "fps": 30,
+        "physics_dt": 0.0016666666666666668
+      },
+      "source_model_files_modified": false,
+      "collision_hull_split": true,
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "waypoints": [
+        {
+          "phase": "lift clear",
+          "target_tcp_m": [
+            0.22,
+            0.0,
+            0.1
+          ],
+          "q": [
+            0.009189081036693887,
+            -0.7990112852272426,
+            0.7455674724388571,
+            1.1242577214847027,
+            0.3566613664712752,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00010188559713064649,
+          "rotation_error": 0.006231306295579573,
+          "seconds": 2.0
+        },
+        {
+          "phase": "orient above cube",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.06
+          ],
+          "q": [
+            0.0574507984056131,
+            -0.3999326435806868,
+            0.6028198978695951,
+            1.367909072505025,
+            0.40613031325908433,
+            0.6894070000000001
+          ],
+          "position_error_m": 4.965805160200405e-14,
+          "rotation_error": 1.3610929251905275e-12,
+          "seconds": 2.0
+        },
+        {
+          "phase": "approach",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.017
+          ],
+          "q": [
+            0.057450798405600176,
+            -0.2641108649266997,
+            0.8175007138335183,
+            1.0174064778878642,
+            0.40613031325905846,
+            0.6894070000000001
+          ],
+          "position_error_m": 9.63342509744862e-15,
+          "rotation_error": 3.0117335569920847e-13,
+          "seconds": 2.0
+        },
+        {
+          "phase": "close grip",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.017
+          ],
+          "q": [
+            0.05745079840560087,
+            -0.26411086492637015,
+            0.8175007138331525,
+            1.0174064778881138,
+            0.40613031325906207,
+            -0.17453
+          ],
+          "position_error_m": 6.56048933836094e-17,
+          "rotation_error": 1.1710192972483486e-15,
+          "seconds": 1.5
+        },
+        {
+          "phase": "lift cube",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.12
+          ],
+          "q": [
+            0.0571914142779105,
+            -1.0229376502593337,
+            0.6940999821010194,
+            1.3996354712211194,
+            0.4055165051824449,
+            -0.17453
+          ],
+          "position_error_m": 3.5366173027184696e-05,
+          "rotation_error": 0.001807443913051817,
+          "seconds": 2.0
+        },
+        {
+          "phase": "transfer to tray",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.12
+          ],
+          "q": [
+            0.6957513944980195,
+            -0.08947347548302699,
+            -0.003923412304475966,
+            1.1648766031765396,
+            1.0516167782497112,
+            -0.17453
+          ],
+          "position_error_m": 0.0004368669827517345,
+          "rotation_error": 0.038705537304875914,
+          "seconds": 2.5
+        },
+        {
+          "phase": "lower cube",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.06
+          ],
+          "q": [
+            0.695751394508539,
+            -0.043079036048555085,
+            0.3924513512815123,
+            0.7221074000570353,
+            1.0516167783022943,
+            -0.17453
+          ],
+          "position_error_m": 0.00043686698524447807,
+          "rotation_error": 0.03870553729821565,
+          "seconds": 1.5
+        },
+        {
+          "phase": "release",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.06
+          ],
+          "q": [
+            0.6957513944980154,
+            -0.043079035957459474,
+            0.3924513511159323,
+            0.7221074002322007,
+            1.0516167782493862,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.0004368669827520545,
+          "rotation_error": 0.038705537304874055,
+          "seconds": 1.0
+        },
+        {
+          "phase": "retreat",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.15
+          ],
+          "q": [
+            0.6957513944986491,
+            -0.017803003255742626,
+            -0.31773313645594986,
+            1.4070158550996261,
+            1.051616778253367,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00043686698289885,
+          "rotation_error": 0.0387055373044829,
+          "seconds": 1.5
+        },
+        {
+          "phase": "settle",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.15
+          ],
+          "q": [
+            0.695751394498114,
+            -0.0178030032565428,
+            -0.31773313645449397,
+            1.4070158550992409,
+            1.0516167782501453,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00043686698277419086,
+          "rotation_error": 0.0387055373048167,
+          "seconds": 1.5
+        }
+      ],
+      "seconds": 17.5,
+      "settle_position_spread_m": 0.0,
+      "settle_orientation_spread_deg": 3.818191820832845e-06,
+      "settle_max_linear_speed_m_s": 3.7332548763694366e-16,
+      "grading_frames": 45,
+      "case": "dim_light",
+      "case_config": {
+        "label": "25% dimmer illumination",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "light_scale": 0.75
+      },
+      "scope": "Scripted physical feasibility only; privileged IK controller, no learned policy"
+    },
+    {
+      "seed": 400,
+      "success": true,
+      "lifted": true,
+      "inside_tray_for_1_5_s": true,
+      "released_for_1_5_s": true,
+      "stable": true,
+      "initial_object_xyz_m": [
+        0.19097296432911798,
+        -0.006644528489676628,
+        0.014995627991029775
+      ],
+      "final_object_xyz_m": [
+        0.24939700103466436,
+        -0.1676524665125384,
+        0.01899562799103025
+      ],
+      "max_object_height_m": 0.10443512468805173,
+      "control": "scripted Cartesian waypoint IK using simulator object pose",
+      "learned_policy": false,
+      "object_attachment": false,
+      "object_pose_write_after_reset": false,
+      "simulation": {
+        "engine": "MuJoCo",
+        "version": "3.6.0",
+        "fps": 30,
+        "physics_dt": 0.0016666666666666668
+      },
+      "source_model_files_modified": false,
+      "collision_hull_split": true,
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "waypoints": [
+        {
+          "phase": "lift clear",
+          "target_tcp_m": [
+            0.22,
+            0.0,
+            0.1
+          ],
+          "q": [
+            0.009189081036693887,
+            -0.7990112852272426,
+            0.7455674724388571,
+            1.1242577214847027,
+            0.3566613664712752,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00010188559713064649,
+          "rotation_error": 0.006231306295579573,
+          "seconds": 2.0
+        },
+        {
+          "phase": "orient above cube",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.06
+          ],
+          "q": [
+            0.0574507984056131,
+            -0.3999326435806868,
+            0.6028198978695951,
+            1.367909072505025,
+            0.40613031325908433,
+            0.6894070000000001
+          ],
+          "position_error_m": 4.965805160200405e-14,
+          "rotation_error": 1.3610929251905275e-12,
+          "seconds": 2.0
+        },
+        {
+          "phase": "approach",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.017
+          ],
+          "q": [
+            0.057450798405600176,
+            -0.2641108649266997,
+            0.8175007138335183,
+            1.0174064778878642,
+            0.40613031325905846,
+            0.6894070000000001
+          ],
+          "position_error_m": 9.63342509744862e-15,
+          "rotation_error": 3.0117335569920847e-13,
+          "seconds": 2.0
+        },
+        {
+          "phase": "close grip",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.017
+          ],
+          "q": [
+            0.05745079840560087,
+            -0.26411086492637015,
+            0.8175007138331525,
+            1.0174064778881138,
+            0.40613031325906207,
+            -0.17453
+          ],
+          "position_error_m": 6.56048933836094e-17,
+          "rotation_error": 1.1710192972483486e-15,
+          "seconds": 1.5
+        },
+        {
+          "phase": "lift cube",
+          "target_tcp_m": [
+            0.19097296432911798,
+            -0.006644528489676628,
+            0.12
+          ],
+          "q": [
+            0.0571914142779105,
+            -1.0229376502593337,
+            0.6940999821010194,
+            1.3996354712211194,
+            0.4055165051824449,
+            -0.17453
+          ],
+          "position_error_m": 3.5366173027184696e-05,
+          "rotation_error": 0.001807443913051817,
+          "seconds": 2.0
+        },
+        {
+          "phase": "transfer to tray",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.12
+          ],
+          "q": [
+            0.6957513944980195,
+            -0.08947347548302699,
+            -0.003923412304475966,
+            1.1648766031765396,
+            1.0516167782497112,
+            -0.17453
+          ],
+          "position_error_m": 0.0004368669827517345,
+          "rotation_error": 0.038705537304875914,
+          "seconds": 2.5
+        },
+        {
+          "phase": "lower cube",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.06
+          ],
+          "q": [
+            0.695751394508539,
+            -0.043079036048555085,
+            0.3924513512815123,
+            0.7221074000570353,
+            1.0516167783022943,
+            -0.17453
+          ],
+          "position_error_m": 0.00043686698524447807,
+          "rotation_error": 0.03870553729821565,
+          "seconds": 1.5
+        },
+        {
+          "phase": "release",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.06
+          ],
+          "q": [
+            0.6957513944980154,
+            -0.043079035957459474,
+            0.3924513511159323,
+            0.7221074002322007,
+            1.0516167782493862,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.0004368669827520545,
+          "rotation_error": 0.038705537304874055,
+          "seconds": 1.0
+        },
+        {
+          "phase": "retreat",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.15
+          ],
+          "q": [
+            0.6957513944986491,
+            -0.017803003255742626,
+            -0.31773313645594986,
+            1.4070158550996261,
+            1.051616778253367,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00043686698289885,
+          "rotation_error": 0.0387055373044829,
+          "seconds": 1.5
+        },
+        {
+          "phase": "settle",
+          "target_tcp_m": [
+            0.24,
+            -0.16,
+            0.15
+          ],
+          "q": [
+            0.695751394498114,
+            -0.0178030032565428,
+            -0.31773313645449397,
+            1.4070158550992409,
+            1.0516167782501453,
+            0.6894070000000001
+          ],
+          "position_error_m": 0.00043686698277419086,
+          "rotation_error": 0.0387055373048167,
+          "seconds": 1.5
+        }
+      ],
+      "seconds": 17.5,
+      "settle_position_spread_m": 0.0,
+      "settle_orientation_spread_deg": 3.818191820832845e-06,
+      "settle_max_linear_speed_m_s": 3.7332548763694366e-16,
+      "grading_frames": 45,
+      "case": "visual_distractor",
+      "case_config": {
+        "label": "Visual-only blue distractor",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "distractor_xyz_m": [
+          0.13,
+          0.12,
+          0.016
+        ],
+        "distractor_size_m": [
+          0.015,
+          0.015,
+          0.015
+        ]
+      },
+      "scope": "Scripted physical feasibility only; privileged IK controller, no learned policy"
+    }
+  ],
+  "episodes": [
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "case": "nominal",
+      "case_config": {
+        "label": "New object starts",
+        "seeds": [
+          400,
+          401,
+          402
+        ]
+      },
+      "seed": 400,
+      "title": "New object starts",
+      "episodepath": "nominal/seed-400",
+      "initial_object_xyz_m": [
+        0.19097296432911798,
+        -0.006644528489676628,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 2.42861286636753e-17,
+        "settle_orientation_spread_deg": 3.818191820832845e-06,
+        "settle_max_linear_speed_m_s": 4.269605393247606e-15,
+        "max_object_height_m": 0.11042387376720104,
+        "final_object_xyz_m": [
+          0.24883928782472725,
+          -0.17309572644357896,
+          0.01899562799103025
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 23.96717737900326,
+      "actuator_target_limit_events": 98,
+      "max_target_limit_excess_rad": 0.006493985147476206,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.012078581996320281,
+        "p95": 0.020601547752448823,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 1,
+      "total": 1,
+      "case": "nominal",
+      "case_config": {
+        "label": "New object starts",
+        "seeds": [
+          400,
+          401,
+          402
+        ]
+      },
+      "seed": 401,
+      "title": "New object starts",
+      "episodepath": "nominal/seed-401",
+      "initial_object_xyz_m": [
+        0.20580142700881834,
+        -0.013461206707535506,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 2.4148365394514667e-06,
+        "settle_max_linear_speed_m_s": 1.5106560700321744e-16,
+        "max_object_height_m": 0.11700872751934795,
+        "final_object_xyz_m": [
+          0.24669237086261303,
+          -0.1699132737018353,
+          0.018995627991030255
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.44035221899685,
+      "actuator_target_limit_events": 64,
+      "max_target_limit_excess_rad": 0.006493985147476206,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.01447733700479148,
+        "p95": 0.019672383499710122,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 2,
+      "total": 2,
+      "case": "nominal",
+      "case_config": {
+        "label": "New object starts",
+        "seeds": [
+          400,
+          401,
+          402
+        ]
+      },
+      "seed": 402,
+      "title": "New object starts",
+      "episodepath": "nominal/seed-402",
+      "initial_object_xyz_m": [
+        0.19294405972624637,
+        0.0010649406338105924,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 0.0,
+        "settle_max_linear_speed_m_s": 1.1539918317477414e-15,
+        "max_object_height_m": 0.10910327141168906,
+        "final_object_xyz_m": [
+          0.24721182660537555,
+          -0.16894697396273198,
+          0.018995627991030262
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.520332055995823,
+      "actuator_target_limit_events": 80,
+      "max_target_limit_excess_rad": 0.006493985147476206,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.013933543006714899,
+        "p95": 0.024097136498312466,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 3,
+      "total": 3,
+      "case": "blue_target",
+      "case_config": {
+        "label": "Blue target cube",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "target_rgba": [
+          0.1,
+          0.25,
+          0.75,
+          1.0
+        ]
+      },
+      "seed": 400,
+      "title": "Blue target cube",
+      "episodepath": "blue_target/seed-400",
+      "initial_object_xyz_m": [
+        0.19097296432911798,
+        -0.006644528489676628,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 6.613302226726412e-06,
+        "settle_max_linear_speed_m_s": 1.2390413545433942e-15,
+        "max_object_height_m": 0.11290761046962168,
+        "final_object_xyz_m": [
+          0.2466066156153701,
+          -0.17354469696584623,
+          0.018995627991030235
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.74814036898897,
+      "actuator_target_limit_events": 86,
+      "max_target_limit_excess_rad": 0.00962236473083497,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.014498857497528661,
+        "p95": 0.026034252005047165,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 4,
+      "total": 4,
+      "case": "blue_target",
+      "case_config": {
+        "label": "Blue target cube",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "target_rgba": [
+          0.1,
+          0.25,
+          0.75,
+          1.0
+        ]
+      },
+      "seed": 401,
+      "title": "Blue target cube",
+      "episodepath": "blue_target/seed-401",
+      "initial_object_xyz_m": [
+        0.20580142700881834,
+        -0.013461206707535506,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 3.818191820832845e-06,
+        "settle_max_linear_speed_m_s": 6.463169137154635e-16,
+        "max_object_height_m": 0.1170996490223051,
+        "final_object_xyz_m": [
+          0.2718142096653091,
+          -0.16627079340725542,
+          0.01899562799103025
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.466938773010042,
+      "actuator_target_limit_events": 66,
+      "max_target_limit_excess_rad": 0.0033656353664398286,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.014626854499510955,
+        "p95": 0.022550319499714533,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 5,
+      "total": 5,
+      "case": "blue_target",
+      "case_config": {
+        "label": "Blue target cube",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "target_rgba": [
+          0.1,
+          0.25,
+          0.75,
+          1.0
+        ]
+      },
+      "seed": 402,
+      "title": "Blue target cube",
+      "episodepath": "blue_target/seed-402",
+      "initial_object_xyz_m": [
+        0.19294405972624637,
+        0.0010649406338105924,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 3.4150945850063755e-06,
+        "settle_max_linear_speed_m_s": 5.722995938492186e-16,
+        "max_object_height_m": 0.11693651883656188,
+        "final_object_xyz_m": [
+          0.2446047261453225,
+          -0.16279001501903265,
+          0.01899562799103025
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.63969957298832,
+      "actuator_target_limit_events": 71,
+      "max_target_limit_excess_rad": 0.006493985147476206,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.015666785002395045,
+        "p95": 0.02085224899565219,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 6,
+      "total": 6,
+      "case": "dim_light",
+      "case_config": {
+        "label": "25% dimmer illumination",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "light_scale": 0.75
+      },
+      "seed": 400,
+      "title": "25% dimmer illumination",
+      "episodepath": "dim_light/seed-400",
+      "initial_object_xyz_m": [
+        0.19097296432911798,
+        -0.006644528489676628,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 2.9575586669421963e-06,
+        "settle_max_linear_speed_m_s": 1.2284533849557901e-15,
+        "max_object_height_m": 0.11179377356898233,
+        "final_object_xyz_m": [
+          0.24794744075950928,
+          -0.17567066777056767,
+          0.018995627991030255
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.429120055996464,
+      "actuator_target_limit_events": 72,
+      "max_target_limit_excess_rad": 0.006493985147476206,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.015325114000006579,
+        "p95": 0.025956182500522118,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 7,
+      "total": 7,
+      "case": "dim_light",
+      "case_config": {
+        "label": "25% dimmer illumination",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "light_scale": 0.75
+      },
+      "seed": 401,
+      "title": "25% dimmer illumination",
+      "episodepath": "dim_light/seed-401",
+      "initial_object_xyz_m": [
+        0.20580142700881834,
+        -0.013461206707535506,
+        0.014995627991029775
+      ],
+      "success": false,
+      "grader": {
+        "success": false,
+        "lifted": true,
+        "inside_tray_for_1_5_s": false,
+        "released_for_1_5_s": false,
+        "stable": false,
+        "settle_position_spread_m": 0.08419854822773418,
+        "settle_orientation_spread_deg": 5.989382464115776,
+        "settle_max_linear_speed_m_s": 0.1963658117381109,
+        "max_object_height_m": 0.11821031130457836,
+        "final_object_xyz_m": [
+          0.24043657086532216,
+          -0.17023727635639335,
+          0.11600646243952516
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.56306898299954,
+      "actuator_target_limit_events": 177,
+      "max_target_limit_excess_rad": 0.006493985147476206,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.013579190504970029,
+        "p95": 0.02091943499908666,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 7,
+      "total": 8,
+      "case": "dim_light",
+      "case_config": {
+        "label": "25% dimmer illumination",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "light_scale": 0.75
+      },
+      "seed": 402,
+      "title": "25% dimmer illumination",
+      "episodepath": "dim_light/seed-402",
+      "initial_object_xyz_m": [
+        0.19294405972624637,
+        0.0010649406338105924,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 3.818191820832845e-06,
+        "settle_max_linear_speed_m_s": 1.121834047369915e-15,
+        "max_object_height_m": 0.11009849948475903,
+        "final_object_xyz_m": [
+          0.24660043677072857,
+          -0.17184730655690791,
+          0.01899562799103025
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.601505320009892,
+      "actuator_target_limit_events": 73,
+      "max_target_limit_excess_rad": 0.006493985147476206,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.014248400511860382,
+        "p95": 0.022262172748014564,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 8,
+      "total": 9,
+      "case": "visual_distractor",
+      "case_config": {
+        "label": "Visual-only blue distractor",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "distractor_xyz_m": [
+          0.13,
+          0.12,
+          0.016
+        ],
+        "distractor_size_m": [
+          0.015,
+          0.015,
+          0.015
+        ]
+      },
+      "seed": 400,
+      "title": "Visual-only blue distractor",
+      "episodepath": "visual_distractor/seed-400",
+      "initial_object_xyz_m": [
+        0.19097296432911798,
+        -0.006644528489676628,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 0.0,
+        "settle_max_linear_speed_m_s": 1.165413430199823e-15,
+        "max_object_height_m": 0.11175097481002164,
+        "final_object_xyz_m": [
+          0.2482500113022008,
+          -0.17169908764059955,
+          0.018995627991030262
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.52093958000478,
+      "actuator_target_limit_events": 93,
+      "max_target_limit_excess_rad": 0.006493985147476206,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.013737522494920995,
+        "p95": 0.021453531000588555,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 9,
+      "total": 10,
+      "case": "visual_distractor",
+      "case_config": {
+        "label": "Visual-only blue distractor",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "distractor_xyz_m": [
+          0.13,
+          0.12,
+          0.016
+        ],
+        "distractor_size_m": [
+          0.015,
+          0.015,
+          0.015
+        ]
+      },
+      "seed": 401,
+      "title": "Visual-only blue distractor",
+      "episodepath": "visual_distractor/seed-401",
+      "initial_object_xyz_m": [
+        0.20580142700881834,
+        -0.013461206707535506,
+        0.014995627991029775
+      ],
+      "success": true,
+      "grader": {
+        "success": true,
+        "lifted": true,
+        "inside_tray_for_1_5_s": true,
+        "released_for_1_5_s": true,
+        "stable": true,
+        "settle_position_spread_m": 0.0,
+        "settle_orientation_spread_deg": 1.7075472925031877e-06,
+        "settle_max_linear_speed_m_s": 3.6528690374534836e-16,
+        "max_object_height_m": 0.1166117209246784,
+        "final_object_xyz_m": [
+          0.24337424637741448,
+          -0.17311389529133503,
+          0.018995627991030255
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.46879783399345,
+      "actuator_target_limit_events": 65,
+      "max_target_limit_excess_rad": 0.006493985147476206,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.014353637001477182,
+        "p95": 0.022646481753326952,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    },
+    {
+      "policy": "Official LeRobot ACT frozen train-8000",
+      "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+      "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+      "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+      "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+      "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+      "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+      "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+      "torch": "2.10.0+cu128",
+      "mujoco": "3.6.0",
+      "gpu": "NVIDIA GeForce RTX 5070 Ti",
+      "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+      "architecture": {
+        "chunk_size": 16,
+        "n_action_steps": 8,
+        "dim_model": 128,
+        "use_vae": false
+      },
+      "scope": "Exploratory visual robustness on new random starts; not a new untouched benchmark, no training or tuning",
+      "control": "Absolute joint targets in radians; established actuator clipping",
+      "hardware_tested": false,
+      "camera_pixels_logged": true,
+      "all_failures_retained": true,
+      "success_count": 10,
+      "total": 11,
+      "case": "visual_distractor",
+      "case_config": {
+        "label": "Visual-only blue distractor",
+        "seeds": [
+          400,
+          401,
+          402
+        ],
+        "distractor_xyz_m": [
+          0.13,
+          0.12,
+          0.016
+        ],
+        "distractor_size_m": [
+          0.015,
+          0.015,
+          0.015
+        ]
+      },
+      "seed": 402,
+      "title": "Visual-only blue distractor",
+      "episodepath": "visual_distractor/seed-402",
+      "initial_object_xyz_m": [
+        0.19294405972624637,
+        0.0010649406338105924,
+        0.014995627991029775
+      ],
+      "success": false,
+      "grader": {
+        "success": false,
+        "lifted": true,
+        "inside_tray_for_1_5_s": false,
+        "released_for_1_5_s": false,
+        "stable": false,
+        "settle_position_spread_m": 0.026877621174678835,
+        "settle_orientation_spread_deg": 30.739527654031196,
+        "settle_max_linear_speed_m_s": 0.6408781999157155,
+        "max_object_height_m": 0.11961947038743599,
+        "final_object_xyz_m": [
+          0.24637511227689657,
+          -0.1653726098229814,
+          0.018995627991030255
+        ],
+        "grading_frames": 45
+      },
+      "steps": 525,
+      "video": "rollout.mp4",
+      "trajectory": "trajectory.npz",
+      "wall_seconds": 24.68176143200253,
+      "actuator_target_limit_events": 64,
+      "max_target_limit_excess_rad": 0.0033656353664398286,
+      "fresh_chunk_inference_seconds": {
+        "median": 0.014117444494331721,
+        "p95": 0.021093790001032175,
+        "count": 66
+      },
+      "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+      "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "actuator_limits_rad": [
+        [
+          -1.91986,
+          1.91986
+        ],
+        [
+          -1.74533,
+          1.74533
+        ],
+        [
+          -1.69,
+          1.69
+        ],
+        [
+          -1.65806,
+          1.65806
+        ],
+        [
+          -2.74385,
+          2.84121
+        ],
+        [
+          -0.17453,
+          1.74533
+        ]
+      ],
+      "tcp_local_m": [
+        0.0071,
+        -0.000218121,
+        -0.088
+      ],
+      "simulation_fps": 30,
+      "complete": true
+    }
+  ],
+  "complete": true,
+  "success_count": 10,
+  "total": 12,
+  "case_totals": {
+    "nominal": {
+      "successful": 3,
+      "total": 3
+    },
+    "blue_target": {
+      "successful": 3,
+      "total": 3
+    },
+    "dim_light": {
+      "successful": 2,
+      "total": 3
+    },
+    "visual_distractor": {
+      "successful": 2,
+      "total": 3
+    }
+  },
+  "reference_replay": {
+    "policy": "Official LeRobot ACT frozen train-8000",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runs/lerobot-teaser/train-8000",
+    "checkpoint_sha256": "c38fc8fc714a09a3f7a5f920df0f353ef0cc5fd96a916358b491cb43e4a30974",
+    "checkpoint_config_sha256": "6ecaf5372692ac34f53077b50afa993150c98eee3544d9b32a62497243e0f1f4",
+    "normalization_sha256": "b6b9a8128b3d326fcb3e5123664d0ed886d0f943dbc6af5ee033edf606c71520",
+    "environment_sha256": "d4f910dbab9c3163184e4346144b2add1649b50c7671985421a0d5c93d5f08bc",
+    "baseline_and_grader_sha256": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+    "runner_sha256": "8ff58193ccccd50aa817c6eb36443c853d318d45426ecc9c68158b766ba342ad",
+    "torch": "2.10.0+cu128",
+    "mujoco": "3.6.0",
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "observation": "Scene RGB96x96, wrist RGB96x96, six joint states only",
+    "architecture": {
+      "chunk_size": 16,
+      "n_action_steps": 8,
+      "dim_model": 128,
+      "use_vae": false
+    },
+    "scope": "Previously evaluated successful seed301 reproduction; excluded from fresh cases",
+    "control": "Absolute joint targets in radians; established actuator clipping",
+    "hardware_tested": false,
+    "camera_pixels_logged": true,
+    "all_failures_retained": true,
+    "success_count": 10,
+    "total": 12,
+    "case": "nominal",
+    "case_config": {
+      "label": "New object starts",
+      "seeds": [
+        400,
+        401,
+        402
+      ]
+    },
+    "seed": 301,
+    "title": "New object starts",
+    "episodepath": "reference-301",
+    "initial_object_xyz_m": [
+      0.197022219844425,
+      -0.01899142333667847,
+      0.014995627991029775
+    ],
+    "success": true,
+    "grader": {
+      "success": true,
+      "lifted": true,
+      "inside_tray_for_1_5_s": true,
+      "released_for_1_5_s": true,
+      "stable": true,
+      "settle_position_spread_m": 0.0,
+      "settle_orientation_spread_deg": 0.0,
+      "settle_max_linear_speed_m_s": 1.2708439981490002e-15,
+      "max_object_height_m": 0.11516652629281601,
+      "final_object_xyz_m": [
+        0.267568337590774,
+        -0.15654663763183876,
+        0.018995627991030262
+      ],
+      "grading_frames": 45
+    },
+    "steps": 525,
+    "video": "rollout.mp4",
+    "trajectory": "trajectory.npz",
+    "wall_seconds": 24.63924292899901,
+    "actuator_target_limit_events": 65,
+    "max_target_limit_excess_rad": 0.006493985147476206,
+    "fresh_chunk_inference_seconds": {
+      "median": 0.013831290001689922,
+      "p95": 0.025062584743864136,
+      "count": 66
+    },
+    "video_state": "Frame i renders qpos_after[i]; RGB inputs and chunk i are from qpos_before[i]",
+    "chunk_projection": "Forward kinematics of clipped predicted joint targets; no dynamics or object forecast",
+    "joint_order": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "actuator_limits_rad": [
+      [
+        -1.91986,
+        1.91986
+      ],
+      [
+        -1.74533,
+        1.74533
+      ],
+      [
+        -1.69,
+        1.69
+      ],
+      [
+        -1.65806,
+        1.65806
+      ],
+      [
+        -2.74385,
+        2.84121
+      ],
+      [
+        -0.17453,
+        1.74533
+      ]
+    ],
+    "tcp_local_m": [
+      0.0071,
+      -0.000218121,
+      -0.088
+    ],
+    "simulation_fps": 30,
+    "complete": true
+  }
+}

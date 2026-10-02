@@ -1,0 +1,14 @@
+{
+  "smoke_check_only": true,
+  "inputs": "Zero tensors for runtime/config/serialization verification; not task evaluation",
+  "loss": 0.533416748046875,
+  "parameters": 11902150,
+  "model_bytes": 47701616,
+  "torch_peak_allocated_bytes": 177638400,
+  "shape": [
+    2,
+    16,
+    6
+  ],
+  "torch": "2.10.0+cu128"
+}

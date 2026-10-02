@@ -1,0 +1,219 @@
+{
+  "complete_fresh_episodes_validated": 12,
+  "checks_passed": true,
+  "episodes": [
+    {
+      "episodepath": "blue_target\\seed-400",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 8.829879749594483e-08
+    },
+    {
+      "episodepath": "blue_target\\seed-401",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 9.012908952499288e-08
+    },
+    {
+      "episodepath": "blue_target\\seed-402",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 8.221435554567336e-08
+    },
+    {
+      "episodepath": "dim_light\\seed-400",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 8.221435554567336e-08
+    },
+    {
+      "episodepath": "dim_light\\seed-401",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 8.482971181056342e-08
+    },
+    {
+      "episodepath": "dim_light\\seed-402",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 9.012908952499288e-08
+    },
+    {
+      "episodepath": "nominal\\seed-400",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 8.829879749594483e-08
+    },
+    {
+      "episodepath": "nominal\\seed-401",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 8.221435554567336e-08
+    },
+    {
+      "episodepath": "nominal\\seed-402",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 7.874526986029196e-08
+    },
+    {
+      "episodepath": "visual_distractor\\seed-400",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 8.482971181056342e-08
+    },
+    {
+      "episodepath": "visual_distractor\\seed-401",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 9.012908952499288e-08
+    },
+    {
+      "episodepath": "visual_distractor\\seed-402",
+      "all_arrays_finite": true,
+      "action_matches_recorded_full_chunk": true,
+      "applied_controls_match_clipped_prediction": true,
+      "joint_state_is_measured_qpos": true,
+      "qpos_transition_consistent": true,
+      "qvel_transition_consistent": true,
+      "replan_stride_8": true,
+      "captured_16_joint_predictions_per_replan": true,
+      "both_rgb_96px": true,
+      "maximum_control_difference_rad": 8.829879749594483e-08
+    }
+  ],
+  "paired_condition_checks": [
+    {
+      "seed": 400,
+      "case": "blue_target",
+      "initial_full_physics_state_identical": true,
+      "initial_scene_rgb_differs": true
+    },
+    {
+      "seed": 400,
+      "case": "dim_light",
+      "initial_full_physics_state_identical": true,
+      "initial_scene_rgb_differs": true
+    },
+    {
+      "seed": 400,
+      "case": "visual_distractor",
+      "initial_full_physics_state_identical": true,
+      "initial_scene_rgb_differs": true
+    },
+    {
+      "seed": 401,
+      "case": "blue_target",
+      "initial_full_physics_state_identical": true,
+      "initial_scene_rgb_differs": true
+    },
+    {
+      "seed": 401,
+      "case": "dim_light",
+      "initial_full_physics_state_identical": true,
+      "initial_scene_rgb_differs": true
+    },
+    {
+      "seed": 401,
+      "case": "visual_distractor",
+      "initial_full_physics_state_identical": true,
+      "initial_scene_rgb_differs": true
+    },
+    {
+      "seed": 402,
+      "case": "blue_target",
+      "initial_full_physics_state_identical": true,
+      "initial_scene_rgb_differs": true
+    },
+    {
+      "seed": 402,
+      "case": "dim_light",
+      "initial_full_physics_state_identical": true,
+      "initial_scene_rgb_differs": true
+    },
+    {
+      "seed": 402,
+      "case": "visual_distractor",
+      "initial_full_physics_state_identical": true,
+      "initial_scene_rgb_differs": true
+    }
+  ],
+  "comparison": "nominal rendering/state parity also checked directly against frozen original environment before launch"
+}
