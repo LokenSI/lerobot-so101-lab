@@ -36,7 +36,7 @@ def main():
         for i in indices:
             env.data.qpos[:]=qpos[i];env.data.qvel[:]=qvel[i];mujoco.mj_forward(env.model,env.data)
             for gid in geometries:transforms[gid].append((i,matrix(env.data.geom_xmat[gid].reshape(3,3),env.data.geom_xpos[gid])))
-        lines=['#usda 1.0','(', '    defaultPrim = "OfficeReplay"','    upAxis = "Z"','    metersPerUnit = 1',f'    timeCodesPerSecond = 30',f'    endTimeCode = {len(qpos)-1}',')',
+        lines=['#usda 1.0','# SO-101 geometry: TheRobotStudio/SO-ARM100, Apache-2.0.','# Modified: mesh conversion, measured pose samples, optional display-color/double-sided/wall changes.','# License and notices: docs/office-mesh-attribution.md and docs/licenses/SO-ARM100-Apache-2.0-LICENSE.txt.','(', '    defaultPrim = "OfficeReplay"','    upAxis = "Z"','    metersPerUnit = 1',f'    timeCodesPerSecond = 30',f'    endTimeCode = {len(qpos)-1}',')',
                'def Xform "OfficeReplay" (','    customData = {','        string evidenceType = "MuJoCo pose replay; Isaac physics disabled; no domain transfer evaluated"',
                '        string instruction = '+json.dumps(meta['task']['instruction']),'    }',')','{']
         for gid,(points,faces,counts) in geometries.items():

@@ -105,7 +105,7 @@ export MUJOCO_GL=egl PYOPENGL_PLATFORM=egl
 runtime/lerobot-teaser-env/bin/python scripts/verify_lerobot_act_runtime.py
 ```
 
-Bootstrap downloads official LeRobot at `6e1fa4faf2a42927d463591aebaa0f62c2e654b7` and the SO-101 Space's selected simulator/model/assets at `d7da38e032da0e136d6de21c218dc616982a8cc9`, then verifies their recorded hashes. The pinned Space has no general code license declaration, so its runtime is fetched directly from upstream rather than redistributed here. No virtualenv, third-party runtime, meshes or font files are vendored.
+Bootstrap downloads official LeRobot at `6e1fa4faf2a42927d463591aebaa0f62c2e654b7` and the SO-101 Space's selected simulator/model/assets at `d7da38e032da0e136d6de21c218dc616982a8cc9`, then verifies their recorded hashes. The pinned Space has no general code license declaration, so its runtime is fetched directly from upstream rather than redistributed here. No virtualenv, raw upstream runtime, STL mesh or font files are vendored. Generated office USD pose replays include converted SO-101 mesh geometry; see [mesh attribution and conversion notices](docs/office-mesh-attribution.md) and [the upstream Apache-2.0 license](docs/licenses/SO-ARM100-Apache-2.0-LICENSE.txt).
 
 To evaluate the released checkpoint without overwriting recorded results:
 
