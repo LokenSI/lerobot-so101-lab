@@ -1,0 +1,49 @@
+{
+  "complete": false,
+  "stages": [
+    {
+      "name": "physical-replay",
+      "returncode": 0,
+      "wall_seconds": 54.54260170797352,
+      "command": [
+        "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-sim-env/bin/python",
+        "/mnt/d/git/qwen-image_benchmark/scripts/action_common_recovery_audit.py",
+        "--dataset",
+        "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw",
+        "--output",
+        "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/physical-replay-audit.json"
+      ]
+    },
+    {
+      "name": "native-dual-format-export",
+      "returncode": 0,
+      "wall_seconds": 310.9080363009998,
+      "command": [
+        "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-teaser-env/bin/python",
+        "/mnt/d/git/qwen-image_benchmark/scripts/action_common_diverse_union_export.py",
+        "--raw",
+        "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1",
+        "--output",
+        "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/dataset-v1",
+        "--source",
+        "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-teaser-src"
+      ]
+    },
+    {
+      "name": "native-numeric-and-camera-audit",
+      "returncode": 1,
+      "wall_seconds": 62.8053413949965,
+      "command": [
+        "/mnt/d/git/qwen-image_benchmark/runtime/lerobot-teaser-env/bin/python",
+        "/mnt/d/git/qwen-image_benchmark/scripts/action_common_diverse_union_audit.py",
+        "--raw",
+        "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1",
+        "--dataset",
+        "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/dataset-v1",
+        "--output",
+        "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/native-data-audit.json"
+      ]
+    }
+  ],
+  "training_launched": false
+}

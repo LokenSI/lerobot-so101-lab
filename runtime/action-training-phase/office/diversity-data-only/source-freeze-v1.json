@@ -1,0 +1,18 @@
+{
+  "cpu_only": true,
+  "frozen_source_sha256": {
+    "scripts/action_common_diverse_coverage.py": "6221bd7dbc43accb57f86a70580335c5fda643ccfd68cfe00c71c2f9513869fb",
+    "scripts/action_common_diverse_generate.py": "19bf152b573ff9957b1d09cd64b26f083f555f335976a3369d05addcc0a5392b",
+    "scripts/action_common_diverse_pipeline.py": "4fa2434f29e2d8f2b0e6d7611a8ece9e70c704639fefe7b621520dd651de536c",
+    "scripts/action_common_diverse_union_audit.py": "fe4885a26e95d490899ff130d887a57636fcc8d9146ffb5cdd6f5aabaf22b835",
+    "scripts/action_common_diverse_union_export.py": "041e35c8e6bceee00a56598d9fd01a1a668fcf01f5ba194ee7ae9c22ecf27fae",
+    "scripts/action_common_diverse_union_groot_probe.py": "eed73a960fdbcce5fcf028a60f5ab4ee4c1b470d81951afe0cf511fdb4d2eb40",
+    "scripts/action_common_diverse_union_package.py": "7bfbfac47cd6838fb824ea51f39793198c7390fd8bfbfec951dba53f2d1c1d7a",
+    "scripts/action_common_diverse_union_provenance.py": "3dc54673d3b6fcd1728876f2686d4679c2e78f31e4a30110f82bb332ae6095d9",
+    "scripts/action_common_diverse_union_statistics.py": "e8e3cdcbbb64e22e7ce6159d12783a1164a4030074e4f71f33a44dd220c5bcf0",
+    "scripts/action_common_diverse_union_validate.py": "797e2fe092d457db579cf9697c78d847a453778b342fe91a5ae81283ad15f71d",
+    "scripts/action_common_recovery_audit.py": "f5da480ef73d9d186aa39bf014ec7eb0d969bb234b102436d9b51b9f9433dac0"
+  },
+  "original_physics_source_unchanged": "Bound by generation source_hashes and independent physical replay",
+  "source_edit_during_actual_stage": false
+}

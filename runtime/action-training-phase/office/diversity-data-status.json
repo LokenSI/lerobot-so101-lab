@@ -1,0 +1,13 @@
+{
+  "scope": "data-only future training foundation; no Smol48 cloud training launched",
+  "learned_outcomes": "Smol18 paired0/2; familiar training-scene chunk8 andchunk32 both no lift; original three-model comparisons0/6 retained",
+  "diversity_experts": {
+    "new_layouts": 15,
+    "new_episodes": 30,
+    "frames": 15750,
+    "physical_expert_replay": "30/30 strictPASS; scripted expert, not learned success"
+  },
+  "encoding_failure": "One new scene stream had524/525 frames because official queue30 droppedone; original failure retained. Repair uses official queue525 and recalculates native image stats. Full repaired48 data admission is separate and not assumed here.",
+  "new_cloud_training": "DEFERRED at14:14 admissioncutoff; no new training run, checkpoint or model success",
+  "no_sealed_tests": true
+}

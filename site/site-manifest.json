@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checked_link_targets": 179,
+  "checked_link_targets": 183,
   "files": [
     {
       "path": ".nojekyll",
@@ -1474,8 +1474,8 @@
     },
     {
       "path": "office-training/index.html",
-      "bytes": 109904,
-      "sha256": "14b446376e94d4ae180983f67258f27263878fe399690316b64a65050d5ddc09"
+      "bytes": 125176,
+      "sha256": "437212de0681f6c0acc82d422292b2032439c1fa9f06791d2028290ff96d08ee"
     },
     {
       "path": "office-training/media/comparison-v3-act-red-left.mp4",
@@ -1656,6 +1656,26 @@
       "path": "office-training/media/comparison-v5-smolvla-red-right.provenance.json",
       "bytes": 3080,
       "sha256": "3336f50f01d312d8d61d600151b4c1aa2070aec2087df924fe1c436a4252ffff"
+    },
+    {
+      "path": "office-training/media/comparison-v6-smolvla-red-left.mp4",
+      "bytes": 2845332,
+      "sha256": "c7eb17980a9a066bc64961258fd900b830e18f0d2753c64bf1db35d3e4215a5f"
+    },
+    {
+      "path": "office-training/media/comparison-v6-smolvla-red-left.provenance.json",
+      "bytes": 3251,
+      "sha256": "ed62ea9ff9130466a70fd76e063d70cf6c360432ea50d57c7965e6e79aad013d"
+    },
+    {
+      "path": "office-training/media/comparison-v6-smolvla-red-right.mp4",
+      "bytes": 2845311,
+      "sha256": "312e18d14a7cf36692fd670e29f1f6b16fd1f8f43e991da9e1c5e62855e472c6"
+    },
+    {
+      "path": "office-training/media/comparison-v6-smolvla-red-right.provenance.json",
+      "bytes": 3252,
+      "sha256": "37df0b318fb8184cc4f27731ac137e2d3e58f9b4a76bee6e23bb23889a9dc84f"
     },
     {
       "path": "office-training/media/expert-reference.mp4",
@@ -1848,6 +1868,26 @@
       "sha256": "7fcf42d12699cdb9b1236091cf536ba9b790b8f24a36416bd89ef27fe1358857"
     },
     {
+      "path": "office-training/media/smol18-trainscene-chunk32.mp4",
+      "bytes": 2908564,
+      "sha256": "bd5fa5df369c42a355ca571673e1f9dc0dc61a096d2de31a07ce84f23f98469f"
+    },
+    {
+      "path": "office-training/media/smol18-trainscene-chunk32.provenance.json",
+      "bytes": 3272,
+      "sha256": "71348ae77d6200e00dd42e6e27d98d5b9b1a68fdcd640248c468b5f5803f241c"
+    },
+    {
+      "path": "office-training/media/smol18-trainscene-chunk8.mp4",
+      "bytes": 2685506,
+      "sha256": "aa092a410fb4d5706f5d1c077ba1f096741429935815db87f4cd5addc89b0562"
+    },
+    {
+      "path": "office-training/media/smol18-trainscene-chunk8.provenance.json",
+      "bytes": 3271,
+      "sha256": "12f8b87f4062225ce961526741a6911aac58da9db782a9deeb8c656de5d7da62"
+    },
+    {
       "path": "office-training/media/training-loss.mp4",
       "bytes": 410619,
       "sha256": "5119bdf6e8544f63ee31dce951dca4903a3a2a1d3c4004c024ebfeb37aab4535"
@@ -1864,8 +1904,8 @@
     },
     {
       "path": "office-training/office-review-manifest.json",
-      "bytes": 163297,
-      "sha256": "7e06bee3f4f5d99b1f5db7540a382066e46b3fc06034d3fdb1d5a9a3c95d61ee"
+      "bytes": 189345,
+      "sha256": "530dcab7088eec2050fc112ab778adebafd70f931fb9ad1de1037b6ef032cf5c"
     },
     {
       "path": "office-training/portal-check.js",
@@ -2618,6 +2658,6 @@
       "sha256": "b7ccb8d4d4bdeecf61d960d6c485b28689164392fdf1ed5a4c0fba5dfac8b94a"
     }
   ],
-  "bytes": 469140499,
+  "bytes": 480479578,
   "lfs_payloads_materialized": true
 }

@@ -1,0 +1,13 @@
+{
+  "scope": "one comparison inference worker on existing A100; no simulator truth or training",
+  "model": "smolvla",
+  "checkpoint": "/data/action-training/runs/union-eighteen-v1-smolvla-main/checkpoints/002000/pretrained_model",
+  "gpu_limit_mib": 71680,
+  "ram_limit_mib": 102400,
+  "gpu_peak_mib": 1477,
+  "host_peak_mib": 4185.1796875,
+  "requests": 17,
+  "complete": true,
+  "owned_cuda_peak_allocated_mib": 920.4208984375,
+  "wall_seconds": 19.988983217001078
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/union18-train1000-chunk32-report.json",
+    "sha256": "d92b26de65a864d07c3264fa68a7d9e7ed5ef56fd6a03cb28e1dbc6b5c0931eb",
+    "local": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\office\\remote-sessions\\union18-train1000-chunk32\\cloud-resource-report.json"
+  }
+]

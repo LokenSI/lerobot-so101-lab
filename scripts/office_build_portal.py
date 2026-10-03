@@ -18,7 +18,7 @@ def main():
         episode_path=data['episode']
         if os.name=='nt' and episode_path.startswith('/mnt/d/'):episode_path='D:/'+episode_path[7:]
         ep=Path(episode_path);meta=json.loads((ep/'episode.json').read_text());target=media/video.name;shutil.copy2(video,target)
-        shutil.copy2(prov,media/prov.name);sources.append({'source':str(video),'source_sha256':sha(video),'copied_media_sha256':sha(target),'provenance':prov.name})
+        shutil.copy2(prov,media/prov.name);sources.append({'source':str(video),'source_sha256':sha(video),'copied_media_sha256':sha(target),'provenance':'media/'+prov.name})
         cards.append({'model':meta['policy'].get('model','Policy'),'step':data['cumulative_step'],'task':meta['task']['id'],'instruction':meta['task']['instruction'],'success':meta['success'],
            'task_success':meta.get('task_success'),'strict_zero_raw_limit_events_success':meta.get('strict_zero_raw_limit_events_success'),'chunk_execution':data['chunk_execution'],
            'inference_scope':meta['policy'].get('inference_scope','local inference; see original evaluation report'),

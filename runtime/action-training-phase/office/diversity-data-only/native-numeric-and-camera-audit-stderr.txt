@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/git/qwen-image_benchmark/scripts/action_common_diverse_union_audit.py", line 72, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/git/qwen-image_benchmark/scripts/action_common_diverse_union_audit.py", line 44, in main
+    if frame_index+1!=n:raise ValueError('Encoded frame count changed')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Encoded frame count changed

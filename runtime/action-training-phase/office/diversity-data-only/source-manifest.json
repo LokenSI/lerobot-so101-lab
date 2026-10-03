@@ -1,0 +1,1144 @@
+{
+  "episodes": [
+    {
+      "path": "common6/train/seed-1000/red-left",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "66eb600934eaaed68ae702ff53f8c9806b1c3d56b2177a6981c9a51d6c4dc6a2",
+      "rendered": true,
+      "source_path": "train/seed-1000/red-left",
+      "source_group": "common6",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/dataset/train/seed-1000/red-left/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 0
+    },
+    {
+      "path": "common6/train/seed-1000/red-right",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "57a38e4cb4cdddce7d69d1f08658ecaece1d5bd442a933ebbdebd2e46074e852",
+      "rendered": true,
+      "source_path": "train/seed-1000/red-right",
+      "source_group": "common6",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/dataset/train/seed-1000/red-right/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 1
+    },
+    {
+      "path": "common6/train/seed-1001/red-left",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "4cfdc42fe59db855d7e99c32f2673ad3a10dee91396e4ae64eaad9cfa2018a30",
+      "rendered": true,
+      "source_path": "train/seed-1001/red-left",
+      "source_group": "common6",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/dataset/train/seed-1001/red-left/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 2
+    },
+    {
+      "path": "common6/train/seed-1001/red-right",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "ac289201b05eb90f265f3765bd825700d5c2f26d2be5507a3da1a609068e2fec",
+      "rendered": true,
+      "source_path": "train/seed-1001/red-right",
+      "source_group": "common6",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/dataset/train/seed-1001/red-right/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 3
+    },
+    {
+      "path": "common6/train/seed-1002/red-left",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "123cc0785bd4bde1f9de312eac91c8d40d5b8031152bad41d5d4fd9d626066f7",
+      "rendered": true,
+      "source_path": "train/seed-1002/red-left",
+      "source_group": "common6",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/dataset/train/seed-1002/red-left/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 4
+    },
+    {
+      "path": "common6/train/seed-1002/red-right",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "5de4c43ef1a0ac04507ddd31d8d1a7b5662044ff1ef4c326908f261fbae7e4e6",
+      "rendered": true,
+      "source_path": "train/seed-1002/red-right",
+      "source_group": "common6",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/dataset/train/seed-1002/red-right/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 5
+    },
+    {
+      "path": "recovery12/train/seed-1000/red-left/start",
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "start",
+      "success": true,
+      "rendered": true,
+      "sha256": "4078372e1d346f35ae46547322d196052c56a34f06da33db7bb839db13f45ab6",
+      "source_path": "train/seed-1000/red-left/start",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1000/red-left/start/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 6
+    },
+    {
+      "path": "recovery12/train/seed-1000/red-left/pre_approach",
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "pre_approach",
+      "success": true,
+      "rendered": true,
+      "sha256": "fa575c372a1095224d05522a6f2018638a9791e6faf936e0717cca8a452b4b05",
+      "source_path": "train/seed-1000/red-left/pre_approach",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1000/red-left/pre_approach/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 7
+    },
+    {
+      "path": "recovery12/train/seed-1000/red-right/start",
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "start",
+      "success": true,
+      "rendered": true,
+      "sha256": "85dc362ef5f42277fce5dcd1ed20b7d6d41924b6be1a2c4e246add66fbe15e37",
+      "source_path": "train/seed-1000/red-right/start",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1000/red-right/start/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 8
+    },
+    {
+      "path": "recovery12/train/seed-1000/red-right/pre_approach",
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "pre_approach",
+      "success": true,
+      "rendered": true,
+      "sha256": "0717e26b8cebb94a7d92d364968af98db5461557f203187b2fc7b59a0f0e69a2",
+      "source_path": "train/seed-1000/red-right/pre_approach",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1000/red-right/pre_approach/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 9
+    },
+    {
+      "path": "recovery12/train/seed-1001/red-left/start",
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "start",
+      "success": true,
+      "rendered": true,
+      "sha256": "b02228f0a765c654e6dedeada38f5603a54f578d05ca1eb5042d626ed5d1e0f0",
+      "source_path": "train/seed-1001/red-left/start",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1001/red-left/start/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 10
+    },
+    {
+      "path": "recovery12/train/seed-1001/red-left/pre_approach",
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "pre_approach",
+      "success": true,
+      "rendered": true,
+      "sha256": "32bf563f6acbbc1c6c64d0ddff027f32b68e072d295dbd554a177dea1eb65047",
+      "source_path": "train/seed-1001/red-left/pre_approach",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1001/red-left/pre_approach/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 11
+    },
+    {
+      "path": "recovery12/train/seed-1001/red-right/start",
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "start",
+      "success": true,
+      "rendered": true,
+      "sha256": "8cb20e02e31f52de5fe026a4d9aaa7908d7633424bdec1c590bafa8dc3d17ef8",
+      "source_path": "train/seed-1001/red-right/start",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1001/red-right/start/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 12
+    },
+    {
+      "path": "recovery12/train/seed-1001/red-right/pre_approach",
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "pre_approach",
+      "success": true,
+      "rendered": true,
+      "sha256": "73143e22c854e4536d67c1d4f70052e892d74c9178a25afbd7e20e57821ce059",
+      "source_path": "train/seed-1001/red-right/pre_approach",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1001/red-right/pre_approach/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 13
+    },
+    {
+      "path": "recovery12/train/seed-1002/red-left/start",
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "start",
+      "success": true,
+      "rendered": true,
+      "sha256": "b1f2f49238a8412ea167bd31cbbd8b6f7a7d000cd7af24e779b790b5eefe48cd",
+      "source_path": "train/seed-1002/red-left/start",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1002/red-left/start/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 14
+    },
+    {
+      "path": "recovery12/train/seed-1002/red-left/pre_approach",
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "pre_approach",
+      "success": true,
+      "rendered": true,
+      "sha256": "f55e425c5764469e4906eb0a83ff66fb6365112f71975e2f76dda0405e2441d6",
+      "source_path": "train/seed-1002/red-left/pre_approach",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1002/red-left/pre_approach/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 15
+    },
+    {
+      "path": "recovery12/train/seed-1002/red-right/start",
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "start",
+      "success": true,
+      "rendered": true,
+      "sha256": "ae61b350f394a3a0614fa740df7ba0a6896b3a412322fb43f03429a46b1392c2",
+      "source_path": "train/seed-1002/red-right/start",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1002/red-right/start/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 16
+    },
+    {
+      "path": "recovery12/train/seed-1002/red-right/pre_approach",
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "recovery_mode": "pre_approach",
+      "success": true,
+      "rendered": true,
+      "sha256": "17f6e135ffb09e2937e0922cba36edd84e90f83350d6b86fe522ddace590e435",
+      "source_path": "train/seed-1002/red-right/pre_approach",
+      "source_group": "recovery12",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/raw-retry/train/seed-1002/red-right/pre_approach/episode.npz",
+      "canonical_v3_root": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/union-v1/dataset-v1/lerobot-v3/train",
+      "canonical_episode_index": 17
+    },
+    {
+      "path": "diverse30/train/seed-900000/red-left",
+      "seed": 900000,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "2f531e34449acb75ecc8d970bdd12a9d5a54d49d8e17da0ae0a4a0c5106c6420",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900000/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900000/red-right",
+      "seed": 900000,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "fc779e76d034ccc61ee5e2e3897dec748fb2d2624075be2ad2d5313ea85afb99",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900000/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900001/red-left",
+      "seed": 900001,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "96c420842dc61d9a63b5ddc7e6bf130994a8bd7ee18a83e3275d7f78cedf82b4",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900001/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900001/red-right",
+      "seed": 900001,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "6bb6573a23a663cf4249e98adbb8cc4fd642e4b43aa01b1206a45af7f9979ae3",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900001/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900002/red-left",
+      "seed": 900002,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "223d5aac841d6f89a30a642a58ebb65ff6b90cd630c71939ff8e1650c46ad1d9",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900002/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900002/red-right",
+      "seed": 900002,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "fe6de99dfd7837d9c3905f862594fb940a42038cb1ed5651408c9d816546b1d1",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900002/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900003/red-left",
+      "seed": 900003,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "9ca4ba7a567a22802cf08a98bb1d87433d0bc2cd46e9a4145c14d158c41b8f99",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900003/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900003/red-right",
+      "seed": 900003,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "b298eb70a1448d8e253c87015ec1950fffeeba05720acb7fbcd30c570d655df3",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900003/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900004/red-left",
+      "seed": 900004,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "d2007de16ed4c9c943675e565658d1804630cc1a422a2f5d146a6c7b817dcdc7",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900004/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900004/red-right",
+      "seed": 900004,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "8ae4a81724fec79962c31cb4b4b8d8c429c22672b3878151b108f98edd79c37d",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900004/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900005/red-left",
+      "seed": 900005,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "976c6ca22e46e6d1622210ad29faf318265e166c5e642f727e625bea522c526b",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900005/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900005/red-right",
+      "seed": 900005,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "be562f4a4440ece8b30ece9a1e4f135fb440fb3cc4094cbe66b52661292e8001",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900005/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900006/red-left",
+      "seed": 900006,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "89fd204603bf5db241708bcbe6e7ab485f236d78e439fc44d8219c45702d9133",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900006/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900006/red-right",
+      "seed": 900006,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "204cd1576386564728074e5aa3e902b4bfdc28aceb1409f153182136986c4197",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900006/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900007/red-left",
+      "seed": 900007,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "ad8a75c96e823b6216f0cc5859acfc408c46032c8a4308bc72fc8279e47dbfd1",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900007/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900007/red-right",
+      "seed": 900007,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "18ccb906491af6c94d8388f1d2d364ff5640a8786d6f8059043f8138875e8fc6",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900007/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900008/red-left",
+      "seed": 900008,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "3ec21929d1e0e3dbf93980c8f56fe834b11fd237e274ffd5c11879ef69667d37",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900008/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900008/red-right",
+      "seed": 900008,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "10c056121bbfe41d56768aa8f681e02df1a6d01f010e3960daffcc62b3724d2d",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900008/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900009/red-left",
+      "seed": 900009,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "98030b44ca26f3c084e71b59612717e1a89f9a3c2edea68161e0d6b66ded2632",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900009/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900009/red-right",
+      "seed": 900009,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "8c3363d131918e06810e17f2e00266f4e9278b1f904cf85e4b5965e3a679f364",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900009/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900010/red-left",
+      "seed": 900010,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "617078a667d0ca42092f56d6057e8efbccb4dc53d81296721d75e5a060e2bcc1",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900010/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900010/red-right",
+      "seed": 900010,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "b45c535478c4f0a9762facc2aad464cbd7b0b7959ced435484ff2996a06ac8f3",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900010/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900011/red-left",
+      "seed": 900011,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "207a497c265d038e9bb0690de079ca64e05b590560c16f4c2172940edcadc4b5",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900011/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900011/red-right",
+      "seed": 900011,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "dec196c7696339a91fbe76398ff8555edf07b66e6ddcde2840b477eaeca20619",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900011/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900012/red-left",
+      "seed": 900012,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "4e48c722a1c3bd98e6b911bc044dd33d55b9face349de7456e8cbcd2779956a8",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900012/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900012/red-right",
+      "seed": 900012,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "3d4a1ff34644c8633d3b86d320c5004a36946d3620791dfee31c681353deea44",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900012/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900013/red-left",
+      "seed": 900013,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "37eef56ea5903a7928a8c0ad6f167a309b6459f5a1dc2d92c6e39d89cf0228c2",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900013/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900013/red-right",
+      "seed": 900013,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "abe1bcbaad3eb1156a86df74ad1220f2896c3e1458f7067439ed3144d91c0c54",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900013/red-right/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900014/red-left",
+      "seed": 900014,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "c7efadcda254c268748f38595cd482fcadbd0764cdbc0bee6a22752a8e95b65a",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900014/red-left/episode.npz"
+    },
+    {
+      "path": "diverse30/train/seed-900014/red-right",
+      "seed": 900014,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "success": true,
+      "rendered": true,
+      "sha256": "240acf150f0b41974c69e4d8c5d4150bd286c7698c780ee4a8d11e8c0f420b14",
+      "recovery_mode": "nominal_diverse",
+      "source_group": "diverse30",
+      "raw_file": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/train/seed-900014/red-right/episode.npz"
+    }
+  ],
+  "sources": [
+    {
+      "id": "common6",
+      "contract": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/dataset-v1/lerobot-v3/train/meta/office-contract.json",
+      "contract_sha256": "9f891ea7a0e34b50e4f714f34d0c40a8d23117e92e37de22cd8b3e06f6ea647e",
+      "source_manifest_sha256": "595dbcccbd76403ad55d403adb12f1e344d4761ee42d0988b4322a10696d1473"
+    },
+    {
+      "id": "recovery12",
+      "contract": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/recovery-v2/dataset-v1/lerobot-v3/train/meta/office-contract.json",
+      "contract_sha256": "5f32fb5f52a171bf2048153dec4b777d0c8004484df7038909dba6c4e57e8c9b",
+      "source_manifest_sha256": "06bf7ba6c62a0bfa953837b3f62155e804470ef478b4f1a0cc6133520762c3ac"
+    },
+    {
+      "contract": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/common-comparison-data/diversity-v1/raw/prospective-plan.json",
+      "contract_sha256": "3c7e5240fe280a48cbc420ca9077f1e62fb4ec0cfcafe5422ae0ed4da2fde0e4"
+    }
+  ],
+  "expected_frames": 8730,
+  "split": "train",
+  "learned_policy": false,
+  "training_launched": false,
+  "supervision": "Originalcommon6 and contiguous accepted recovery12 suffixes only; replayprefixes excluded",
+  "task_ids": [
+    "red-left",
+    "red-right"
+  ],
+  "scene_seeds": [
+    1000,
+    1001,
+    1002
+  ],
+  "old_union_source_manifest_sha256": "c133eafa07d95b43feb6595f721f55f0617c0545e8c48c1b7c664a1ef825644c",
+  "diverse_manifest_sha256": "3d169e96a90c7675d500ce300b662d5dc6e19661c16358ce1f1088439510e00c",
+  "total_episodes": 48,
+  "total_frames": 24480
+}

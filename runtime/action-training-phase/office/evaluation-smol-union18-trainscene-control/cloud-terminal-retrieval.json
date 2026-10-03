@@ -1,0 +1,7 @@
+[
+  {
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/union18-train1000-control-report.json",
+    "sha256": "efb5e97ca3357f0a8d8f5caa21358140da07c60feb359eb81ccebaa82949fec9",
+    "local": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\office\\remote-sessions\\union18-train1000-control\\cloud-resource-report.json"
+  }
+]
