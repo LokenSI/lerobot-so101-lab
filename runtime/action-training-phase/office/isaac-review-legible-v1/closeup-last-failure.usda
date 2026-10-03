@@ -1,0 +1,20 @@
+#usda 1.0
+(
+    defaultPrim = "OfficeMatrix"
+    upAxis = "Z"
+    metersPerUnit = 1
+    timeCodesPerSecond = 30
+    endTimeCode = 584
+)
+def Xform "OfficeMatrix"
+{
+    def Xform "cell_0" ( prepend references = @cell-019.usda@ )
+    {
+        double3 xformOp:translate = (0.0, 0.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def DomeLight "Light"
+    {
+        float inputs:intensity = 600
+    }
+}

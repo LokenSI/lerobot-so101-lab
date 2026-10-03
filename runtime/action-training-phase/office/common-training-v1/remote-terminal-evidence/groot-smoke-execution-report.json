@@ -1,0 +1,456 @@
+{
+  "scope": "actual fresh-base common-six stock training stage; no robot task-success claim",
+  "model": "groot",
+  "stage": "smoke",
+  "recipe_sha256": "7bd1617ab74cfc542b63a6872e7e5d0aa041ead66af681160dca1daf6968f5c1",
+  "stock_launch_manifest_sha256": "c5c35433d74d992e8a6c9bdaf9da8f9bcefef37959d4f85056cf1e6821fc06ab",
+  "stock_preflight_dry_run": true,
+  "actual_native_command": [
+    "/home/ubuntu/office-action-training/sources/Isaac-GR00T/.venv/bin/python",
+    "gr00t/experiment/launch_finetune.py",
+    "--base-model-path",
+    "/home/ubuntu/.cache/huggingface/hub/models--nvidia--GR00T-N1.7-3B/snapshots/2fc962b973bccdd5d8ce4f67cc63b264d6886495",
+    "--dataset-path",
+    "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/groot-v2/train",
+    "--embodiment-tag",
+    "NEW_EMBODIMENT",
+    "--modality-config-path",
+    "/home/ubuntu/workspace/action-training/package/training/office_groot_config.py",
+    "--num-gpus",
+    "1",
+    "--output-dir",
+    "/data/action-training/runs/common-six-v1-groot-smoke",
+    "--max-steps",
+    "20",
+    "--save-steps",
+    "20",
+    "--save-total-limit",
+    "1",
+    "--global-batch-size",
+    "8",
+    "--dataloader-num-workers",
+    "4",
+    "--episode-sampling-rate",
+    "1.0",
+    "--shard-size",
+    "1024",
+    "--num-shards-per-epoch",
+    "3",
+    "--state-dropout-prob",
+    "0.1",
+    "--learning-rate",
+    "0.0001",
+    "--warmup-ratio",
+    "0.05",
+    "--no-tune-llm",
+    "--no-tune-visual",
+    "--tune-projector",
+    "--tune-diffusion-model",
+    "--no-use-wandb",
+    "--no-save-only-model"
+  ],
+  "native_execution_started": true,
+  "complete": false,
+  "output": "/data/action-training/runs/common-six-v1-groot-smoke",
+  "samples": [
+    {
+      "gpu_mib": 1,
+      "ram_mib": 2337.984375
+    },
+    {
+      "gpu_mib": 1,
+      "ram_mib": 2527.22265625
+    },
+    {
+      "gpu_mib": 1,
+      "ram_mib": 2594.8828125
+    },
+    {
+      "gpu_mib": 1,
+      "ram_mib": 2637.21875
+    },
+    {
+      "gpu_mib": 1,
+      "ram_mib": 2659.4765625
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 2742.11328125
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 2783.94921875
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 2807.78515625
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 2859.75
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 2893.97265625
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 2886.125
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 3073.11328125
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 3662.4140625
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 3807.59375
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 3477.45703125
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 3548.75390625
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 3570.1953125
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 3841.24609375
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 8103.09375
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 13461.58203125
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 15261.0625
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 15408.796875
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 15431.17578125
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 15440.01953125
+    },
+    {
+      "gpu_mib": 4,
+      "ram_mib": 15440.37109375
+    },
+    {
+      "gpu_mib": 31,
+      "ram_mib": 15527.71484375
+    },
+    {
+      "gpu_mib": 4489,
+      "ram_mib": 13050.64453125
+    },
+    {
+      "gpu_mib": 8699,
+      "ram_mib": 10382.8515625
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 7662.6015625
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 7674.75390625
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 7705.0078125
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 7940.03125
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 8027.59765625
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 8126.515625
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 8233.41796875
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 8336.234375
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 8434.671875
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 8577.16015625
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 8723.83203125
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 8859.4296875
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9008.5625
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9148.578125
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9280.00390625
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9368.07421875
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9464.515625
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9566.38671875
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9667.53125
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9390.58203125
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9320.91796875
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9459.71484375
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9605.40234375
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9755.02734375
+    },
+    {
+      "gpu_mib": 12601,
+      "ram_mib": 9766.55078125
+    },
+    {
+      "gpu_mib": 12907,
+      "ram_mib": 10468.37109375
+    },
+    {
+      "gpu_mib": 12955,
+      "ram_mib": 11068.3359375
+    },
+    {
+      "gpu_mib": 33127,
+      "ram_mib": 11472.68359375
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11719.06640625
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11929.140625
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12034.87890625
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12155.95703125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12305.56640625
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12442.39453125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12586.8515625
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12761.60546875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12852.37109375
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12941.2109375
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 13011.34375
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 13104.609375
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 13204.7578125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 13117.6015625
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12862.578125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 13010.92578125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 13163.01171875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 13299.59375
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 13226.4453125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 12864.76171875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11660.9296875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11661.06640625
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11695.0078125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11660.5859375
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11666.2421875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11667.0703125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11678.7734375
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11676.1875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11698.03515625
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 11520.33203125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 10377.07421875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 10389.3671875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 10401.91796875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 10400.52734375
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 10398.8046875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 10398.8046875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 10408.78125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 10413.32421875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 10397.28125
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 8279.35546875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 8279.57421875
+    },
+    {
+      "gpu_mib": 39021,
+      "ram_mib": 3644.515625
+    }
+  ],
+  "deadline_utc": "2026-10-03T14:52:00+00:00",
+  "owned_pid": 630662,
+  "exit_code": 1,
+  "error": "Native trainer exited with failure",
+  "elapsed_seconds": 51.44997459200022,
+  "gpu_peak_mib": 39021,
+  "ram_peak_mib": 15527.71484375
+}

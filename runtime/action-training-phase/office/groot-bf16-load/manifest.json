@@ -1,0 +1,14 @@
+{
+  "scope": "explicit BF16 constructor-load optimization; CPU preparation only",
+  "official_source": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\local-groot\\sources\\Isaac-GR00T\\gr00t\\policy\\gr00t_policy.py",
+  "source_pin": "51d4c89f72fda44cbf77285c6a8114b52676b8a1",
+  "stock_source_sha256": "ad1183a3ce1ebed6cace4a9cb8c5a123e823a0760ebf46f3694639a5ad1521ec",
+  "patched_source_sha256": "8dfe8d0b3946853bb8dea4d4be6cd60d8709b222dc0249255e48da5733960c91",
+  "change": "AutoModel.from_pretrained(model_dir, dtype=torch.bfloat16)",
+  "unchanged": "Same checkpoint, model.to(device,dtype=torch.bfloat16), processor, decoder, strict observations, no quantization or training changes",
+  "api_evidence": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\local-groot\\sources\\Isaac-GR00T\\.venv\\lib\\python3.12\\site-packages\\transformers\\modeling_utils.py",
+  "status": "CPU syntax/source preparation PASS; memory/inference not evaluated",
+  "memory_caveat": "Nested backbone construction and explicit trainable FP32 casts may still allocate temporaries; no fit claim",
+  "retained_stock_attempt": "office/evaluation-groot-002000-stock-retry-validation/guard-report.json",
+  "stock_scope_caveat": "Measured RAM failure under shared host load, including a reported overlapping ACT CPU probe; not an isolated impossibility result"
+}

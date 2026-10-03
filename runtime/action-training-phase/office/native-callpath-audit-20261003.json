@@ -1,0 +1,107 @@
+{
+  "scope": "Read-only local evidence and installed pinned native code audit; no training, inference, model instantiation, cloud mutation, or local GPU use",
+  "completed_utc": "2026-10-03T13:46:22Z",
+  "smol_native_source": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+  "groot_native_source": "51d4c89f72fda44cbf77285c6a8114b52676b8a1",
+  "confirmed": {
+    "smol_state_projection_trainable": true,
+    "smol_action_alignment": "Native observation_delta_indices=[0], action_delta_indices=range(chunk_size); evaluator applies first eight returned absolute targets sequentially. No observed off-by-one API mismatch.",
+    "smol_visual_cache": "predict_action_chunk prepares fresh images/state on each call. sample_actions calls embed_prefix and begins past_key_values=None; prefix cache is local to current denoising call. denoise_step crops suffix to prefix length each iteration.",
+    "groot_policy_input_path": "_get_action rebuilds VLAStepData, processor result and collated inputs every call; decode_action receives the current captured states. Wrapper reset is a no-op, but no wrapper visual/action cache exists.",
+    "smol_saved_flags": {
+      "n_obs_steps": 1,
+      "chunk_size": 50,
+      "n_action_steps": 8,
+      "num_steps": 10,
+      "train_expert_only": true,
+      "train_state_proj": true,
+      "freeze_vision_encoder": true,
+      "use_amp": false,
+      "adapt_to_pi_aloha": false,
+      "image_transforms_enabled": false
+    },
+    "saved_precision": {
+      "model_tensor_count_BF16": 474,
+      "model_tensor_count_F32": 26,
+      "action_expert": "BF16",
+      "state_and_action_projection": "F32",
+      "optimizer_tensor_count_BF16": 258,
+      "optimizer_tensor_count_F32": 207
+    },
+    "weight_sample": "Read only headers and at most 65536 leading elements per selected tensor from base and final files, without model instantiation. All six active state/action dimensions changed; exactly 26/32 padded dimensions unchanged. Selected BF16 expert matrices had 41.9-45.3% exactly unchanged sampled elements, while other elements changed by mean absolute0.00055-0.00087. This does not establish a precision defect or frozen expert.",
+    "teacher_gripper_v6": {
+      "overall_first8_mae_rad": 0.020469140407317843,
+      "gripper_first8_mae_rad": 0.03754799198292226,
+      "max_gripper_error_rad": 0.22221949362856291
+    }
+  },
+  "train_layout_control": {
+    "path": "runtime/action-training-phase/office/evaluation-smol-union18-trainscene-control/seed-1000-red-left",
+    "checkpoint": "Smol18 native2000",
+    "seed": 1000,
+    "rng": 510000,
+    "initial_state_mean_absolute_difference_rad": 1.0910257318325762e-08,
+    "initial_scene_pixel_mae_0_255": 0.07251485188802083,
+    "initial_wrist_pixel_mae_0_255": 0.0011189778645833333,
+    "first_full_chunk_max_difference_vs_teacher_rad": 0.0051668882,
+    "first_gripper_expert_increment_from_state_rad": 0.0006810858875942183,
+    "first_gripper_teacher_increment_from_state_rad": -0.01846313622424467,
+    "state_mae_vs_expert_by_tick_rad": {
+      "8": 0.026409717356727026,
+      "16": 0.06865905413798536,
+      "32": 0.1679574450553827,
+      "60": 0.38294183987833824
+    },
+    "maximum_applied_raw_gripper_command_rad": -0.046537578105926514,
+    "prediction_horizons": [
+      0,
+      7,
+      15,
+      31,
+      49
+    ],
+    "first_chunk_gripper_rad": [
+      -0.1539531946182251,
+      -0.11744740605354309,
+      0.013233751058578491,
+      0.35357213020324707,
+      0.624299168586731
+    ],
+    "tick16_chunk_gripper_rad": [
+      -0.1698259711265564,
+      -0.07415693998336792,
+      0.07529108226299286,
+      0.33492404222488403,
+      0.5682578086853027
+    ],
+    "interpretation": "Departure begins during initialization even on the training layout. Later horizons predict substantial opening but first-eight execution repeatedly discards them. Consistent with poor early feedback precision and repeated plan delay; not proof of the root cause. Similar teacher/control first chunk makes a gross image, state, API or normalization discrepancy less likely."
+  },
+  "recommendations": [
+    "No confirmed native implementation defect justifies a source patch or relaxation. Keep train_state_proj=true; it is already enabled.",
+    "Highest-value inexpensive prospective diagnostic: same recovered Smol18 checkpoint, seed1000, same RNG510000, execute32 or50 native actions per fresh chunk. Preserve existing eight-step trial and old5000 chunk32 failure. This specifically tests delayed opening in saved full chunks; not a promised fix.",
+    "A separately labeled native num_steps20/30 inference diagnostic could test diffusion-integration error, but no evidence yet establishes ten steps as causal.",
+    "Do not equate first-parameter BF16 telemetry with an entirely BF16 policy. Casting native trainable expert weights to F32 would be a separate nontrivial precision experiment, not a verified stock flag fix; do not combine speculatively with new dataset intervention.",
+    "For planned48 episodes assuming thirty new525-frame episodes,24480total frames:4000updates*16 implies2.61 sampled frame epochs versus3.67 for Smol18/2000. Increased diversity is useful but4000does not increase per-frame training exposure. Gate on actual initiation/placement behavior, not aggregate teacher MAE."
+  ],
+  "fp32_followup": {
+    "completed_utc": "2026-10-03T13:50:00Z",
+    "native_flag_result": "No dtype field in pinned PreTrainedConfig or SmolVLAConfig. policy.use_amp=false and accelerator.mixed_precision=no do not convert BF16 parameter storage. load_vlm_weights=false does not fix expert dtype because cached text_config still has torch_dtype=bfloat16.",
+    "loader_semantics": "PreTrainedPolicy.from_pretrained constructs cls(config), then safetensors.load_model calls model.load_state_dict without assign=True. Thus native reload casts FP32 checkpoint values into constructor-created BF16 expert tensors. An after-load float() would not recover precision already rounded during that load.",
+    "correct_experiment_if_authorized": "Explicitly documented wrapper/subclass constructs native model, casts only lm_expert tofloat32 BEFORE full checkpoint tensor load, leaves frozen VLM BF16 and existing F32 projections intact; casts before optimizer construction for training. Same construction hook required for every future reload. Fresh optimizer for experiment; saved native config cannot persist this custom policy dtype by itself. Do not present this as a stock flag.",
+    "bf16_expert_elements": 96607440,
+    "estimated_extra_inference_weight_mib": 184.26406860351562,
+    "estimated_extra_training_parameter_gradient_two_adam_buffers_mib": 737.0562744140625,
+    "memory_estimate_limits": "Tensor storage delta only; activation memory and throughput require a new bounded smoke measurement. Existing peak4.51GB suggests headroom onA100, but this is not admission.",
+    "recommendation": "Do not hold native48 dataset trial for speculative FP32 modification. No confirmed cache/alignment/processor defect. Native4000 same recipe isolates new data; chunk32 diagnostic directly tests observed delayed plans. Precision ablation is independent, requires intentional nonnative loader provenance, and is not supported as a causal repair yet.",
+    "source_locations": [
+      "lerobot/src/lerobot/policies/smolvla/smolvlm_with_expert.py:90-118",
+      "lerobot/src/lerobot/policies/smolvla/modeling_smolvla.py:525-553",
+      "lerobot/src/lerobot/policies/pretrained.py:186-224",
+      "lerobot/src/lerobot/configs/policies.py:56-62",
+      "lerobot/src/lerobot/configs/accelerator.py:250-261",
+      "lerobot/src/lerobot/optim/optimizers.py:106-116",
+      "transformers/modeling_utils.py:1441-1477",
+      "safetensors/torch.py:228-233"
+    ]
+  }
+}

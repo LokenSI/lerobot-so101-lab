@@ -1,0 +1,12 @@
+{
+  "scope": "Prospective training-scene diagnostic; never held-out success or sealed selection",
+  "checkpoint_contract_sha256": "d845fd4f18bb172895a111fb8ec65d514d9e2f47db74b7bdd5758c8f2317cc62",
+  "seed": 1000,
+  "task": "red-left",
+  "wording": "train",
+  "policy_rng_seed": 510000,
+  "chunk_execution": 8,
+  "max_steps": 585,
+  "physics_and_grader": "unchanged office simulation and independent physical/strict grader",
+  "prediction_trace": "retain full chunks, first three actual RGB/state inputs and hashes"
+}

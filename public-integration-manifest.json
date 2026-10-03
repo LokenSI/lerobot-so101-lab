@@ -1,0 +1,16 @@
+[
+  {
+    "path": "site/index.html",
+    "expected_original_sha256": "c28aa3a547561d3d8f53ac1d791812d52302fa3a0089439a7feec30deb6c4d36",
+    "staged_sha256": "5fed7c629ced772e43c8f6323625865fb8d5bd2c441ddf5c9b68887569f7bbd6",
+    "change": "single additive insertion; every original byte retained in order",
+    "canonical_modified": false
+  },
+  {
+    "path": "README.md",
+    "expected_original_sha256": "e272d2a5bf212524321e317823700e71d2672b3419fd853e6370a0e5000d9920",
+    "staged_sha256": "51ab4c1d49b89e2f6a14d91aedd13bb17583cb4b21579b60071798380e8ad5ff",
+    "change": "single additive insertion; every original byte retained in order",
+    "canonical_modified": false
+  }
+]

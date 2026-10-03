@@ -1,0 +1,27 @@
+[
+  {
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/common6-v5-teacher-groot-report.json",
+    "sha256": "5711ebf511f1a0d3e1b030eaf74b8871db715bc55eb07494ba8c41dd60c7be1b",
+    "local": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\office\\remote-sessions\\common6-v5-teacher-groot\\cloud-resource-report.json"
+  },
+  {
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/common6-v5-teacher-smolvla-report.json",
+    "sha256": "c43386e2077446c278bb0a07d7d42e22d50603d9fb46b96f2e70c54485892eb6",
+    "local": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\office\\remote-sessions\\common6-v5-teacher-smolvla\\cloud-resource-report.json"
+  },
+  {
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/common6-v5-act-report.json",
+    "sha256": "68bdbad65f9b96b128fc1fc6b548af9db5ab616f1bff3feba4ca3cd5612575c2",
+    "local": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\office\\remote-sessions\\common6-v5-act\\cloud-resource-report.json"
+  },
+  {
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/common6-v5-groot-report.json",
+    "sha256": "5042d624dd7613162046d508d8bda32af790f60e297ad49a475fbc09f766bf9c",
+    "local": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\office\\remote-sessions\\common6-v5-groot\\cloud-resource-report.json"
+  },
+  {
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/common6-v5-smolvla-report.json",
+    "sha256": "34d57ff2c2d31796bed196a4c4612f51f61016574844aaaefc672e3a19f4e145",
+    "local": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\office\\remote-sessions\\common6-v5-smolvla\\cloud-resource-report.json"
+  }
+]

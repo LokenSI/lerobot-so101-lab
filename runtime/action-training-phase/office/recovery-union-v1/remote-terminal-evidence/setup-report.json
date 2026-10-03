@@ -1,0 +1,19 @@
+{
+  "scope": "CPU data-transfer setup; no training",
+  "archive_sha256": "2589fc52c2319dee15362ff0d315d275a8af32ffc901d240b835b330ad848a3d",
+  "files": 130,
+  "datasets": {
+    "lerobot-v3": {
+      "episodes": 18,
+      "frames": 8730,
+      "info_sha256": "e4978a841b62b37f6514bb01645490dfd8fe85376033aa199ee2827fd7218399"
+    },
+    "groot-v2": {
+      "episodes": 18,
+      "frames": 8730,
+      "info_sha256": "ba8efb5e278a4ef137bb178fbb5f6a118882c9a32ff616f233742aba3c1abf68"
+    }
+  },
+  "initial_setup_error": null,
+  "existing_extraction_all_file_hashes_reverified": false
+}

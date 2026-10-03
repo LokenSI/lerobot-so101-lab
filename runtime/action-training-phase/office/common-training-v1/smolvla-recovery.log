@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "D:\git\qwen-image_benchmark\scripts\brev_remote.py", line 55, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\git\qwen-image_benchmark\scripts\brev_remote.py", line 41, in main
+    raise ValueError('Task transfer requires an explicit workspace path without shell syntax')
+ValueError: Task transfer requires an explicit workspace path without shell syntax
+Traceback (most recent call last):
+  File "D:\git\qwen-image_benchmark\scripts\office_recover_common_checkpoint.py", line 28, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\git\qwen-image_benchmark\scripts\office_recover_common_checkpoint.py", line 21, in main
+    subprocess.run([sys.executable,str(ROOT/'scripts/brev_remote.py'),'download','--remote',manifest['native_checkpoint_root']+'/'+row['path'],'--local',str(destination)],check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\ProgramData\\miniconda3\\python.exe', 'D:\\git\\qwen-image_benchmark\\scripts\\brev_remote.py', 'download', '--remote', '/data/action-training/runs/common-six-v1-smolvla-main/checkpoints/002000/pretrained_model/config.json', '--local', 'runtime\\action-training-phase\\office\\common-training-v1\\checkpoints\\smolvla-native-final\\pretrained_model\\config.json']' returned non-zero exit status 1.

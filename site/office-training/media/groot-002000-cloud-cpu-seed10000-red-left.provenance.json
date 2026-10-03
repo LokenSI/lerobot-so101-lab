@@ -1,0 +1,31 @@
+{
+  "scope": "CPU overlay of original learned MuJoCo rollout; no policy rerun or altered physical commands",
+  "cumulative_step": 2000,
+  "success": false,
+  "task_success": false,
+  "strict_zero_raw_limit_events_success": false,
+  "episode": "runtime/action-training-phase/office/evaluation-groot-002000-remote-validation/seed-10000-red-left",
+  "checkpoint": {
+    "model": "GR00T-N1.7-3B",
+    "learned_policy": true,
+    "action_units": "radians",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-2000",
+    "checkpoint_sha256": "1cdb494cca69491710ab6503e25b3d81a2c3d0de6b3c5bb583f0d943582750c8",
+    "checkpoint_hash_scope": "sorted safetensors shard filename/SHA256 aggregate",
+    "model_config_sha256": "d0daec17d75069a31a3a6a08365e1e5483e90512ca3268f16f78debf6e282390",
+    "deployment_dtype": "torch.bfloat16",
+    "inference_device": "NVIDIA A100 80GB PCIe",
+    "inference_scope": "existing cloud GPU via SSH stdin RPC; local CPU OSMesa physics/rendering",
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/groot-002000-heldout-01-report.json",
+    "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/groot-002000-heldout-01",
+    "control": "identical cloud observations-only decoder; no IK/manual correction",
+    "adapter_sha256": "190984aea0bf20857886676b4c3a4041bf4be46be4a3f7860275ff909d6e9cba",
+    "server_sha256": "8be72faae7db9d584f3beca3f0e080ab568bd2941aad237b817ab001c5ab1859"
+  },
+  "chunk_execution": 8,
+  "waypoints": "eight evenly spaced FK samples from the actually issued raw model chunk; saved full50-step predictions were not retained",
+  "video_crop": "top44 pixels containing original video header removed; original video unchanged",
+  "source_trajectory_sha256": "8f53341bd2c41e9821e83f3b5972debc0f9efab520be2f5f1ab4d1f206c5beca",
+  "source_video_sha256": "3f7c3b57bd15cd12c34ca1c5fa418a67fe49213c75c6df56c1e1cddeaaf9867c",
+  "output_video_sha256": "9a57763877fd4f01be77c61c2ce6f78e9aa53571c044327d08abdff9a5be30c7"
+}

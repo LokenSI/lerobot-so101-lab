@@ -1,0 +1,25 @@
+{
+  "scope": "owned evaluation process only; includes cold model loading",
+  "command": [
+    ".venv/bin/python",
+    "/mnt/d/git/qwen-image_benchmark/scripts/office_model_load_probe.py",
+    "--checkpoint",
+    "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-4000",
+    "--policy-module",
+    "office_groot_bf16_adapter",
+    "--episode",
+    "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/dataset/train/seed-1000/red-left/episode.npz",
+    "--output",
+    "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/local-bf16-coldload-v1"
+  ],
+  "complete": true,
+  "admission": "PASS",
+  "gpu_limit_mib": 14336,
+  "ram_limit_mib": 49152,
+  "peak_gpu_mib": 7549.0,
+  "peak_host_mib": 41451.6,
+  "samples_observed": 1279,
+  "owned_child_pid": 20491,
+  "returncode": 0,
+  "wall_seconds": 130.76515157500398
+}

@@ -1,0 +1,534 @@
+{
+    "scope":  "Windows whole-device GPU and whole-system physical RAM during local checkpoint evaluation",
+    "gpu_peak_mib":  2750,
+    "host_peak_mib":  32197,
+    "samples":  [
+                    {
+                        "utc":  "2026-10-03T11:10:40.3957983Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  24775.7,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:41.6879629Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  24783.9,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:42.9138506Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  24788.8,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:44.1246635Z",
+                        "gpu_used_mib":  1071,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  24847.4,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:45.3992949Z",
+                        "gpu_used_mib":  1071,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  24940.7,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:46.6539559Z",
+                        "gpu_used_mib":  1071,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25094.7,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:48.1011007Z",
+                        "gpu_used_mib":  1071,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25306.4,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:49.2991830Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25236.9,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:50.5058723Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25213,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:51.7116489Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25215.1,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:53.0462266Z",
+                        "gpu_used_mib":  1074,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25231.2,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:54.2577704Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25196.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:55.5015302Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25166.2,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:56.8115609Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25174.3,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:58.0189040Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25168.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:10:59.2299963Z",
+                        "gpu_used_mib":  1066,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25153,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:00.4629424Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25160.1,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:01.6585017Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25148.4,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:02.9459100Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25152.4,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:04.1787968Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25164.2,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:05.4546053Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25212,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:06.6910053Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25300.8,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:07.9098831Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25308.9,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:09.1343802Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25412.7,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:11.5338556Z",
+                        "gpu_used_mib":  1074,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25519.2,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:12.7640893Z",
+                        "gpu_used_mib":  1313,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26021.6,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:13.9640939Z",
+                        "gpu_used_mib":  1348,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26051.7,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:15.1823733Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27066.6,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:16.3810164Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26190.1,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:17.8560367Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26235.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:19.0623739Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26330.1,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:20.2477275Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26374.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:21.4434696Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27096.3,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:22.8256238Z",
+                        "gpu_used_mib":  1449,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26394.6,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:24.0778194Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27055.1,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:25.3689041Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26439.2,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:26.5957714Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26532.6,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:28.1284194Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26687.7,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:29.3240681Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26869.9,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:30.5382567Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27794.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:31.7508642Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27671.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:32.9794498Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27181.9,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:34.3803359Z",
+                        "gpu_used_mib":  1446,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27185.7,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:35.5823107Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27608.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:36.7813826Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26882.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:38.0066713Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26724,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:39.4313127Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27085.6,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:40.7359933Z",
+                        "gpu_used_mib":  1449,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27458.2,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:41.9301015Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26840.6,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:43.1499430Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27647.9,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:44.3717998Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  28345.1,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:45.5882120Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  28382.4,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:46.8154349Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  26837.2,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:48.0320302Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27019.3,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:49.2478027Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27095,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:50.4601861Z",
+                        "gpu_used_mib":  1444,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27758.8,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:51.7291094Z",
+                        "gpu_used_mib":  1449,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27174.6,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:53.0129163Z",
+                        "gpu_used_mib":  1474,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  27387.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:54.3188890Z",
+                        "gpu_used_mib":  1474,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  28098.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:55.5450342Z",
+                        "gpu_used_mib":  1474,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  28938.5,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:56.8139148Z",
+                        "gpu_used_mib":  1506,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  29038.4,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:58.0850726Z",
+                        "gpu_used_mib":  1506,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  29105.6,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:11:59.2986654Z",
+                        "gpu_used_mib":  1506,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  29220.2,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:00.5427284Z",
+                        "gpu_used_mib":  1506,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  29367.9,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:01.7498831Z",
+                        "gpu_used_mib":  1506,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  29714.8,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:03.0290755Z",
+                        "gpu_used_mib":  1503,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  29249.1,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:04.2398898Z",
+                        "gpu_used_mib":  1506,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  29260,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:05.5174583Z",
+                        "gpu_used_mib":  1532,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  29566.6,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:07.0475166Z",
+                        "gpu_used_mib":  1431,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  30058.9,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:08.3629557Z",
+                        "gpu_used_mib":  1431,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  30559,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:09.6183897Z",
+                        "gpu_used_mib":  2572,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  32015.3,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:10.9622968Z",
+                        "gpu_used_mib":  2750,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  32197,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:12.3227477Z",
+                        "gpu_used_mib":  2744,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  32148.8,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:13.6510094Z",
+                        "gpu_used_mib":  2746,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  31930.3,
+                        "host_total_mib":  65367.2
+                    },
+                    {
+                        "utc":  "2026-10-03T11:12:14.8375584Z",
+                        "gpu_used_mib":  1069,
+                        "gpu_total_mib":  16303,
+                        "host_used_mib":  25155.8,
+                        "host_total_mib":  65367.2
+                    }
+                ],
+    "threshold_14gib_exceeded":  false,
+    "threshold_48gib_ram_exceeded":  false
+}

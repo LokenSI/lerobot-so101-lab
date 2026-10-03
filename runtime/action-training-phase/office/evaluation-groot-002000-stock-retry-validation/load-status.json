@@ -1,0 +1,6 @@
+{
+  "scope": "checkpoint load/evaluation attempt",
+  "complete": false,
+  "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-2000",
+  "adapter": "cloud_train_office_groot"
+}

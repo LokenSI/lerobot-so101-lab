@@ -1,0 +1,114 @@
+{
+  "seed": 10000,
+  "task": {
+    "id": "red-left",
+    "instruction": "Pick up the red cube and put it in the left tray.",
+    "goals": [
+      [
+        "red",
+        "left"
+      ]
+    ],
+    "kind": "object-destination"
+  },
+  "scene": {
+    "seed": 10000,
+    "objects": [
+      {
+        "color": "red",
+        "xy": [
+          0.2487791864402629,
+          0.04618841083570235
+        ],
+        "yaw": 0.27945754976899806
+      },
+      {
+        "color": "blue",
+        "xy": [
+          0.1404547416222401,
+          0.03971851688042406
+        ],
+        "yaw": 0.37801614903375846
+      },
+      {
+        "color": "yellow",
+        "xy": [
+          0.20458111153840722,
+          -0.021489587869239705
+        ],
+        "yaw": 0.21629524877435496
+      }
+    ],
+    "trays": {
+      "left": [
+        0.235,
+        0.15
+      ],
+      "right": [
+        0.235,
+        -0.16
+      ]
+    },
+    "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+  },
+  "policy": {
+    "model": "GR00T-N1.7-3B",
+    "learned_policy": true,
+    "action_units": "radians",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-4000",
+    "checkpoint_sha256": "5f88d69c0f32cd3a7346bcf57c11fb1d8ec79d63f24f225f85f2a9b3a046f6e7",
+    "checkpoint_hash_scope": "sorted safetensors shard filename/SHA256 aggregate",
+    "model_config_sha256": "d0daec17d75069a31a3a6a08365e1e5483e90512ca3268f16f78debf6e282390",
+    "deployment_dtype": "torch.bfloat16",
+    "inference_device": "NVIDIA A100 80GB PCIe",
+    "inference_scope": "existing cloud GPU via SSH stdin RPC; local CPU OSMesa physics/rendering",
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/groot-004000-heldout-01-report.json",
+    "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/groot-004000-heldout-01",
+    "control": "identical cloud observations-only decoder; no IK/manual correction",
+    "adapter_sha256": "3a7b87988bf661002f012f7bac8fbe9f0fc3b4bb3b077dd857df6e58322fbae3",
+    "server_sha256": "8be72faae7db9d584f3beca3f0e080ab568bd2941aad237b817ab001c5ab1859",
+    "cloud_checkpoint": "/home/ubuntu/workspace/action-training/data/runs/groot-main-01/checkpoint-4000",
+    "checkpoint_step": 4000,
+    "local_checkpoint_recovered": false
+  },
+  "wording": "train",
+  "wording_sha256": "665a87a5e25f9b4a2d6af160f70aaca6d74b10b333ce3c48aea20135ab5bc36d",
+  "development_overfit_control": false,
+  "policy_rng_seed": 510000,
+  "initial_state_sha256": "a548f8f342e4440eaa9ede406c5ce30ceb949c046443528bf3b107ad08a01d75",
+  "grader": {
+    "success": false,
+    "goals": [
+      {
+        "object": "red",
+        "destination": "left",
+        "inside": false,
+        "released": true,
+        "stable": true,
+        "lifted": false,
+        "success": false
+      }
+    ],
+    "completion_ticks": [
+      null
+    ],
+    "sequence_order_correct": false,
+    "distractor_max_displacement_m": {
+      "blue": 0.1552107929967391,
+      "yellow": 4.909267437014364e-16
+    },
+    "distractors_untouched": false,
+    "grading_frames": 45
+  },
+  "success": false,
+  "task_success": false,
+  "strict_zero_raw_limit_events_success": false,
+  "chunk_execution": 8,
+  "supervisor": "Existing simulator clips actuator targets to authored joint ranges; raw actions and violations are retained; no IK/manual correction",
+  "command_limit_events": 47,
+  "steps": 585,
+  "wall_seconds": 40.466069881018484,
+  "fresh_inference_p50_s": 0.33802396699320525,
+  "fresh_inference_p95_s": 0.3496008372021606,
+  "trajectory_sha256": "a44adc4b33e4b758cf8953f177258f6dca1df77adfef22138994718632698244"
+}

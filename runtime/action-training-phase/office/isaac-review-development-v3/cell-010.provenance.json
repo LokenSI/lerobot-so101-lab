@@ -1,0 +1,14 @@
+{
+  "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+  "episode": "runtime/action-training-phase/office/evaluation-smol-005000-trainwording-diagnostic/seed-1000-red-left",
+  "instruction": "Pick up the red cube and put it in the left tray.",
+  "original_success": false,
+  "controller": "checkpoint policy",
+  "trajectory_sha256": "4960774d5c30d1d7ef014db8df42c0f9153af07eda047abe5e707c46d71fff3e",
+  "usd_sha256": "d80f362570900602181ddc8094a7ad65f78dd0991211a48440d0e4d58049cf62",
+  "geometries": 36,
+  "frames": 585,
+  "sample_stride": 4,
+  "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+  "learned_policy": true
+}

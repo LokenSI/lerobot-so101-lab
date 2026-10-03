@@ -1,0 +1,23 @@
+{
+  "scope": "CPU overlay of original learned MuJoCo rollout; no policy rerun or altered physical commands",
+  "cumulative_step": 5000,
+  "success": false,
+  "task_success": false,
+  "strict_zero_raw_limit_events_success": false,
+  "episode": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/evaluation-smol-005000-chunk32-ablation/seed-10000-red-left",
+  "checkpoint": {
+    "learned_policy": true,
+    "language_conditioned": true,
+    "model": "SmolVLA",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+    "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+    "action_units": "radians",
+    "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+  },
+  "chunk_execution": 32,
+  "waypoints": "eight evenly spaced FK samples from the actually issued raw model chunk; saved full50-step predictions were not retained",
+  "video_crop": "top44 pixels containing original video header removed; original video unchanged",
+  "source_trajectory_sha256": "4e568bd3b62bb24dd8f9dc157bd8679323c7301fd9004a130f13f1e69f25e5d8",
+  "source_video_sha256": "593d683397bd8019bb45b32738543d5e628b1298c1dd7ed08565fd08071a58f0",
+  "output_video_sha256": "d40c944d8a8d5a38ecf43c555d3bf353b99c06450b7655fe31df66dd81a324de"
+}

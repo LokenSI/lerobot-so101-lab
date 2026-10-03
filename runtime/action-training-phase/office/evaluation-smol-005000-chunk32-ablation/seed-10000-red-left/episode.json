@@ -1,0 +1,103 @@
+{
+  "seed": 10000,
+  "task": {
+    "id": "red-left",
+    "instruction": "Pick up the red cube and put it in the left tray.",
+    "goals": [
+      [
+        "red",
+        "left"
+      ]
+    ],
+    "kind": "object-destination"
+  },
+  "scene": {
+    "seed": 10000,
+    "objects": [
+      {
+        "color": "red",
+        "xy": [
+          0.2487791864402629,
+          0.04618841083570235
+        ],
+        "yaw": 0.27945754976899806
+      },
+      {
+        "color": "blue",
+        "xy": [
+          0.1404547416222401,
+          0.03971851688042406
+        ],
+        "yaw": 0.37801614903375846
+      },
+      {
+        "color": "yellow",
+        "xy": [
+          0.20458111153840722,
+          -0.021489587869239705
+        ],
+        "yaw": 0.21629524877435496
+      }
+    ],
+    "trays": {
+      "left": [
+        0.235,
+        0.15
+      ],
+      "right": [
+        0.235,
+        -0.16
+      ]
+    },
+    "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+  },
+  "policy": {
+    "learned_policy": true,
+    "language_conditioned": true,
+    "model": "SmolVLA",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+    "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+    "action_units": "radians",
+    "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+  },
+  "wording": "train",
+  "wording_sha256": "665a87a5e25f9b4a2d6af160f70aaca6d74b10b333ce3c48aea20135ab5bc36d",
+  "development_overfit_control": false,
+  "policy_rng_seed": 510000,
+  "initial_state_sha256": "a548f8f342e4440eaa9ede406c5ce30ceb949c046443528bf3b107ad08a01d75",
+  "grader": {
+    "success": false,
+    "goals": [
+      {
+        "object": "red",
+        "destination": "left",
+        "inside": false,
+        "released": true,
+        "stable": true,
+        "lifted": false,
+        "success": false
+      }
+    ],
+    "completion_ticks": [
+      null
+    ],
+    "sequence_order_correct": false,
+    "distractor_max_displacement_m": {
+      "blue": 0.014381852622014024,
+      "yellow": 4.909267437014364e-16
+    },
+    "distractors_untouched": true,
+    "grading_frames": 45
+  },
+  "success": false,
+  "task_success": false,
+  "strict_zero_raw_limit_events_success": false,
+  "chunk_execution": 32,
+  "supervisor": "Existing simulator clips actuator targets to authored joint ranges; raw actions and violations are retained; no IK/manual correction",
+  "command_limit_events": 127,
+  "steps": 585,
+  "wall_seconds": 25.089825369010214,
+  "fresh_inference_p50_s": 0.3445096060167998,
+  "fresh_inference_p95_s": 0.49770832900830814,
+  "trajectory_sha256": "4e568bd3b62bb24dd8f9dc157bd8679323c7301fd9004a130f13f1e69f25e5d8"
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "checkpoint load/evaluation attempt",
+  "complete": false,
+  "checkpoint": "runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-4000",
+  "adapter": "office_remote_groot_adapter"
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "actual CPU native processor loading; no model or GPU allocation",
+  "model": "groot",
+  "complete": false,
+  "passed": false,
+  "dataset_stats_sha256": "d1869bbd08892763dd1252c23466bbba355b5f063b227866c0713eed1ce905b5",
+  "checks": [],
+  "processor_files": {},
+  "error": "Unrecognized processing class in /data/action-training/runs/common-six-v2-groot-main/checkpoint-2000. Can't instantiate a processor, a tokenizer, an image processor or a feature extractor for this model. Make sure the repository contains the files of at least one of those processing classes."
+}

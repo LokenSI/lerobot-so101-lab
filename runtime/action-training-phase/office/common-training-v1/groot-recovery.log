@@ -1,0 +1,18 @@
+{"path": "config.json", "bytes": 2146, "sha256": "d0daec17d75069a31a3a6a08365e1e5483e90512ca3268f16f78debf6e282390", "verified": true}
+{"path": "embodiment_id.json", "bytes": 2226, "sha256": "c8af3d61fe9ca5508c4a5b9e8be6ad4d0d1eb2c68cec76620ea089b894a3ee22", "verified": true}
+{"path": "experiment_cfg/conf.yaml", "bytes": 5182, "sha256": "0e624c2b25f1d999474052ebca853f80f6e51627bdfcca225731f95bff07fa92", "verified": true}
+{"path": "experiment_cfg/config.yaml", "bytes": 5149, "sha256": "bbe381252a24956642b8f58dbd231fe17960250489da93509ece67cf0775326a", "verified": true}
+{"path": "experiment_cfg/dataset_statistics.json", "bytes": 21547, "sha256": "8f6e94b49572165c8cda2beb6a993dcf1b6fddf72d1c1156e1c4afae2fb82eca", "verified": true}
+{"path": "experiment_cfg/final_model_config.json", "bytes": 1512, "sha256": "d3630b40778fb72fab7412afd9cba961e4e01faed11eda32e3a4a0c231a2ce30", "verified": true}
+{"path": "experiment_cfg/final_processor_config.json", "bytes": 2547736, "sha256": "7406f987dbf002c5935ac14296bf0de05e4f92d5b006bd6635633fd4527ed600", "verified": true}
+Traceback (most recent call last):
+  File "D:\git\qwen-image_benchmark\scripts\office_recover_common_checkpoint.py", line 31, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\git\qwen-image_benchmark\scripts\office_recover_common_checkpoint.py", line 24, in main
+    subprocess.run([sys.executable,str(ROOT/'scripts/brev_remote.py'),'download','--remote',remote_root+'/'+row['path'],'--local',str(destination),'--transfer-timeout','5400'],check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\ProgramData\\miniconda3\\python.exe', 'D:\\git\\qwen-image_benchmark\\scripts\\brev_remote.py', 'download', '--remote', '/home/ubuntu/workspace/action-training/data/runs/common-six-v2-groot-main/checkpoint-2000/model-00001-of-00003.safetensors', '--local', 'runtime\\action-training-phase\\office\\common-training-v1\\checkpoints\\groot-native-final\\model-00001-of-00003.safetensors', '--transfer-timeout', '5400']' returned non-zero exit status 4294967295.

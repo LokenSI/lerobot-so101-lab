@@ -1,0 +1,14 @@
+{
+  "scope": "Simulation only; no hardware or offshore deployment claim",
+  "camera_order": ["scene", "wrist"],
+  "joint_order": ["shoulder_pan", "shoulder_lift", "elbow_flex", "wrist_flex", "wrist_roll", "gripper"],
+  "units": "All six state and command channels are MuJoCo joint radians, including gripper actuator angle",
+  "observations": "Current RGB uint8 HWC per camera, current measured joint positions, exact instruction text. No oracle target/object coordinates or task ID numeric features",
+  "commands": "Decoded absolute joint targets, no IK/scripted pickup correction. Execute first8 actions at30Hz then observe and replan. Retain raw outputs and actual bounded actuator commands separately; record every clipped channel",
+  "checkpoints": "Smoke20 updates with save/reload probe; main planned1000 updates checkpoints100/200/.../1000. Keep full processor/stats/config/weights and resume state. Source, base model, dataset and export file hashes required",
+  "development": "Prospectively freeze scene seeds and instruction pairs before trained results. Keep paired instructions on same initial scene. Select checkpoint only on development seeds",
+  "heldout": "Freeze unseen scene seeds, same-scene paired language instructions, required task count and checkpoint before final rollout. Report all attempted episodes including errors and timeouts",
+  "strict_success": "Independent physics audit must verify selected-object bilateral gripper contact, genuine lift, release and stable1.5s containment in instruction-selected tray, and bounded distractor displacement. No post-reset object writes/attachments. Freeze thresholds with scene geometry before evaluation",
+  "video": "Show actual learned-policy rollouts with instruction, checkpoint/update count, measured joints, model target waypoints, clipping, latency and independently graded outcomes. Any oracle object overlay is explicitly diagnostic and excluded from model inputs",
+  "metrics": "Loss and open-loop errors are progress diagnostics. Report closed-loop successful/attempted tasks, paired instruction compliance, safety clipping, inference latency, memory, and retained failures separately"
+}

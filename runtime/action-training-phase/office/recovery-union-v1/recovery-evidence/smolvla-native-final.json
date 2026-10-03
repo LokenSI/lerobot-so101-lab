@@ -1,0 +1,118 @@
+{
+  "scope": "direct full native checkpoint recovery, no duplicate archive",
+  "manifest_sha256": "8b334bf7426f48d27a99e22f17d662246e8363ee2cb7f6db83defc81d26b2de2",
+  "model": "smolvla",
+  "complete": true,
+  "files": [
+    {
+      "path": "pretrained_model/config.json",
+      "bytes": 2400,
+      "sha256": "bb5ce7b1266291504fcf3c94a7be890e55e4e12b12988e09afd308fde54b719d",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "pretrained_model/policy_postprocessor.json",
+      "bytes": 660,
+      "sha256": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "pretrained_model/policy_preprocessor.json",
+      "bytes": 1752,
+      "sha256": "937cf47ebc38ed1531b4d8ad718fb29af4a5eb15c0abd6f197630708a1a07b24",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "pretrained_model/tokenizer/chat_template.jinja",
+      "bytes": 403,
+      "sha256": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "pretrained_model/tokenizer/tokenizer.json",
+      "bytes": 3548738,
+      "sha256": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "pretrained_model/tokenizer/tokenizer_config.json",
+      "bytes": 838,
+      "sha256": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "training_state/optimizer_param_groups.json",
+      "bytes": 8807,
+      "sha256": "8cf0ce8e4ff2fbc4c8c64da4707fb9a8028d47ff001d8eca5cb4ef8f16f9b7fd",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "training_state/scheduler_state.json",
+      "bytes": 239,
+      "sha256": "0766645ace790d3dcbff01edeb08cdbe49a1e5651553bb241bb3bb5eae125d57",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "training_state/training_step.json",
+      "bytes": 254,
+      "sha256": "c41ebf986cb2687c4c05022305abe83bc9380650d96b9b328ab2b79770b5ecf2",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "training_state/optimizer_state.safetensors",
+      "bytes": 412659164,
+      "sha256": "02566bb49754c11041d886b7d09f7a44f305a695363fc2975d68170201c15a71",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "training_state/rng_state.safetensors",
+      "bytes": 15708,
+      "sha256": "89113bbad845e4666c5471f867daabcfa9679ddfbb03bccf13943afa3ba45b72",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "pretrained_model/train_config.json",
+      "bytes": 8691,
+      "sha256": "cc22e8790b2b33f8d7cbd984cfe7ce0c777885c1b2e51d20999797ae648b88d2",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "pretrained_model/policy_preprocessor_step_5_normalizer_processor.safetensors",
+      "bytes": 7560,
+      "sha256": "b06f5f613d7eecf4ca1bc920a5c9c42c25837310484ba2e75d6fa4b9b4dba5a5",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "bytes": 7552,
+      "sha256": "d143966c0688ab02e668735fd2eb7005a4d83a84b83bcda55cabcd39ad49e620",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "pretrained_model/model.safetensors",
+      "bytes": 906712552,
+      "sha256": "33c9f51e7f3a7a40ff00b3fecca74ba4f35644917e51b23b8e31026ffa422c37",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    }
+  ],
+  "parallel": 2,
+  "ssh_compression": true,
+  "local_reuse_root": "runtime\\action-training-phase\\office\\common-training-v1\\checkpoints\\smolvla-native-final-v2",
+  "total_bytes": 1322975318,
+  "resume_state_retained": true
+}

@@ -1,0 +1,134 @@
+{
+  "seed": 10000,
+  "task": {
+    "id": "red-left",
+    "instruction": "Pick up the red cube and put it in the left tray.",
+    "goals": [
+      [
+        "red",
+        "left"
+      ]
+    ],
+    "kind": "object-destination"
+  },
+  "scene": {
+    "seed": 10000,
+    "objects": [
+      {
+        "color": "red",
+        "xy": [
+          0.2487791864402629,
+          0.04618841083570235
+        ],
+        "yaw": 0.27945754976899806
+      },
+      {
+        "color": "blue",
+        "xy": [
+          0.1404547416222401,
+          0.03971851688042406
+        ],
+        "yaw": 0.37801614903375846
+      },
+      {
+        "color": "yellow",
+        "xy": [
+          0.20458111153840722,
+          -0.021489587869239705
+        ],
+        "yaw": 0.21629524877435496
+      }
+    ],
+    "trays": {
+      "left": [
+        0.235,
+        0.15
+      ],
+      "right": [
+        0.235,
+        -0.16
+      ]
+    },
+    "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+  },
+  "policy": {
+    "ready": true,
+    "model": "SmolVLA",
+    "checkpoint_sha256": "2f4bfa39f489e4238e6e0218d7f5e1e8294a759d2e3ee2711c07038f37b049f3",
+    "checkpoint_hash_scope": "model weight filename/SHA aggregate (ACT task/model hash map)",
+    "model_config_sha256": "2ce0cf0aca7879e686ee5b583357c681615b5293b71c76d1ee36f07891f88a1d",
+    "server_sha256": "1e21c2b0b09195e3e9ada707103790b2a1c9171d74b2252e59f2dc11aeb89b4b",
+    "inference_device": "NVIDIA A100 80GB PCIe",
+    "deployment_dtype": "torch.bfloat16",
+    "torch_version": "2.11.0+cu128",
+    "transformers_version": "5.5.4",
+    "source_revision": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+    "decoder_bound_semantics": "native MEAN_STD decoded commands unbounded",
+    "learned_language": true,
+    "timing_scope": "CUDA synchronized before and after native policy processing; excludes SSH and PNG decode",
+    "owned_cuda_peak_allocated_mib": 884.05810546875,
+    "learned_policy": true,
+    "action_units": "radians",
+    "checkpoint": "/home/ubuntu/workspace/action-training/data/runs/smol-extension-01/checkpoints/004000/pretrained_model",
+    "frozen_contract_sha256": "f12e63bc2a281873518c4b26861dabde4f2e5991474f2a75d4f92b3bf667d855",
+    "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/comparison-v4-rollout-smolvla",
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/comparison-v4-rollout-smolvla-report.json",
+    "inference_scope": "same existing A100 sequential inference; local CPU OSMesa physics/rendering",
+    "training_scope": {
+      "episodes": 36,
+      "frames": 22050,
+      "scene_seeds": [
+        1000,
+        1001,
+        1002
+      ],
+      "tasks": 12
+    },
+    "control": "native policy-decoded commands before common simulator supervisor",
+    "adapter_sha256": "8664bf788f8dcea00544bb9dbb821d45c9dde7e3808ebd1f9a987b94735a62a3"
+  },
+  "wording": "train",
+  "wording_sha256": "665a87a5e25f9b4a2d6af160f70aaca6d74b10b333ce3c48aea20135ab5bc36d",
+  "development_overfit_control": false,
+  "policy_rng_seed": 510000,
+  "initial_state_sha256": "a548f8f342e4440eaa9ede406c5ce30ceb949c046443528bf3b107ad08a01d75",
+  "grader": {
+    "success": false,
+    "goals": [
+      {
+        "object": "red",
+        "destination": "left",
+        "inside": false,
+        "released": true,
+        "stable": true,
+        "lifted": false,
+        "success": false
+      }
+    ],
+    "completion_ticks": [
+      null
+    ],
+    "sequence_order_correct": false,
+    "distractor_max_displacement_m": {
+      "blue": 0.019323804772790845,
+      "yellow": 4.909267437014364e-16
+    },
+    "distractors_untouched": true,
+    "grading_frames": 45
+  },
+  "success": false,
+  "task_success": false,
+  "strict_zero_raw_limit_events_success": false,
+  "chunk_execution": 16,
+  "supervisor": "Existing simulator clips actuator targets to authored joint ranges; raw actions and violations are retained; no IK/manual correction",
+  "command_limit_events": 249,
+  "steps": 585,
+  "wall_seconds": 31.674921966012334,
+  "fresh_inference_p50_s": 0.4360091550042853,
+  "fresh_inference_p95_s": 0.4581921146018429,
+  "trajectory_sha256": "50a724033872603362e3370cf986d4b548cbc6dc1ffd81b687ca3c0ba5b338fb",
+  "server_synchronized_inference_p50_s": 0.21598944300058065,
+  "server_synchronized_inference_p95_s": 0.22298253859953546,
+  "prediction_trace_sha256": "e7743b718622ded88199874cedbb1e52ba57c495864112fc855aae2a4e8b45ea",
+  "command_limit_metric_scope": "policy-decoded commands before common actuator supervisor; native decoder bounds differ by model"
+}

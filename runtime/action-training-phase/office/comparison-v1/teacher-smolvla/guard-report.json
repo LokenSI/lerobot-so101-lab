@@ -1,0 +1,22 @@
+{
+  "scope": "owned evaluation process only; includes cold model loading",
+  "command": [
+    "runtime/flux-action-sim-env/bin/python",
+    "scripts/office_teacher_forced.py",
+    "--contract",
+    "runtime/action-training-phase/office/comparison-v1/frozen-contract.json",
+    "--output",
+    "runtime/action-training-phase/office/comparison-v1/teacher-smolvla"
+  ],
+  "complete": false,
+  "admission": "PASS",
+  "gpu_limit_mib": 14336,
+  "ram_limit_mib": 49152,
+  "peak_gpu_mib": 2834,
+  "peak_host_mib": 33786.4,
+  "samples_observed": 12,
+  "owned_child_pid": 82762,
+  "returncode": 1,
+  "wall_seconds": 1.1238893010013271,
+  "error": "Owned evaluation exited with status 1"
+}

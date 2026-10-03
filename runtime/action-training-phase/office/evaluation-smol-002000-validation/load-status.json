@@ -1,0 +1,6 @@
+{
+  "scope": "checkpoint load/evaluation attempt",
+  "complete": false,
+  "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-001000/pretrained_model",
+  "adapter": "office_smolvla_adapter"
+}

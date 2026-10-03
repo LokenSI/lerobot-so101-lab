@@ -1,0 +1,952 @@
+{
+  "format": "office-expert-v1",
+  "episodes": [
+    {
+      "path": "train/seed-1000/red-left",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "66eb600934eaaed68ae702ff53f8c9806b1c3d56b2177a6981c9a51d6c4dc6a2",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/red-right",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "57a38e4cb4cdddce7d69d1f08658ecaece1d5bd442a933ebbdebd2e46074e852",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/blue-left",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "blue-left",
+        "instruction": "Pick up the blue cube and put it in the left tray.",
+        "goals": [
+          [
+            "blue",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "c67f3852f20f763e73e52a3d10129eac669810dfacf783de112d9b038aae5869",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/blue-right",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "blue-right",
+        "instruction": "Pick up the blue cube and put it in the right tray.",
+        "goals": [
+          [
+            "blue",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "f7feab0ab0874463e0507d777c7898819bb97997f8146200d49fddec1772de0f",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/yellow-left",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "yellow-left",
+        "instruction": "Pick up the yellow cube and put it in the left tray.",
+        "goals": [
+          [
+            "yellow",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "509479841f4c3af9cde115aa10e30dfd9b8d1a3ecaef67ebb4666c551c075713",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/yellow-right",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "yellow-right",
+        "instruction": "Pick up the yellow cube and put it in the right tray.",
+        "goals": [
+          [
+            "yellow",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "4939ecc6f27dd33f2f081c07237563262005cbf131f431e410edc34c00441bd2",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/relation-leftmost",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "relation-leftmost",
+        "instruction": "Put the leftmost cube in the right tray.",
+        "goals": [
+          [
+            "yellow",
+            "right"
+          ]
+        ],
+        "kind": "spatial-relation"
+      },
+      "sha256": "4939ecc6f27dd33f2f081c07237563262005cbf131f431e410edc34c00441bd2",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/relation-rightmost",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "relation-rightmost",
+        "instruction": "Put the rightmost cube in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "spatial-relation"
+      },
+      "sha256": "57a38e4cb4cdddce7d69d1f08658ecaece1d5bd442a933ebbdebd2e46074e852",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/exclude-blue",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "exclude-blue",
+        "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "exclusion"
+      },
+      "sha256": "66eb600934eaaed68ae702ff53f8c9806b1c3d56b2177a6981c9a51d6c4dc6a2",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/exclude-red",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "exclude-red",
+        "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+        "goals": [
+          [
+            "blue",
+            "right"
+          ]
+        ],
+        "kind": "exclusion"
+      },
+      "sha256": "f7feab0ab0874463e0507d777c7898819bb97997f8146200d49fddec1772de0f",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/sequence-red-blue",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "sequence-red-blue",
+        "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ],
+          [
+            "blue",
+            "left"
+          ]
+        ],
+        "kind": "sequence"
+      },
+      "sha256": "b5b90cccd47a4d3193b1f44810deabd5606f4eecc74dd252efb405bc30ce6187",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1000/sequence-blue-red",
+      "success": true,
+      "seed": 1000,
+      "split": "train",
+      "task": {
+        "id": "sequence-blue-red",
+        "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+        "goals": [
+          [
+            "blue",
+            "left"
+          ],
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "sequence"
+      },
+      "sha256": "01ec25753c4de7781f4fc23653127c6f97239eff108cea4be03d0b6f995eb9ad",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/red-left",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "4cfdc42fe59db855d7e99c32f2673ad3a10dee91396e4ae64eaad9cfa2018a30",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/red-right",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "ac289201b05eb90f265f3765bd825700d5c2f26d2be5507a3da1a609068e2fec",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/blue-left",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "blue-left",
+        "instruction": "Pick up the blue cube and put it in the left tray.",
+        "goals": [
+          [
+            "blue",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "fe95d63ec76c842a59e290afb28bd33a4b5b4264f91e42c1306c1273ef11bc1d",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/blue-right",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "blue-right",
+        "instruction": "Pick up the blue cube and put it in the right tray.",
+        "goals": [
+          [
+            "blue",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "45c4c057d4e3d9911555c08c221e7bf78fea4f7edf3516ca3f9f85fee289d993",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/yellow-left",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "yellow-left",
+        "instruction": "Pick up the yellow cube and put it in the left tray.",
+        "goals": [
+          [
+            "yellow",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "4c2b54d19e9bd1cc964f2042dff3eb9bf9287ba15bf4b877de4f5b8bc62c78cb",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/yellow-right",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "yellow-right",
+        "instruction": "Pick up the yellow cube and put it in the right tray.",
+        "goals": [
+          [
+            "yellow",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "410dd064f3f2bfba433c092f659f99107620f0e831e539bb2903874b5fd4d66b",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/relation-leftmost",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "relation-leftmost",
+        "instruction": "Put the leftmost cube in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "spatial-relation"
+      },
+      "sha256": "ac289201b05eb90f265f3765bd825700d5c2f26d2be5507a3da1a609068e2fec",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/relation-rightmost",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "relation-rightmost",
+        "instruction": "Put the rightmost cube in the right tray.",
+        "goals": [
+          [
+            "yellow",
+            "right"
+          ]
+        ],
+        "kind": "spatial-relation"
+      },
+      "sha256": "410dd064f3f2bfba433c092f659f99107620f0e831e539bb2903874b5fd4d66b",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/exclude-blue",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "exclude-blue",
+        "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "exclusion"
+      },
+      "sha256": "4cfdc42fe59db855d7e99c32f2673ad3a10dee91396e4ae64eaad9cfa2018a30",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/exclude-red",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "exclude-red",
+        "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+        "goals": [
+          [
+            "blue",
+            "right"
+          ]
+        ],
+        "kind": "exclusion"
+      },
+      "sha256": "45c4c057d4e3d9911555c08c221e7bf78fea4f7edf3516ca3f9f85fee289d993",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/sequence-red-blue",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "sequence-red-blue",
+        "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ],
+          [
+            "blue",
+            "left"
+          ]
+        ],
+        "kind": "sequence"
+      },
+      "sha256": "794e9e8955aa91782366d7be129ca4a4e44ffedb4ef06e2a2c13b5fbdf600358",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1001/sequence-blue-red",
+      "success": true,
+      "seed": 1001,
+      "split": "train",
+      "task": {
+        "id": "sequence-blue-red",
+        "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+        "goals": [
+          [
+            "blue",
+            "left"
+          ],
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "sequence"
+      },
+      "sha256": "40863103960eccfab5286d6355410e74c9b87b1609ccdd1eff681474dbb85a50",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/red-left",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "123cc0785bd4bde1f9de312eac91c8d40d5b8031152bad41d5d4fd9d626066f7",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/red-right",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "5de4c43ef1a0ac04507ddd31d8d1a7b5662044ff1ef4c326908f261fbae7e4e6",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/blue-left",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "blue-left",
+        "instruction": "Pick up the blue cube and put it in the left tray.",
+        "goals": [
+          [
+            "blue",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "f330b21a7ed829eec026c73d6afa3e4c1d568ee64fcf599614543e494620a844",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/blue-right",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "blue-right",
+        "instruction": "Pick up the blue cube and put it in the right tray.",
+        "goals": [
+          [
+            "blue",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "0076236bb170f6bffdf4a74a79a1c04fb96f19598b8a0ee2142ea7de3001a61b",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/yellow-left",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "yellow-left",
+        "instruction": "Pick up the yellow cube and put it in the left tray.",
+        "goals": [
+          [
+            "yellow",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "64fd4cc96dbccc765ae703ccc271f77bf554b458b866d4ad625edb3d20530ce0",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/yellow-right",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "yellow-right",
+        "instruction": "Pick up the yellow cube and put it in the right tray.",
+        "goals": [
+          [
+            "yellow",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "dd2395b890ffe69e2b80019e7bb1b563325fc62a1e3ec59c7d91b2ac6e370a68",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/relation-leftmost",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "relation-leftmost",
+        "instruction": "Put the leftmost cube in the right tray.",
+        "goals": [
+          [
+            "blue",
+            "right"
+          ]
+        ],
+        "kind": "spatial-relation"
+      },
+      "sha256": "0076236bb170f6bffdf4a74a79a1c04fb96f19598b8a0ee2142ea7de3001a61b",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/relation-rightmost",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "relation-rightmost",
+        "instruction": "Put the rightmost cube in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "spatial-relation"
+      },
+      "sha256": "5de4c43ef1a0ac04507ddd31d8d1a7b5662044ff1ef4c326908f261fbae7e4e6",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/exclude-blue",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "exclude-blue",
+        "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "exclusion"
+      },
+      "sha256": "123cc0785bd4bde1f9de312eac91c8d40d5b8031152bad41d5d4fd9d626066f7",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/exclude-red",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "exclude-red",
+        "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+        "goals": [
+          [
+            "blue",
+            "right"
+          ]
+        ],
+        "kind": "exclusion"
+      },
+      "sha256": "0076236bb170f6bffdf4a74a79a1c04fb96f19598b8a0ee2142ea7de3001a61b",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/sequence-red-blue",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "sequence-red-blue",
+        "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ],
+          [
+            "blue",
+            "left"
+          ]
+        ],
+        "kind": "sequence"
+      },
+      "sha256": "705eb7614f9449f68edded1c84404533e3b38eea9c7a6a4ba9b9e7084f45224d",
+      "rendered": true
+    },
+    {
+      "path": "train/seed-1002/sequence-blue-red",
+      "success": true,
+      "seed": 1002,
+      "split": "train",
+      "task": {
+        "id": "sequence-blue-red",
+        "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+        "goals": [
+          [
+            "blue",
+            "left"
+          ],
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "sequence"
+      },
+      "sha256": "73b5cca19fa2f31a3f393509645259e4d3eeb7ba45964db199d538e18cbcc4a8",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/red-left",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "red-left",
+        "instruction": "Move the red block into the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "590b38400012660cbedc590b502ed3869748d877c9dec01c5a5d3d9cf9abda12",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/red-right",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "red-right",
+        "instruction": "Move the red block into the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "09e4b19c4bfb886cf19ace75ef03d218eb76304423caa1135f666bf320819c5e",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/blue-left",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "blue-left",
+        "instruction": "Move the blue block into the left tray.",
+        "goals": [
+          [
+            "blue",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "082a334925558a9f763378213c67159c51242be11a03f83b0d988fb5ecccd8b4",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/blue-right",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "blue-right",
+        "instruction": "Move the blue block into the right tray.",
+        "goals": [
+          [
+            "blue",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "057a101cf2c45d58151234cb39743cc693665a9094e77405dbfa114bf51a22b4",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/yellow-left",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "yellow-left",
+        "instruction": "Move the yellow block into the left tray.",
+        "goals": [
+          [
+            "yellow",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "2298c7d72072818bcf612a712062399ce417d6c14dfc0668ac66133a8052af9d",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/yellow-right",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "yellow-right",
+        "instruction": "Move the yellow block into the right tray.",
+        "goals": [
+          [
+            "yellow",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "sha256": "8371eafdf3a9830d0987ec9175b2fc7bd9e97352434af198e428cdbc3dc473fc",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/relation-leftmost",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "relation-leftmost",
+        "instruction": "Put the leftmost cube in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "spatial-relation"
+      },
+      "sha256": "09e4b19c4bfb886cf19ace75ef03d218eb76304423caa1135f666bf320819c5e",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/relation-rightmost",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "relation-rightmost",
+        "instruction": "Put the rightmost cube in the right tray.",
+        "goals": [
+          [
+            "yellow",
+            "right"
+          ]
+        ],
+        "kind": "spatial-relation"
+      },
+      "sha256": "8371eafdf3a9830d0987ec9175b2fc7bd9e97352434af198e428cdbc3dc473fc",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/exclude-blue",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "exclude-blue",
+        "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "exclusion"
+      },
+      "sha256": "590b38400012660cbedc590b502ed3869748d877c9dec01c5a5d3d9cf9abda12",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/exclude-red",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "exclude-red",
+        "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+        "goals": [
+          [
+            "blue",
+            "right"
+          ]
+        ],
+        "kind": "exclusion"
+      },
+      "sha256": "057a101cf2c45d58151234cb39743cc693665a9094e77405dbfa114bf51a22b4",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/sequence-red-blue",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "sequence-red-blue",
+        "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ],
+          [
+            "blue",
+            "left"
+          ]
+        ],
+        "kind": "sequence"
+      },
+      "sha256": "0cc83e52f04fb72d4a6a7211211e3086c7a1e1166e7295ca1b4087f4e223dea3",
+      "rendered": true
+    },
+    {
+      "path": "validation/seed-10000/sequence-blue-red",
+      "success": true,
+      "seed": 10000,
+      "split": "validation",
+      "task": {
+        "id": "sequence-blue-red",
+        "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+        "goals": [
+          [
+            "blue",
+            "left"
+          ],
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "sequence"
+      },
+      "sha256": "6dc8e6e4e9427d9013bb4c19a857ea39c885909ad1643631930346b2594452ba",
+      "rendered": true
+    }
+  ],
+  "accepted": 48,
+  "scripted_expert_only": true,
+  "checkpoint_evaluations": 0
+}

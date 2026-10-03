@@ -1,0 +1,71 @@
+{
+  "scope": "actual CPU native processor loading; no model or GPU allocation",
+  "model": "smolvla",
+  "complete": true,
+  "passed": true,
+  "dataset_stats_sha256": "1e40b2168d4cbb8819d176fea7f1149ef5a471b26e425e56037bcadf05a95a33",
+  "checks": [
+    {
+      "pipeline": "pre",
+      "feature": "observation.state",
+      "stat": "mean",
+      "max_abs_error": 2.9802322387695312e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "pre",
+      "feature": "observation.state",
+      "stat": "std",
+      "max_abs_error": 1.458674597776266e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "pre",
+      "feature": "action",
+      "stat": "mean",
+      "max_abs_error": 5.960464455334602e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "pre",
+      "feature": "action",
+      "stat": "std",
+      "max_abs_error": 1.0353241708394023e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "post",
+      "feature": "observation.state",
+      "stat": "mean",
+      "max_abs_error": 2.9802322387695312e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "post",
+      "feature": "observation.state",
+      "stat": "std",
+      "max_abs_error": 1.458674597776266e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "post",
+      "feature": "action",
+      "stat": "mean",
+      "max_abs_error": 5.960464455334602e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "post",
+      "feature": "action",
+      "stat": "std",
+      "max_abs_error": 1.0353241708394023e-08,
+      "passed": true
+    }
+  ],
+  "processor_files": {
+    "policy_postprocessor.json": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b",
+    "policy_preprocessor.json": "937cf47ebc38ed1531b4d8ad718fb29af4a5eb15c0abd6f197630708a1a07b24",
+    "policy_preprocessor_step_5_normalizer_processor.safetensors": "5af0474d0755b2fd11aef82c6a711420a50fd82b86e89d85c58ec66ac41c0e3d",
+    "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "463a9d7d4b34628fd60b6b449897c54e7578ee0221f9ae834f3241e81792e0b4"
+  }
+}

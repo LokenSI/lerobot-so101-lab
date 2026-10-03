@@ -1,0 +1,334 @@
+{
+  "scope": "prospective fresh-base common-six final development comparison; not sealed or equal-architecture/compute ranking",
+  "contract_sha256": "d9780fa38afac729fe98dde442cb04264a557f9926677aadb8723312f953b869",
+  "same_actual_first_scene_state_text_hashes": true,
+  "first_inputs": {
+    "red-left": {
+      "scene": "b1435a73ef2b43b262ef214255ed2e8f8072261d1846b2d615db52a9a1c62545",
+      "wrist": "5231a724a9873421d03bf8d01594c088bb995e6504830d87cb6d7c41d4720a37",
+      "state_float32": "a0ad9921334f82a38d987b6ad9a97d9b530562865d275a23a6bc620cc4f1a30a",
+      "instruction_utf8": "665a87a5e25f9b4a2d6af160f70aaca6d74b10b333ce3c48aea20135ab5bc36d"
+    },
+    "red-right": {
+      "scene": "b1435a73ef2b43b262ef214255ed2e8f8072261d1846b2d615db52a9a1c62545",
+      "wrist": "5231a724a9873421d03bf8d01594c088bb995e6504830d87cb6d7c41d4720a37",
+      "state_float32": "a0ad9921334f82a38d987b6ad9a97d9b530562865d275a23a6bc620cc4f1a30a",
+      "instruction_utf8": "11d4ea0224192b40284b07e3d43a5f2226d2b89cc6b56dfe83d3def9350943fe"
+    }
+  },
+  "chunk_execution": 8,
+  "models": {
+    "smolvla": {
+      "episodes": [
+        {
+          "seed": 10000,
+          "task_success": false,
+          "success": false,
+          "command_limit_events": 536,
+          "steps": 585,
+          "server_synchronized_inference_p50_s": 0.2459327465003298,
+          "server_synchronized_inference_p95_s": 0.2842769349003902,
+          "fresh_inference_p50_s": 0.4594433745078277,
+          "fresh_inference_p95_s": 0.5044773144851206,
+          "trajectory_sha256": "03fb78c173c95da58c1538f8cffdc0cd64dcbfc4ae863a32b75040bbecbf6ebd",
+          "prediction_trace_sha256": "83f49f039b0ff571f307c1cf81d89a6427a583b7f17bc5367402f2d90a40d27e",
+          "task": "red-left",
+          "target_grader": {
+            "success": false,
+            "goals": [
+              {
+                "object": "red",
+                "destination": "left",
+                "inside": false,
+                "released": true,
+                "stable": true,
+                "lifted": false,
+                "success": false
+              }
+            ],
+            "completion_ticks": [
+              null
+            ],
+            "sequence_order_correct": false,
+            "distractor_max_displacement_m": {
+              "blue": 4.909267437014364e-16,
+              "yellow": 4.909267437014364e-16
+            },
+            "distractors_untouched": true,
+            "grading_frames": 45
+          },
+          "actual_requests": 74
+        },
+        {
+          "seed": 10000,
+          "task_success": false,
+          "success": false,
+          "command_limit_events": 547,
+          "steps": 585,
+          "server_synchronized_inference_p50_s": 0.23956906049988902,
+          "server_synchronized_inference_p95_s": 0.2744914204494307,
+          "fresh_inference_p50_s": 0.46610642950690817,
+          "fresh_inference_p95_s": 0.5017882109459606,
+          "trajectory_sha256": "7b983c28ebccad5289a6b210663ae7af00a82c2403cd5c16090ff6115a8c69ad",
+          "prediction_trace_sha256": "7d4202431b64b67b0ddeab61ada804067c62636b299f6aebb94c19a4ef010cd0",
+          "task": "red-right",
+          "target_grader": {
+            "success": false,
+            "goals": [
+              {
+                "object": "red",
+                "destination": "right",
+                "inside": false,
+                "released": true,
+                "stable": true,
+                "lifted": false,
+                "success": false
+              }
+            ],
+            "completion_ticks": [
+              null
+            ],
+            "sequence_order_correct": false,
+            "distractor_max_displacement_m": {
+              "blue": 4.909267437014364e-16,
+              "yellow": 4.909267437014364e-16
+            },
+            "distractors_untouched": true,
+            "grading_frames": 45
+          },
+          "actual_requests": 74
+        }
+      ],
+      "task_successes": 0,
+      "strict_successes": 0,
+      "native_decoder": "native MEAN_STD inverse transform, unbounded policy-decoded commands",
+      "training_scope": {
+        "episodes": 6,
+        "frames": 3150,
+        "scene_seeds": [
+          1000,
+          1001,
+          1002
+        ],
+        "tasks": 2,
+        "task_ids": [
+          "red-left",
+          "red-right"
+        ]
+      },
+      "learned_language": true,
+      "report_sha256": "c9ab74f08a24cfee4a69d025a19f7a9d3bcdd7094fd6c138e0af415ed620efc3",
+      "admission": "PASS",
+      "whole_host_gpu_peak_mib": 3006.0,
+      "whole_host_ram_peak_mib": 35116.5
+    },
+    "groot": {
+      "episodes": [
+        {
+          "seed": 10000,
+          "task_success": false,
+          "success": false,
+          "command_limit_events": 0,
+          "steps": 585,
+          "server_synchronized_inference_p50_s": 0.14602970849955454,
+          "server_synchronized_inference_p95_s": 0.16280002379935465,
+          "fresh_inference_p50_s": 0.3658153980068164,
+          "fresh_inference_p95_s": 0.39332620381173905,
+          "trajectory_sha256": "c8cbb4a56eceaa769b70b1ca331af4eff290c3e741584ec54d69fa7c656f3d10",
+          "prediction_trace_sha256": "6c470db4658170499d73676f982608d383a2ab367922df4f3ea142d4ca7d1153",
+          "task": "red-left",
+          "target_grader": {
+            "success": false,
+            "goals": [
+              {
+                "object": "red",
+                "destination": "left",
+                "inside": false,
+                "released": true,
+                "stable": true,
+                "lifted": false,
+                "success": false
+              }
+            ],
+            "completion_ticks": [
+              null
+            ],
+            "sequence_order_correct": false,
+            "distractor_max_displacement_m": {
+              "blue": 0.02136826142600965,
+              "yellow": 4.909267437014364e-16
+            },
+            "distractors_untouched": false,
+            "grading_frames": 45
+          },
+          "actual_requests": 74
+        },
+        {
+          "seed": 10000,
+          "task_success": false,
+          "success": false,
+          "command_limit_events": 0,
+          "steps": 585,
+          "server_synchronized_inference_p50_s": 0.1403731919990605,
+          "server_synchronized_inference_p95_s": 0.15771094399951835,
+          "fresh_inference_p50_s": 0.36514130049909,
+          "fresh_inference_p95_s": 0.384020465904905,
+          "trajectory_sha256": "5945a897c358223f3379a4ca7ae2d8f2d77fb274bb198843bcdc805f3a1e71bb",
+          "prediction_trace_sha256": "43ca1cc568983534848a22cf69ece750d33ad3dfaa690f405c176f65f20c2b52",
+          "task": "red-right",
+          "target_grader": {
+            "success": false,
+            "goals": [
+              {
+                "object": "red",
+                "destination": "right",
+                "inside": false,
+                "released": true,
+                "stable": true,
+                "lifted": false,
+                "success": false
+              }
+            ],
+            "completion_ticks": [
+              null
+            ],
+            "sequence_order_correct": false,
+            "distractor_max_displacement_m": {
+              "blue": 0.01913001338931469,
+              "yellow": 4.909267437014364e-16
+            },
+            "distractors_untouched": true,
+            "grading_frames": 45
+          },
+          "actual_requests": 74
+        }
+      ],
+      "task_successes": 0,
+      "strict_successes": 0,
+      "native_decoder": "native normalized MIN_MAX values clip to[-1,1], invert q01/q99, then compose relative arm actions with current state; final absolute commands can still exceed joint limits",
+      "training_scope": {
+        "episodes": 6,
+        "frames": 3150,
+        "scene_seeds": [
+          1000,
+          1001,
+          1002
+        ],
+        "tasks": 2,
+        "task_ids": [
+          "red-left",
+          "red-right"
+        ]
+      },
+      "learned_language": true,
+      "report_sha256": "a48be0d3965b4560b371a1eda1949388bf4f325ea1f9647d9a5cb3c093f2deb3",
+      "admission": "PASS",
+      "whole_host_gpu_peak_mib": 7549.0,
+      "whole_host_ram_peak_mib": 41467.0
+    },
+    "act": {
+      "episodes": [
+        {
+          "seed": 10000,
+          "task_success": false,
+          "success": false,
+          "command_limit_events": 324,
+          "steps": 585,
+          "server_synchronized_inference_p50_s": 0.01344249750036397,
+          "server_synchronized_inference_p95_s": 0.018621978201008454,
+          "fresh_inference_p50_s": 0.24217715198756196,
+          "fresh_inference_p95_s": 0.2558484914479777,
+          "trajectory_sha256": "ec08e0a3bc031b67484fcf172aafc02bdc010e502786b5015694126658105789",
+          "prediction_trace_sha256": "20e819d72b9db649283f9664b6b98720cbea76c0055db3410c760b64976cc775",
+          "task": "red-left",
+          "target_grader": {
+            "success": false,
+            "goals": [
+              {
+                "object": "red",
+                "destination": "left",
+                "inside": false,
+                "released": true,
+                "stable": true,
+                "lifted": false,
+                "success": false
+              }
+            ],
+            "completion_ticks": [
+              null
+            ],
+            "sequence_order_correct": false,
+            "distractor_max_displacement_m": {
+              "blue": 4.909267437014364e-16,
+              "yellow": 0.2104438050170787
+            },
+            "distractors_untouched": false,
+            "grading_frames": 45
+          },
+          "actual_requests": 74
+        },
+        {
+          "seed": 10000,
+          "task_success": false,
+          "success": false,
+          "command_limit_events": 0,
+          "steps": 585,
+          "server_synchronized_inference_p50_s": 0.013819365500239655,
+          "server_synchronized_inference_p95_s": 0.01688423639943721,
+          "fresh_inference_p50_s": 0.24143168149748817,
+          "fresh_inference_p95_s": 0.2552533298032358,
+          "trajectory_sha256": "8cd31ef8a1226f3eb1b5cc64bedf8f6ecd74e50a536d88af6664d770613a4d86",
+          "prediction_trace_sha256": "a1c789f93e33bb676d3a73baf98649352c1d66af886e0294febf2815a9de70b2",
+          "task": "red-right",
+          "target_grader": {
+            "success": false,
+            "goals": [
+              {
+                "object": "red",
+                "destination": "right",
+                "inside": false,
+                "released": true,
+                "stable": true,
+                "lifted": false,
+                "success": false
+              }
+            ],
+            "completion_ticks": [
+              null
+            ],
+            "sequence_order_correct": false,
+            "distractor_max_displacement_m": {
+              "blue": 4.909267437014364e-16,
+              "yellow": 4.909267437014364e-16
+            },
+            "distractors_untouched": true,
+            "grading_frames": 45
+          },
+          "actual_requests": 74
+        }
+      ],
+      "task_successes": 0,
+      "strict_successes": 0,
+      "native_decoder": "native MEAN_STD inverse transform, unbounded policy-decoded commands",
+      "training_scope": {
+        "episodes_per_task": 3,
+        "frames_per_task": 1575,
+        "scene_seeds": [
+          1000,
+          1001,
+          1002
+        ],
+        "tasks_per_controller": 1
+      },
+      "learned_language": false,
+      "report_sha256": "d772b5453e083821ca943d2ee4097928b1cf85b488757bccf277df8587ae7a0e",
+      "admission": "PASS",
+      "whole_host_gpu_peak_mib": 7546.0,
+      "whole_host_ram_peak_mib": 41213.9
+    }
+  },
+  "sealed_tests_executed": 0,
+  "timing_scope": "server CUDA-synchronized native policy processing separated from end-to-end PNG/SSH; simulation pauses",
+  "safety_scope": "policy-decoded commands before common supervisor; native decoder clipping differs; zero events do not prove raw neural head safety",
+  "ranking_limit": "training scopes/objectives differ; ACT uses exact external task routing, not learned language"
+}

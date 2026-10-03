@@ -1,0 +1,71 @@
+{
+  "scope": "actual CPU native processor loading; no model or GPU allocation",
+  "model": "smolvla",
+  "complete": true,
+  "passed": true,
+  "dataset_stats_sha256": "9391c8eefc798a01a68f0a0412e03a710b3e5af159cc705c370ae5fbd97d12c7",
+  "checks": [
+    {
+      "pipeline": "pre",
+      "feature": "observation.state",
+      "stat": "mean",
+      "max_abs_error": 5.264052815867615e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "pre",
+      "feature": "observation.state",
+      "stat": "std",
+      "max_abs_error": 1.1991627912877334e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "pre",
+      "feature": "action",
+      "stat": "mean",
+      "max_abs_error": 2.6627504645659883e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "pre",
+      "feature": "action",
+      "stat": "std",
+      "max_abs_error": 1.4616404531153648e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "post",
+      "feature": "observation.state",
+      "stat": "mean",
+      "max_abs_error": 5.264052815867615e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "post",
+      "feature": "observation.state",
+      "stat": "std",
+      "max_abs_error": 1.1991627912877334e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "post",
+      "feature": "action",
+      "stat": "mean",
+      "max_abs_error": 2.6627504645659883e-08,
+      "passed": true
+    },
+    {
+      "pipeline": "post",
+      "feature": "action",
+      "stat": "std",
+      "max_abs_error": 1.4616404531153648e-08,
+      "passed": true
+    }
+  ],
+  "processor_files": {
+    "policy_postprocessor.json": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b",
+    "policy_preprocessor.json": "937cf47ebc38ed1531b4d8ad718fb29af4a5eb15c0abd6f197630708a1a07b24",
+    "policy_preprocessor_step_5_normalizer_processor.safetensors": "b06f5f613d7eecf4ca1bc920a5c9c42c25837310484ba2e75d6fa4b9b4dba5a5",
+    "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "d143966c0688ab02e668735fd2eb7005a4d83a84b83bcda55cabcd39ad49e620"
+  }
+}

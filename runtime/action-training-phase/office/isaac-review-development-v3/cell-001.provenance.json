@@ -1,0 +1,14 @@
+{
+  "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+  "episode": "runtime/action-training-phase/office/dataset/train/seed-1000/red-right",
+  "instruction": "Pick up the red cube and put it in the right tray.",
+  "original_success": true,
+  "controller": "privileged scripted IK expert",
+  "trajectory_sha256": "57a38e4cb4cdddce7d69d1f08658ecaece1d5bd442a933ebbdebd2e46074e852",
+  "usd_sha256": "14b03cc1c839de2d0697778eb824b761bff3ae9d5931c0ea919b37f6aca734ef",
+  "geometries": 36,
+  "frames": 525,
+  "sample_stride": 4,
+  "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+  "learned_policy": false
+}

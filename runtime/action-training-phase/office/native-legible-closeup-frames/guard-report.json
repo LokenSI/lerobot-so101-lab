@@ -1,0 +1,29 @@
+{
+  "scope": "owned evaluation process only; includes cold model loading",
+  "command": [
+    "D:/Tools/IsaacSim/6.1.0/kit/python/kit.exe",
+    "D:/git/qwen-image_benchmark/scripts/office_isaac_capture.py",
+    "--stage",
+    "D:/git/qwen-image_benchmark/runtime/action-training-phase/office/isaac-review-legible-v1/closeup-last-failure.usda",
+    "--output",
+    "D:/git/qwen-image_benchmark/runtime/action-training-phase/office/native-legible-closeup-frames",
+    "--frames",
+    "74",
+    "--pose-stride",
+    "8",
+    "--width",
+    "1920",
+    "--height",
+    "1080"
+  ],
+  "complete": true,
+  "admission": "PASS",
+  "gpu_limit_mib": 14336,
+  "ram_limit_mib": 49152,
+  "peak_gpu_mib": 3640,
+  "peak_host_mib": 35223.6,
+  "samples_observed": 200,
+  "owned_child_pid": 33204,
+  "returncode": 0,
+  "wall_seconds": 20.031999999890104
+}

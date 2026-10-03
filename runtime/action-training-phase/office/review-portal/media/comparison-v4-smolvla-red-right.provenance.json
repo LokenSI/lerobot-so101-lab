@@ -1,0 +1,52 @@
+{
+  "scope": "CPU overlay of original learned MuJoCo rollout; no policy rerun or altered physical commands",
+  "cumulative_step": 5000,
+  "success": false,
+  "task_success": false,
+  "strict_zero_raw_limit_events_success": false,
+  "episode": "runtime/action-training-phase/office/comparison-v4/rollout-smolvla/seed-10000-red-right",
+  "checkpoint": {
+    "ready": true,
+    "model": "SmolVLA",
+    "checkpoint_sha256": "2f4bfa39f489e4238e6e0218d7f5e1e8294a759d2e3ee2711c07038f37b049f3",
+    "checkpoint_hash_scope": "model weight filename/SHA aggregate (ACT task/model hash map)",
+    "model_config_sha256": "2ce0cf0aca7879e686ee5b583357c681615b5293b71c76d1ee36f07891f88a1d",
+    "server_sha256": "1e21c2b0b09195e3e9ada707103790b2a1c9171d74b2252e59f2dc11aeb89b4b",
+    "inference_device": "NVIDIA A100 80GB PCIe",
+    "deployment_dtype": "torch.bfloat16",
+    "torch_version": "2.11.0+cu128",
+    "transformers_version": "5.5.4",
+    "source_revision": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+    "decoder_bound_semantics": "native MEAN_STD decoded commands unbounded",
+    "learned_language": true,
+    "timing_scope": "CUDA synchronized before and after native policy processing; excludes SSH and PNG decode",
+    "owned_cuda_peak_allocated_mib": 884.05810546875,
+    "learned_policy": true,
+    "action_units": "radians",
+    "checkpoint": "/home/ubuntu/workspace/action-training/data/runs/smol-extension-01/checkpoints/004000/pretrained_model",
+    "frozen_contract_sha256": "f12e63bc2a281873518c4b26861dabde4f2e5991474f2a75d4f92b3bf667d855",
+    "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/comparison-v4-rollout-smolvla",
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/comparison-v4-rollout-smolvla-report.json",
+    "inference_scope": "same existing A100 sequential inference; local CPU OSMesa physics/rendering",
+    "training_scope": {
+      "episodes": 36,
+      "frames": 22050,
+      "scene_seeds": [
+        1000,
+        1001,
+        1002
+      ],
+      "tasks": 12
+    },
+    "control": "native policy-decoded commands before common simulator supervisor",
+    "adapter_sha256": "8664bf788f8dcea00544bb9dbb821d45c9dde7e3808ebd1f9a987b94735a62a3"
+  },
+  "chunk_execution": 16,
+  "waypoints": "eight evenly spaced FK samples from saved full fresh native prediction chunks",
+  "native_decoder_caveat": "GR00T MIN_MAX native normalized clipping differs from unbounded ACT/Smol MEAN_STD; events describe decoded commands before common actuator supervisor",
+  "source_full_predictions_sha256": "fd88da099dfaf33dfc56e3c940140988d6704a1d568d58e37678587d73b5e7f6",
+  "video_crop": "top44 pixels containing original video header removed; original video unchanged",
+  "source_trajectory_sha256": "562a30681ad651713813e2568da39af2b188e7b1c5fb20997e98bf7a2d05a9a2",
+  "source_video_sha256": "045f1435926be2c9832e18c962db8224f14413d44cbbdd11c40b0fbccdc8e2e1",
+  "output_video_sha256": "95290d3dc474a0f78e94fe838b5d6660a30be4647f1e7cfe163de9f96c107025"
+}

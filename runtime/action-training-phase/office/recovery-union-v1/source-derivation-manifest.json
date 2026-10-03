@@ -1,0 +1,30 @@
+[
+  {
+    "source": "scripts/office_cloud_common_training.py",
+    "source_sha256": "37772cfff99d28e6a2e3a8c46e6b3d3213a42bff88129b542c4dc685d8f0367c",
+    "derived_filename": "office_cloud_union_training.py",
+    "derived_sha256": "2d7c93631ba9183e31850742eb3578e5d16fef8bb26e13d10e952fb1bd37f179",
+    "changes": "explicit task output/run root and union dataset/recipe scope; native stock command generation unchanged"
+  },
+  {
+    "source": "scripts/office_cloud_common_reload.py",
+    "source_sha256": "bef4483280f7fb99a3d9d3338ca70a56915bb6ca59493dd7b6327c6d11b530d7",
+    "derived_filename": "office_cloud_union_reload.py",
+    "derived_sha256": "3367af503218ea6b527fd4d99e2f60dc478dd8c3255a654ae29bb1b6fecdfbee",
+    "changes": "explicit task output/run root and union dataset/recipe scope; native stock command generation unchanged"
+  },
+  {
+    "source": "scripts/office_cloud_common_manifest.py",
+    "source_sha256": "1daaf852e2a23aa2cb0b936852492e9369f856304ada713d32719d2d23a485f4",
+    "derived_filename": "office_cloud_union_manifest.py",
+    "derived_sha256": "2b0372a4935ebc746de8a957b012090d1c59d1ca934991ea8929ad1854cf7cfa",
+    "changes": "explicit task output/run root and union dataset/recipe scope; native stock command generation unchanged"
+  },
+  {
+    "source": "scripts/office_cloud_setup_common.py",
+    "source_sha256": "78fa0282dedfb6874c6734ce3d80031856ae6418f409fb27a7391d065ba68312",
+    "derived_filename": "office_cloud_union_setup.py",
+    "derived_sha256": "502747798f5cb51dbc932de2b174a4400c920fc65a1b58f9324c14a06653eb01",
+    "changes": "explicit task output/run root and union dataset/recipe scope; native stock command generation unchanged"
+  }
+]

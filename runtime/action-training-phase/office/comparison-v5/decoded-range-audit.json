@@ -1,0 +1,328 @@
+{
+  "scope": "policy-decoded commands before existing common actuator supervisor; native decoder bounds differ, not neural-head safety",
+  "joint_order": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "authored_actuator_limits_radians": [
+    [
+      -1.91986,
+      1.91986
+    ],
+    [
+      -1.74533,
+      1.74533
+    ],
+    [
+      -1.69,
+      1.69
+    ],
+    [
+      -1.65806,
+      1.65806
+    ],
+    [
+      -2.74385,
+      2.84121
+    ],
+    [
+      -0.17453,
+      1.74533
+    ]
+  ],
+  "rows": [
+    {
+      "model": "smolvla",
+      "task": "red-left",
+      "steps": 585,
+      "task_success": false,
+      "decoded_min_radians": [
+        -0.5578246116638184,
+        -1.587023138999939,
+        0.7086082100868225,
+        0.7598518133163452,
+        -0.24981766939163208,
+        -0.34826549887657166
+      ],
+      "decoded_max_radians": [
+        0.011499598622322083,
+        -0.3981480896472931,
+        1.4984142780303955,
+        1.4513417482376099,
+        0.25620728731155396,
+        0.10212627053260803
+      ],
+      "per_joint_limit_events": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        536
+      ],
+      "any_joint_limit_events": 536,
+      "max_lower_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.17373549887657166
+      ],
+      "max_upper_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trajectory_sha256": "03fb78c173c95da58c1538f8cffdc0cd64dcbfc4ae863a32b75040bbecbf6ebd"
+    },
+    {
+      "model": "smolvla",
+      "task": "red-right",
+      "steps": 585,
+      "task_success": false,
+      "decoded_min_radians": [
+        -0.08945202827453613,
+        -1.5823476314544678,
+        0.8655771613121033,
+        1.0464046001434326,
+        0.0310613214969635,
+        -0.34159836173057556
+      ],
+      "decoded_max_radians": [
+        0.34431248903274536,
+        -0.9191818237304688,
+        1.4905376434326172,
+        1.4014989137649536,
+        0.5836244821548462,
+        -0.05848276615142822
+      ],
+      "per_joint_limit_events": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        547
+      ],
+      "any_joint_limit_events": 547,
+      "max_lower_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.16706836173057557
+      ],
+      "max_upper_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trajectory_sha256": "7b983c28ebccad5289a6b210663ae7af00a82c2403cd5c16090ff6115a8c69ad"
+    },
+    {
+      "model": "groot",
+      "task": "red-left",
+      "steps": 585,
+      "task_success": false,
+      "decoded_min_radians": [
+        -0.9906484484672546,
+        -1.5988012552261353,
+        0.623033881187439,
+        1.1055501699447632,
+        -0.5369285345077515,
+        -0.1745299994945526
+      ],
+      "decoded_max_radians": [
+        0.00514942966401577,
+        0.06893137842416763,
+        1.5108447074890137,
+        1.5314593315124512,
+        0.316002756357193,
+        0.6894069910049438
+      ],
+      "per_joint_limit_events": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "any_joint_limit_events": 0,
+      "max_lower_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_upper_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trajectory_sha256": "c8cbb4a56eceaa769b70b1ca331af4eff290c3e741584ec54d69fa7c656f3d10"
+    },
+    {
+      "model": "groot",
+      "task": "red-right",
+      "steps": 585,
+      "task_success": false,
+      "decoded_min_radians": [
+        -0.8034160733222961,
+        -1.5988012552261353,
+        0.7098289132118225,
+        1.0985682010650635,
+        -1.181014060974121,
+        -0.1745299994945526
+      ],
+      "decoded_max_radians": [
+        0.007360231596976519,
+        -0.013724586926400661,
+        1.5108447074890137,
+        1.428215503692627,
+        0.3024305999279022,
+        0.6894069910049438
+      ],
+      "per_joint_limit_events": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "any_joint_limit_events": 0,
+      "max_lower_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_upper_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trajectory_sha256": "5945a897c358223f3379a4ca7ae2d8f2d77fb274bb198843bcdc805f3a1e71bb"
+    },
+    {
+      "model": "act",
+      "task": "red-left",
+      "steps": 585,
+      "task_success": false,
+      "decoded_min_radians": [
+        -0.6824405789375305,
+        -1.6882405281066895,
+        0.10932868719100952,
+        0.6690107583999634,
+        -0.3465316593647003,
+        -0.2158062756061554
+      ],
+      "decoded_max_radians": [
+        0.21813300251960754,
+        -0.14488723874092102,
+        1.5264396667480469,
+        1.4292436838150024,
+        0.5753781199455261,
+        0.7069865465164185
+      ],
+      "per_joint_limit_events": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        324
+      ],
+      "any_joint_limit_events": 324,
+      "max_lower_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.041276275606155405
+      ],
+      "max_upper_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trajectory_sha256": "ec08e0a3bc031b67484fcf172aafc02bdc010e502786b5015694126658105789"
+    },
+    {
+      "model": "act",
+      "task": "red-right",
+      "steps": 585,
+      "task_success": false,
+      "decoded_min_radians": [
+        -0.45548200607299805,
+        -1.6767728328704834,
+        0.7408879995346069,
+        1.1204606294631958,
+        -0.22295069694519043,
+        -0.13141462206840515
+      ],
+      "decoded_max_radians": [
+        -0.003907352685928345,
+        -0.7518551349639893,
+        1.563297986984253,
+        1.5271915197372437,
+        0.3664356768131256,
+        0.7389228343963623
+      ],
+      "per_joint_limit_events": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "any_joint_limit_events": 0,
+      "max_lower_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_upper_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trajectory_sha256": "8cd31ef8a1226f3eb1b5cc64bedf8f6ecd74e50a536d88af6664d770613a4d86"
+    }
+  ],
+  "outcomes_modified": false
+}

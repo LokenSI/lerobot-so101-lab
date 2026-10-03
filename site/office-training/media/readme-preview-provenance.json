@@ -1,0 +1,49 @@
+{
+  "clips": [
+    {
+      "label": "FLUX learned pick and place",
+      "source": "site/flux-adapted/teaser/flux-teaser.mp4",
+      "source_sha256": "ce0c03d31ea133a9fc52dd880c98538e32b49411ef96ff787fde777594cc49e4",
+      "preview": "site/office-training/media/readme-flux-learned.gif",
+      "preview_sha256": "601496cba0bd3b4ec98fd5be9a99b527b8cc3456a61ae099bba7350dc23c51ce",
+      "preview_bytes": 1020141,
+      "maximum_seconds": 8,
+      "fps": 6,
+      "scope": "CPU excerpt of retained video; source provenance and limitations apply."
+    },
+    {
+      "label": "Native overview: measured-pose replay",
+      "source": "site/office-training/media/native-legible-overview.mp4",
+      "source_sha256": "3cbb8283eb842a137edccac55a35348424bdfa6ba4c8d831eecd3167f46709d4",
+      "preview": "site/office-training/media/readme-native-overview.gif",
+      "preview_sha256": "3f38461bf8e26be37a73269b5079a1b625b471c1244b34d7773c6d8d438f674f",
+      "preview_bytes": 287048,
+      "maximum_seconds": 8,
+      "fps": 6,
+      "scope": "CPU excerpt of retained video; source provenance and limitations apply."
+    },
+    {
+      "label": "Native closeup: measured-pose replay",
+      "source": "site/office-training/media/native-legible-closeup.mp4",
+      "source_sha256": "872259bc2667699726414d38abcc82becc13c54e05ae3200f604a30efb7d04dd",
+      "preview": "site/office-training/media/readme-native-closeup.gif",
+      "preview_sha256": "65dee91cd7023675663e01b3aa133fa74e18f0372749ed2cca0b07a4c6e9832e",
+      "preview_bytes": 318426,
+      "maximum_seconds": 8,
+      "fps": 6,
+      "scope": "CPU excerpt of retained video; source provenance and limitations apply."
+    },
+    {
+      "label": "Actual training-loss measurements",
+      "source": "site/office-training/media/training-loss.mp4",
+      "source_sha256": "5119bdf6e8544f63ee31dce951dca4903a3a2a1d3c4004c024ebfeb37aab4535",
+      "preview": "site/office-training/media/readme-training-loss.gif",
+      "preview_sha256": "0b52c0acef362c4795c622996cb0559676238b4dc91b56e94319df12ebb0acfc",
+      "preview_bytes": 124928,
+      "maximum_seconds": 8,
+      "fps": 6,
+      "scope": "CPU excerpt of retained video; source provenance and limitations apply."
+    }
+  ],
+  "gpu_operations": 0
+}

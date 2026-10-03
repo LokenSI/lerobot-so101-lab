@@ -6,6 +6,34 @@ The prior final assessment completed **2/5** starts. A later exploratory check c
 
 ACT receives two actual 96×96 RGB observations and six joint values. It predicts sixteen absolute joint targets and executes eight before replanning. Amber overlays show forward kinematics of predicted joint targets; cyan shows observed TCP motion. The overlays replay saved states and update every eight simulated control ticks, rather than presenting a hardware feed or a validated future trajectory.
 
+## Watch the videos
+
+Click an animated preview to open the full MP4. The FLUX teaser shows the earlier learned simulation experiment; native overview and closeup show measured-pose replay with physics disabled. The harder three-model placement comparison has 0/6 successes; every failure remains available in the office viewer.
+
+**FLUX learned pick and place**
+
+[![FLUX learned pick and place](site/office-training/media/readme-flux-learned.gif)](site/flux-adapted/teaser/flux-teaser.mp4)
+
+[Watch full MP4](site/flux-adapted/teaser/flux-teaser.mp4)
+
+**Native overview: measured-pose replay**
+
+[![Native overview: measured-pose replay](site/office-training/media/readme-native-overview.gif)](site/office-training/media/native-legible-overview.mp4)
+
+[Watch full MP4](site/office-training/media/native-legible-overview.mp4)
+
+**Native closeup: measured-pose replay**
+
+[![Native closeup: measured-pose replay](site/office-training/media/readme-native-closeup.gif)](site/office-training/media/native-legible-closeup.mp4)
+
+[Watch full MP4](site/office-training/media/native-legible-closeup.mp4)
+
+**Actual training-loss measurements**
+
+[![Actual training-loss measurements](site/office-training/media/readme-training-loss.gif)](site/office-training/media/training-loss.mp4)
+
+[Watch full MP4](site/office-training/media/training-loss.mp4)
+
 ## Calibrated virtual stereo follow-up
 
 The [stereo viewer](https://lokensi.github.io/lerobot-so101-lab/stereo/) adds a generic 60 mm stereo RGB pair and marked-object localization. A frozen scripted contact baseline passed **4/4** nominal/shifted trials. Two separate perception negatives rejected localization and stopped before grasp motion. Five calibration probes had a maximum 1.425 mm 3D localization error.
@@ -27,6 +55,14 @@ After the original pretrained model completed **0/2** placements, we trained the
 The instruction was **“Grasp the red block and place it in the gray bin.”** FLUX receives two camera views, measured joints and previous commands, then predicts the next movements. During these tests it received no object coordinates or scripted pickup correction. Watch the [FLUX videos and all outcomes](https://lokensi.github.io/lerobot-so101-lab/flux-adapted/), including the failures and overlays of predicted and actual movement.
 
 This is a small, same-task simulation experiment. Median warm prediction time was 4.58 seconds for 1.07 seconds of simulated commands; playback excludes inference pauses. Physical SO101 and Orin deployment remain untested. Original demonstrations, training data, adapters, optimizer state, model inputs/actions and independent audits are retained through Git LFS. See the [training recipe](docs/flux-adaptation-reproduction.md), [frozen selection](runs/flux-so101-retry/selected-adapter-0256-cfg3.json) and [source inventory](experiment/flux-so101-adaptation/source-inventory.json). The earlier ACT and stereo experiments remain separate.
+
+## Office training and controlled comparisons
+
+The [office training viewer](https://lokensi.github.io/lerobot-so101-lab/office-training/) adds actual SmolVLA, GR00T and ACT development clips, training-loss records, full action traces and retained failures. Paired tests use the same A100 inference hardware and local CPU physics; synchronized server timing is separate from SSH and rendering pauses. ACT uses an explicit task router. Native Isaac clips replay measured MuJoCo poses with physics disabled. Read [the reproduction guide](docs/office-training-reproduction.md) and the viewer provenance for exact checkpoint, training scope and outcome details. The current harder paired model placements measured **0/6 physical successes** in each complete three-model comparison; the gallery retains all 32 completed clips, including failures. Native clips are **pose replay, not learned PhysX evaluation**.
+
+[Native overview MP4](site/office-training/media/native-legible-overview.mp4) · [Native closeup MP4](site/office-training/media/native-legible-closeup.mp4) · [Measured training-loss MP4](site/office-training/media/training-loss.mp4) · [All checkpoint rollout videos](https://lokensi.github.io/lerobot-so101-lab/office-training/).
+
+These tests do not replace the earlier ACT, FLUX or stereo results, and no new physical hardware result is claimed.
 
 ## Read the evidence
 

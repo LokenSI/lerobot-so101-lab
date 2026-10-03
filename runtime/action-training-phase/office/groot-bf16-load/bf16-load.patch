@@ -1,0 +1,11 @@
+--- official/gr00t_policy.py
++++ office/gr00t_policy_bf16.py
+@@ -106,7 +106,7 @@
+         model_dir = Path(model_path)
+ 
+         # Load the pretrained model and move to target device with bfloat16 precision
+-        model = AutoModel.from_pretrained(model_dir)
++        model = AutoModel.from_pretrained(model_dir, dtype=torch.bfloat16)
+         model.eval()  # Set model to evaluation mode
+         model.to(device=device, dtype=torch.bfloat16)
+         self.model = model

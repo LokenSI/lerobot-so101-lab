@@ -1,0 +1,21 @@
+{
+  "scope": "owned evaluation process only; includes cold model loading",
+  "command": [
+    "runtime/lerobot-teaser-env/bin/python",
+    "scripts/office_teacher_forced.py",
+    "--contract",
+    "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/comparison-v5/frozen-contract.json",
+    "--output",
+    "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/comparison-v5/teacher-groot"
+  ],
+  "complete": true,
+  "admission": "PASS",
+  "gpu_limit_mib": 14336,
+  "ram_limit_mib": 49152,
+  "peak_gpu_mib": 1101.0,
+  "peak_host_mib": 30342.8,
+  "samples_observed": 303,
+  "owned_child_pid": 31391,
+  "returncode": 0,
+  "wall_seconds": 30.975468107004417
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "CPU overlay of original learned MuJoCo rollout; no policy rerun or altered physical commands",
+  "cumulative_step": 2000,
+  "success": false,
+  "episode": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/evaluation-smol-002000-validation/seed-10000-red-right",
+  "checkpoint": {
+    "learned_policy": true,
+    "language_conditioned": true,
+    "model": "SmolVLA",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-001000/pretrained_model",
+    "checkpoint_sha256": "63f009918182378cc050af8c07883b720400f1358662ab99a96da99925ebddc1",
+    "action_units": "radians",
+    "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+  },
+  "chunk_execution": 8,
+  "waypoints": "forward kinematics of the next 8 actually issued raw model commands; saved full50-step predictions were not retained",
+  "video_crop": "top44 pixels containing original video header removed; original video unchanged",
+  "source_trajectory_sha256": "3eb8ce135c33048405a120f8c9cde357e3fd4290f9d0513cc3040178bcf8dd10",
+  "source_video_sha256": "c7274508beaa70a0de2143122350ed948181013a1362352f0adb2e38eb5fcd9b",
+  "output_video_sha256": "b0fc364d90f188e80998cecfe5667a0cc82feca9052a2bfb0dbf5c8d74d9af85"
+}

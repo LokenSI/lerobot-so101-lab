@@ -1,0 +1,1876 @@
+{
+  "scope": "held-out deterministic evaluation contract; no rollout outcomes yet",
+  "split": "test",
+  "seeds": [
+    20000,
+    20001,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008,
+    20009
+  ],
+  "episodes": 120,
+  "scenes": [
+    {
+      "seed": 20000,
+      "scene": {
+        "seed": 20000,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.242378573555084,
+              0.04798266467683998
+            ],
+            "yaw": 0.31975256057168183
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.1479491726934339,
+              0.03951519387844432
+            ],
+            "yaw": 0.40044571775439264
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.19282955734638316,
+              -0.02779185637515464
+            ],
+            "yaw": 0.218481976191645
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    },
+    {
+      "seed": 20001,
+      "scene": {
+        "seed": 20001,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.14971477604827027,
+              0.05236460695273064
+            ],
+            "yaw": 0.4300055913082612
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.24863683116464552,
+              0.04609737536463708
+            ],
+            "yaw": 0.3508178222553469
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.19738373010184693,
+              -0.018900981513062014
+            ],
+            "yaw": 0.33866755322636666
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    },
+    {
+      "seed": 20002,
+      "scene": {
+        "seed": 20002,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.24234878693667522,
+              0.04954944087307296
+            ],
+            "yaw": 0.37608443107464773
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.19340468016588175,
+              -0.02615944094096611
+            ],
+            "yaw": 0.4357592459093944
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.14467992032123705,
+              0.048116891377028154
+            ],
+            "yaw": 0.4182934648178446
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    },
+    {
+      "seed": 20003,
+      "scene": {
+        "seed": 20003,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.19860977014261774,
+              -0.014167492783174276
+            ],
+            "yaw": 0.3481188676481518
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.14656645843173774,
+              0.03956706506377112
+            ],
+            "yaw": 0.2717402580558395
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.24810512313448532,
+              0.0466646306944936
+            ],
+            "yaw": 0.173879420216468
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    },
+    {
+      "seed": 20004,
+      "scene": {
+        "seed": 20004,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.2022559665508642,
+              -0.027731606791454713
+            ],
+            "yaw": 0.36476792335560715
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.14698894772472798,
+              0.049371031025919845
+            ],
+            "yaw": 0.33570407227820065
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.25472603281892225,
+              0.037087363455602006
+            ],
+            "yaw": 0.32620026248296374
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    },
+    {
+      "seed": 20005,
+      "scene": {
+        "seed": 20005,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.151644211584593,
+              0.048060968240425765
+            ],
+            "yaw": 0.44886577098409053
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.20319753627888165,
+              -0.017122858336112205
+            ],
+            "yaw": 0.4338566267009719
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.24404190085730795,
+              0.04443402643216646
+            ],
+            "yaw": 0.27844018265572884
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    },
+    {
+      "seed": 20006,
+      "scene": {
+        "seed": 20006,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.243131686789604,
+              0.03923716424435873
+            ],
+            "yaw": 0.21427235937570688
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.15133318531106116,
+              0.03903093416762128
+            ],
+            "yaw": 0.3799006313283162
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.19767421769140528,
+              -0.025821854064523933
+            ],
+            "yaw": 0.31929563349104395
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    },
+    {
+      "seed": 20007,
+      "scene": {
+        "seed": 20007,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.24538683404806927,
+              0.05277126767166804
+            ],
+            "yaw": 0.18534550979094952
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.15025309592465858,
+              0.04204011256842842
+            ],
+            "yaw": 0.2868857648489349
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.20289573463052624,
+              -0.014882109843903635
+            ],
+            "yaw": 0.2978024092250716
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    },
+    {
+      "seed": 20008,
+      "scene": {
+        "seed": 20008,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.25478693114455575,
+              0.043540206276760134
+            ],
+            "yaw": 0.2574644842003197
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.14469895444400624,
+              0.046003143316485876
+            ],
+            "yaw": 0.3447000956282993
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.20533847735727062,
+              -0.02310654406163431
+            ],
+            "yaw": 0.2586496157072747
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    },
+    {
+      "seed": 20009,
+      "scene": {
+        "seed": 20009,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.19818570739023889,
+              -0.02013828370099919
+            ],
+            "yaw": 0.2378685741539678
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.14016322147603408,
+              0.04064003784756853
+            ],
+            "yaw": 0.4277261240431649
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.24379018341792466,
+              0.038367434321913085
+            ],
+            "yaw": 0.24974657098736552
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "tasks": [
+        {
+          "id": "red-left",
+          "instruction": "Move the red block into the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "red-right",
+          "instruction": "Move the red block into the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-left",
+          "instruction": "Move the blue block into the left tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "blue-right",
+          "instruction": "Move the blue block into the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-left",
+          "instruction": "Move the yellow block into the left tray.",
+          "goals": [
+            [
+              "yellow",
+              "left"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "yellow-right",
+          "instruction": "Move the yellow block into the right tray.",
+          "goals": [
+            [
+              "yellow",
+              "right"
+            ]
+          ],
+          "kind": "object-destination"
+        },
+        {
+          "id": "relation-leftmost",
+          "instruction": "Put the leftmost cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "relation-rightmost",
+          "instruction": "Put the rightmost cube in the right tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "spatial-relation"
+        },
+        {
+          "id": "exclude-blue",
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "left"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "exclude-red",
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "goals": [
+            [
+              "blue",
+              "right"
+            ]
+          ],
+          "kind": "exclusion"
+        },
+        {
+          "id": "sequence-red-blue",
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "goals": [
+            [
+              "red",
+              "right"
+            ],
+            [
+              "blue",
+              "left"
+            ]
+          ],
+          "kind": "sequence"
+        },
+        {
+          "id": "sequence-blue-red",
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "goals": [
+            [
+              "blue",
+              "left"
+            ],
+            [
+              "red",
+              "right"
+            ]
+          ],
+          "kind": "sequence"
+        }
+      ]
+    }
+  ],
+  "checkpoint_selection_allowed": false,
+  "generation_source_hashes": {
+    "/mnt/d/git/qwen-image_benchmark/scripts/office_environment.py": "190c853e3b29a28acbc41dbc80e6484ae9b3fe8b9fca48202d331ba017afde2f",
+    "/mnt/d/git/qwen-image_benchmark/scripts/so101_pick_place_baseline.py": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+    "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-so101-sim/sim.py": "c6a998933841b5bfcc41cc0d198181897435e84222982a8f6085cfc7ab7943f4",
+    "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-so101-sim/so101.xml": "011c5fb06c999f5207d2ad6a331ba6e602cf0b29edf120097016d23cfd8eaeaf"
+  }
+}

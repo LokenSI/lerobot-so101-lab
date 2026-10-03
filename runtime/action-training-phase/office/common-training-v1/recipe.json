@@ -1,0 +1,89 @@
+{
+  "scope": "approved planned stock retry with matched two-task union; no training launched by this preparation",
+  "trigger": "only after timed common8/common16 comparisons complete; retain every original failure",
+  "dataset_archive_sha256": "63586275f3e7c817d8dd64f67908c40f03384bb437ded07cb5b4dffceb9762f2",
+  "dataset_source": "runtime/action-training-phase/act/common-comparison-data/dataset-v1",
+  "models": {
+    "smolvla": {
+      "source_pin": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+      "base_model_snapshot": "/ephemeral/cache/huggingface/hub/models--lerobot--smolvla_base/snapshots/d9f33c94a60fb382c90dea2164c96845bd955e28",
+      "dataset_format": "v3.0",
+      "dataset_task_ids": [
+        "red-left",
+        "red-right"
+      ],
+      "scene_seeds": [
+        1000,
+        1001,
+        1002
+      ],
+      "episodes": 6,
+      "frames": 3150,
+      "smoke": {
+        "updates": 20,
+        "save_every": 20,
+        "max_wall_seconds": 600,
+        "gate": "native saved fresh-process reload finite[H,6], no robot quality claim"
+      },
+      "main": {
+        "updates": 2000,
+        "save_every": 2000,
+        "max_wall_seconds": 3600,
+        "start": "same official base snapshot, new optimizer/scheduler; smoke is not silently resumed",
+        "checkpoint_barrier": false,
+        "save_total_limit": 1
+      },
+      "batch_size": 16,
+      "trainable": "action expert and state projector; vision frozen",
+      "native_decoder": "MEAN_STD absolute commands",
+      "post_training": "quiesce trainers, hash direct full native checkpoint files then same-A100 matched development pair with unchanged grader; no sealed test until development selection"
+    },
+    "groot": {
+      "source_pin": "51d4c89f72fda44cbf77285c6a8114b52676b8a1",
+      "base_model_snapshot": "/home/ubuntu/.cache/huggingface/hub/models--nvidia--GR00T-N1.7-3B/snapshots/2fc962b973bccdd5d8ce4f67cc63b264d6886495",
+      "dataset_format": "v2.1",
+      "dataset_task_ids": [
+        "red-left",
+        "red-right"
+      ],
+      "scene_seeds": [
+        1000,
+        1001,
+        1002
+      ],
+      "episodes": 6,
+      "frames": 3150,
+      "smoke": {
+        "updates": 20,
+        "save_every": 20,
+        "max_wall_seconds": 600,
+        "gate": "native saved fresh-process reload finite[H,6], no robot quality claim"
+      },
+      "main": {
+        "updates": 2000,
+        "save_every": 2000,
+        "max_wall_seconds": 3600,
+        "start": "same official base snapshot, new optimizer/scheduler; smoke is not silently resumed",
+        "checkpoint_barrier": false,
+        "save_total_limit": 1
+      },
+      "batch_size": 8,
+      "trainable": "projector and diffusion action model; language/visual frozen",
+      "native_decoder": "MIN_MAX q01/q99 native clipping, relative-current-state arm decode and absolute gripper",
+      "post_training": "quiesce trainers, hash direct full native checkpoint files then same-A100 matched development pair with unchanged grader; no sealed test until development selection"
+    }
+  },
+  "guards": {
+    "whole_cloud_gpu_mib": 71680,
+    "whole_cloud_ram_mib": 102400,
+    "external_hard_stop_utc": "2026-10-03T14:52:00Z"
+  },
+  "parallelism": "serial by default; parallel main only after measured global GPU/RAM headroom and parent coordination; no comparison overlaps trainers",
+  "recovery": {
+    "method": "direct native-file manifest/SCP, every file SHA verified; no duplicate local TAR",
+    "local_available_gb_reported_by_parent": 69,
+    "estimated_final_full_groot_gb": 25.55,
+    "stock_full_smoke": "keep remote smoke until reload evidence saved; no duplicate local full smoke recovery needed"
+  },
+  "claim_limits": "Matched task breadth/data does not equal architecture, batch size, objective, pretraining, or total compute. ACT remains separate exact-task router baseline. Corrective off-expert data is a separate future intervention."
+}

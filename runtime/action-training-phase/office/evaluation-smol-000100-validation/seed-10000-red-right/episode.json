@@ -1,0 +1,95 @@
+{
+  "seed": 10000,
+  "task": {
+    "id": "red-right",
+    "instruction": "Move the red block into the right tray.",
+    "goals": [
+      [
+        "red",
+        "right"
+      ]
+    ],
+    "kind": "object-destination"
+  },
+  "scene": {
+    "seed": 10000,
+    "objects": [
+      {
+        "color": "red",
+        "xy": [
+          0.2487791864402629,
+          0.04618841083570235
+        ],
+        "yaw": 0.27945754976899806
+      },
+      {
+        "color": "blue",
+        "xy": [
+          0.1404547416222401,
+          0.03971851688042406
+        ],
+        "yaw": 0.37801614903375846
+      },
+      {
+        "color": "yellow",
+        "xy": [
+          0.20458111153840722,
+          -0.021489587869239705
+        ],
+        "yaw": 0.21629524877435496
+      }
+    ],
+    "trays": {
+      "left": [
+        0.235,
+        0.15
+      ],
+      "right": [
+        0.235,
+        -0.16
+      ]
+    },
+    "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+  },
+  "policy": {
+    "learned_policy": true,
+    "language_conditioned": true,
+    "model": "SmolVLA",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-main-01-000100/pretrained_model",
+    "checkpoint_sha256": "5d23ae264b600c2e4793535245f3c1744c37ff302e646cabe155684b34185dd2",
+    "action_units": "radians",
+    "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+  },
+  "initial_state_sha256": "a548f8f342e4440eaa9ede406c5ce30ceb949c046443528bf3b107ad08a01d75",
+  "grader": {
+    "success": false,
+    "goals": [
+      {
+        "object": "red",
+        "destination": "right",
+        "inside": false,
+        "released": true,
+        "stable": true,
+        "lifted": false,
+        "success": false
+      }
+    ],
+    "completion_ticks": [
+      null
+    ],
+    "sequence_order_correct": false,
+    "distractor_max_displacement_m": {
+      "blue": 4.909267437014364e-16,
+      "yellow": 4.909267437014364e-16
+    },
+    "distractors_untouched": true,
+    "grading_frames": 45
+  },
+  "success": false,
+  "command_limit_events": 104,
+  "steps": 585,
+  "wall_seconds": 42.324167671991745,
+  "fresh_inference_p50_s": 0.3498546214977978,
+  "fresh_inference_p95_s": 0.3860022355118417,
+  "trajectory_sha256": "fc566cb081c8501c67eaf992bbc7543027a8e9472197127ec3d30e4e5c9d033e"
+}

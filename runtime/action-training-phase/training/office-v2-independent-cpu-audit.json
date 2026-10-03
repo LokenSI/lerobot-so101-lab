@@ -1,0 +1,702 @@
+{
+  "scope": "Actual pinned numeric loader + substituted CPU PyAV decoder; no model/GPU/nativeTorchcodec validation",
+  "source_revision": "51d4c89f72fda44cbf77285c6a8114b52676b8a1",
+  "official_sources_sha256": {
+    "gr00t/data/dataset/lerobot_episode_loader.py": "10eb986f35d298fc3e099f8891532a907978b34e0a2f88a9c62620c554d9726d",
+    "gr00t/data/types.py": "329acd11ca7a92c3894bbe44fe3fed2677b9c9f83bee6adcb4aeab8b1e846a1a",
+    "gr00t/utils/video_utils.py": "5fb6e2e401a4315e75d0614436db22426d5c6c3da8ec74b4bb89196443095465"
+  },
+  "splits": {
+    "train": {
+      "episodes": [
+        {
+          "episode_index": 0,
+          "source": "train/seed-1000/red-left",
+          "frames": 525,
+          "instruction": "Pick up the red cube and put it in the left tray.",
+          "source_sha256": "66eb600934eaaed68ae702ff53f8c9806b1c3d56b2177a6981c9a51d6c4dc6a2",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 1,
+          "source": "train/seed-1000/red-right",
+          "frames": 525,
+          "instruction": "Pick up the red cube and put it in the right tray.",
+          "source_sha256": "57a38e4cb4cdddce7d69d1f08658ecaece1d5bd442a933ebbdebd2e46074e852",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 2,
+          "source": "train/seed-1000/blue-left",
+          "frames": 525,
+          "instruction": "Pick up the blue cube and put it in the left tray.",
+          "source_sha256": "c67f3852f20f763e73e52a3d10129eac669810dfacf783de112d9b038aae5869",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 3,
+          "source": "train/seed-1000/blue-right",
+          "frames": 525,
+          "instruction": "Pick up the blue cube and put it in the right tray.",
+          "source_sha256": "f7feab0ab0874463e0507d777c7898819bb97997f8146200d49fddec1772de0f",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 4,
+          "source": "train/seed-1000/yellow-left",
+          "frames": 525,
+          "instruction": "Pick up the yellow cube and put it in the left tray.",
+          "source_sha256": "509479841f4c3af9cde115aa10e30dfd9b8d1a3ecaef67ebb4666c551c075713",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 5,
+          "source": "train/seed-1000/yellow-right",
+          "frames": 525,
+          "instruction": "Pick up the yellow cube and put it in the right tray.",
+          "source_sha256": "4939ecc6f27dd33f2f081c07237563262005cbf131f431e410edc34c00441bd2",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 6,
+          "source": "train/seed-1000/relation-leftmost",
+          "frames": 525,
+          "instruction": "Put the leftmost cube in the right tray.",
+          "source_sha256": "4939ecc6f27dd33f2f081c07237563262005cbf131f431e410edc34c00441bd2",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 7,
+          "source": "train/seed-1000/relation-rightmost",
+          "frames": 525,
+          "instruction": "Put the rightmost cube in the right tray.",
+          "source_sha256": "57a38e4cb4cdddce7d69d1f08658ecaece1d5bd442a933ebbdebd2e46074e852",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 8,
+          "source": "train/seed-1000/exclude-blue",
+          "frames": 525,
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "source_sha256": "66eb600934eaaed68ae702ff53f8c9806b1c3d56b2177a6981c9a51d6c4dc6a2",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 9,
+          "source": "train/seed-1000/exclude-red",
+          "frames": 525,
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "source_sha256": "f7feab0ab0874463e0507d777c7898819bb97997f8146200d49fddec1772de0f",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 10,
+          "source": "train/seed-1000/sequence-red-blue",
+          "frames": 1050,
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "source_sha256": "b5b90cccd47a4d3193b1f44810deabd5606f4eecc74dd252efb405bc30ce6187",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            525,
+            1049
+          ]
+        },
+        {
+          "episode_index": 11,
+          "source": "train/seed-1000/sequence-blue-red",
+          "frames": 1050,
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "source_sha256": "01ec25753c4de7781f4fc23653127c6f97239eff108cea4be03d0b6f995eb9ad",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            525,
+            1049
+          ]
+        },
+        {
+          "episode_index": 12,
+          "source": "train/seed-1001/red-left",
+          "frames": 525,
+          "instruction": "Pick up the red cube and put it in the left tray.",
+          "source_sha256": "4cfdc42fe59db855d7e99c32f2673ad3a10dee91396e4ae64eaad9cfa2018a30",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 13,
+          "source": "train/seed-1001/red-right",
+          "frames": 525,
+          "instruction": "Pick up the red cube and put it in the right tray.",
+          "source_sha256": "ac289201b05eb90f265f3765bd825700d5c2f26d2be5507a3da1a609068e2fec",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 14,
+          "source": "train/seed-1001/blue-left",
+          "frames": 525,
+          "instruction": "Pick up the blue cube and put it in the left tray.",
+          "source_sha256": "fe95d63ec76c842a59e290afb28bd33a4b5b4264f91e42c1306c1273ef11bc1d",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 15,
+          "source": "train/seed-1001/blue-right",
+          "frames": 525,
+          "instruction": "Pick up the blue cube and put it in the right tray.",
+          "source_sha256": "45c4c057d4e3d9911555c08c221e7bf78fea4f7edf3516ca3f9f85fee289d993",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 16,
+          "source": "train/seed-1001/yellow-left",
+          "frames": 525,
+          "instruction": "Pick up the yellow cube and put it in the left tray.",
+          "source_sha256": "4c2b54d19e9bd1cc964f2042dff3eb9bf9287ba15bf4b877de4f5b8bc62c78cb",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 17,
+          "source": "train/seed-1001/yellow-right",
+          "frames": 525,
+          "instruction": "Pick up the yellow cube and put it in the right tray.",
+          "source_sha256": "410dd064f3f2bfba433c092f659f99107620f0e831e539bb2903874b5fd4d66b",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 18,
+          "source": "train/seed-1001/relation-leftmost",
+          "frames": 525,
+          "instruction": "Put the leftmost cube in the right tray.",
+          "source_sha256": "ac289201b05eb90f265f3765bd825700d5c2f26d2be5507a3da1a609068e2fec",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 19,
+          "source": "train/seed-1001/relation-rightmost",
+          "frames": 525,
+          "instruction": "Put the rightmost cube in the right tray.",
+          "source_sha256": "410dd064f3f2bfba433c092f659f99107620f0e831e539bb2903874b5fd4d66b",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 20,
+          "source": "train/seed-1001/exclude-blue",
+          "frames": 525,
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "source_sha256": "4cfdc42fe59db855d7e99c32f2673ad3a10dee91396e4ae64eaad9cfa2018a30",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 21,
+          "source": "train/seed-1001/exclude-red",
+          "frames": 525,
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "source_sha256": "45c4c057d4e3d9911555c08c221e7bf78fea4f7edf3516ca3f9f85fee289d993",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 22,
+          "source": "train/seed-1001/sequence-red-blue",
+          "frames": 1050,
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "source_sha256": "794e9e8955aa91782366d7be129ca4a4e44ffedb4ef06e2a2c13b5fbdf600358",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            525,
+            1049
+          ]
+        },
+        {
+          "episode_index": 23,
+          "source": "train/seed-1001/sequence-blue-red",
+          "frames": 1050,
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "source_sha256": "40863103960eccfab5286d6355410e74c9b87b1609ccdd1eff681474dbb85a50",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            525,
+            1049
+          ]
+        },
+        {
+          "episode_index": 24,
+          "source": "train/seed-1002/red-left",
+          "frames": 525,
+          "instruction": "Pick up the red cube and put it in the left tray.",
+          "source_sha256": "123cc0785bd4bde1f9de312eac91c8d40d5b8031152bad41d5d4fd9d626066f7",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 25,
+          "source": "train/seed-1002/red-right",
+          "frames": 525,
+          "instruction": "Pick up the red cube and put it in the right tray.",
+          "source_sha256": "5de4c43ef1a0ac04507ddd31d8d1a7b5662044ff1ef4c326908f261fbae7e4e6",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 26,
+          "source": "train/seed-1002/blue-left",
+          "frames": 525,
+          "instruction": "Pick up the blue cube and put it in the left tray.",
+          "source_sha256": "f330b21a7ed829eec026c73d6afa3e4c1d568ee64fcf599614543e494620a844",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 27,
+          "source": "train/seed-1002/blue-right",
+          "frames": 525,
+          "instruction": "Pick up the blue cube and put it in the right tray.",
+          "source_sha256": "0076236bb170f6bffdf4a74a79a1c04fb96f19598b8a0ee2142ea7de3001a61b",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 28,
+          "source": "train/seed-1002/yellow-left",
+          "frames": 525,
+          "instruction": "Pick up the yellow cube and put it in the left tray.",
+          "source_sha256": "64fd4cc96dbccc765ae703ccc271f77bf554b458b866d4ad625edb3d20530ce0",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 29,
+          "source": "train/seed-1002/yellow-right",
+          "frames": 525,
+          "instruction": "Pick up the yellow cube and put it in the right tray.",
+          "source_sha256": "dd2395b890ffe69e2b80019e7bb1b563325fc62a1e3ec59c7d91b2ac6e370a68",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 30,
+          "source": "train/seed-1002/relation-leftmost",
+          "frames": 525,
+          "instruction": "Put the leftmost cube in the right tray.",
+          "source_sha256": "0076236bb170f6bffdf4a74a79a1c04fb96f19598b8a0ee2142ea7de3001a61b",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 31,
+          "source": "train/seed-1002/relation-rightmost",
+          "frames": 525,
+          "instruction": "Put the rightmost cube in the right tray.",
+          "source_sha256": "5de4c43ef1a0ac04507ddd31d8d1a7b5662044ff1ef4c326908f261fbae7e4e6",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 32,
+          "source": "train/seed-1002/exclude-blue",
+          "frames": 525,
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "source_sha256": "123cc0785bd4bde1f9de312eac91c8d40d5b8031152bad41d5d4fd9d626066f7",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 33,
+          "source": "train/seed-1002/exclude-red",
+          "frames": 525,
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "source_sha256": "0076236bb170f6bffdf4a74a79a1c04fb96f19598b8a0ee2142ea7de3001a61b",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 34,
+          "source": "train/seed-1002/sequence-red-blue",
+          "frames": 1050,
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "source_sha256": "705eb7614f9449f68edded1c84404533e3b38eea9c7a6a4ba9b9e7084f45224d",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            525,
+            1049
+          ]
+        },
+        {
+          "episode_index": 35,
+          "source": "train/seed-1002/sequence-blue-red",
+          "frames": 1050,
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "source_sha256": "73b5cca19fa2f31a3f393509645259e4d3eeb7ba45964db199d538e18cbcc4a8",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            525,
+            1049
+          ]
+        }
+      ],
+      "total_frames": 22050,
+      "numeric_stat_max_errors": {
+        "observation.state": {
+          "mean": 2.4636500062236166e-09,
+          "std": 3.3016810951913556e-09,
+          "min": 4.596011926594201e-08,
+          "max": 4.657691765608263e-08,
+          "q01": 2.568045442963296e-08,
+          "q99": 2.299923940185522e-08
+        },
+        "action": {
+          "mean": 6.278378039681343e-09,
+          "std": 4.716946166993807e-09,
+          "min": 4.05120850199836e-08,
+          "max": 5.7258605856702616e-08,
+          "q01": 4.1106634762755334e-08,
+          "q99": 5.7258605856702616e-08
+        }
+      },
+      "source_scene_seeds": [
+        1000,
+        1001,
+        1002
+      ],
+      "metadata_sha256": "ad1df763af3a7ec9c43f03771ce0d64c090ec9cece47bb0c64d0672d4a6d234a",
+      "contract_sha256": "3236976419bc37ac52dac31c3d9a5410d1fec4ed114df2a142bd30bf990b8b69"
+    },
+    "validation": {
+      "episodes": [
+        {
+          "episode_index": 0,
+          "source": "validation/seed-10000/red-left",
+          "frames": 525,
+          "instruction": "Move the red block into the left tray.",
+          "source_sha256": "590b38400012660cbedc590b502ed3869748d877c9dec01c5a5d3d9cf9abda12",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 1,
+          "source": "validation/seed-10000/red-right",
+          "frames": 525,
+          "instruction": "Move the red block into the right tray.",
+          "source_sha256": "09e4b19c4bfb886cf19ace75ef03d218eb76304423caa1135f666bf320819c5e",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 2,
+          "source": "validation/seed-10000/blue-left",
+          "frames": 525,
+          "instruction": "Move the blue block into the left tray.",
+          "source_sha256": "082a334925558a9f763378213c67159c51242be11a03f83b0d988fb5ecccd8b4",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 3,
+          "source": "validation/seed-10000/blue-right",
+          "frames": 525,
+          "instruction": "Move the blue block into the right tray.",
+          "source_sha256": "057a101cf2c45d58151234cb39743cc693665a9094e77405dbfa114bf51a22b4",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 4,
+          "source": "validation/seed-10000/yellow-left",
+          "frames": 525,
+          "instruction": "Move the yellow block into the left tray.",
+          "source_sha256": "2298c7d72072818bcf612a712062399ce417d6c14dfc0668ac66133a8052af9d",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 5,
+          "source": "validation/seed-10000/yellow-right",
+          "frames": 525,
+          "instruction": "Move the yellow block into the right tray.",
+          "source_sha256": "8371eafdf3a9830d0987ec9175b2fc7bd9e97352434af198e428cdbc3dc473fc",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 6,
+          "source": "validation/seed-10000/relation-leftmost",
+          "frames": 525,
+          "instruction": "Put the leftmost cube in the right tray.",
+          "source_sha256": "09e4b19c4bfb886cf19ace75ef03d218eb76304423caa1135f666bf320819c5e",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 7,
+          "source": "validation/seed-10000/relation-rightmost",
+          "frames": 525,
+          "instruction": "Put the rightmost cube in the right tray.",
+          "source_sha256": "8371eafdf3a9830d0987ec9175b2fc7bd9e97352434af198e428cdbc3dc473fc",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 8,
+          "source": "validation/seed-10000/exclude-blue",
+          "frames": 525,
+          "instruction": "Leave the blue and yellow cubes alone. Put only the red cube in the left tray.",
+          "source_sha256": "590b38400012660cbedc590b502ed3869748d877c9dec01c5a5d3d9cf9abda12",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 9,
+          "source": "validation/seed-10000/exclude-red",
+          "frames": 525,
+          "instruction": "Do not move the red or yellow cubes. Transfer the blue cube to the right tray.",
+          "source_sha256": "057a101cf2c45d58151234cb39743cc693665a9094e77405dbfa114bf51a22b4",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            262,
+            524
+          ]
+        },
+        {
+          "episode_index": 10,
+          "source": "validation/seed-10000/sequence-red-blue",
+          "frames": 1050,
+          "instruction": "First put the red cube in the right tray, then put the blue cube in the left tray.",
+          "source_sha256": "0cc83e52f04fb72d4a6a7211211e3086c7a1e1166e7295ca1b4087f4e223dea3",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            525,
+            1049
+          ]
+        },
+        {
+          "episode_index": 11,
+          "source": "validation/seed-10000/sequence-blue-red",
+          "frames": 1050,
+          "instruction": "First put the blue cube in the left tray, then put the red cube in the right tray.",
+          "source_sha256": "6dc8e6e4e9427d9013bb4c19a857ea39c885909ad1643631930346b2594452ba",
+          "zero_numeric_error": true,
+          "video_probe_indices": [
+            0,
+            525,
+            1049
+          ]
+        }
+      ],
+      "total_frames": 7350,
+      "numeric_stat_max_errors": {
+        "observation.state": {
+          "mean": 2.380376562527431e-09,
+          "std": 3.502949763589669e-09,
+          "min": 1.5009724574355232e-08,
+          "max": 3.5184717139813415e-08,
+          "q01": 5.484746434802901e-08,
+          "q99": 5.1353058916348004e-08
+        },
+        "action": {
+          "mean": 6.233014770984369e-09,
+          "std": 5.805272207393131e-09,
+          "min": 4.05120850199836e-08,
+          "max": 5.7258605856702616e-08,
+          "q01": 1.6505872113548037e-08,
+          "q99": 5.7258605856702616e-08
+        }
+      },
+      "source_scene_seeds": [
+        10000
+      ],
+      "metadata_sha256": "43e0d294b3cdf296a8ec6ae496389357bdfac2b323fdd8a09a21b302706c716b",
+      "contract_sha256": "d0f186eb5b31d0ec897cc9d4b9f003928c0545ab413b6b55b11b889bbcd31d27"
+    }
+  },
+  "passed": true,
+  "train_validation_scene_disjoint": true,
+  "same_scene_instruction_pairs_initial_rgb_identical": true,
+  "unverified": [
+    "Native Torchcodec remote decode",
+    "Processor relative statistics/normalization",
+    "Model save/reload/action schema on GPU",
+    "Closed-loop learned task success"
+  ]
+}

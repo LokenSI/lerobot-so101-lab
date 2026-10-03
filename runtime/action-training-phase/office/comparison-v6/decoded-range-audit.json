@@ -1,0 +1,136 @@
+{
+  "scope": "policy-decoded commands before existing common actuator supervisor; native decoder bounds differ, not neural-head safety",
+  "joint_order": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "authored_actuator_limits_radians": [
+    [
+      -1.91986,
+      1.91986
+    ],
+    [
+      -1.74533,
+      1.74533
+    ],
+    [
+      -1.69,
+      1.69
+    ],
+    [
+      -1.65806,
+      1.65806
+    ],
+    [
+      -2.74385,
+      2.84121
+    ],
+    [
+      -0.17453,
+      1.74533
+    ]
+  ],
+  "rows": [
+    {
+      "model": "smolvla",
+      "task": "red-left",
+      "steps": 585,
+      "task_success": false,
+      "decoded_min_radians": [
+        -0.42565983533859253,
+        -1.6099448204040527,
+        0.732753336429596,
+        1.1057649850845337,
+        -0.09859305620193481,
+        -0.34751132130622864
+      ],
+      "decoded_max_radians": [
+        0.02105886861681938,
+        -0.859991729259491,
+        1.501084566116333,
+        1.5434635877609253,
+        0.2089816927909851,
+        -0.050764113664627075
+      ],
+      "per_joint_limit_events": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        549
+      ],
+      "any_joint_limit_events": 549,
+      "max_lower_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.17298132130622865
+      ],
+      "max_upper_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trajectory_sha256": "5de9e754539a5131ea838d7a0547162aeaa0f0d3d1d62528358948069980d8ca"
+    },
+    {
+      "model": "smolvla",
+      "task": "red-right",
+      "steps": 585,
+      "task_success": false,
+      "decoded_min_radians": [
+        -0.09907304495573044,
+        -1.6015480756759644,
+        0.7828905582427979,
+        1.020799160003662,
+        0.02303984761238098,
+        -0.34343114495277405
+      ],
+      "decoded_max_radians": [
+        0.42108163237571716,
+        -0.9368568658828735,
+        1.487492322921753,
+        1.4568153619766235,
+        0.6696577072143555,
+        -0.08664560317993164
+      ],
+      "per_joint_limit_events": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        557
+      ],
+      "any_joint_limit_events": 557,
+      "max_lower_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.16890114495277406
+      ],
+      "max_upper_excess_radians": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "trajectory_sha256": "613690466a0a41b009fc0988dcdf6b7557f6d06832b9809cd834065df75fda10"
+    }
+  ],
+  "outcomes_modified": false
+}

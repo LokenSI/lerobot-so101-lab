@@ -1,0 +1,6 @@
+{
+  "scope": "checkpoint load/evaluation attempt",
+  "complete": false,
+  "checkpoint": "runtime/action-training-phase/act/portable-stage-2000",
+  "adapter": "office_act_adapter"
+}

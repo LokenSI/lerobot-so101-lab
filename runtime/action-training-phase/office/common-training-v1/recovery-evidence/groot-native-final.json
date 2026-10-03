@@ -1,0 +1,146 @@
+{
+  "scope": "direct full native checkpoint recovery, no duplicate archive",
+  "manifest_sha256": "1ea8c356325fd4870367215ec81fdc5f0a1a8fd711f24ad97b106639233d2fba",
+  "model": "groot",
+  "complete": true,
+  "files": [
+    {
+      "path": "config.json",
+      "bytes": 2146,
+      "sha256": "d0daec17d75069a31a3a6a08365e1e5483e90512ca3268f16f78debf6e282390",
+      "verified": true,
+      "recovery_method": "verified-existing"
+    },
+    {
+      "path": "embodiment_id.json",
+      "bytes": 2226,
+      "sha256": "c8af3d61fe9ca5508c4a5b9e8be6ad4d0d1eb2c68cec76620ea089b894a3ee22",
+      "verified": true,
+      "recovery_method": "verified-existing"
+    },
+    {
+      "path": "experiment_cfg/conf.yaml",
+      "bytes": 5182,
+      "sha256": "0e624c2b25f1d999474052ebca853f80f6e51627bdfcca225731f95bff07fa92",
+      "verified": true,
+      "recovery_method": "verified-existing"
+    },
+    {
+      "path": "experiment_cfg/config.yaml",
+      "bytes": 5149,
+      "sha256": "bbe381252a24956642b8f58dbd231fe17960250489da93509ece67cf0775326a",
+      "verified": true,
+      "recovery_method": "verified-existing"
+    },
+    {
+      "path": "experiment_cfg/dataset_statistics.json",
+      "bytes": 21547,
+      "sha256": "8f6e94b49572165c8cda2beb6a993dcf1b6fddf72d1c1156e1c4afae2fb82eca",
+      "verified": true,
+      "recovery_method": "verified-existing"
+    },
+    {
+      "path": "experiment_cfg/final_model_config.json",
+      "bytes": 1512,
+      "sha256": "d3630b40778fb72fab7412afd9cba961e4e01faed11eda32e3a4a0c231a2ce30",
+      "verified": true,
+      "recovery_method": "verified-existing"
+    },
+    {
+      "path": "experiment_cfg/final_processor_config.json",
+      "bytes": 2547736,
+      "sha256": "7406f987dbf002c5935ac14296bf0de05e4f92d5b006bd6635633fd4527ed600",
+      "verified": true,
+      "recovery_method": "verified-existing"
+    },
+    {
+      "path": "model-00001-of-00003.safetensors",
+      "bytes": 4986649584,
+      "sha256": "cbcaea5ee88f1e0f1465043920a2647c67e7de17d24adfd1c477742a6168edec",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "bytes": 104913,
+      "sha256": "12117379d91d029c5979a585d07ba794001730c9516d6de5512e3dedfee30730",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "processor_config.json",
+      "bytes": 26541,
+      "sha256": "56089cb536c71f8cc1f31839b9e6902bbcc096e646e27902fa3c755648624292",
+      "verified": true,
+      "recovery_method": "SHA-matched local copy, independent destination"
+    },
+    {
+      "path": "model-00002-of-00003.safetensors",
+      "bytes": 4970792616,
+      "sha256": "903389510a85acbc302c3df057377c04827376d047d20a5f34ad832b82f85d58",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "model-00003-of-00003.safetensors",
+      "bytes": 2618758696,
+      "sha256": "dc895b7206cf4904b09e613bf84e88972b8cd03b9a3cb89c11f4b38a719c171b",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "statistics.json",
+      "bytes": 4314640,
+      "sha256": "be22329e824d6500a840a71476d775bcc36a2d502c93352075cfbdca68bcd5a1",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "trainer_state.json",
+      "bytes": 28374,
+      "sha256": "c3ee8bbd13c1a349ba2883ae07e4c65aa3ba38ad580a35711c6fba9339c070d7",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "rng_state.pth",
+      "bytes": 14645,
+      "sha256": "a65ce8fe8653ce458ab708edb74817af21d452e33729a17b36c4bea5207f4587",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "training_args.bin",
+      "bytes": 5905,
+      "sha256": "6cd7135b277760cbfc5f8a01325bc17d9b4a1569ea37f648e527b9ae241b2b5a",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "scheduler.pt",
+      "bytes": 1465,
+      "sha256": "0c0d627c7f8a0fb48b948b9cb274ead2ddc9dfdd7223d39ba3cdfe65192c3410",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "wandb_config.json",
+      "bytes": 72,
+      "sha256": "334574f1c7f796c6ec642ba11b0e597c9f83d00e25b7af8c9d564556e9de9d2d",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    },
+    {
+      "path": "optimizer.pt",
+      "bytes": 12964594710,
+      "sha256": "0850cd4912e01ebeafff6d0f6a598bf08beb5a535b767e947995a1ef0d4aa435",
+      "verified": true,
+      "recovery_method": "compressed SCP"
+    }
+  ],
+  "parallel": 2,
+  "ssh_compression": true,
+  "local_reuse_root": "runtime\\action-training-phase\\checkpoints\\groot-main-01\\checkpoint-4000",
+  "total_bytes": 25547877659,
+  "resume_state_retained": true
+}

@@ -1,0 +1,109 @@
+{
+  "scope": "local explicit BF16 constructor-load optimization and five native inference calls; no robot or simultaneous-renderer success",
+  "complete": true,
+  "policy": {
+    "model": "GR00T-N1.7-3B",
+    "learned_policy": true,
+    "action_units": "radians",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-4000",
+    "checkpoint_sha256": "5f88d69c0f32cd3a7346bcf57c11fb1d8ec79d63f24f225f85f2a9b3a046f6e7",
+    "checkpoint_hash_scope": "sorted SHA-verified export-manifest shard filename/SHA256 aggregate; local sizes rechecked",
+    "export_manifest_sha256": "26ebdff224b3e0e72c88b20f8ca5fd816fffacce3ed461fa48ec7957b376b5fc",
+    "model_config_sha256": "d0daec17d75069a31a3a6a08365e1e5483e90512ca3268f16f78debf6e282390",
+    "load_optimization": "explicit constructor BF16 dtype; stock final BF16 deployment unchanged",
+    "prepared_source_manifest": {
+      "scope": "explicit BF16 constructor-load optimization; CPU preparation only",
+      "official_source": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\local-groot\\sources\\Isaac-GR00T\\gr00t\\policy\\gr00t_policy.py",
+      "source_pin": "51d4c89f72fda44cbf77285c6a8114b52676b8a1",
+      "stock_source_sha256": "ad1183a3ce1ebed6cace4a9cb8c5a123e823a0760ebf46f3694639a5ad1521ec",
+      "patched_source_sha256": "8dfe8d0b3946853bb8dea4d4be6cd60d8709b222dc0249255e48da5733960c91",
+      "change": "AutoModel.from_pretrained(model_dir, dtype=torch.bfloat16)",
+      "unchanged": "Same checkpoint, model.to(device,dtype=torch.bfloat16), processor, decoder, strict observations, no quantization or training changes",
+      "api_evidence": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\local-groot\\sources\\Isaac-GR00T\\.venv\\lib\\python3.12\\site-packages\\transformers\\modeling_utils.py",
+      "status": "CPU syntax/source preparation PASS; memory/inference not evaluated",
+      "memory_caveat": "Nested backbone construction and explicit trainable FP32 casts may still allocate temporaries; no fit claim",
+      "retained_stock_attempt": "office/evaluation-groot-002000-stock-retry-validation/guard-report.json",
+      "stock_scope_caveat": "Measured RAM failure under shared host load, including a reported overlapping ACT CPU probe; not an isolated impossibility result"
+    },
+    "deployment_dtype": "torch.bfloat16",
+    "control": "shared unchanged stock CloudPolicy decoded absolute6-radian actions; no IK/manual correction"
+  },
+  "cold_load_seconds": 117.90082283999072,
+  "cold_load_owned_cuda_peak_allocated_mib": 6014.99365234375,
+  "rows": [
+    {
+      "frame": 0,
+      "shape": [
+        16,
+        6
+      ],
+      "synchronized_seconds": 2.675290760991629,
+      "first8_expert_mae_radians": 0.023601603708347397,
+      "input_sha256": {
+        "state": "a0ad9921334f82a38d987b6ad9a97d9b530562865d275a23a6bc620cc4f1a30a",
+        "scene": "b19907f6c13e81961fb6955cacef381e64dd33be984c725c8addbd902672a6f0",
+        "wrist": "f9965f6b5164a1a8bac7325338bebbffba917961ee567d8a98ddf22c95219301"
+      }
+    },
+    {
+      "frame": 8,
+      "shape": [
+        16,
+        6
+      ],
+      "synchronized_seconds": 0.22616078599821776,
+      "first8_expert_mae_radians": 0.015312186077674164,
+      "input_sha256": {
+        "state": "d37e7f7b7745de9ac5c34eba6d755c9bbde3bfa9921161707b0c7d4491bcb6d2",
+        "scene": "0541ba3fbf8ea16f64d93dfed759c1fa69448f56194ab4abbba3a141ba2f2ae0",
+        "wrist": "6edc80683a82193a748b27b651263b8cb0bb96c188dad21c929fd2ebb034bee5"
+      }
+    },
+    {
+      "frame": 16,
+      "shape": [
+        16,
+        6
+      ],
+      "synchronized_seconds": 0.15148936401237734,
+      "first8_expert_mae_radians": 0.016629913285670306,
+      "input_sha256": {
+        "state": "7d0263e5684a7d4f3bda848e696d2e1b07ca9901e0a52f9dcb9cdab78603fd99",
+        "scene": "6872da9e7a2342acff743c3ae5f75e66f59499cf7922932bbf62738f17c404d0",
+        "wrist": "4d915a3846177abb77f61d636f7839173079a6d1ea31f2b1877394920006358d"
+      }
+    },
+    {
+      "frame": 24,
+      "shape": [
+        16,
+        6
+      ],
+      "synchronized_seconds": 0.16543655801797286,
+      "first8_expert_mae_radians": 0.017541981398038035,
+      "input_sha256": {
+        "state": "a1ec1766cc2b32fcf89fd0cd69d0f4299b9ac2241218525016a17ec064504ede",
+        "scene": "f55f7c91f4244e9760dcef79dbaea1c3f26fa48358841eaba8695713ca8f207b",
+        "wrist": "d7295d495a07d26c3da1229c37965a8b1ac9884846698d0d8d609c0a41b329a7"
+      }
+    },
+    {
+      "frame": 32,
+      "shape": [
+        16,
+        6
+      ],
+      "synchronized_seconds": 0.16708491899771616,
+      "first8_expert_mae_radians": 0.03539710409795762,
+      "input_sha256": {
+        "state": "af8e1e8ea9c95ad5250d4a6cc8ae5d2f88b8fff9224c97cdf883fe347833efed",
+        "scene": "1f3ab4700365ec80bc233cdbb387bede152320aa7c04ce2f653487f726d9c491",
+        "wrist": "1a1786df00aa44a99d2ae7c574bc4a733541e390e66564d82da2e1677c470fc6"
+      }
+    }
+  ],
+  "inference_owned_cuda_peak_allocated_mib": 6091.5419921875,
+  "elapsed_seconds": 126.73463156999787,
+  "predictions_sha256": "e6a689b4a15fa662c83ed5a204843c512dea32c93ae85fe1e55b31bd34bab25d",
+  "episode_sha256": "66eb600934eaaed68ae702ff53f8c9806b1c3d56b2177a6981c9a51d6c4dc6a2"
+}

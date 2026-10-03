@@ -1,0 +1,6 @@
+{
+  "scope": "checkpoint load/evaluation attempt",
+  "complete": false,
+  "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/comparison-v5/frozen-contract.json",
+  "adapter": "office_comparison_adapter"
+}

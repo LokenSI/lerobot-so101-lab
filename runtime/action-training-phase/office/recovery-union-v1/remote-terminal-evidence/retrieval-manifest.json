@@ -1,0 +1,80 @@
+[
+  {
+    "path": "smolvla-smoke-execution-report.json",
+    "sha256": "c92cb8bc78e35844adfd063c5142ca8e62309c9a28143c0b29858c02ed4a190e",
+    "bytes": 5088,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smolvla-smoke-execution-report.json"
+  },
+  {
+    "path": "smolvla-smoke-reload.json",
+    "sha256": "9a002ad9e9af6775a914fffa776d3d22cc81263e38b43a40dcb3188ae45c282c",
+    "bytes": 9415,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smolvla-smoke-reload.json"
+  },
+  {
+    "path": "smolvla-smoke-reload-guard.json",
+    "sha256": "7e47d93e176670fc0f87886d2e96da7cba4e42482231d5c2b191ab7a9422272b",
+    "bytes": 980,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smolvla-smoke-reload-guard.json"
+  },
+  {
+    "path": "smolvla-main-execution-report.json",
+    "sha256": "4aecd0338e05602376a5ca0aac3f39f23b7d21647ce6f135e00600c867d5094e",
+    "bytes": 45421,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smolvla-main-execution-report.json"
+  },
+  {
+    "path": "smolvla-main-reload.json",
+    "sha256": "13703cdddc90e208ad8591b1d6dd450538c6f9bfbc63bbf15279a587159a99c2",
+    "bytes": 9463,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smolvla-main-reload.json"
+  },
+  {
+    "path": "smolvla-main-reload-guard.json",
+    "sha256": "eef5f1d38eff60c470d48b993058c63feaf575a54070363377150b93cb156afc",
+    "bytes": 979,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smolvla-main-reload-guard.json"
+  },
+  {
+    "path": "setup-report.json",
+    "sha256": "70e5b546be7674f2434f74f02abe1b8e0c089c9b290bb361a1e17fcd1dd33eba",
+    "bytes": 583,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/setup-report.json"
+  },
+  {
+    "path": "recipe.json",
+    "sha256": "9163aaf200c60f80d39ef01acf895a4133be5843702722cf88069bf65acb4f5d",
+    "bytes": 3454,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/recipe.json"
+  },
+  {
+    "path": "smolvla-main-file-manifest.json",
+    "sha256": "8b334bf7426f48d27a99e22f17d662246e8363ee2cb7f6db83defc81d26b2de2",
+    "bytes": 3267,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smolvla-main-file-manifest.json"
+  },
+  {
+    "path": "smol-smoke-native-normalization-audit.json",
+    "sha256": "d46428aec3a23523d9b24d836f4aa581ed347a7179ec933e9c2f302f62f47435",
+    "bytes": 2035,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smol-smoke-native-normalization-audit.json"
+  },
+  {
+    "path": "smol-main-native-normalization-audit.json",
+    "sha256": "d46428aec3a23523d9b24d836f4aa581ed347a7179ec933e9c2f302f62f47435",
+    "bytes": 2035,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smol-main-native-normalization-audit.json"
+  },
+  {
+    "path": "smolvla-main-stdout.log",
+    "sha256": "b0fe57030a596b7848e8e891c7ab1972147199a55678152aaaca6f8049101575",
+    "bytes": 212397,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smolvla-main-stdout.log"
+  },
+  {
+    "path": "smolvla-smoke-stdout.log",
+    "sha256": "e507c2d27bf028a3dfd51a2b3b13f072a35fa9b10819c130b602dab4eb3f4908",
+    "bytes": 12278,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/smolvla-smoke-stdout.log"
+  }
+]

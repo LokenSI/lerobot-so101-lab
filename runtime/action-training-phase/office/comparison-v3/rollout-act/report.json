@@ -1,0 +1,348 @@
+{
+  "scope": "new MuJoCo checkpoint evaluation; no physical robot/domain-transfer claim",
+  "policy": {
+    "ready": true,
+    "model": "ACT task-specific pair",
+    "checkpoint_sha256": "e0646416be42f0af2a0adba8e8f3b5001cb458e01e6f848cd4c08d1ce87f2385",
+    "checkpoint_hash_scope": "model weight filename/SHA aggregate (ACT task/model hash map)",
+    "model_config_sha256": "0a3ee9a14f321124d9851e0bc67cb09adcea0342af1ea892a6ab28310197f405",
+    "server_sha256": "1e21c2b0b09195e3e9ada707103790b2a1c9171d74b2252e59f2dc11aeb89b4b",
+    "inference_device": "NVIDIA A100 80GB PCIe",
+    "deployment_dtype": "torch.float32",
+    "torch_version": "2.11.0+cu128",
+    "transformers_version": "5.5.4",
+    "source_revision": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+    "decoder_bound_semantics": "native MEAN_STD decoded commands unbounded",
+    "learned_language": false,
+    "timing_scope": "CUDA synchronized before and after native policy processing; excludes SSH and PNG decode",
+    "owned_cuda_peak_allocated_mib": 394.4306640625,
+    "external_task_selector": "External exact-instruction mapping; unknown instruction requires clarification",
+    "learned_policy": true,
+    "action_units": "radians",
+    "checkpoint": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/act-native-selector.json",
+    "frozen_contract_sha256": "0ab2aa6db8bf5159944550088703ee9677a30854a42aba47cb3f553a0bbc33a3",
+    "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/comparison-v3-rollout-act",
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/comparison-v3-rollout-act-report.json",
+    "inference_scope": "same existing A100 sequential inference; local CPU OSMesa physics/rendering",
+    "training_scope": {
+      "episodes_per_task": 3,
+      "frames_per_task": 1575,
+      "scene_seeds": [
+        1000,
+        1001,
+        1002
+      ],
+      "tasks_per_controller": 1
+    },
+    "control": "native policy-decoded commands before common simulator supervisor",
+    "adapter_sha256": "8664bf788f8dcea00544bb9dbb821d45c9dde7e3808ebd1f9a987b94735a62a3"
+  },
+  "policy_adapter_sha256": "8664bf788f8dcea00544bb9dbb821d45c9dde7e3808ebd1f9a987b94735a62a3",
+  "source_hashes": {
+    "/mnt/d/git/qwen-image_benchmark/scripts/office_environment.py": "190c853e3b29a28acbc41dbc80e6484ae9b3fe8b9fca48202d331ba017afde2f",
+    "/mnt/d/git/qwen-image_benchmark/scripts/so101_pick_place_baseline.py": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+    "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-so101-sim/sim.py": "c6a998933841b5bfcc41cc0d198181897435e84222982a8f6085cfc7ab7943f4",
+    "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-so101-sim/so101.xml": "011c5fb06c999f5207d2ad6a331ba6e602cf0b29edf120097016d23cfd8eaeaf"
+  },
+  "clock_mode": "simulation pauses for inference; video excludes pauses",
+  "split": "validation",
+  "seeds": [
+    10000
+  ],
+  "episodes": [
+    {
+      "seed": 10000,
+      "task": {
+        "id": "red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "goals": [
+          [
+            "red",
+            "left"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "scene": {
+        "seed": 10000,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.2487791864402629,
+              0.04618841083570235
+            ],
+            "yaw": 0.27945754976899806
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.1404547416222401,
+              0.03971851688042406
+            ],
+            "yaw": 0.37801614903375846
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.20458111153840722,
+              -0.021489587869239705
+            ],
+            "yaw": 0.21629524877435496
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "policy": {
+        "ready": true,
+        "model": "ACT task-specific pair",
+        "checkpoint_sha256": "e0646416be42f0af2a0adba8e8f3b5001cb458e01e6f848cd4c08d1ce87f2385",
+        "checkpoint_hash_scope": "model weight filename/SHA aggregate (ACT task/model hash map)",
+        "model_config_sha256": "0a3ee9a14f321124d9851e0bc67cb09adcea0342af1ea892a6ab28310197f405",
+        "server_sha256": "1e21c2b0b09195e3e9ada707103790b2a1c9171d74b2252e59f2dc11aeb89b4b",
+        "inference_device": "NVIDIA A100 80GB PCIe",
+        "deployment_dtype": "torch.float32",
+        "torch_version": "2.11.0+cu128",
+        "transformers_version": "5.5.4",
+        "source_revision": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+        "decoder_bound_semantics": "native MEAN_STD decoded commands unbounded",
+        "learned_language": false,
+        "timing_scope": "CUDA synchronized before and after native policy processing; excludes SSH and PNG decode",
+        "owned_cuda_peak_allocated_mib": 394.4306640625,
+        "external_task_selector": "External exact-instruction mapping; unknown instruction requires clarification",
+        "learned_policy": true,
+        "action_units": "radians",
+        "checkpoint": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/act-native-selector.json",
+        "frozen_contract_sha256": "0ab2aa6db8bf5159944550088703ee9677a30854a42aba47cb3f553a0bbc33a3",
+        "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/comparison-v3-rollout-act",
+        "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/comparison-v3-rollout-act-report.json",
+        "inference_scope": "same existing A100 sequential inference; local CPU OSMesa physics/rendering",
+        "training_scope": {
+          "episodes_per_task": 3,
+          "frames_per_task": 1575,
+          "scene_seeds": [
+            1000,
+            1001,
+            1002
+          ],
+          "tasks_per_controller": 1
+        },
+        "control": "native policy-decoded commands before common simulator supervisor",
+        "adapter_sha256": "8664bf788f8dcea00544bb9dbb821d45c9dde7e3808ebd1f9a987b94735a62a3"
+      },
+      "wording": "train",
+      "wording_sha256": "665a87a5e25f9b4a2d6af160f70aaca6d74b10b333ce3c48aea20135ab5bc36d",
+      "development_overfit_control": false,
+      "policy_rng_seed": 510000,
+      "initial_state_sha256": "a548f8f342e4440eaa9ede406c5ce30ceb949c046443528bf3b107ad08a01d75",
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 0.2104438050170787
+        },
+        "distractors_untouched": false,
+        "grading_frames": 45
+      },
+      "success": false,
+      "task_success": false,
+      "strict_zero_raw_limit_events_success": false,
+      "chunk_execution": 8,
+      "supervisor": "Existing simulator clips actuator targets to authored joint ranges; raw actions and violations are retained; no IK/manual correction",
+      "command_limit_events": 324,
+      "steps": 585,
+      "wall_seconds": 33.56784248200711,
+      "fresh_inference_p50_s": 0.24055920798855368,
+      "fresh_inference_p95_s": 0.24990511381038233,
+      "trajectory_sha256": "385f31f8e2e9768391bf11ca51e2e653984df2449e0d97dd0088a00870045336",
+      "server_synchronized_inference_p50_s": 0.012330861000009463,
+      "server_synchronized_inference_p95_s": 0.014819356449606856,
+      "prediction_trace_sha256": "20e819d72b9db649283f9664b6b98720cbea76c0055db3410c760b64976cc775",
+      "command_limit_metric_scope": "policy-decoded commands before common actuator supervisor; native decoder bounds differ by model"
+    },
+    {
+      "seed": 10000,
+      "task": {
+        "id": "red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "goals": [
+          [
+            "red",
+            "right"
+          ]
+        ],
+        "kind": "object-destination"
+      },
+      "scene": {
+        "seed": 10000,
+        "objects": [
+          {
+            "color": "red",
+            "xy": [
+              0.2487791864402629,
+              0.04618841083570235
+            ],
+            "yaw": 0.27945754976899806
+          },
+          {
+            "color": "blue",
+            "xy": [
+              0.1404547416222401,
+              0.03971851688042406
+            ],
+            "yaw": 0.37801614903375846
+          },
+          {
+            "color": "yellow",
+            "xy": [
+              0.20458111153840722,
+              -0.021489587869239705
+            ],
+            "yaw": 0.21629524877435496
+          }
+        ],
+        "trays": {
+          "left": [
+            0.235,
+            0.15
+          ],
+          "right": [
+            0.235,
+            -0.16
+          ]
+        },
+        "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+      },
+      "policy": {
+        "ready": true,
+        "model": "ACT task-specific pair",
+        "checkpoint_sha256": "e0646416be42f0af2a0adba8e8f3b5001cb458e01e6f848cd4c08d1ce87f2385",
+        "checkpoint_hash_scope": "model weight filename/SHA aggregate (ACT task/model hash map)",
+        "model_config_sha256": "0a3ee9a14f321124d9851e0bc67cb09adcea0342af1ea892a6ab28310197f405",
+        "server_sha256": "1e21c2b0b09195e3e9ada707103790b2a1c9171d74b2252e59f2dc11aeb89b4b",
+        "inference_device": "NVIDIA A100 80GB PCIe",
+        "deployment_dtype": "torch.float32",
+        "torch_version": "2.11.0+cu128",
+        "transformers_version": "5.5.4",
+        "source_revision": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+        "decoder_bound_semantics": "native MEAN_STD decoded commands unbounded",
+        "learned_language": false,
+        "timing_scope": "CUDA synchronized before and after native policy processing; excludes SSH and PNG decode",
+        "owned_cuda_peak_allocated_mib": 394.4306640625,
+        "external_task_selector": "External exact-instruction mapping; unknown instruction requires clarification",
+        "learned_policy": true,
+        "action_units": "radians",
+        "checkpoint": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/act-native-selector.json",
+        "frozen_contract_sha256": "0ab2aa6db8bf5159944550088703ee9677a30854a42aba47cb3f553a0bbc33a3",
+        "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/comparison-v3-rollout-act",
+        "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/comparison-v3-rollout-act-report.json",
+        "inference_scope": "same existing A100 sequential inference; local CPU OSMesa physics/rendering",
+        "training_scope": {
+          "episodes_per_task": 3,
+          "frames_per_task": 1575,
+          "scene_seeds": [
+            1000,
+            1001,
+            1002
+          ],
+          "tasks_per_controller": 1
+        },
+        "control": "native policy-decoded commands before common simulator supervisor",
+        "adapter_sha256": "8664bf788f8dcea00544bb9dbb821d45c9dde7e3808ebd1f9a987b94735a62a3"
+      },
+      "wording": "train",
+      "wording_sha256": "11d4ea0224192b40284b07e3d43a5f2226d2b89cc6b56dfe83d3def9350943fe",
+      "development_overfit_control": false,
+      "policy_rng_seed": 510000,
+      "initial_state_sha256": "a548f8f342e4440eaa9ede406c5ce30ceb949c046443528bf3b107ad08a01d75",
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "success": false,
+      "task_success": false,
+      "strict_zero_raw_limit_events_success": false,
+      "chunk_execution": 8,
+      "supervisor": "Existing simulator clips actuator targets to authored joint ranges; raw actions and violations are retained; no IK/manual correction",
+      "command_limit_events": 0,
+      "steps": 585,
+      "wall_seconds": 32.25930537900422,
+      "fresh_inference_p50_s": 0.23919654449855443,
+      "fresh_inference_p95_s": 0.25002955079544337,
+      "trajectory_sha256": "225787e361194b2ccd33a9c5396dc4e771c72e1107cfa654ef5573908aadfcd5",
+      "server_synchronized_inference_p50_s": 0.011963977500272449,
+      "server_synchronized_inference_p95_s": 0.019201021300614227,
+      "prediction_trace_sha256": "a1c789f93e33bb676d3a73baf98649352c1d66af886e0294febf2815a9de70b2",
+      "command_limit_metric_scope": "policy-decoded commands before common actuator supervisor; native decoder bounds differ by model"
+    }
+  ],
+  "complete": true,
+  "successes": 0,
+  "paired_initial_state_checks": [
+    {
+      "seed": 10000,
+      "initial_state_sha256": "a548f8f342e4440eaa9ede406c5ce30ceb949c046443528bf3b107ad08a01d75",
+      "identical": true
+    }
+  ],
+  "policy_rng": "same torch seed for each paired instruction within a scene",
+  "policy_rng_seed_base": 500000,
+  "wording": "train",
+  "development_overfit_control": false,
+  "policy_rng_seed_fixed": 510000,
+  "concurrency_note": "Same A100 sequential model inference; local CPU OSMesa; unrelated native pipe may occupy local GPU; no own local GPU",
+  "chunk_execution": 8,
+  "execution_device": "cpu",
+  "render_backend": "osmesa",
+  "cpu_threads": "4",
+  "prediction_retention": true,
+  "task_successes": 0,
+  "supervisor": "Existing simulator clips actuator targets to authored joint ranges; raw actions and violations are retained; no IK/manual correction",
+  "whole_device_peak_mib": 2759,
+  "host_memory_admission": "requires external Windows whole-system monitor; WSL process memory is insufficient"
+}

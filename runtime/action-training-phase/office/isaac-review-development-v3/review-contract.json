@@ -1,0 +1,963 @@
+{
+  "scope": "native Isaac presentation of retained MuJoCo evidence; no new policy or Isaac physics evaluation",
+  "cells": [
+    {
+      "cell": 0,
+      "episode": "runtime/action-training-phase/office/dataset/train/seed-1000/red-left",
+      "instruction": "Pick up the red cube and put it in the left tray.",
+      "seed": 1000,
+      "success": true,
+      "expert": true,
+      "policy": null,
+      "failure_events": null,
+      "grader": {
+        "success": true,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": true,
+            "released": true,
+            "stable": true,
+            "lifted": true,
+            "success": true
+          }
+        ],
+        "completion_ticks": [
+          471
+        ],
+        "sequence_order_correct": true,
+        "distractor_max_displacement_m": {
+          "blue": 4.874572967494828e-16,
+          "yellow": 4.839878497975292e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": null,
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 1,
+      "episode": "runtime/action-training-phase/office/dataset/train/seed-1000/red-right",
+      "instruction": "Pick up the red cube and put it in the right tray.",
+      "seed": 1000,
+      "success": true,
+      "expert": true,
+      "policy": null,
+      "failure_events": null,
+      "grader": {
+        "success": true,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": true,
+            "released": true,
+            "stable": true,
+            "lifted": true,
+            "success": true
+          }
+        ],
+        "completion_ticks": [
+          470
+        ],
+        "sequence_order_correct": true,
+        "distractor_max_displacement_m": {
+          "blue": 4.874572967494828e-16,
+          "yellow": 4.839878497975292e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": null,
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 2,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-000100-validation/seed-10000-red-left",
+      "instruction": "Move the red block into the left tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-main-01-000100/pretrained_model",
+        "checkpoint_sha256": "5d23ae264b600c2e4793535245f3c1744c37ff302e646cabe155684b34185dd2",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 126,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.926614671774132e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": null,
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 3,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-000100-validation/seed-10000-red-right",
+      "instruction": "Move the red block into the right tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-main-01-000100/pretrained_model",
+        "checkpoint_sha256": "5d23ae264b600c2e4793535245f3c1744c37ff302e646cabe155684b34185dd2",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 104,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": null,
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 4,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-001000-validation/seed-10000-red-left",
+      "instruction": "Move the red block into the left tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-main-01-001000/pretrained_model",
+        "checkpoint_sha256": "b7a244f36142d2782e76f45e0576d1ad59806e488561ae4ca6a4a62f1d032659",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 536,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": null,
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 5,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-001000-validation/seed-10000-red-right",
+      "instruction": "Move the red block into the right tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-main-01-001000/pretrained_model",
+        "checkpoint_sha256": "b7a244f36142d2782e76f45e0576d1ad59806e488561ae4ca6a4a62f1d032659",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 539,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": null,
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 6,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-002000-validation/seed-10000-red-left",
+      "instruction": "Move the red block into the left tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-001000/pretrained_model",
+        "checkpoint_sha256": "63f009918182378cc050af8c07883b720400f1358662ab99a96da99925ebddc1",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 536,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": null,
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 7,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-002000-validation/seed-10000-red-right",
+      "instruction": "Move the red block into the right tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-001000/pretrained_model",
+        "checkpoint_sha256": "63f009918182378cc050af8c07883b720400f1358662ab99a96da99925ebddc1",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 524,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": null,
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 8,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-005000-trainwording-diagnostic/seed-10000-red-left",
+      "instruction": "Pick up the red cube and put it in the left tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+        "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 266,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 9,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-005000-trainwording-diagnostic/seed-10000-red-right",
+      "instruction": "Pick up the red cube and put it in the right tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+        "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 538,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": null,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 10,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-005000-trainwording-diagnostic/seed-1000-red-left",
+      "instruction": "Pick up the red cube and put it in the left tray.",
+      "seed": 1000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+        "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 300,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.874572967494828e-16,
+          "yellow": 4.874572967494828e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": null,
+      "development_overfit_control": true
+    },
+    {
+      "cell": 11,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-005000-trainwording-diagnostic/seed-1000-red-right",
+      "instruction": "Pick up the red cube and put it in the right tray.",
+      "seed": 1000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+        "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 539,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.874572967494828e-16,
+          "yellow": 4.874572967494828e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": null,
+      "development_overfit_control": true
+    },
+    {
+      "cell": 12,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-005000-chunk32-ablation/seed-10000-red-left",
+      "instruction": "Pick up the red cube and put it in the left tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+        "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 127,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 0.014381852622014024,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": 32,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 13,
+      "episode": "runtime/action-training-phase/office/evaluation-smol-005000-chunk32-ablation/seed-10000-red-right",
+      "instruction": "Pick up the red cube and put it in the right tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "learned_policy": true,
+        "language_conditioned": true,
+        "model": "SmolVLA",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+        "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+        "action_units": "radians",
+        "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+      },
+      "failure_events": 201,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 0.021892170130983612,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": false,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": 32,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 14,
+      "episode": "runtime/action-training-phase/office/evaluation-groot-002000-remote-validation/seed-10000-red-left",
+      "instruction": "Pick up the red cube and put it in the left tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "model": "GR00T-N1.7-3B",
+        "learned_policy": true,
+        "action_units": "radians",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-2000",
+        "checkpoint_sha256": "1cdb494cca69491710ab6503e25b3d81a2c3d0de6b3c5bb583f0d943582750c8",
+        "checkpoint_hash_scope": "sorted safetensors shard filename/SHA256 aggregate",
+        "model_config_sha256": "d0daec17d75069a31a3a6a08365e1e5483e90512ca3268f16f78debf6e282390",
+        "deployment_dtype": "torch.bfloat16",
+        "inference_device": "NVIDIA A100 80GB PCIe",
+        "inference_scope": "existing cloud GPU via SSH stdin RPC; local CPU OSMesa physics/rendering",
+        "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/groot-002000-heldout-01-report.json",
+        "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/groot-002000-heldout-01",
+        "control": "identical cloud observations-only decoder; no IK/manual correction",
+        "adapter_sha256": "190984aea0bf20857886676b4c3a4041bf4be46be4a3f7860275ff909d6e9cba",
+        "server_sha256": "8be72faae7db9d584f3beca3f0e080ab568bd2941aad237b817ab001c5ab1859"
+      },
+      "failure_events": 0,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 0.012311719725883498,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": 8,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 15,
+      "episode": "runtime/action-training-phase/office/evaluation-groot-002000-remote-validation/seed-10000-red-right",
+      "instruction": "Pick up the red cube and put it in the right tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "model": "GR00T-N1.7-3B",
+        "learned_policy": true,
+        "action_units": "radians",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-2000",
+        "checkpoint_sha256": "1cdb494cca69491710ab6503e25b3d81a2c3d0de6b3c5bb583f0d943582750c8",
+        "checkpoint_hash_scope": "sorted safetensors shard filename/SHA256 aggregate",
+        "model_config_sha256": "d0daec17d75069a31a3a6a08365e1e5483e90512ca3268f16f78debf6e282390",
+        "deployment_dtype": "torch.bfloat16",
+        "inference_device": "NVIDIA A100 80GB PCIe",
+        "inference_scope": "existing cloud GPU via SSH stdin RPC; local CPU OSMesa physics/rendering",
+        "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/groot-002000-heldout-01-report.json",
+        "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/groot-002000-heldout-01",
+        "control": "identical cloud observations-only decoder; no IK/manual correction",
+        "adapter_sha256": "190984aea0bf20857886676b4c3a4041bf4be46be4a3f7860275ff909d6e9cba",
+        "server_sha256": "8be72faae7db9d584f3beca3f0e080ab568bd2941aad237b817ab001c5ab1859"
+      },
+      "failure_events": 0,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 0.010169775904205917,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": 8,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 16,
+      "episode": "runtime/action-training-phase/office/evaluation-groot-004000-remote-validation/seed-10000-red-left",
+      "instruction": "Pick up the red cube and put it in the left tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "model": "GR00T-N1.7-3B",
+        "learned_policy": true,
+        "action_units": "radians",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-4000",
+        "checkpoint_sha256": "5f88d69c0f32cd3a7346bcf57c11fb1d8ec79d63f24f225f85f2a9b3a046f6e7",
+        "checkpoint_hash_scope": "sorted safetensors shard filename/SHA256 aggregate",
+        "model_config_sha256": "d0daec17d75069a31a3a6a08365e1e5483e90512ca3268f16f78debf6e282390",
+        "deployment_dtype": "torch.bfloat16",
+        "inference_device": "NVIDIA A100 80GB PCIe",
+        "inference_scope": "existing cloud GPU via SSH stdin RPC; local CPU OSMesa physics/rendering",
+        "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/groot-004000-heldout-01-report.json",
+        "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/groot-004000-heldout-01",
+        "control": "identical cloud observations-only decoder; no IK/manual correction",
+        "adapter_sha256": "3a7b87988bf661002f012f7bac8fbe9f0fc3b4bb3b077dd857df6e58322fbae3",
+        "server_sha256": "8be72faae7db9d584f3beca3f0e080ab568bd2941aad237b817ab001c5ab1859",
+        "cloud_checkpoint": "/home/ubuntu/workspace/action-training/data/runs/groot-main-01/checkpoint-4000",
+        "checkpoint_step": 4000,
+        "local_checkpoint_recovered": false
+      },
+      "failure_events": 47,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 0.1552107929967391,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": false,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": 8,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 17,
+      "episode": "runtime/action-training-phase/office/evaluation-groot-004000-remote-validation/seed-10000-red-right",
+      "instruction": "Pick up the red cube and put it in the right tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "model": "GR00T-N1.7-3B",
+        "learned_policy": true,
+        "action_units": "radians",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/groot-main-01/checkpoint-4000",
+        "checkpoint_sha256": "5f88d69c0f32cd3a7346bcf57c11fb1d8ec79d63f24f225f85f2a9b3a046f6e7",
+        "checkpoint_hash_scope": "sorted safetensors shard filename/SHA256 aggregate",
+        "model_config_sha256": "d0daec17d75069a31a3a6a08365e1e5483e90512ca3268f16f78debf6e282390",
+        "deployment_dtype": "torch.bfloat16",
+        "inference_device": "NVIDIA A100 80GB PCIe",
+        "inference_scope": "existing cloud GPU via SSH stdin RPC; local CPU OSMesa physics/rendering",
+        "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/groot-004000-heldout-01-report.json",
+        "session": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/office/remote-sessions/groot-004000-heldout-01",
+        "control": "identical cloud observations-only decoder; no IK/manual correction",
+        "adapter_sha256": "3a7b87988bf661002f012f7bac8fbe9f0fc3b4bb3b077dd857df6e58322fbae3",
+        "server_sha256": "8be72faae7db9d584f3beca3f0e080ab568bd2941aad237b817ab001c5ab1859",
+        "cloud_checkpoint": "/home/ubuntu/workspace/action-training/data/runs/groot-main-01/checkpoint-4000",
+        "checkpoint_step": 4000,
+        "local_checkpoint_recovered": false
+      },
+      "failure_events": 2,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 0.22137869988878878,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": false,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": 8,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 18,
+      "episode": "runtime/action-training-phase/office/evaluation-act-002000-cpu-validation/seed-10000-red-left",
+      "instruction": "Pick up the red cube and put it in the left tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "model": "ACT task-specific pair",
+        "learned_policy": true,
+        "learned_language": false,
+        "office_updates_by_task": {
+          "red-left": 2000,
+          "red-right": 2000
+        },
+        "external_task_selector": "Exact original instruction maps to independently trained left/right policy; no neural language understanding",
+        "action_units": "radians",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/portable-stage-2000",
+        "model_sha256_by_task": {
+          "red-left": "751bf82e3ae4bc266e7cfaab8d61c26bc8eb19df3ec095d5d3f21f8efefc95be",
+          "red-right": "3f66277f9577e70569b56e23e89990a50aab170b882fd2639d4eb8a24ad4e732"
+        },
+        "checkpoint_sha256": "e0646416be42f0af2a0adba8e8f3b5001cb458e01e6f848cd4c08d1ce87f2385",
+        "observation": "Current scene/wrist RGB and measured joints only; text used solely by declared external selector"
+      },
+      "failure_events": 282,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "left",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 0.21033823568334656
+        },
+        "distractors_untouched": false,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": 8,
+      "development_overfit_control": false
+    },
+    {
+      "cell": 19,
+      "episode": "runtime/action-training-phase/office/evaluation-act-002000-cpu-validation/seed-10000-red-right",
+      "instruction": "Pick up the red cube and put it in the right tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "model": "ACT task-specific pair",
+        "learned_policy": true,
+        "learned_language": false,
+        "office_updates_by_task": {
+          "red-left": 2000,
+          "red-right": 2000
+        },
+        "external_task_selector": "Exact original instruction maps to independently trained left/right policy; no neural language understanding",
+        "action_units": "radians",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/portable-stage-2000",
+        "model_sha256_by_task": {
+          "red-left": "751bf82e3ae4bc266e7cfaab8d61c26bc8eb19df3ec095d5d3f21f8efefc95be",
+          "red-right": "3f66277f9577e70569b56e23e89990a50aab170b882fd2639d4eb8a24ad4e732"
+        },
+        "checkpoint_sha256": "e0646416be42f0af2a0adba8e8f3b5001cb458e01e6f848cd4c08d1ce87f2385",
+        "observation": "Current scene/wrist RGB and measured joints only; text used solely by declared external selector"
+      },
+      "failure_events": 0,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": 8,
+      "development_overfit_control": false
+    }
+  ],
+  "failures_included": 18,
+  "excluded_outcome_filter": null,
+  "explicit_task_filter": null,
+  "incomplete_evaluations": [
+    {
+      "directory": "runtime/action-training-phase/office/evaluation-groot-002000-stock-validation",
+      "error": "No readable whole-host admission sample",
+      "complete": false,
+      "no_trajectory": true
+    },
+    {
+      "directory": "runtime/action-training-phase/office/evaluation-groot-002000-stock-retry-validation",
+      "error": "Whole-host admission sample is stale (10.1s)",
+      "complete": false,
+      "no_trajectory": true
+    }
+  ],
+  "all_failures_from_selected_completed_cases_retained": true
+}

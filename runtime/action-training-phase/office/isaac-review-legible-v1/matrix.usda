@@ -1,0 +1,115 @@
+#usda 1.0
+(
+    defaultPrim = "OfficeMatrix"
+    upAxis = "Z"
+    metersPerUnit = 1
+    timeCodesPerSecond = 30
+    endTimeCode = 584
+)
+def Xform "OfficeMatrix"
+{
+    def Xform "cell_0" ( prepend references = @cell-000.usda@ )
+    {
+        double3 xformOp:translate = (0.0, 0.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_1" ( prepend references = @cell-001.usda@ )
+    {
+        double3 xformOp:translate = (1.5, 0.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_2" ( prepend references = @cell-002.usda@ )
+    {
+        double3 xformOp:translate = (3.0, 0.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_3" ( prepend references = @cell-003.usda@ )
+    {
+        double3 xformOp:translate = (4.5, 0.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_4" ( prepend references = @cell-004.usda@ )
+    {
+        double3 xformOp:translate = (0.0, 1.5, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_5" ( prepend references = @cell-005.usda@ )
+    {
+        double3 xformOp:translate = (1.5, 1.5, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_6" ( prepend references = @cell-006.usda@ )
+    {
+        double3 xformOp:translate = (3.0, 1.5, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_7" ( prepend references = @cell-007.usda@ )
+    {
+        double3 xformOp:translate = (4.5, 1.5, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_8" ( prepend references = @cell-008.usda@ )
+    {
+        double3 xformOp:translate = (0.0, 3.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_9" ( prepend references = @cell-009.usda@ )
+    {
+        double3 xformOp:translate = (1.5, 3.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_10" ( prepend references = @cell-010.usda@ )
+    {
+        double3 xformOp:translate = (3.0, 3.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_11" ( prepend references = @cell-011.usda@ )
+    {
+        double3 xformOp:translate = (4.5, 3.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_12" ( prepend references = @cell-012.usda@ )
+    {
+        double3 xformOp:translate = (0.0, 4.5, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_13" ( prepend references = @cell-013.usda@ )
+    {
+        double3 xformOp:translate = (1.5, 4.5, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_14" ( prepend references = @cell-014.usda@ )
+    {
+        double3 xformOp:translate = (3.0, 4.5, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_15" ( prepend references = @cell-015.usda@ )
+    {
+        double3 xformOp:translate = (4.5, 4.5, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_16" ( prepend references = @cell-016.usda@ )
+    {
+        double3 xformOp:translate = (0.0, 6.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_17" ( prepend references = @cell-017.usda@ )
+    {
+        double3 xformOp:translate = (1.5, 6.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_18" ( prepend references = @cell-018.usda@ )
+    {
+        double3 xformOp:translate = (3.0, 6.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "cell_19" ( prepend references = @cell-019.usda@ )
+    {
+        double3 xformOp:translate = (4.5, 6.0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def DomeLight "Light"
+    {
+        float inputs:intensity = 600
+    }
+}

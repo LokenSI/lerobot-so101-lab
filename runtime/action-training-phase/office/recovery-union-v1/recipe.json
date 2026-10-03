@@ -1,0 +1,65 @@
+{
+  "scope": "approved controlled fresh-base Smol18 nominal+physical-recovery union, before execution; no success claim",
+  "trigger": "common6 fresh matched0/6, native saved/loaded processors match data; gripper-only Smol536/547 decoded violations; expert first8MAE0.020535rad",
+  "dataset_archive_sha256": "2589fc52c2319dee15362ff0d315d275a8af32ffc901d240b835b330ad848a3d",
+  "dataset_source": "runtime/action-training-phase/act/common-comparison-data/union-v1",
+  "models": {
+    "smolvla": {
+      "source_pin": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+      "base_model_snapshot": "/ephemeral/cache/huggingface/hub/models--lerobot--smolvla_base/snapshots/d9f33c94a60fb382c90dea2164c96845bd955e28",
+      "dataset_format": "v3.0",
+      "dataset_task_ids": [
+        "red-left",
+        "red-right"
+      ],
+      "scene_seeds": [
+        1000,
+        1001,
+        1002
+      ],
+      "episodes": 18,
+      "frames": 8730,
+      "smoke": {
+        "updates": 20,
+        "save_every": 20,
+        "max_wall_seconds": 600,
+        "gate": "native saved fresh-process reload finite[H,6], no robot quality claim"
+      },
+      "main": {
+        "updates": 2000,
+        "save_every": 2000,
+        "max_wall_seconds": 3600,
+        "start": "same official base snapshot, new optimizer/scheduler; smoke is not silently resumed",
+        "checkpoint_barrier": false,
+        "save_total_limit": 1
+      },
+      "batch_size": 16,
+      "trainable": "action expert and state projector; vision frozen",
+      "native_decoder": "MEAN_STD absolute commands",
+      "post_training": "quiesce trainers, hash direct full native checkpoint files then same-A100 matched development pair with unchanged grader; no sealed test until development selection",
+      "normalization": "fresh official base, new native training processors from union stats; explicitly audit saved/loaded pre/post stats against union before eval; no inherited previous checkpoint scaler"
+    }
+  },
+  "guards": {
+    "whole_cloud_gpu_mib": 71680,
+    "whole_cloud_ram_mib": 102400,
+    "external_hard_stop_utc": "2026-10-03T14:52:00Z"
+  },
+  "parallelism": "serial by default; parallel main only after measured global GPU/RAM headroom and parent coordination; no comparison overlaps trainers",
+  "recovery": {
+    "method": "direct native-file manifest/SCP, every file SHA verified; no duplicate local TAR",
+    "local_available_gb_reported_by_parent": 69,
+    "estimated_final_full_groot_gb": 25.55,
+    "stock_full_smoke": "keep remote smoke until reload evidence saved; no duplicate local full smoke recovery needed",
+    "local_minimum_free_after_recovery_bytes": 4294967296,
+    "estimated_full_smol_bytes": 1322975315
+  },
+  "claim_limits": "Matched task breadth/data does not equal architecture, batch size, objective, pretraining, or total compute. ACT remains separate exact-task router baseline. Corrective off-expert data is a separate future intervention.",
+  "intervention": {
+    "added": "12 audited physically perturbed expert causal suffix episodes,5580frames plus six nominal3150frames",
+    "excluded_supervision": "privileged nominal replay prefixes and physical perturbation commands",
+    "unchanged": "source/modelbase/architecture/batch16/2000updates/optimizerrecipe/chunk8/simulator/grader/frozenheldouttestcases",
+    "GR00T_recovery_training": "deferred, full checkpoint storage admission unavailable",
+    "ACT": "unchanged baseline, no new training"
+  }
+}

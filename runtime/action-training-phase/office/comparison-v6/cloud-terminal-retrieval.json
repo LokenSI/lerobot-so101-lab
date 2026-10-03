@@ -1,0 +1,12 @@
+[
+  {
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/comparison-v6-teacher-smolvla-report.json",
+    "sha256": "fd791be105b9dcf413efc3c12d502e23c704cb5efc0e80401c3cd22dcbfd0c95",
+    "local": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\office\\remote-sessions\\comparison-v6-teacher-smolvla\\cloud-resource-report.json"
+  },
+  {
+    "remote_report": "/home/ubuntu/workspace/action-training/groot-eval/comparison-v1/comparison-v6-smolvla-report.json",
+    "sha256": "c87a70998aa26301f0e1a8ae2fa05e052da990a915a5075382e04bd2dfcfd1ee",
+    "local": "D:\\git\\qwen-image_benchmark\\runtime\\action-training-phase\\office\\remote-sessions\\comparison-v6-smolvla\\cloud-resource-report.json"
+  }
+]

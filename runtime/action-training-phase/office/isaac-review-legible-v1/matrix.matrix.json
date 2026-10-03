@@ -1,0 +1,565 @@
+{
+  "scope": "replay matrix; all outcomes inherit original reports; no Isaac policy evaluation",
+  "cells": [
+    {
+      "cell": 0,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-000.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/dataset/train/seed-1000/red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "original_success": true,
+        "controller": "privileged scripted IK expert",
+        "trajectory_sha256": "66eb600934eaaed68ae702ff53f8c9806b1c3d56b2177a6981c9a51d6c4dc6a2",
+        "usd_sha256": "362444db7c0292091c0bd76a96d8766905b5bb496b55f4bd6e5a49a648922512",
+        "geometries": 34,
+        "frames": 525,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": false,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 1,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-001.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/dataset/train/seed-1000/red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "original_success": true,
+        "controller": "privileged scripted IK expert",
+        "trajectory_sha256": "57a38e4cb4cdddce7d69d1f08658ecaece1d5bd442a933ebbdebd2e46074e852",
+        "usd_sha256": "6c0a6f8cd2c6929e895adff37cb563b7952665d1a520efbb7a669aaab2c63cc3",
+        "geometries": 34,
+        "frames": 525,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": false,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 2,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-002.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-000100-validation/seed-10000-red-left",
+        "instruction": "Move the red block into the left tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "a22a7b989b79d710f1fb90a86fb21f0798c05848b309cd31fedf2373b6d197c4",
+        "usd_sha256": "60bb132de67c8bef82271bc2a2a8ee533efa7aef8c3b4ebfaefacc5d2f9ebf16",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 3,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-003.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-000100-validation/seed-10000-red-right",
+        "instruction": "Move the red block into the right tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "fc566cb081c8501c67eaf992bbc7543027a8e9472197127ec3d30e4e5c9d033e",
+        "usd_sha256": "0b041e76e7250cb67a4f2720ae59fdb9ad21f3e1a51714997b7fa702ab12f932",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 4,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-004.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-001000-validation/seed-10000-red-left",
+        "instruction": "Move the red block into the left tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "b59a5e1d5a93407673d510dcbb0c31a505fde4c0a31a29d8eec07d677a042692",
+        "usd_sha256": "da6b88ad347f01aafee21e9a5cb3f2487fe46aff38b7aa96f335c9afbf020d8a",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 5,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-005.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-001000-validation/seed-10000-red-right",
+        "instruction": "Move the red block into the right tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "96cab4298fb5b61dc1b14df7a2d3a94469d5cc48bfb86c3bd3400d625b703683",
+        "usd_sha256": "7d042b491d4e944393645a3e0c71a6f526634720788628ffc56bc3d50efa82ce",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 6,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-006.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-002000-validation/seed-10000-red-left",
+        "instruction": "Move the red block into the left tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "36735deb8c8ec61d24b1e077ca3ccf40ccc9145b2107491fc40aa5930db0e7d0",
+        "usd_sha256": "26a401e1cb2b61fa359b02c9bb1074a6b46d577707c45e0019f131c2d1b3bf23",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 7,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-007.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-002000-validation/seed-10000-red-right",
+        "instruction": "Move the red block into the right tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "3eb8ce135c33048405a120f8c9cde357e3fd4290f9d0513cc3040178bcf8dd10",
+        "usd_sha256": "f4d74a1fcbd037b8c6328c21bac83257282447884ee82cc228c77ccad28312be",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 8,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-008.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-005000-trainwording-diagnostic/seed-10000-red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "820b36fe7b4a0f2a3517a0f4eb529ba29a65aa131657c068344f81f6285c5f36",
+        "usd_sha256": "f63bf2857b67b0eb5271b8ab5d59f6698c62bcfb43704960233e90e3a2051217",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 9,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-009.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-005000-trainwording-diagnostic/seed-10000-red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "c93a79b9e00191a5ccbc55ff6f002a4d27313967504e99ca18e4c4bd0c4b0022",
+        "usd_sha256": "fa33f05a2650f0dadd894bee30f818c65b5b3509858b63ed4ca6b6cb711168b1",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 10,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-010.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-005000-trainwording-diagnostic/seed-1000-red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "4960774d5c30d1d7ef014db8df42c0f9153af07eda047abe5e707c46d71fff3e",
+        "usd_sha256": "3c4dc651a42cf0962d3074809b64ffcfcc7bd9c4a50c9a0209b0057982cf8a23",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 11,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-011.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-005000-trainwording-diagnostic/seed-1000-red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "27fd74a141ac98b8710aab2a88cf33948a184a9ffb75185268674cf6c940aeef",
+        "usd_sha256": "6da904a6f73a3a12a840f65176f1604ded8ce821c365d73d8d522c1690b77a0a",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 12,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-012.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-005000-chunk32-ablation/seed-10000-red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "4e568bd3b62bb24dd8f9dc157bd8679323c7301fd9004a130f13f1e69f25e5d8",
+        "usd_sha256": "019607662cf8409f206d3415ca591d011e5e14f8b5dc214f9c610aae41e0d760",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 13,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-013.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-smol-005000-chunk32-ablation/seed-10000-red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "5e833454b5bfaa51c8ee7ba070bb0804c5650f79dbaeb49b8b01ca0fb6f5a46b",
+        "usd_sha256": "83a09863df614ff23f097ceb0b5fdb2f4863f642a0d2a7e1e842d806d10fde89",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 14,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-014.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-groot-002000-remote-validation/seed-10000-red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "8f53341bd2c41e9821e83f3b5972debc0f9efab520be2f5f1ab4d1f206c5beca",
+        "usd_sha256": "46bec755c74a48da7124feb9dbc3d59845c72447a91a406a5230b9cb11672b9b",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 15,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-015.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-groot-002000-remote-validation/seed-10000-red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "dc50177cd92f175f38a98d524d5bba90edb53220d9935573b62c85f30ed752ae",
+        "usd_sha256": "056c865e3cc93f99ecff3994becf1a0dfd2f9379e7afe2299f0a395a3a8972fd",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 16,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-016.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-groot-004000-remote-validation/seed-10000-red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "a44adc4b33e4b758cf8953f177258f6dca1df77adfef22138994718632698244",
+        "usd_sha256": "8fc1f552bf7b8ed505caf178804cdba908ff4755f2a899fc2e3e7690d1a99c02",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 17,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-017.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-groot-004000-remote-validation/seed-10000-red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "3c8eb73757eda66b80dc709d662a7f9c83dd5322661083e731f56f6f463fdec5",
+        "usd_sha256": "a06445b082bb55517ba4a142ae7506eec50b51e05d14695a4a90c2d982a8309d",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 18,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-018.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-act-002000-cpu-validation/seed-10000-red-left",
+        "instruction": "Pick up the red cube and put it in the left tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "c72f9fad60ddce8f8694a0963ecf260b35aee142ecc57789ce247e314403756c",
+        "usd_sha256": "ab05a7b2863c5585ae3a807d6ef3d14920f40eadd8447c94c71ae44d66770b7f",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    },
+    {
+      "cell": 19,
+      "replay": "runtime/action-training-phase/office/isaac-review-legible-v1/cell-019.usda",
+      "evidence": {
+        "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+        "episode": "runtime/action-training-phase/office/evaluation-act-002000-cpu-validation/seed-10000-red-right",
+        "instruction": "Pick up the red cube and put it in the right tray.",
+        "original_success": false,
+        "controller": "checkpoint policy",
+        "trajectory_sha256": "81afbaa8e65e95b181990dc4572ba4e24cf3e05e426831ad4c0ccd91faad2dac",
+        "usd_sha256": "a9aadaf3f7e25f63a39519d3562da1c2f2e3c215898e803b68e3b1d3e1e7650a",
+        "geometries": 34,
+        "frames": 585,
+        "sample_stride": 4,
+        "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+        "learned_policy": true,
+        "presentation_legibility": true,
+        "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+        "visual_only_modifications": [
+          "hide duplicated room-wall geoms2,3",
+          "resolve source material color",
+          "light white/orange visual robot mesh palette",
+          "double-sided meshes"
+        ],
+        "poses_modified": false,
+        "physics_executed": false
+      }
+    }
+  ]
+}

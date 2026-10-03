@@ -1,0 +1,14 @@
+{
+  "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+  "episode": "runtime/action-training-phase/office/evaluation-act-002000-cpu-validation/seed-10000-red-right",
+  "instruction": "Pick up the red cube and put it in the right tray.",
+  "original_success": false,
+  "controller": "checkpoint policy",
+  "trajectory_sha256": "81afbaa8e65e95b181990dc4572ba4e24cf3e05e426831ad4c0ccd91faad2dac",
+  "usd_sha256": "e28aeb948d0dbb0d0819336cf192834bca79ebba9d2e03d749515c29d19218b7",
+  "geometries": 36,
+  "frames": 585,
+  "sample_stride": 4,
+  "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+  "learned_policy": true
+}

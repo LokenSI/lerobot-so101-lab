@@ -1,0 +1,33 @@
+{
+  "scope": "new MuJoCo checkpoint evaluation; no physical robot/domain-transfer claim",
+  "policy": {
+    "learned_policy": true,
+    "language_conditioned": true,
+    "model": "SmolVLA",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+    "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+    "action_units": "radians",
+    "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+  },
+  "policy_adapter_sha256": "84d717343eb1ef3225eb652fe720c9fc01149dec51d6e759f5f2f4794d593ab1",
+  "source_hashes": {
+    "/mnt/d/git/qwen-image_benchmark/scripts/office_environment.py": "190c853e3b29a28acbc41dbc80e6484ae9b3fe8b9fca48202d331ba017afde2f",
+    "/mnt/d/git/qwen-image_benchmark/scripts/so101_pick_place_baseline.py": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+    "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-so101-sim/sim.py": "c6a998933841b5bfcc41cc0d198181897435e84222982a8f6085cfc7ab7943f4",
+    "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-so101-sim/so101.xml": "011c5fb06c999f5207d2ad6a331ba6e602cf0b29edf120097016d23cfd8eaeaf"
+  },
+  "clock_mode": "simulation pauses for inference; video excludes pauses",
+  "split": "validation",
+  "seeds": [
+    10000
+  ],
+  "episodes": [],
+  "complete": false,
+  "successes": 0,
+  "paired_initial_state_checks": [],
+  "policy_rng": "same torch seed for each paired instruction within a scene",
+  "policy_rng_seed_base": 500000,
+  "error": "Whole-host GPU/RAM admission failed; stopping owned evaluation",
+  "whole_device_peak_mib": 15027,
+  "host_memory_admission": "requires external Windows whole-system monitor; WSL process memory is insufficient"
+}

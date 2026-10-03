@@ -1,0 +1,211 @@
+INFO 2026-10-03 13:19:07 ot_train.py:490 {'accelerator': {'activation_checkpointing': {'mode': <ActivationCheckpointingMode.NONE: 'none'>},
+                 'compile': {'backend': 'inductor',
+                             'enabled': False,
+                             'mode': None,
+                             'regional': True},
+                 'ddp': {'find_unused_parameters': True,
+                         'gradient_as_bucket_view': False,
+                         'static_graph': False},
+                 'fsdp': {'cpu_offload': False,
+                          'ignored_modules': None,
+                          'min_num_params': None,
+                          'reshard_after_forward': True,
+                          'wrap_modules': None},
+                 'grad_scaler': {'backoff_factor': 0.5,
+                                 'growth_factor': 2.0,
+                                 'growth_interval': 2000,
+                                 'init_scale': 65536.0},
+                 'gradient_accumulation': {'steps': 1},
+                 'mixed_precision': 'no'},
+ 'batch_size': 16,
+ 'checkpoint_format': <CheckpointFormat.SAFETENSORS: 'safetensors'>,
+ 'checkpoint_path': None,
+ 'cudnn_deterministic': False,
+ 'dataloader_multiprocessing_context': 'spawn',
+ 'dataset': {'depth_output_unit': 'mm',
+             'episodes': None,
+             'eval_split': 0.0,
+             'exclude_episodes': None,
+             'image_transforms': {'enable': False,
+                                  'max_num_transforms': 3,
+                                  'random_order': False,
+                                  'tfs': {'affine': {'kwargs': {'degrees': [-5.0,
+                                                                            5.0],
+                                                                'translate': [0.05,
+                                                                              0.05]},
+                                                     'type': 'RandomAffine',
+                                                     'weight': 1.0},
+                                          'brightness': {'kwargs': {'brightness': [0.8,
+                                                                                   1.2]},
+                                                         'type': 'ColorJitter',
+                                                         'weight': 1.0},
+                                          'contrast': {'kwargs': {'contrast': [0.8,
+                                                                               1.2]},
+                                                       'type': 'ColorJitter',
+                                                       'weight': 1.0},
+                                          'hue': {'kwargs': {'hue': [-0.05,
+                                                                     0.05]},
+                                                  'type': 'ColorJitter',
+                                                  'weight': 1.0},
+                                          'saturation': {'kwargs': {'saturation': [0.5,
+                                                                                   1.5]},
+                                                         'type': 'ColorJitter',
+                                                         'weight': 1.0},
+                                          'sharpness': {'kwargs': {'sharpness': [0.5,
+                                                                                 1.5]},
+                                                        'type': 'SharpnessJitter',
+                                                        'weight': 1.0}}},
+             'repo_id': 'local/office-train',
+             'repo_type': 'dataset',
+             'return_uint8': False,
+             'revision': None,
+             'root': '/home/ubuntu/workspace/action-training/groot-eval/recovery-union-v1/lerobot-v3/train',
+             'streaming': False,
+             'use_imagenet_stats': True,
+             'video_backend': 'pyav'},
+ 'ema': {'decay': None,
+         'enable': False,
+         'inv_gamma': 1.0,
+         'max_decay': 0.9999,
+         'min_decay': 0.0,
+         'power': 0.75,
+         'update_after_step': 0,
+         'use_for_eval': True},
+ 'env': None,
+ 'env_eval_freq': 0,
+ 'eval': {'batch_size': 8,
+          'n_episodes': 50,
+          'recording': False,
+          'recording_private': False,
+          'recording_repo_id': None,
+          'use_async_envs': True},
+ 'eval_steps': 0,
+ 'job': {'detach': False,
+         'image': 'huggingface/lerobot-gpu:latest',
+         'tags': [],
+         'target': None,
+         'timeout': '2d'},
+ 'job_name': 'smolvla',
+ 'log_freq': 10,
+ 'max_eval_samples': 0,
+ 'num_workers': 4,
+ 'optimizer': {'betas': [0.9, 0.95],
+               'eps': 1e-08,
+               'grad_clip_norm': 10.0,
+               'lr': 0.0001,
+               'type': 'adamw',
+               'weight_decay': 1e-10},
+ 'output_dir': '/data/action-training/runs/union-eighteen-v1-smolvla-smoke',
+ 'parallelism': {'cfg_parallel': 1,
+                 'context_parallel': {'ring_degree': 1, 'ulysses_degree': 1},
+                 'dp_replicate': 1,
+                 'dp_shard': 1},
+ 'peft': None,
+ 'persistent_workers': True,
+ 'policy': {'adapt_to_pi_aloha': False,
+            'add_image_special_tokens': False,
+            'attention_mode': 'cross_attn',
+            'chunk_size': 50,
+            'compile_mode': 'max-autotune',
+            'compile_model': False,
+            'device': 'cuda',
+            'empty_cameras': 0,
+            'expert_width_multiplier': 0.75,
+            'freeze_vision_encoder': True,
+            'input_features': None,
+            'license': None,
+            'load_vlm_weights': True,
+            'max_action_dim': 32,
+            'max_period': 4.0,
+            'max_state_dim': 32,
+            'min_period': 0.004,
+            'n_action_steps': 8,
+            'n_obs_steps': 1,
+            'normalization_mapping': {'ACTION': <NormalizationMode.MEAN_STD: 'MEAN_STD'>,
+                                      'STATE': <NormalizationMode.MEAN_STD: 'MEAN_STD'>,
+                                      'VISUAL': <NormalizationMode.IDENTITY: 'IDENTITY'>},
+            'num_expert_layers': 0,
+            'num_steps': 10,
+            'num_vlm_layers': 16,
+            'optimizer_betas': [0.9, 0.95],
+            'optimizer_eps': 1e-08,
+            'optimizer_grad_clip_norm': 10.0,
+            'optimizer_lr': 0.0001,
+            'optimizer_weight_decay': 1e-10,
+            'output_features': {'action': {'shape': [6],
+                                           'type': <FeatureType.ACTION: 'ACTION'>}},
+            'pad_language_to': 'max_length',
+            'prefix_length': 0,
+            'pretrained_path': '/ephemeral/cache/huggingface/hub/models--lerobot--smolvla_base/snapshots/d9f33c94a60fb382c90dea2164c96845bd955e28',
+            'pretrained_revision': None,
+            'private': None,
+            'push_to_hub': False,
+            'repo_id': None,
+            'resize_imgs_with_padding': [512, 512],
+            'rtc_config': None,
+            'scheduler_decay_lr': 2.5e-06,
+            'scheduler_decay_steps': 20,
+            'scheduler_warmup_steps': 2,
+            'self_attn_every_n_layers': 2,
+            'tags': None,
+            'tokenizer_max_length': 48,
+            'train_expert_only': True,
+            'train_state_proj': True,
+            'type': 'smolvla',
+            'use_amp': False,
+            'use_cache': True,
+            'use_delta_joint_actions_aloha': False,
+            'use_peft': False,
+            'vlm_model_name': 'HuggingFaceTB/SmolVLM2-500M-Video-Instruct'},
+ 'prefetch_factor': 4,
+ 'rename_map': {},
+ 'resume': False,
+ 'reward_model': None,
+ 'sample_weighting': None,
+ 'save_checkpoint': True,
+ 'save_checkpoint_to_hub': False,
+ 'save_freq': 20,
+ 'scheduler': {'decay_lr': 2.5e-06,
+               'num_decay_steps': 20,
+               'num_warmup_steps': 2,
+               'peak_lr': 0.0001,
+               'type': 'cosine_decay_with_warmup'},
+ 'seed': 42,
+ 'steps': 20,
+ 'tolerance_s': 0.0001,
+ 'use_policy_training_preset': True,
+ 'wandb': {'add_tags': True,
+           'console': 'wrap',
+           'console_chunk_max_seconds': 0,
+           'console_multipart': False,
+           'disable_artifact': False,
+           'enable': False,
+           'entity': None,
+           'mode': None,
+           'notes': None,
+           'project': 'lerobot',
+           'resume': None,
+           'run_id': None}}
+INFO 2026-10-03 13:19:07 ot_train.py:497 Logs will be saved locally.
+INFO 2026-10-03 13:19:07 ot_train.py:512 Creating dataset
+INFO 2026-10-03 13:19:07 ot_train.py:542 Creating policy
+Loading  HuggingFaceTB/SmolVLM2-500M-Video-Instruct weights ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  51%|█████     | 249/489 [00:00<00:00, 2450.04it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2976.65it/s]
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+INFO 2026-10-03 13:19:16 ot_train.py:632 Creating optimizer and scheduler
+INFO 2026-10-03 13:19:16 ot_train.py:686 Output dir: /data/action-training/runs/union-eighteen-v1-smolvla-smoke
+INFO 2026-10-03 13:19:16 ot_train.py:693 cfg.steps=20 (20)
+INFO 2026-10-03 13:19:16 ot_train.py:694 dataset.num_frames=8730 (9K)
+INFO 2026-10-03 13:19:16 ot_train.py:695 dataset.num_episodes=18
+INFO 2026-10-03 13:19:16 ot_train.py:696 Effective batch size: 16 x 1 dp workers x 1 grad accum = 16 (topology: dp_replicate=1, dp_shard=1)
+INFO 2026-10-03 13:19:16 ot_train.py:701 num_learnable_params=99880992 (100M)
+INFO 2026-10-03 13:19:16 ot_train.py:702 num_total_params=450046176 (450M)
+Training:   0%|          | 0/20 [00:00<?, ?step/s]INFO 2026-10-03 13:19:16 ot_train.py:811 Start offline training on a fixed dataset, with effective batch size: 16
+Training:   5%|▌         | 1/20 [00:05<01:46,  5.58s/step]Training:  10%|█         | 2/20 [00:05<00:43,  2.40s/step]Training:  15%|█▌        | 3/20 [00:05<00:23,  1.38s/step]Training:  20%|██        | 4/20 [00:06<00:14,  1.11step/s]Training:  25%|██▌       | 5/20 [00:06<00:09,  1.58step/s]Training:  30%|███       | 6/20 [00:06<00:06,  2.12step/s]Training:  35%|███▌      | 7/20 [00:06<00:04,  2.69step/s]Training:  40%|████      | 8/20 [00:06<00:03,  3.28step/s]Training:  45%|████▌     | 9/20 [00:06<00:02,  3.84step/s]Training:  50%|█████     | 10/20 [00:07<00:02,  4.36step/s]INFO 2026-10-03 13:19:23 ot_train.py:859 step:10 smpl:160 ep:0 epch:0.02 loss:0.514 grdn:8.027 lr:7.7e-05 data_s:0.471 prep_s:0.004 updt_s:0.228 step_s:0.705 smp/s:23 mem_gb:4.48 losses_after_forward:0.505 losses_after_in_ep_bound:0.489 losses_after_rm_padding:0.489
+Training:  55%|█████▌    | 11/20 [00:07<00:01,  4.78step/s]Training:  60%|██████    | 12/20 [00:07<00:01,  5.15step/s]Training:  65%|██████▌   | 13/20 [00:07<00:01,  5.42step/s]Training:  70%|███████   | 14/20 [00:07<00:01,  5.62step/s]Training:  75%|███████▌  | 15/20 [00:07<00:00,  5.80step/s]Training:  80%|████████  | 16/20 [00:08<00:00,  5.93step/s]Training:  85%|████████▌ | 17/20 [00:08<00:00,  6.00step/s]Training:  90%|█████████ | 18/20 [00:08<00:00,  6.04step/s]Training:  95%|█████████▌| 19/20 [00:08<00:00,  6.11step/s]Training: 100%|██████████| 20/20 [00:08<00:00,  6.14step/s]INFO 2026-10-03 13:19:24 ot_train.py:859 step:20 smpl:320 ep:1 epch:0.04 loss:0.342 grdn:4.591 lr:1.8e-05 data_s:0.001 prep_s:0.002 updt_s:0.157 step_s:0.161 smp/s:99 mem_gb:4.52 losses_after_forward:0.337 losses_after_in_ep_bound:0.324 losses_after_rm_padding:0.324
+INFO 2026-10-03 13:19:24 ot_train.py:901 Checkpoint policy after step 20
+INFO 2026-10-03 13:19:25 n/_torch.py:299 Model weights successfully saved to /data/action-training/runs/union-eighteen-v1-smolvla-smoke/checkpoints/000020/pretrained_model!
+Training: 100%|██████████| 20/20 [00:10<00:00,  1.99step/s]
+INFO 2026-10-03 13:19:26 t_train.py:1005 End of training

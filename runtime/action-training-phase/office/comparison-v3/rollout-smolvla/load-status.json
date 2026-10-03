@@ -1,0 +1,6 @@
+{
+  "scope": "checkpoint load/evaluation attempt",
+  "complete": false,
+  "checkpoint": "runtime/action-training-phase/office/comparison-v3/frozen-contract.json",
+  "adapter": "office_comparison_adapter"
+}

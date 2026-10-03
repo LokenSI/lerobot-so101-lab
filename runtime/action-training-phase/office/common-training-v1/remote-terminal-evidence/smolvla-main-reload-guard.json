@@ -1,0 +1,25 @@
+{
+  "scope": "actual native saved cold reload, no physical task success",
+  "passed": true,
+  "error": null,
+  "owned_pid": 629970,
+  "command": [
+    "/home/ubuntu/office-action-training/sources/lerobot/.venv/bin/python",
+    "/home/ubuntu/workspace/action-training/package/scripts/cloud_train_reload_probe.py",
+    "--model",
+    "smolvla",
+    "--checkpoint",
+    "/data/action-training/runs/common-six-v1-smolvla-main/checkpoints/002000/pretrained_model",
+    "--episode",
+    "/home/ubuntu/workspace/action-training/groot-eval/common-training-original-episode.npz",
+    "--task",
+    "Pick up the red cube and put it in the left tray.",
+    "--output",
+    "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/smolvla-main-reload.json"
+  ],
+  "elapsed_seconds": 12.992171636999046,
+  "gpu_peak_mib": 1477,
+  "ram_peak_mib": 4374.234375,
+  "samples": 25,
+  "original_episode_sha256": "66eb600934eaaed68ae702ff53f8c9806b1c3d56b2177a6981c9a51d6c4dc6a2"
+}

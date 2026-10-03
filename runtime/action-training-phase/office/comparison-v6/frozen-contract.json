@@ -1,0 +1,149 @@
+{
+  "scope": "prospective controlled Smol18 data-repair development pair; frozenv5scenes/grader, no new three-model ranking or sealed test",
+  "models": {
+    "smolvla": {
+      "model": "SmolVLA",
+      "updates": 2000,
+      "source_pin": "6e1fa4faf2a42927d463591aebaa0f62c2e654b7",
+      "model_weight_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+      "expected_weight_aggregate": "fbba7c72d80ccc1487e56d68ce1324d8e01204f3d851b64e98631e9cfe141ae4",
+      "training_scope": {
+        "episodes": 18,
+        "frames": 8730,
+        "scene_seeds": [
+          1000,
+          1001,
+          1002
+        ],
+        "tasks": 2,
+        "task_ids": [
+          "red-left",
+          "red-right"
+        ],
+        "nominal_episodes": 6,
+        "physical_recovery_causal_suffix_episodes": 12,
+        "replay_prefix_and_perturbation_commands": "excluded from supervision"
+      },
+      "decoder": "native MEAN_STD inverse transform, unbounded policy-decoded commands",
+      "learned_language": true,
+      "experiment": "fresh-base nominal6+physical-recovery12 union",
+      "native_full_checkpoint_manifest_sha256": "8b334bf7426f48d27a99e22f17d662246e8363ee2cb7f6db83defc81d26b2de2"
+    }
+  },
+  "order": [
+    "smolvla"
+  ],
+  "hardware": "same existing NVIDIA A10080GB, sequential model workers",
+  "observations": {
+    "cameras": [
+      "scene",
+      "wrist"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "format": "uint8 HWC RGB",
+    "state": "six absolute joint radians",
+    "fps": 30,
+    "simulator_truth_to_policy": false
+  },
+  "development": {
+    "seed": 10000,
+    "tasks": [
+      "red-left",
+      "red-right"
+    ],
+    "wording": "train",
+    "instructions": {
+      "red-left": "Pick up the red cube and put it in the left tray.",
+      "red-right": "Pick up the red cube and put it in the right tray."
+    },
+    "torch_rng_reset_per_task": 510000,
+    "chunk_execution": 8,
+    "physics_ticks": 585,
+    "render_backend": "CPU OSMesa",
+    "clock": "simulation paused during inference",
+    "retention": "full fresh native chunks, remote-verified input hashes, first three RGB/state inputs, separate synchronized server timing"
+  },
+  "teacher_forcing": {
+    "seed": 1000,
+    "task": "red-left",
+    "source_npz": "runtime/action-training-phase/office/dataset/train/seed-1000/red-left/episode.npz",
+    "source_npz_sha256": "66eb600934eaaed68ae702ff53f8c9806b1c3d56b2177a6981c9a51d6c4dc6a2",
+    "frame_indices": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      48,
+      60,
+      96,
+      120,
+      160,
+      180,
+      208,
+      225,
+      240,
+      280,
+      320,
+      400
+    ],
+    "torch_rng_reset_once_before_anchor_sequence": 510000,
+    "first8_metric": "predicted absolute6-radian commands versus expert actions[t:t+8]",
+    "retain": "all full predicted chunks; actual input pixel/state/text hashes; server-synchronized and end-to-end latency",
+    "scope": "training-scene diagnostic; original recorded RGB backend, not a robot-success trial"
+  },
+  "source_hashes": {
+    "/mnt/d/git/qwen-image_benchmark/scripts/office_environment.py": "190c853e3b29a28acbc41dbc80e6484ae9b3fe8b9fca48202d331ba017afde2f",
+    "/mnt/d/git/qwen-image_benchmark/scripts/so101_pick_place_baseline.py": "30705476f46075b495d92be8f6a15b766f2032dd7a963573c51ef98a88e73188",
+    "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-so101-sim/sim.py": "c6a998933841b5bfcc41cc0d198181897435e84222982a8f6085cfc7ab7943f4",
+    "/mnt/d/git/qwen-image_benchmark/runtime/flux-action-so101-sim/so101.xml": "011c5fb06c999f5207d2ad6a331ba6e602cf0b29edf120097016d23cfd8eaeaf"
+  },
+  "frozen_pipeline_sources": {
+    "office_comparison_server.py": "1e21c2b0b09195e3e9ada707103790b2a1c9171d74b2252e59f2dc11aeb89b4b",
+    "office_comparison_adapter.py": "8664bf788f8dcea00544bb9dbb821d45c9dde7e3808ebd1f9a987b94735a62a3",
+    "office_teacher_forced.py": "f6714108a3a976f2d7ba2263cc73069d473ea3f73c015349ffa9049897eda268",
+    "office_evaluate.py": "6163a5e97c4be9faedc46971b6dd5cc64ff744b881cd356f71cd434efa77a10d",
+    "office_environment.py": "190c853e3b29a28acbc41dbc80e6484ae9b3fe8b9fca48202d331ba017afde2f",
+    "cloud_train_policy.py": "7525721c23ba8e7cb23f30df24e14123135a872b8cb7581e3a8047e1a96d4ffd",
+    "office_act_adapter.py": "7d338e035b9476df1d287fb3826e6592a1e8e4d93b96b2ebd4c6b643b0278fb2"
+  },
+  "grader": {
+    "task_success": "independent measured lift, whole-object destination containment/floor contact, release,45-frame stability, distractors and order",
+    "strict_success": "task_success AND zero violations by policy-decoded commands before common actuator supervisor",
+    "limit_metric": "post-native-decoder/pre-common-supervisor commands; not raw logits/diffusion head compliance",
+    "supervisor": "same existing simulator actuator target clipping to authored six-joint ranges for every model; no IK/manual correction"
+  },
+  "timing": {
+    "server": "CUDA-synchronized native policy processing excluding PNG decode and SSH",
+    "end_to_end": "includes PNG encode/SSH/server processing; simulation paused",
+    "comparison": "no cross CPU/WAN hardware speed claim"
+  },
+  "data_scope_caveat": "Smol18 has12additional physically perturbed episodes. GR00Tcommon6/ACT retain their different data and pretraining; this is a within-Smol data intervention.",
+  "sealed_tests_used": 0,
+  "selection": "development only; do not tune after sealed outcomes",
+  "intervention": {
+    "changed": "added12 physically perturbed causal-suffix expert episodes to nominal6, fresh officialbase2000updates, new matched native union normalization",
+    "unchanged": "source/modelarchitecture/optimizerrecipe/batch16/chunk8/cameras/state/instructions/RNG/ticks/simulator/grader/supervisor",
+    "GR00T_recovery_training": "deferred for complete-checkpoint disk admission",
+    "reference_models": "GR00Tcommon6 and ACT retained unchanged v5 evidence, not newly rerun here"
+  },
+  "prior_comparison_contract_sha256": "d9780fa38afac729fe98dde442cb04264a557f9926677aadb8723312f953b869",
+  "prior_comparison_summary_sha256": "fa1f8231694c059c89ec4275002b038c0d63f7a71a394daccca178f9829daac3",
+  "expected_previous_first_actual_inputs": {
+    "red-left": {
+      "scene": "b1435a73ef2b43b262ef214255ed2e8f8072261d1846b2d615db52a9a1c62545",
+      "wrist": "5231a724a9873421d03bf8d01594c088bb995e6504830d87cb6d7c41d4720a37",
+      "state_float32": "a0ad9921334f82a38d987b6ad9a97d9b530562865d275a23a6bc620cc4f1a30a",
+      "instruction_utf8": "665a87a5e25f9b4a2d6af160f70aaca6d74b10b333ce3c48aea20135ab5bc36d"
+    },
+    "red-right": {
+      "scene": "b1435a73ef2b43b262ef214255ed2e8f8072261d1846b2d615db52a9a1c62545",
+      "wrist": "5231a724a9873421d03bf8d01594c088bb995e6504830d87cb6d7c41d4720a37",
+      "state_float32": "a0ad9921334f82a38d987b6ad9a97d9b530562865d275a23a6bc620cc4f1a30a",
+      "instruction_utf8": "11d4ea0224192b40284b07e3d43a5f2226d2b89cc6b56dfe83d3def9350943fe"
+    }
+  }
+}

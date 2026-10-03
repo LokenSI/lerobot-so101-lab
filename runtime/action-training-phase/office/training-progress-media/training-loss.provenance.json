@@ -1,0 +1,24 @@
+{
+  "scope": "Animation of actual logged scalar losses; no robot outcome claim",
+  "fps": 30,
+  "frames": 540,
+  "seconds": 18.0,
+  "smolvla_logged_points": 500,
+  "groot_logged_points": 400,
+  "sources": [
+    {
+      "path": "runtime\\action-training-phase\\cloud-evidence\\smol-main-01-progress\\progress.json",
+      "sha256": "f4d083026ffc07820ff2cb30af4ff3265d518b842586a0a4cc6745317ec07b8a"
+    },
+    {
+      "path": "runtime\\action-training-phase\\cloud-evidence\\smol-extension-01-progress\\progress.json",
+      "sha256": "29db4c173e405491fdf1810f9e5b9d69e227c2e945c47772b5c895e323cd8205"
+    },
+    {
+      "path": "runtime\\action-training-phase\\cloud-evidence\\groot-main-01-progress\\progress.json",
+      "sha256": "cb8c98056b5b879db5bcc1646e8fc05a4daa0ff611286a1b1f3124bb2a9cc303"
+    }
+  ],
+  "smolvla_optimizer_restart_at_cumulative_step": 1000,
+  "video_sha256": "5119bdf6e8544f63ee31dce951dca4903a3a2a1d3c4004c024ebfeb37aab4535"
+}

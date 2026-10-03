@@ -1,0 +1,99 @@
+{
+  "seed": 1000,
+  "task": {
+    "id": "red-left",
+    "instruction": "Pick up the red cube and put it in the left tray.",
+    "goals": [
+      [
+        "red",
+        "left"
+      ]
+    ],
+    "kind": "object-destination"
+  },
+  "scene": {
+    "seed": 1000,
+    "objects": [
+      {
+        "color": "red",
+        "xy": [
+          0.19953506875715607,
+          -0.024748032919285137
+        ],
+        "yaw": 0.31550153301936423
+      },
+      {
+        "color": "blue",
+        "xy": [
+          0.14546014440992083,
+          0.04005658048129262
+        ],
+        "yaw": 0.4091166227125166
+      },
+      {
+        "color": "yellow",
+        "xy": [
+          0.24650472957826963,
+          0.0490589048350655
+        ],
+        "yaw": 0.39161166627177657
+      }
+    ],
+    "trays": {
+      "left": [
+        0.235,
+        0.15
+      ],
+      "right": [
+        0.235,
+        -0.16
+      ]
+    },
+    "side_reference": "robot base coordinates: left=positive Y, right=negative Y"
+  },
+  "policy": {
+    "learned_policy": true,
+    "language_conditioned": true,
+    "model": "SmolVLA",
+    "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/checkpoints/smol-extension-01-004000/pretrained_model",
+    "checkpoint_sha256": "db2854977c778b4df87b5978b44259a4f8cbf22f1e64ba12d202c3d34330d820",
+    "action_units": "radians",
+    "observation": "scene/wrist RGB, measured six joints, instruction; no simulator truth"
+  },
+  "wording": "train",
+  "wording_sha256": "665a87a5e25f9b4a2d6af160f70aaca6d74b10b333ce3c48aea20135ab5bc36d",
+  "development_overfit_control": true,
+  "policy_rng_seed": 510000,
+  "initial_state_sha256": "1496b7b8c2d0cf90da65263e2963919e66598554284bac4e7b8bfba896114cfa",
+  "grader": {
+    "success": false,
+    "goals": [
+      {
+        "object": "red",
+        "destination": "left",
+        "inside": false,
+        "released": true,
+        "stable": true,
+        "lifted": false,
+        "success": false
+      }
+    ],
+    "completion_ticks": [
+      null
+    ],
+    "sequence_order_correct": false,
+    "distractor_max_displacement_m": {
+      "blue": 4.874572967494828e-16,
+      "yellow": 4.874572967494828e-16
+    },
+    "distractors_untouched": true,
+    "grading_frames": 45
+  },
+  "success": false,
+  "command_limit_events": 300,
+  "steps": 585,
+  "wall_seconds": 46.17047013901174,
+  "fresh_inference_p50_s": 0.36049300800368655,
+  "fresh_inference_p95_s": 0.4714316879311809,
+  "trajectory_sha256": "4960774d5c30d1d7ef014db8df42c0f9153af07eda047abe5e707c46d71fff3e"
+}

@@ -1,0 +1,143 @@
+{
+  "scope": "private master-office mapping; separate from the office-only sealed120 contract",
+  "master_source": "D:\\git\\qwen-image_benchmark\\runtime\\action-demo-suite-v1\\suite.json",
+  "master_source_sha256": "18076aff0da710ceb5ab1883182e0fe1554ad7895cb5ad3d3c2ff576a8b31a59",
+  "master_total_cases": 120,
+  "master_office_cases": 70,
+  "master_pipe_cases": 50,
+  "office_only_sealed_contract": "suites/sealed-test-120.json: twelve office pilot tasks x ten seeds; planned only",
+  "master_office_completed_cases": 0,
+  "master_office_executed_cases": 0,
+  "mapping": [
+    {
+      "master_challenge": "ambiguous-reference",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": null,
+      "reason": "Clarification supervisor and no-motion ambiguous requests not implemented"
+    },
+    {
+      "master_challenge": "attribute-conjunction",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": null,
+      "reason": "No varied size/material object attributes or conjunction task"
+    },
+    {
+      "master_challenge": "destination-swap",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "red-left/red-right same-scene pair",
+      "reason": "Development paired rollouts only; none of five master sealed starts evaluated; ACT routes separate task specialists explicitly"
+    },
+    {
+      "master_challenge": "exclusion",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "two protected-distractor expert instructions",
+      "reason": "Independent distractor grader exists; no learned exclusion task rollout"
+    },
+    {
+      "master_challenge": "low-light",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": null,
+      "reason": "Lighting variation not implemented"
+    },
+    {
+      "master_challenge": "ordered-sequence",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "two reversed red/blue expert sequences",
+      "reason": "Expert dataset surrogate only; no learned ordering test"
+    },
+    {
+      "master_challenge": "paraphrase",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "six validation paraphrases",
+      "reason": "Smol development paraphrase failures retained; master sealed paraphrase cases unexecuted"
+    },
+    {
+      "master_challenge": "partial-occlusion",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": null,
+      "reason": "Occlusion variation not implemented"
+    },
+    {
+      "master_challenge": "relative-position",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "leftmost/rightmost object selection experts",
+      "reason": "Master challenge asks for relative destination behind coupling; object-relative surrogate does not implement it"
+    },
+    {
+      "master_challenge": "same-scene-instruction-swap",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "all twelve expert instructions share initial scene",
+      "reason": "Learned evaluations change red destination only, not requested object; object counterfactual remains unexecuted"
+    },
+    {
+      "master_challenge": "shifted-start",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "small object position/yaw jitter",
+      "reason": "Robot starts at the same rest state; explicit robot shifted-start challenge not implemented"
+    },
+    {
+      "master_challenge": "target-selection",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "six color/destination cube tasks",
+      "reason": "Surrogate color-cube objects; master cap/coupling/bolt embodiment not implemented; learned object selection not evaluated"
+    },
+    {
+      "master_challenge": "two-step-sort",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "two red/blue ordered expert sequences",
+      "reason": "Expert dataset surrogate only; no learned sequence rollout"
+    },
+    {
+      "master_challenge": "visual-distractor",
+      "master_case_count": 5,
+      "master_status": "not_executed",
+      "master_completed_cases": 0,
+      "pilot_surrogate": "three visible color cubes",
+      "reason": "Existing distractor grading is not the master added visual-distractor challenge; no varied extra distractor condition"
+    }
+  ],
+  "actual_development_scope": "paired red-left/red-right at seed10000, plus retained Smol familiar seed1000 controls; experts48 separate",
+  "conditional_ACT_sealed_protocol": {
+    "status": "not_authorized_to_execute_until_development_selection_passes",
+    "seeds": [
+      20000,
+      20001,
+      20002,
+      20003,
+      20004
+    ],
+    "tasks": [
+      "red-left",
+      "red-right"
+    ],
+    "prospective_rollouts": 10,
+    "interpretation": "narrow task-specialist destination pair; does not complete the master70 office matrix or establish general language grounding",
+    "checkpoint_selection": "use development only; no adjustment after looking at sealed outcomes"
+  }
+}

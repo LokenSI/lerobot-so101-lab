@@ -1,0 +1,80 @@
+[
+  {
+    "path": "smolvla-smoke-execution-report.json",
+    "sha256": "9ed3dd018338dfb75e38377a50b7afde12ef634ebd7233b64c7eaf6d0616ae92",
+    "bytes": 4644,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/smolvla-smoke-execution-report.json"
+  },
+  {
+    "path": "smolvla-smoke-reload.json",
+    "sha256": "6328a71b1293e212595de2a9d487e9918cf181048eed074702e9e643152d95f3",
+    "bytes": 9550,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/smolvla-smoke-reload.json"
+  },
+  {
+    "path": "smolvla-smoke-reload-guard.json",
+    "sha256": "7f2d271588306491bc21eb4949e83ddc32997276a774f84d252ac4871a4f60af",
+    "bytes": 977,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/smolvla-smoke-reload-guard.json"
+  },
+  {
+    "path": "smolvla-main-execution-report.json",
+    "sha256": "3e3a060811fd719b6dbfebf0d62915abafb79d8c39b863d88240faeef4635e1b",
+    "bytes": 45464,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/smolvla-main-execution-report.json"
+  },
+  {
+    "path": "smolvla-main-reload.json",
+    "sha256": "ec2c30ac88d946b437511fb4fec7975be51d1016b3d441ee14484eab0e3642bf",
+    "bytes": 9488,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/smolvla-main-reload.json"
+  },
+  {
+    "path": "smolvla-main-reload-guard.json",
+    "sha256": "789ef343e4ae8e30d0d381a48e4dbaa1beb4afff048d48835dae6f8522a0d366",
+    "bytes": 973,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/smolvla-main-reload-guard.json"
+  },
+  {
+    "path": "groot-smoke-execution-report.json",
+    "sha256": "32af98b98423433f75f4ddeae03db0faf2387a7670e7708392e5fb3d425b8f04",
+    "bytes": 8484,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/groot-smoke-execution-report.json"
+  },
+  {
+    "path": "groot-worker1-v2/groot-smoke-execution-report.json",
+    "sha256": "d1b5514f7e58e03c999b0a9fbb92589430f6e48e5bf63a33b384679b46272217",
+    "bytes": 15318,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/groot-worker1-v2/groot-smoke-execution-report.json"
+  },
+  {
+    "path": "groot-worker1-v2/groot-smoke-reload.json",
+    "sha256": "39e8da63b1dec6827798e18a2a133e13545586ab903e23c7f1460ac13aa3a551",
+    "bytes": 3884,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/groot-worker1-v2/groot-smoke-reload.json"
+  },
+  {
+    "path": "groot-worker1-v2/groot-smoke-reload-guard.json",
+    "sha256": "6d0d5b31bcaca31009348b8d7f8e1aa99395e03512e22a729a0f8689e7c3073a",
+    "bytes": 969,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/groot-worker1-v2/groot-smoke-reload-guard.json"
+  },
+  {
+    "path": "groot-worker1-v2/groot-main-execution-report.json",
+    "sha256": "302961a1c690663a3aeaa8f4e0231389831b2ee4a6f3dcb919e7e22cb73d9465",
+    "bytes": 90020,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/groot-worker1-v2/groot-main-execution-report.json"
+  },
+  {
+    "path": "groot-worker1-v2/groot-main-reload.json",
+    "sha256": "6b4522502beee8e6ea2bf51e73260cdb5d987e303c864f7f88bcd240bc3a98a1",
+    "bytes": 3940,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/groot-worker1-v2/groot-main-reload.json"
+  },
+  {
+    "path": "groot-worker1-v2/groot-main-reload-guard.json",
+    "sha256": "e65482d31a5c3a0030a1009a4e4e33fbb3f5f446bdb62aa3c825da9dd74bedde",
+    "bytes": 968,
+    "remote_source": "/home/ubuntu/workspace/action-training/groot-eval/common-training-v1/groot-worker1-v2/groot-main-reload-guard.json"
+  }
+]

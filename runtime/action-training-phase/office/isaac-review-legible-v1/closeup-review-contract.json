@@ -1,0 +1,121 @@
+{
+  "scope": "visual-only legibility variant of measured MuJoCo poses; no new physics/policy success",
+  "source_contract_sha256": "fe25a13f8ea86b3425f5c5b170af1fc4cf58803dedae0296ca8409c8bba69658",
+  "cells": [
+    {
+      "cell": 19,
+      "episode": "runtime/action-training-phase/office/evaluation-act-002000-cpu-validation/seed-10000-red-right",
+      "instruction": "Pick up the red cube and put it in the right tray.",
+      "seed": 10000,
+      "success": false,
+      "expert": false,
+      "policy": {
+        "model": "ACT task-specific pair",
+        "learned_policy": true,
+        "learned_language": false,
+        "office_updates_by_task": {
+          "red-left": 2000,
+          "red-right": 2000
+        },
+        "external_task_selector": "Exact original instruction maps to independently trained left/right policy; no neural language understanding",
+        "action_units": "radians",
+        "checkpoint": "/mnt/d/git/qwen-image_benchmark/runtime/action-training-phase/act/portable-stage-2000",
+        "model_sha256_by_task": {
+          "red-left": "751bf82e3ae4bc266e7cfaab8d61c26bc8eb19df3ec095d5d3f21f8efefc95be",
+          "red-right": "3f66277f9577e70569b56e23e89990a50aab170b882fd2639d4eb8a24ad4e732"
+        },
+        "checkpoint_sha256": "e0646416be42f0af2a0adba8e8f3b5001cb458e01e6f848cd4c08d1ce87f2385",
+        "observation": "Current scene/wrist RGB and measured joints only; text used solely by declared external selector"
+      },
+      "failure_events": 0,
+      "grader": {
+        "success": false,
+        "goals": [
+          {
+            "object": "red",
+            "destination": "right",
+            "inside": false,
+            "released": true,
+            "stable": true,
+            "lifted": false,
+            "success": false
+          }
+        ],
+        "completion_ticks": [
+          null
+        ],
+        "sequence_order_correct": false,
+        "distractor_max_displacement_m": {
+          "blue": 4.909267437014364e-16,
+          "yellow": 4.909267437014364e-16
+        },
+        "distractors_untouched": true,
+        "grading_frames": 45
+      },
+      "wording": "train",
+      "chunk_execution": 8,
+      "development_overfit_control": false
+    }
+  ],
+  "modifications": [
+    "remove duplicated visual walls2,3",
+    "resolve source material colors",
+    "light white/orange robot body palette",
+    "double-sided mesh"
+  ],
+  "poses_modified": false,
+  "requested_capture_resolution": [
+    1920,
+    1080
+  ],
+  "native_capture_status": "NOT_EXECUTED; GPU handoff required",
+  "subset_scope": "first four source cells only; full overview retains all source failures",
+  "files": {
+    "cell-000.provenance.json": "954eab2fe928e9b7444a57734520f82622af52596b736ee5d69bd4227945d17f",
+    "cell-000.usda": "362444db7c0292091c0bd76a96d8766905b5bb496b55f4bd6e5a49a648922512",
+    "cell-001.provenance.json": "ad1b4234de352882d969e58b94e45b09d6e57f43973f00a36d5c29dc9851df23",
+    "cell-001.usda": "6c0a6f8cd2c6929e895adff37cb563b7952665d1a520efbb7a669aaab2c63cc3",
+    "cell-002.provenance.json": "5916bdbcf34ac6edd52c5236c40fcde7e8b7504284368f765d11acd5c387b32d",
+    "cell-002.usda": "60bb132de67c8bef82271bc2a2a8ee533efa7aef8c3b4ebfaefacc5d2f9ebf16",
+    "cell-003.provenance.json": "91a8883f7da7772081e399b822535715c025b274bae9b1cb3060fe7d8d6f9e37",
+    "cell-003.usda": "0b041e76e7250cb67a4f2720ae59fdb9ad21f3e1a51714997b7fa702ab12f932",
+    "cell-004.provenance.json": "6e55d1fb7a333dea8fc784214dbc57123c310ae20fd8562310296d443b9101b3",
+    "cell-004.usda": "da6b88ad347f01aafee21e9a5cb3f2487fe46aff38b7aa96f335c9afbf020d8a",
+    "cell-005.provenance.json": "5cb5e77389fc9d968fe2b21c467ba16e098ffcceb090d45695c967a4383aa772",
+    "cell-005.usda": "7d042b491d4e944393645a3e0c71a6f526634720788628ffc56bc3d50efa82ce",
+    "cell-006.provenance.json": "bbadf947b04e72cfe0736fb20886ba76c88c59286886ca8d8090fd703c2e71cb",
+    "cell-006.usda": "26a401e1cb2b61fa359b02c9bb1074a6b46d577707c45e0019f131c2d1b3bf23",
+    "cell-007.provenance.json": "be2900a08f745d355bc436f48c01b2ac57ef30a6f022855025505df293f29e39",
+    "cell-007.usda": "f4d74a1fcbd037b8c6328c21bac83257282447884ee82cc228c77ccad28312be",
+    "cell-008.provenance.json": "82f2e56c9119f3b8824a43d0f8d09d26dd39ad037798e6e6927e878a505acba0",
+    "cell-008.usda": "f63bf2857b67b0eb5271b8ab5d59f6698c62bcfb43704960233e90e3a2051217",
+    "cell-009.provenance.json": "33176cda0ae05b23001c4b8e244abb2ce67eefef9d771dfb5d15771cbe25f38b",
+    "cell-009.usda": "fa33f05a2650f0dadd894bee30f818c65b5b3509858b63ed4ca6b6cb711168b1",
+    "cell-010.provenance.json": "5a2dd551f21f546479e6f7cd560c3aeadea749e38d0080fae77c238d730713a0",
+    "cell-010.usda": "3c4dc651a42cf0962d3074809b64ffcfcc7bd9c4a50c9a0209b0057982cf8a23",
+    "cell-011.provenance.json": "bb2865f44a1cea387c564c27491bf578f24d246e03fe9ddaf5879aa3a1239e88",
+    "cell-011.usda": "6da904a6f73a3a12a840f65176f1604ded8ce821c365d73d8d522c1690b77a0a",
+    "cell-012.provenance.json": "2c6d8b914b42c1c3ead2f5b39db6e8e4b248c10efa70aceeddb94db1f2eb322f",
+    "cell-012.usda": "019607662cf8409f206d3415ca591d011e5e14f8b5dc214f9c610aae41e0d760",
+    "cell-013.provenance.json": "0b97315e34e9f6173fccd58decc1f4c44f1ed3123743e96e9c63c40c7bb9a7fd",
+    "cell-013.usda": "83a09863df614ff23f097ceb0b5fdb2f4863f642a0d2a7e1e842d806d10fde89",
+    "cell-014.provenance.json": "de76136a15358d05e4a5eba96abfcb63f36a9e7b10fbc86ab8a21d8e33fb3e8a",
+    "cell-014.usda": "46bec755c74a48da7124feb9dbc3d59845c72447a91a406a5230b9cb11672b9b",
+    "cell-015.provenance.json": "b60273edcafbca870e99616f67540a04864403b70e76fe47079a4982ce3865d7",
+    "cell-015.usda": "056c865e3cc93f99ecff3994becf1a0dfd2f9379e7afe2299f0a395a3a8972fd",
+    "cell-016.provenance.json": "a0e72f9c6eaedb8c8d03dca6f6d7549e9f6458ac30dafd4b4cbba27eb907903f",
+    "cell-016.usda": "8fc1f552bf7b8ed505caf178804cdba908ff4755f2a899fc2e3e7690d1a99c02",
+    "cell-017.provenance.json": "a6065e09616adad8f8df51994b062c4b40824430195e345a4563744165899f7f",
+    "cell-017.usda": "a06445b082bb55517ba4a142ae7506eec50b51e05d14695a4a90c2d982a8309d",
+    "cell-018.provenance.json": "4a4c08507dbaf86ac1a24b2bfa71dd7dacca3109b868054f7482a4ea7e586d06",
+    "cell-018.usda": "ab05a7b2863c5585ae3a807d6ef3d14920f40eadd8447c94c71ae44d66770b7f",
+    "cell-019.provenance.json": "e6a6175a544fe26ecbc318690919d5954c19002c2c26d4ad0ea609aafadffd44",
+    "cell-019.usda": "a9aadaf3f7e25f63a39519d3562da1c2f2e3c215898e803b68e3b1d3e1e7650a",
+    "closeup-last-failure.matrix.json": "be7950c6d0126c02b9a9bba1adeae600fab3c7ab4f3d2508831b983dbbbfab26",
+    "closeup-last-failure.usda": "cc588792ffcecbf906d10dd8ea7e8cf32453d3654ad048effcfa7dd40d990840",
+    "matrix.matrix.json": "3bbb7d00325e178ae24fb3647279ec707eb5f2cec8c955ae3342d427d4598813",
+    "matrix.usda": "e8d83095f597f60c40981f8a4d064a4d80ec70798f693a92a1c78de9164060aa",
+    "subset-four.matrix.json": "6fda49039ad10727391beecc8d79d225142f28873b583382f1e538044a5abda9",
+    "subset-four.usda": "88215c619f6667b59bf2cbcea4e96771ced02245ce6b5c92e067dbcac2eb9f84"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "baked measured MuJoCo trajectory displayed in Isaac; no Isaac physics evaluation",
+  "episode": "runtime/action-training-phase/office/evaluation-smol-002000-validation/seed-10000-red-left",
+  "instruction": "Move the red block into the left tray.",
+  "original_success": false,
+  "controller": "checkpoint policy",
+  "trajectory_sha256": "36735deb8c8ec61d24b1e077ca3ccf40ccc9145b2107491fc40aa5930db0e7d0",
+  "usd_sha256": "26a401e1cb2b61fa359b02c9bb1074a6b46d577707c45e0019f131c2d1b3bf23",
+  "geometries": 34,
+  "frames": 585,
+  "sample_stride": 4,
+  "renderer_difference": "USD simple display colors; original MuJoCo materials/textures/lighting are not reproduced",
+  "learned_policy": true,
+  "presentation_legibility": true,
+  "source_sha256": "36fd532abfc7d2ce52d6091aa411dded4423297c6c64ef5079819161cbae3104",
+  "visual_only_modifications": [
+    "hide duplicated room-wall geoms2,3",
+    "resolve source material color",
+    "light white/orange visual robot mesh palette",
+    "double-sided meshes"
+  ],
+  "poses_modified": false,
+  "physics_executed": false
+}
